@@ -77,4 +77,5 @@ on a GPU, with the four `.ttl` files in `kaggle_faithfulness/dataset_files/` add
 - Sector baskets, broad-market benchmarks, and FX are documented **demonstrator** constructions, not
   licensed feeds; replace before any empirical market claim.
 - The user-study responses are fully anonymous (no personal identifiers).
-- Archived immutable release (DOI) and the paper: to be added.
+- Source repository: https://github.com/furqan-nr/OntoKG
+- Archived immutable release: https://doi.org/10.5281/zenodo.21569317
