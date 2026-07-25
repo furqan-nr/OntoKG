@@ -1,0 +1,4 @@
+Companies kept: 64
+Skipped: [('FREN', 'insufficient history')]
+Window: 2026-03-26..2026-06-29 (60 days)
+Sectors: {'Financial Services': 8, 'Communication Services': 8, 'Real Estate': 5, 'Industrials': 6, 'Basic Materials': 12, 'Consumer Defensive': 11, 'Healthcare': 2, 'Consumer Cyclical': 4, 'Energy': 6, 'Utilities': 1, 'Technology': 1}

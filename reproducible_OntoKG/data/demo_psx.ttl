@@ -1,0 +1,4673 @@
+@prefix : <https://w3id.org/ontokg-eq#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix psx: <https://w3id.org/ontokg-eq/psx#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/ontokg-eq/psx> a owl:Ontology ;
+    rdfs:label "OntoKG-EQ PSX (KSE-100) Instances"@en ;
+    owl:imports <https://w3id.org/ontokg-eq/alignment>,
+        <https://w3id.org/ontokg-eq/core> .
+
+psx:comp_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 170138.09125 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_10 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 168893.09 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_100 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 184155.242857 ;
+    :hasObservationDate "2026-02-02"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_101 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 184148.827143 ;
+    :hasObservationDate "2026-02-03"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_102 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 184142.411429 ;
+    :hasObservationDate "2026-02-04"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_103 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 184129.58 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_104 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 182810.46 ;
+    :hasObservationDate "2026-02-09"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_105 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 182370.753333 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_106 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 181931.046667 ;
+    :hasObservationDate "2026-02-11"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_107 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 181491.34 ;
+    :hasObservationDate "2026-02-12"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_108 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 181051.633333 ;
+    :hasObservationDate "2026-02-13"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_109 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 179732.513333 ;
+    :hasObservationDate "2026-02-16"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_11 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 168062.17 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_110 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 179292.806667 ;
+    :hasObservationDate "2026-02-17"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_111 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 178853.1 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_112 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 177608.09875 ;
+    :hasObservationDate "2026-02-19"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_113 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 176363.0975 ;
+    :hasObservationDate "2026-02-20"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_114 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 172628.09375 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_115 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 171383.0925 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_116 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 170138.09125 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_117 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 168893.09 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_118 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 168062.17 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_119 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 163533.854286 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_12 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 163533.854286 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_120 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 162024.415714 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_121 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 160514.977143 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_122 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 159005.538571 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_123 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_124 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_125 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_126 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_127 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_128 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_13 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 162024.415714 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_146 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 393.365 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_147 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 412.56 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_148 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 411.97 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_149 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 370.855 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_150 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 393.985 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_151 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 389.2 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_152 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 403.45 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_153 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 388.8 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_154 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 353.82 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_155 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 384.9 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_156 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 388.41 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_157 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 392.89 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_158 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 386.01 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_159 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 176363.0975 ;
+    :hasObservationDate "2026-02-20"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_16 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 393.365 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_160 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 172628.09375 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_161 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 171383.0925 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_164 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 252.58 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_165 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 178853.1 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_166 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 177608.09875 ;
+    :hasObservationDate "2026-02-19"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_167 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 176363.0975 ;
+    :hasObservationDate "2026-02-20"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_168 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 172628.09375 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_169 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 171383.0925 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_17 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 412.56 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_170 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 170138.09125 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_171 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 168893.09 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_176 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 252.58 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_177 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 247.76 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_178 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 253.54 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_179 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 171383.0925 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_18 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 411.97 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_180 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 170138.09125 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_181 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 168893.09 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_182 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 168062.17 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_183 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 163533.854286 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_184 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 162024.415714 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_185 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 160514.977143 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_186 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 159005.538571 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_187 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_188 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_189 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_19 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 370.855 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_190 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_191 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_192 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_193 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-16"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_194 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_195 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-18"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_196 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-19"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_197 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-24"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_198 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_199 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_2 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 168893.09 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_20 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 393.985 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_200 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_201 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_202 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_203 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_204 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-04-02"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_205 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-04-03"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_206 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-04-06"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_207 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-04-07"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_208 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_209 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 252.58 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_21 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 168062.17 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_210 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 247.76 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_211 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 253.54 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_212 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 250.11 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_213 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 225.1 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_214 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 229.955 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_215 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 233.885 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_216 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 251.84 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_217 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 245.27 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_218 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 238.625 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_219 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 254.48 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_22 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 163533.854286 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_220 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 249.005 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_221 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 242.715 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_222 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 241.295 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_223 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 232.055 ;
+    :hasObservationDate "2026-03-16"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_224 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 234.605 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_225 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 249.56 ;
+    :hasObservationDate "2026-03-18"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_226 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 245.22 ;
+    :hasObservationDate "2026-03-19"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_227 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 245.63 ;
+    :hasObservationDate "2026-03-24"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_228 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 251.045 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_229 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 242.505 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_23 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 162024.415714 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_230 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 235.15 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_231 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 230.09 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_232 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 234.41 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_233 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 244.295 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_234 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 236.34 ;
+    :hasObservationDate "2026-04-02"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_235 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 235.835 ;
+    :hasObservationDate "2026-04-03"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_236 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 241.515 ;
+    :hasObservationDate "2026-04-06"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_237 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 241.23 ;
+    :hasObservationDate "2026-04-07"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_238 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 265.35 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_239 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 181491.34 ;
+    :hasObservationDate "2026-02-12"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_24 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 160514.977143 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_240 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 181051.633333 ;
+    :hasObservationDate "2026-02-13"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_241 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 179732.513333 ;
+    :hasObservationDate "2026-02-16"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_245 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 182370.753333 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_246 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 181931.046667 ;
+    :hasObservationDate "2026-02-11"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_247 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 181491.34 ;
+    :hasObservationDate "2026-02-12"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_248 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 181051.633333 ;
+    :hasObservationDate "2026-02-13"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_249 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 179732.513333 ;
+    :hasObservationDate "2026-02-16"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_25 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 159005.538571 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_250 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 179292.806667 ;
+    :hasObservationDate "2026-02-17"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_251 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 178853.1 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_259 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 179732.513333 ;
+    :hasObservationDate "2026-02-16"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_26 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_260 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 179292.806667 ;
+    :hasObservationDate "2026-02-17"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_261 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 178853.1 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_262 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 177608.09875 ;
+    :hasObservationDate "2026-02-19"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_263 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 176363.0975 ;
+    :hasObservationDate "2026-02-20"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_264 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 172628.09375 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_265 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 171383.0925 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_266 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 170138.09125 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_267 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 168893.09 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_268 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 168062.17 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_269 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 163533.854286 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_27 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_270 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 162024.415714 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_271 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 160514.977143 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_272 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 159005.538571 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_273 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_274 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_275 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_276 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_277 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_278 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_279 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-16"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_28 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_280 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_281 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-18"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_282 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-19"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_283 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-24"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_284 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_285 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_286 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_287 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_288 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_29 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_295 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 252.58 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_296 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 247.76 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_297 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 253.54 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_298 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 250.11 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_299 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 225.1 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 168062.17 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_30 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_300 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 229.955 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_301 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 233.885 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_302 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 251.84 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_303 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 245.27 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_304 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 238.625 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_305 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 254.48 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_306 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 249.005 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_307 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 242.715 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_308 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 241.295 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_309 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 232.055 ;
+    :hasObservationDate "2026-03-16"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_31 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_310 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 234.605 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_311 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 249.56 ;
+    :hasObservationDate "2026-03-18"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_312 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 245.22 ;
+    :hasObservationDate "2026-03-19"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_313 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 245.63 ;
+    :hasObservationDate "2026-03-24"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_314 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 251.045 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_315 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 242.505 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_316 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 235.15 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_317 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 230.09 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_318 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 234.41 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_comp_Oil_Gas_Peer_Basket .
+
+psx:comp_32 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-16"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_33 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_34 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-18"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_35 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-19"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_36 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-24"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_37 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_38 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_39 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_4 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 393.365 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_40 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_41 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_42 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_43 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-04-02"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_44 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-04-03"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_45 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-04-06"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_46 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-04-07"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_47 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_48 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-04-09"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_49 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 157496.1 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_5 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 412.56 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_50 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 411.97 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_51 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 370.855 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_52 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 393.985 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_53 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 389.2 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_54 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 403.45 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_55 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 388.8 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_56 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 353.82 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_57 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 384.9 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_58 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 388.41 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_59 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 392.89 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_6 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 411.97 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_60 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 386.01 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_61 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 371.115 ;
+    :hasObservationDate "2026-03-16"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_62 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 372.645 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_63 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 380.39 ;
+    :hasObservationDate "2026-03-18"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_64 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 377.9 ;
+    :hasObservationDate "2026-03-19"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_65 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 390.585 ;
+    :hasObservationDate "2026-03-24"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_66 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 398.045 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_67 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 385.145 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_68 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 385.14 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_69 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 372.79 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_7 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 172628.09375 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_70 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 375.24 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_71 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 385.165 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_72 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 378.91 ;
+    :hasObservationDate "2026-04-02"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_73 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 371.755 ;
+    :hasObservationDate "2026-04-03"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_74 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 376.03 ;
+    :hasObservationDate "2026-04-06"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_75 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 377.315 ;
+    :hasObservationDate "2026-04-07"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_76 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 415.05 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_77 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 411.015 ;
+    :hasObservationDate "2026-04-09"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_78 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 410.86 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_comp_Fertilizer_Peer_Basket .
+
+psx:comp_79 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 184174.49 ;
+    :hasObservationDate "2026-01-28"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_8 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 171383.0925 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_80 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 184174.49 ;
+    :hasObservationDate "2026-01-29"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_81 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 184174.49 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_85 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 184174.49 ;
+    :hasObservationDate "2026-01-28"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_86 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 184174.49 ;
+    :hasObservationDate "2026-01-29"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_87 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 184174.49 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_88 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 184155.242857 ;
+    :hasObservationDate "2026-02-02"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_89 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 184148.827143 ;
+    :hasObservationDate "2026-02-03"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_9 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 170138.09125 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_90 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 184142.411429 ;
+    :hasObservationDate "2026-02-04"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_91 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 184129.58 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:comp_99 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 184174.49 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:derived_bench_return_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "benchmark window return %" ;
+    :hasMetricValue -9.110112 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:derived_bench_return_4 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "benchmark window return %" ;
+    :hasMetricValue -13.843467 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:derived_event_ar_1_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue 6.389136 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInEventWindow psx:window_1_event_1_1_event_1_1 .
+
+psx:derived_event_ar_1_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue 3.446014 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInEventWindow psx:window_1_event_3_3_event_3_3 .
+
+psx:derived_event_ar_2_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInEventWindow psx:window_2_event_1_1_event_1_1 .
+
+psx:derived_event_ar_2_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue -1.977095 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInEventWindow psx:window_2_event_3_3_event_3_3 .
+
+psx:derived_event_ar_3_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedInEventWindow psx:window_3_event_1_1_event_1_1 .
+
+psx:derived_event_ar_3_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue 0.522811 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedInEventWindow psx:window_3_event_3_3_event_3_3 .
+
+psx:derived_event_vol_1_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 0.843392 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInEventWindow psx:window_1_event_1_1_event_1_1 .
+
+psx:derived_event_vol_1_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 1.457679 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInEventWindow psx:window_1_event_3_3_event_3_3 .
+
+psx:derived_event_vol_2_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 3.299579 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInEventWindow psx:window_2_event_1_1_event_1_1 .
+
+psx:derived_event_vol_2_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 1.631163 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInEventWindow psx:window_2_event_3_3_event_3_3 .
+
+psx:derived_event_vol_3_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 0.029321 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedInEventWindow psx:window_3_event_1_1_event_1_1 .
+
+psx:derived_event_vol_3_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 0.124731 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedInEventWindow psx:window_3_event_3_3_event_3_3 .
+
+psx:derived_fund_growth_1 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "YoY profit growth %" ;
+    :hasMetricValue -97.431054 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInPeriod psx:period_1 .
+
+psx:derived_fund_growth_3 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "YoY profit growth %" ;
+    :hasMetricValue -18.696979 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedInPeriod psx:period_5 .
+
+psx:derived_fund_growth_4 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "YoY profit growth %" ;
+    :hasMetricValue -19.492439 ;
+    :hasObservationDate "2026-02-13"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInPeriod psx:period_7 .
+
+psx:derived_fx_corr_company_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "FX vs company return correlation" ;
+    :hasMetricValue 0.419728 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:derived_fx_corr_company_2 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "FX vs company return correlation" ;
+    :hasMetricValue 0.124365 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:derived_fx_corr_company_4 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "FX vs company return correlation" ;
+    :hasMetricValue 0.220346 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:derived_post_return_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "post-report window return %" ;
+    :hasMetricValue 8.105252 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:derived_post_return_4 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "post-report window return %" ;
+    :hasMetricValue -13.168203 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:derived_sector_return_2 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "sector window return %" ;
+    :hasMetricValue -0.089379 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:derived_sector_return_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "sector window return %" ;
+    :hasMetricValue 7.282519 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:derived_sector_return_4 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "sector window return %" ;
+    :hasMetricValue -5.753682 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Oil_Gas_Exploration ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:fund_1 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 0.21 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInPeriod psx:period_1 .
+
+psx:fund_2 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 20.48 ;
+    :hasObservationDate "2025-02-27"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInPeriod psx:period_2 .
+
+psx:fund_3 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 51.69 ;
+    :hasObservationDate "2026-01-29"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInPeriod psx:period_3 .
+
+psx:fund_4 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 45.49 ;
+    :hasObservationDate "2025-01-29"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInPeriod psx:period_4 .
+
+psx:fund_5 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 39.5 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedInPeriod psx:period_5 .
+
+psx:fund_6 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 48.59 ;
+    :hasObservationDate "2025-02-23"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedInPeriod psx:period_6 .
+
+psx:fund_7 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 33.82 ;
+    :hasObservationDate "2026-02-13"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInPeriod psx:period_7 .
+
+psx:fund_8 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 42.01 ;
+    :hasObservationDate "2025-02-13"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInPeriod psx:period_8 .
+
+psx:fx_1 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.8019 ;
+    :hasObservationDate "2026-01-28"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_10 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.6615 ;
+    :hasObservationDate "2026-02-11"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_11 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.6518 ;
+    :hasObservationDate "2026-02-12"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_12 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.6231 ;
+    :hasObservationDate "2026-02-13"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_13 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.595855 ;
+    :hasObservationDate "2026-02-16"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_14 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.586773 ;
+    :hasObservationDate "2026-02-17"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_15 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.577691 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_16 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.568609 ;
+    :hasObservationDate "2026-02-19"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_17 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.559527 ;
+    :hasObservationDate "2026-02-20"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_18 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.532282 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_19 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.5232 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_2 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.8019 ;
+    :hasObservationDate "2026-01-29"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_20 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.5129 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_21 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.5019 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_22 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4717 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_23 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_24 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_25 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_26 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_27 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_28 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_29 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_3 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.792836 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_30 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_31 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_32 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_33 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-16"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_34 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_35 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-18"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_36 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-19"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_37 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-24"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_38 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_39 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_4 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.765645 ;
+    :hasObservationDate "2026-02-02"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_40 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_41 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_42 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_43 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_44 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-04-02"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_45 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-04-03"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_46 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-04-06"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_47 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-04-07"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_48 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_49 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-04-09"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_5 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.756582 ;
+    :hasObservationDate "2026-02-03"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_50 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.4609 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_6 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.747518 ;
+    :hasObservationDate "2026-02-04"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_7 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.729391 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_8 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.7022 ;
+    :hasObservationDate "2026-02-09"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:fx_9 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 279.68185 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair .
+
+psx:mkt_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 271.34 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_10 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 280.99 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_100 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 274.13 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_101 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 265.62 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_102 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 263.5 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_103 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 270.64 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_104 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 279.08 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_105 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 271.47 ;
+    :hasObservationDate "2026-04-02"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_106 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 270.59 ;
+    :hasObservationDate "2026-04-03"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_107 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 275.38 ;
+    :hasObservationDate "2026-04-06"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_108 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 275.34 ;
+    :hasObservationDate "2026-04-07"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_109 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 302.87 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_11 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 271.0 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_110 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-02-20"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedInEventWindow psx:window_3_event_1_1_event_1_1 .
+
+psx:mkt_111 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedInEventWindow psx:window_3_event_1_1_event_1_1 .
+
+psx:mkt_112 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedInEventWindow psx:window_3_event_1_1_event_1_1 .
+
+psx:mkt_113 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedInEventWindow psx:window_3_event_3_3_event_3_3 .
+
+psx:mkt_114 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-02-19"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedInEventWindow psx:window_3_event_3_3_event_3_3 .
+
+psx:mkt_115 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-02-20"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedInEventWindow psx:window_3_event_3_3_event_3_3 .
+
+psx:mkt_116 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedInEventWindow psx:window_3_event_3_3_event_3_3 .
+
+psx:mkt_117 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedInEventWindow psx:window_3_event_3_3_event_3_3 .
+
+psx:mkt_118 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -1.24663 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedInEventWindow psx:window_3_event_3_3_event_3_3 .
+
+psx:mkt_119 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 1.769441 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedInEventWindow psx:window_3_event_3_3_event_3_3 .
+
+psx:mkt_12 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 261.29 ;
+    :hasObservationDate "2026-03-16"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_120 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 231.09 ;
+    :hasObservationDate "2026-02-16"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_121 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 234.94 ;
+    :hasObservationDate "2026-02-17"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_122 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 236.86 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_123 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 223.74 ;
+    :hasObservationDate "2026-02-19"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_124 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 229.02 ;
+    :hasObservationDate "2026-02-20"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_125 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 221.25 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_126 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 219.59 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_127 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 213.51 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_128 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 220.08 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_129 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 216.75 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_13 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 263.93 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_130 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 195.08 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_131 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 199.56 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_132 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 204.21 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_133 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 218.4 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_134 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 214.75 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_135 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 204.77 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_136 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 220.36 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_137 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 214.74 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_138 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 210.62 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_139 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 209.5 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_14 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 267.17 ;
+    :hasObservationDate "2026-03-18"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_140 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 202.25 ;
+    :hasObservationDate "2026-03-16"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_141 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 206.57 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_142 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 219.37 ;
+    :hasObservationDate "2026-03-18"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_143 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 213.83 ;
+    :hasObservationDate "2026-03-19"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_144 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 214.76 ;
+    :hasObservationDate "2026-03-24"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_145 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 220.45 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_146 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 210.88 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_147 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 204.68 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_148 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 196.68 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_149 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 198.18 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedOverWindow psx:window_4_post_report_30d_post_report .
+
+psx:mkt_15 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 261.84 ;
+    :hasObservationDate "2026-03-19"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_150 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-02-12"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInEventWindow psx:window_4_event_1_1_event_1_1 .
+
+psx:mkt_151 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -0.379475 ;
+    :hasObservationDate "2026-02-13"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInEventWindow psx:window_4_event_1_1_event_1_1 .
+
+psx:mkt_152 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -2.192407 ;
+    :hasObservationDate "2026-02-16"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInEventWindow psx:window_4_event_1_1_event_1_1 .
+
+psx:mkt_153 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInEventWindow psx:window_4_event_3_3_event_3_3 .
+
+psx:mkt_154 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -1.6978 ;
+    :hasObservationDate "2026-02-11"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInEventWindow psx:window_4_event_3_3_event_3_3 .
+
+psx:mkt_155 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -4.51709 ;
+    :hasObservationDate "2026-02-12"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInEventWindow psx:window_4_event_3_3_event_3_3 .
+
+psx:mkt_156 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -0.379475 ;
+    :hasObservationDate "2026-02-13"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInEventWindow psx:window_4_event_3_3_event_3_3 .
+
+psx:mkt_157 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -2.192407 ;
+    :hasObservationDate "2026-02-16"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInEventWindow psx:window_4_event_3_3_event_3_3 .
+
+psx:mkt_158 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 1.666018 ;
+    :hasObservationDate "2026-02-17"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInEventWindow psx:window_4_event_3_3_event_3_3 .
+
+psx:mkt_159 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.81723 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInEventWindow psx:window_4_event_3_3_event_3_3 .
+
+psx:mkt_16 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 278.92 ;
+    :hasObservationDate "2026-03-24"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_17 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 282.9 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_18 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 271.66 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_19 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 271.84 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_2 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 244.21 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_20 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 261.84 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_21 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 264.75 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_22 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 270.56 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_23 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 266.66 ;
+    :hasObservationDate "2026-04-02"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_24 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 257.41 ;
+    :hasObservationDate "2026-04-03"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_25 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 262.84 ;
+    :hasObservationDate "2026-04-06"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_26 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 262.37 ;
+    :hasObservationDate "2026-04-07"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_27 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 288.61 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_28 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 285.81 ;
+    :hasObservationDate "2026-04-09"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_29 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 284.19 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 261.44 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_30 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInEventWindow psx:window_1_event_1_1_event_1_1 .
+
+psx:mkt_31 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 5.609163 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInEventWindow psx:window_1_event_1_1_event_1_1 .
+
+psx:mkt_32 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.779973 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInEventWindow psx:window_1_event_1_1_event_1_1 .
+
+psx:mkt_33 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInEventWindow psx:window_1_event_3_3_event_3_3 .
+
+psx:mkt_34 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInEventWindow psx:window_1_event_3_3_event_3_3 .
+
+psx:mkt_35 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInEventWindow psx:window_1_event_3_3_event_3_3 .
+
+psx:mkt_36 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 5.609163 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInEventWindow psx:window_1_event_3_3_event_3_3 .
+
+psx:mkt_37 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.779973 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInEventWindow psx:window_1_event_3_3_event_3_3 .
+
+psx:mkt_38 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -9.998526 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInEventWindow psx:window_1_event_3_3_event_3_3 .
+
+psx:mkt_39 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 7.055403 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInEventWindow psx:window_1_event_3_3_event_3_3 .
+
+psx:mkt_4 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 253.4 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_40 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 588.57 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_41 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 580.58 ;
+    :hasObservationDate "2026-02-02"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_42 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 590.05 ;
+    :hasObservationDate "2026-02-03"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_43 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 590.04 ;
+    :hasObservationDate "2026-02-04"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_44 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 576.77 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_45 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 575.59 ;
+    :hasObservationDate "2026-02-09"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_46 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 578.67 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_47 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 577.68 ;
+    :hasObservationDate "2026-02-11"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_48 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 580.54 ;
+    :hasObservationDate "2026-02-12"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_49 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 579.58 ;
+    :hasObservationDate "2026-02-13"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_5 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 266.54 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_50 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 569.38 ;
+    :hasObservationDate "2026-02-16"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_51 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 565.51 ;
+    :hasObservationDate "2026-02-17"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_52 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 571.73 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_53 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 553.1 ;
+    :hasObservationDate "2026-02-19"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_54 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 555.74 ;
+    :hasObservationDate "2026-02-20"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_55 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 541.08 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_56 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 534.04 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_57 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 531.79 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_58 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 555.88 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_59 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 552.6 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_6 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 255.31 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_60 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 497.5 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_61 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 526.53 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_62 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 525.0 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_63 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 540.36 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_64 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 522.29 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_65 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 471.4 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_66 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 509.94 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_67 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 507.56 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_68 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 504.79 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_69 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 501.02 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:mkt_7 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 236.24 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_70 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-01-28"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInEventWindow psx:window_2_event_1_1_event_1_1 .
+
+psx:mkt_71 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-01-29"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInEventWindow psx:window_2_event_1_1_event_1_1 .
+
+psx:mkt_72 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInEventWindow psx:window_2_event_1_1_event_1_1 .
+
+psx:mkt_73 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-01-28"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInEventWindow psx:window_2_event_3_3_event_3_3 .
+
+psx:mkt_74 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-01-29"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInEventWindow psx:window_2_event_3_3_event_3_3 .
+
+psx:mkt_75 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInEventWindow psx:window_2_event_3_3_event_3_3 .
+
+psx:mkt_76 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -1.357528 ;
+    :hasObservationDate "2026-02-02"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInEventWindow psx:window_2_event_3_3_event_3_3 .
+
+psx:mkt_77 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 1.631127 ;
+    :hasObservationDate "2026-02-03"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInEventWindow psx:window_2_event_3_3_event_3_3 .
+
+psx:mkt_78 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -0.001695 ;
+    :hasObservationDate "2026-02-04"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInEventWindow psx:window_2_event_3_3_event_3_3 .
+
+psx:mkt_79 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -2.249 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInEventWindow psx:window_2_event_3_3_event_3_3 .
+
+psx:mkt_8 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 259.86 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_80 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 285.57 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_81 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 282.01 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_82 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 287.0 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_83 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 283.47 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_84 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 255.12 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_85 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 260.35 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_86 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 263.56 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_87 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 285.28 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_88 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 275.79 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_89 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 272.48 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_9 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 269.26 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:mkt_90 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 288.6 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_91 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 283.27 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_92 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 274.81 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_93 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 273.09 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_94 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 261.86 ;
+    :hasObservationDate "2026-03-16"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_95 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 262.64 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_96 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 279.75 ;
+    :hasObservationDate "2026-03-18"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_97 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 276.61 ;
+    :hasObservationDate "2026-03-19"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_98 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 276.5 ;
+    :hasObservationDate "2026-03-24"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:mkt_99 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 281.64 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:prov_evid_1 a :ProvenanceRecord ;
+    :derivedFrom psx:evid_1 ;
+    :hasRetrievalDate "2026-04-13T00:00:00"^^xsd:dateTime .
+
+psx:prov_evid_2 a :ProvenanceRecord ;
+    :derivedFrom psx:evid_2 ;
+    :hasRetrievalDate "2026-04-13T00:00:00"^^xsd:dateTime .
+
+psx:prov_evid_3 a :ProvenanceRecord ;
+    :derivedFrom psx:evid_3 ;
+    :hasRetrievalDate "2026-04-13T00:00:00"^^xsd:dateTime .
+
+psx:prov_evid_4 a :ProvenanceRecord ;
+    :derivedFrom psx:evid_4 ;
+    :hasRetrievalDate "2026-04-13T00:00:00"^^xsd:dateTime .
+
+psx:query_exec_CQ1_1 a :QueryExecution ;
+    :hasEvidenceBundle psx:evidence_bundle_CQ1_1 ;
+    :hasParameterValues "market=psx; resultEntity=2; timeContext=[2026-01-29_to_2026-03-12]" ;
+    :hasQueryFamilyIdentifier "CQ1" ;
+    :hasQueryInstanceIdentifier "CQ1-001" ;
+    :usesMarketIndexBenchmark psx:market_index_benchmark .
+
+psx:query_exec_CQ2_1 a :QueryExecution ;
+    :hasEvidenceBundle psx:evidence_bundle_CQ2_1 ;
+    :hasParameterValues "market=psx; resultEntity=3; timeContext=[2026-02-23_to_2026-03-30]" ;
+    :hasQueryFamilyIdentifier "CQ2" ;
+    :hasQueryInstanceIdentifier "CQ2-001" ;
+    :usesMarketIndexBenchmark psx:market_index_benchmark .
+
+psx:query_exec_CQ3_1 a :QueryExecution ;
+    :hasEvidenceBundle psx:evidence_bundle_CQ3_1 ;
+    :hasParameterValues "market=psx; resultEntity=1; timeContext=[2026-02-26_to_2026-04-06]" ;
+    :hasQueryFamilyIdentifier "CQ3" ;
+    :hasQueryInstanceIdentifier "CQ3-001" ;
+    :usesMarketIndexBenchmark psx:market_index_benchmark .
+
+psx:query_exec_CQ4_1 a :QueryExecution ;
+    :hasEvidenceBundle psx:evidence_bundle_CQ4_1 ;
+    :hasParameterValues "market=psx; resultEntity=4; timeContext=[2026-02-13_to_2026-02-20]" ;
+    :hasQueryFamilyIdentifier "CQ4" ;
+    :hasQueryInstanceIdentifier "CQ4-001" .
+
+psx:query_exec_CQ5_1 a :QueryExecution ;
+    :hasEvidenceBundle psx:evidence_bundle_CQ5_1 ;
+    :hasParameterValues "market=psx; resultEntity=2; timeContext=[2026-01-29_to_2026-03-12]" ;
+    :hasQueryFamilyIdentifier "CQ5" ;
+    :hasQueryInstanceIdentifier "CQ5-001" .
+
+psx:source_1 a :EvidenceSource ;
+    :hasSourceIdentifier "1" ;
+    :hasSourceType "Web Page" ;
+    :hasSourceURL "https://dps.psx.com.pk/company/ENGROH"^^xsd:anyURI .
+
+psx:source_10 a :EvidenceSource ;
+    :hasSourceIdentifier "10" ;
+    :hasSourceType "PDF" ;
+    :hasSourceURL "https://sbp.org.pk/m2m/25-Feb-26.pdf"^^xsd:anyURI .
+
+psx:source_11 a :EvidenceSource ;
+    :hasSourceIdentifier "11" ;
+    :hasSourceType "PDF" ;
+    :hasSourceURL "https://sbp.org.pk/m2m/26-Feb-26.pdf"^^xsd:anyURI .
+
+psx:source_12 a :EvidenceSource ;
+    :hasSourceIdentifier "12" ;
+    :hasSourceType "PDF" ;
+    :hasSourceURL "https://sbp.org.pk/m2m/27-Feb-26.pdf"^^xsd:anyURI .
+
+psx:source_13 a :EvidenceSource ;
+    :hasSourceIdentifier "13" ;
+    :hasSourceType "PDF" ;
+    :hasSourceURL "https://sbp.org.pk/m2m/02-Mar-26.pdf"^^xsd:anyURI .
+
+psx:source_14 a :EvidenceSource ;
+    :hasSourceIdentifier "14" ;
+    :hasSourceType "News Article" ;
+    :hasSourceURL "https://www.brecorder.com/news/2026-ffc-results"^^xsd:anyURI .
+
+psx:source_15 a :EvidenceSource ;
+    :hasSourceIdentifier "15" ;
+    :hasSourceType "News Article" ;
+    :hasSourceURL "https://marketscreener.com/announcement/engro_fy2025_board"^^xsd:anyURI .
+
+psx:source_16 a :EvidenceSource ;
+    :hasSourceIdentifier "16" ;
+    :hasSourceType "Web Page" ;
+    :hasSourceURL "https://ogdcl.com/financial-results-2025"^^xsd:anyURI .
+
+psx:source_17 a :EvidenceSource ;
+    :hasSourceIdentifier "17" ;
+    :hasSourceType "Web Page" ;
+    :hasSourceURL "https://dps.psx.com.pk/company/PPL"^^xsd:anyURI .
+
+psx:source_18 a :EvidenceSource ;
+    :hasSourceIdentifier "18" ;
+    :hasSourceType "Derived Data" ;
+    :hasSourceURL "https://psx.com.pk/index/KSE100"^^xsd:anyURI .
+
+psx:source_2 a :EvidenceSource ;
+    :hasSourceIdentifier "2" ;
+    :hasSourceType "Web Page" ;
+    :hasSourceURL "https://dps.psx.com.pk/company/FFC"^^xsd:anyURI .
+
+psx:source_23 a :EvidenceSource ;
+    :hasSourceIdentifier "23" ;
+    :hasSourceType "PDF Document" ;
+    :hasSourceURL "home\\oai\\share\\closingRates_aggregated_JanMar2026.pdf"^^xsd:anyURI .
+
+psx:source_24 a :EvidenceSource ;
+    :hasSourceIdentifier "24" ;
+    :hasSourceType "PDF Document" ;
+    :hasSourceURL "https://sbp.org.pk"^^xsd:anyURI .
+
+psx:source_3 a :EvidenceSource ;
+    :hasSourceIdentifier "3" ;
+    :hasSourceType "Web Page" ;
+    :hasSourceURL "https://dps.psx.com.pk/company/OGDC"^^xsd:anyURI .
+
+psx:source_4 a :EvidenceSource ;
+    :hasSourceIdentifier "4" ;
+    :hasSourceType "Web Page" ;
+    :hasSourceURL "https://dps.psx.com.pk/company/PPL"^^xsd:anyURI .
+
+psx:source_5 a :EvidenceSource ;
+    :hasSourceIdentifier "5" ;
+    :hasSourceType "Web Page" ;
+    :hasSourceURL "https://stockanalysis.com/quote/psx/ENGROH/history/"^^xsd:anyURI .
+
+psx:source_6 a :EvidenceSource ;
+    :hasSourceIdentifier "6" ;
+    :hasSourceType "Web Page" ;
+    :hasSourceURL "https://stockanalysis.com/quote/psx/FFC/history/"^^xsd:anyURI .
+
+psx:source_7 a :EvidenceSource ;
+    :hasSourceIdentifier "7" ;
+    :hasSourceType "Web Page" ;
+    :hasSourceURL "https://stockanalysis.com/quote/psx/OGDC/history/"^^xsd:anyURI .
+
+psx:source_8 a :EvidenceSource ;
+    :hasSourceIdentifier "8" ;
+    :hasSourceType "Web Page" ;
+    :hasSourceURL "https://stockanalysis.com/quote/psx/PPL/history/"^^xsd:anyURI .
+
+psx:source_9 a :EvidenceSource ;
+    :hasSourceIdentifier "9" ;
+    :hasSourceType "PDF" ;
+    :hasSourceURL "https://sbp.org.pk/m2m/24-Feb-26.pdf"^^xsd:anyURI .
+
+psx:derived_bench_return_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "benchmark window return %" ;
+    :hasMetricValue -6.930705 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:derived_event_ar_4_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue -2.571882 ;
+    :hasObservationDate "2026-02-16"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInEventWindow psx:window_4_event_1_1_event_1_1 .
+
+psx:derived_event_ar_4_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue -6.303524 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInEventWindow psx:window_4_event_3_3_event_3_3 .
+
+psx:derived_event_vol_4_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 1.582319 ;
+    :hasObservationDate "2026-02-16"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInEventWindow psx:window_4_event_1_1_event_1_1 .
+
+psx:derived_event_vol_4_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 1.389868 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInEventWindow psx:window_4_event_3_3_event_3_3 .
+
+psx:derived_fx_change a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency psx:currency_USD ;
+    :hasDealtCurrency psx:currency_PKR ;
+    :hasMetricName "FX window change %" ;
+    :hasMetricValue -0.121872 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf psx:observed_fx_pair ;
+    :observedOverWindow psx:window_fx_series .
+
+psx:derived_fx_corr_bench a :MarketObservation,
+        :Observation ;
+    :hasMetricName "FX vs benchmark return correlation" ;
+    :hasMetricValue 0.355352 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_comp_KSE_100 .
+
+psx:derived_fx_corr_company_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "FX vs company return correlation" ;
+    :hasMetricValue 0.220207 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf psx:company_3 ;
+    :observedOverWindow psx:window_3_post_report_30d_post_report .
+
+psx:derived_post_return_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "post-report window return %" ;
+    :hasMetricValue 7.716085 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:derived_sector_return_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "sector window return %" ;
+    :hasMetricValue 2.098799 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf psx:sector_classifier_Fertilizer ;
+    :observedOverWindow psx:window_1_post_report_30d_post_report .
+
+psx:evidence_bundle_CQ1_1 a :EvidenceBundle ;
+    :containsEvidenceItem psx:evid_2 ;
+    :explainsResultEntity psx:company_2 ;
+    :hasValidationStatus psx:validation_passed ;
+    :includesObservation psx:derived_bench_return_2,
+        psx:derived_fund_growth_2,
+        psx:derived_post_return_2 .
+
+psx:evidence_bundle_CQ2_1 a :EvidenceBundle ;
+    :containsEvidenceItem psx:evid_3 ;
+    :explainsResultEntity psx:company_3 ;
+    :hasValidationStatus psx:validation_passed ;
+    :includesObservation psx:derived_fx_change,
+        psx:derived_fx_corr_bench,
+        psx:derived_fx_corr_company_3 .
+
+psx:evidence_bundle_CQ3_1 a :EvidenceBundle ;
+    :containsEvidenceItem psx:evid_1 ;
+    :explainsResultEntity psx:company_1 ;
+    :hasValidationStatus psx:validation_passed ;
+    :includesObservation psx:derived_bench_return_1,
+        psx:derived_post_return_1,
+        psx:derived_sector_return_1 .
+
+psx:evidence_bundle_CQ4_1 a :EvidenceBundle ;
+    :containsEvidenceItem psx:evid_4 ;
+    :explainsResultEntity psx:company_4 ;
+    :hasValidationStatus psx:validation_passed ;
+    :includesObservation psx:derived_event_ar_4_event_1_1,
+        psx:derived_event_ar_4_event_3_3,
+        psx:derived_event_vol_4_event_1_1,
+        psx:derived_event_vol_4_event_3_3 .
+
+psx:evidence_bundle_CQ5_1 a :EvidenceBundle ;
+    :containsEvidenceItem psx:evid_2 ;
+    :explainsResultEntity psx:company_2 ;
+    :hasValidationStatus psx:validation_passed ;
+    :includesObservation psx:derived_bench_return_2,
+        psx:derived_fund_growth_2,
+        psx:derived_post_return_2 .
+
+psx:period_2 a :ReportingPeriod ;
+    :hasEndDate "2024-12-31"^^xsd:date ;
+    :hasReportDate "2025-02-27"^^xsd:date ;
+    :hasStartDate "2024-01-01"^^xsd:date .
+
+psx:period_4 a :ReportingPeriod ;
+    :hasEndDate "2024-12-31"^^xsd:date ;
+    :hasReportDate "2025-01-29"^^xsd:date ;
+    :hasStartDate "2024-01-01"^^xsd:date .
+
+psx:period_6 a :ReportingPeriod ;
+    :hasEndDate "2024-06-30"^^xsd:date ;
+    :hasReportDate "2025-02-23"^^xsd:date ;
+    :hasStartDate "2024-01-01"^^xsd:date .
+
+psx:period_8 a :ReportingPeriod ;
+    :hasEndDate "2024-06-30"^^xsd:date ;
+    :hasReportDate "2025-02-13"^^xsd:date ;
+    :hasStartDate "2024-01-01"^^xsd:date .
+
+psx:source_19 a :EvidenceSource ;
+    :hasSourceIdentifier "19" ;
+    :hasSourceType "PDF" ;
+    :hasSourceURL "https://dps.psx.com.pk/download/document/269389.pdf"^^xsd:anyURI .
+
+psx:source_20 a :EvidenceSource ;
+    :hasSourceIdentifier "20" ;
+    :hasSourceType "PDF" ;
+    :hasSourceURL "https://dps.psx.com.pk/download/document/271307.pdf"^^xsd:anyURI .
+
+psx:source_21 a :EvidenceSource ;
+    :hasSourceIdentifier "21" ;
+    :hasSourceType "PDF" ;
+    :hasSourceURL "https://dps.psx.com.pk/download/attachment/270842-1.pdf"^^xsd:anyURI .
+
+psx:source_22 a :EvidenceSource ;
+    :hasSourceIdentifier "22" ;
+    :hasSourceType "PDF" ;
+    :hasSourceURL "https://dps.psx.com.pk/download/document/270122.pdf"^^xsd:anyURI .
+
+psx:window_fx_series a :AnalysisWindow ;
+    :hasEndDate "2026-04-10"^^xsd:date ;
+    :hasStartDate "2026-01-28"^^xsd:date ;
+    :hasWindowType "fx-series-window" .
+
+psx:derived_bench_return_2 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "benchmark window return %" ;
+    :hasMetricValue -15.549857 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf psx:market_index_benchmark ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:derived_fund_growth_2 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "YoY profit growth %" ;
+    :hasMetricValue 13.645345 ;
+    :hasObservationDate "2026-01-29"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInPeriod psx:period_3 .
+
+psx:derived_post_return_2 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "post-report window return %" ;
+    :hasMetricValue -14.201368 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedOverWindow psx:window_2_post_report_30d_post_report .
+
+psx:evid_1 a :Announcement,
+        :EvidenceItem ;
+    rdfs:label "Board meeting to review and approve financial statements for year ended Dec 31, 2025"@en ;
+    :aboutCompany psx:company_1 ;
+    :hasAnnouncementDate "2026-02-26"^^xsd:date ;
+    :hasAnnouncementType "Board Meeting Notice" ;
+    :hasEvidenceIdentifier "1" ;
+    :hasEvidenceSource psx:source_20 ;
+    :hasEvidenceURL "https://dps.psx.com.pk/download/document/271307.pdf"^^xsd:anyURI ;
+    :publishedBy psx:publisher_Pakistan_Stock_Exchange .
+
+psx:evid_3 a :Announcement,
+        :EvidenceItem ;
+    rdfs:label "Financial results for the half year ended Dec 31, 2025"@en ;
+    :aboutCompany psx:company_3 ;
+    :hasAnnouncementDate "2026-02-23"^^xsd:date ;
+    :hasAnnouncementType "Half-Year Results Announcement" ;
+    :hasEvidenceIdentifier "3" ;
+    :hasEvidenceSource psx:source_21 ;
+    :hasEvidenceURL "https://dps.psx.com.pk/download/attachment/270842-1.pdf"^^xsd:anyURI ;
+    :publishedBy psx:publisher_Pakistan_Stock_Exchange .
+
+psx:evid_4 a :Announcement,
+        :EvidenceItem ;
+    rdfs:label "Financial results for the quarter ended Dec 31, 2025"@en ;
+    :aboutCompany psx:company_4 ;
+    :hasAnnouncementDate "2026-02-13"^^xsd:date ;
+    :hasAnnouncementType "Quarter Results Announcement" ;
+    :hasEvidenceIdentifier "4" ;
+    :hasEvidenceSource psx:source_22 ;
+    :hasEvidenceURL "https://dps.psx.com.pk/download/document/270122.pdf"^^xsd:anyURI ;
+    :publishedBy psx:publisher_Pakistan_Stock_Exchange .
+
+psx:period_1 a :ReportingPeriod ;
+    :hasEndDate "2025-12-31"^^xsd:date ;
+    :hasReportDate "2026-02-26"^^xsd:date ;
+    :hasStartDate "2025-01-01"^^xsd:date .
+
+psx:period_3 a :ReportingPeriod ;
+    :hasEndDate "2025-12-31"^^xsd:date ;
+    :hasReportDate "2026-01-29"^^xsd:date ;
+    :hasStartDate "2025-01-01"^^xsd:date .
+
+psx:period_5 a :ReportingPeriod ;
+    :hasEndDate "2025-06-30"^^xsd:date ;
+    :hasReportDate "2026-02-23"^^xsd:date ;
+    :hasStartDate "2025-01-01"^^xsd:date .
+
+psx:period_7 a :ReportingPeriod ;
+    :hasEndDate "2025-06-30"^^xsd:date ;
+    :hasReportDate "2026-02-13"^^xsd:date ;
+    :hasStartDate "2025-01-01"^^xsd:date .
+
+psx:sector_scheme a :IndustrySectorClassificationScheme ;
+    rdfs:label "PSX / KSE sector classification"@en .
+
+psx:evid_2 a :Announcement,
+        :EvidenceItem ;
+    rdfs:label "Fauji Fertilizer Company announces financial results for year ended Dec 31, 2025"@en ;
+    :aboutCompany psx:company_2 ;
+    :hasAnnouncementDate "2026-01-29"^^xsd:date ;
+    :hasAnnouncementType "Financial Results Announcement" ;
+    :hasEvidenceIdentifier "2" ;
+    :hasEvidenceSource psx:source_19 ;
+    :hasEvidenceURL "https://dps.psx.com.pk/download/document/269389.pdf"^^xsd:anyURI ;
+    :publishedBy psx:publisher_Pakistan_Stock_Exchange .
+
+psx:publisher_Pakistan_Stock_Exchange a :Publisher ;
+    rdfs:label "Pakistan Stock Exchange"@en .
+
+psx:validation_passed a :ValidationStatus ;
+    :hasValidationFlag "passed" .
+
+psx:window_1_event_1_1_event_1_1 a :EventWindow ;
+    :hasEndDate "2026-02-27"^^xsd:date ;
+    :hasStartDate "2026-02-25"^^xsd:date ;
+    :hasWindowType "(-1,+1)" .
+
+psx:window_2_event_1_1_event_1_1 a :EventWindow ;
+    :hasEndDate "2026-01-30"^^xsd:date ;
+    :hasStartDate "2026-01-28"^^xsd:date ;
+    :hasWindowType "(-1,+1)" .
+
+psx:window_3_event_1_1_event_1_1 a :EventWindow ;
+    :hasEndDate "2026-02-24"^^xsd:date ;
+    :hasStartDate "2026-02-20"^^xsd:date ;
+    :hasWindowType "(-1,+1)" .
+
+psx:window_4_event_1_1_event_1_1 a :EventWindow ;
+    :hasEndDate "2026-02-16"^^xsd:date ;
+    :hasStartDate "2026-02-12"^^xsd:date ;
+    :hasWindowType "(-1,+1)" .
+
+psx:window_1_event_3_3_event_3_3 a :EventWindow ;
+    :hasEndDate "2026-03-03"^^xsd:date ;
+    :hasStartDate "2026-02-23"^^xsd:date ;
+    :hasWindowType "(-3,+3)" .
+
+psx:window_2_event_3_3_event_3_3 a :EventWindow ;
+    :hasEndDate "2026-02-06"^^xsd:date ;
+    :hasStartDate "2026-01-28"^^xsd:date ;
+    :hasWindowType "(-3,+3)" .
+
+psx:window_3_event_3_3_event_3_3 a :EventWindow ;
+    :hasEndDate "2026-02-26"^^xsd:date ;
+    :hasStartDate "2026-02-18"^^xsd:date ;
+    :hasWindowType "(-3,+3)" .
+
+psx:window_4_event_3_3_event_3_3 a :EventWindow ;
+    :hasEndDate "2026-02-18"^^xsd:date ;
+    :hasStartDate "2026-02-10"^^xsd:date ;
+    :hasWindowType "(-3,+3)" .
+
+psx:window_1_post_report_30d_post_report a :AnalysisWindow ;
+    :hasEndDate "2026-04-10"^^xsd:date ;
+    :hasStartDate "2026-02-27"^^xsd:date ;
+    :hasWindowType "post_report" .
+
+psx:window_2_post_report_30d_post_report a :AnalysisWindow ;
+    :hasEndDate "2026-03-13"^^xsd:date ;
+    :hasStartDate "2026-01-30"^^xsd:date ;
+    :hasWindowType "post_report" .
+
+psx:window_3_post_report_30d_post_report a :AnalysisWindow ;
+    :hasEndDate "2026-04-08"^^xsd:date ;
+    :hasStartDate "2026-02-24"^^xsd:date ;
+    :hasWindowType "post_report" .
+
+psx:window_4_post_report_30d_post_report a :AnalysisWindow ;
+    :hasEndDate "2026-03-31"^^xsd:date ;
+    :hasStartDate "2026-02-16"^^xsd:date ;
+    :hasWindowType "post_report" .
+
+psx:company_1 a :Company,
+        :ObservedEntity ;
+    rdfs:label "Engro Holdings Limited"@en ;
+    :hasCompanyIdentifier "ENGROH" ;
+    :hasCompanyName "Engro Holdings Limited" ;
+    :isClassifiedByIndustrySector psx:sector_classifier_Fertilizer .
+
+psx:window_comp_Fertilizer_Peer_Basket a :AnalysisWindow ;
+    :hasEndDate "2026-04-10"^^xsd:date ;
+    :hasStartDate "2026-01-28"^^xsd:date ;
+    :hasWindowType "event_-1_+1" .
+
+psx:company_3 a :Company,
+        :ObservedEntity ;
+    rdfs:label "Oil and Gas Development Company Limited"@en ;
+    :hasCompanyIdentifier "OGDC" ;
+    :hasCompanyName "Oil and Gas Development Company Limited" ;
+    :isClassifiedByIndustrySector psx:sector_classifier_Oil_Gas_Exploration .
+
+psx:company_4 a :Company,
+        :ObservedEntity ;
+    rdfs:label "Pakistan Petroleum Limited"@en ;
+    :hasCompanyIdentifier "PPL" ;
+    :hasCompanyName "Pakistan Petroleum Limited" ;
+    :isClassifiedByIndustrySector psx:sector_classifier_Oil_Gas_Exploration .
+
+psx:currency_PKR a :Currency ;
+    :hasCurrencyCode "PKR" .
+
+psx:currency_USD a :Currency ;
+    :hasCurrencyCode "USD" .
+
+psx:observed_fx_pair a :ObservedEntity ;
+    rdfs:label "USD/PKR currency pair"@en .
+
+psx:company_2 a :Company,
+        :ObservedEntity ;
+    rdfs:label "Fauji Fertilizer Company Limited"@en ;
+    :hasCompanyIdentifier "FFC" ;
+    :hasCompanyName "Fauji Fertilizer Company Limited" ;
+    :isClassifiedByIndustrySector psx:sector_classifier_Fertilizer .
+
+psx:sector_classifier_Fertilizer a :IndustrySectorClassifier,
+        :ObservedEntity ;
+    rdfs:label "Fertilizer Sector Classifier"@en ;
+    :isDefinedInIndustrySectorScheme psx:sector_scheme .
+
+psx:window_comp_Oil_Gas_Peer_Basket a :AnalysisWindow ;
+    :hasEndDate "2026-04-08"^^xsd:date ;
+    :hasStartDate "2026-02-10"^^xsd:date ;
+    :hasWindowType "event_-1_+1" .
+
+psx:sector_classifier_Oil_Gas_Exploration a :IndustrySectorClassifier,
+        :ObservedEntity ;
+    rdfs:label "Oil & Gas Exploration Sector Classifier"@en ;
+    :isDefinedInIndustrySectorScheme psx:sector_scheme .
+
+psx:window_comp_KSE_100 a :AnalysisWindow ;
+    :hasEndDate "2026-04-10"^^xsd:date ;
+    :hasStartDate "2026-01-28"^^xsd:date ;
+    :hasWindowType "event_-1_+1" .
+
+psx:market_index_benchmark a :MarketIndex,
+        :ObservedEntity ;
+    rdfs:label "KSE-100"@en .
+

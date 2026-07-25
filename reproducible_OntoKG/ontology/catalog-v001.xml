@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="core" name="https://w3id.org/ontokg-eq/core" uri="core.ttl"/>
+    <uri id="alignment" name="https://w3id.org/ontokg-eq/alignment" uri="alignment.ttl"/>
+    <uri id="shapes" name="https://w3id.org/ontokg-eq/shapes" uri="shapes.ttl"/>
+    <uri id="demo" name="https://w3id.org/ontokg-eq/demo" uri="demo.ttl"/>
+    <uri id="project" name="https://w3id.org/ontokg-eq/project" uri="project.ttl"/>
+</catalog>

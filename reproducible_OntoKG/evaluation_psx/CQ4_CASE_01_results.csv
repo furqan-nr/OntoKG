@@ -1,0 +1,7 @@
+company,announcement,announcementDate,eventWindow,cumAbnormalReturn,abnormalVolumeRatio
+company_1,evid_1,2026-02-26,"(-1,+1)",6.389136,0.843392
+company_1,evid_1,2026-02-26,"(-3,+3)",3.446014,1.457679
+company_2,evid_2,2026-01-29,"(-1,+1)",0.0,3.299579
+company_2,evid_2,2026-01-29,"(-3,+3)",-1.977095,1.631163
+company_4,evid_4,2026-02-13,"(-1,+1)",-2.571882,1.582319
+company_4,evid_4,2026-02-13,"(-3,+3)",-6.303524,1.389868

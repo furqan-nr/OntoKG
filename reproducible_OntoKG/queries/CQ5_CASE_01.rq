@@ -1,0 +1,12 @@
+PREFIX : <https://w3id.org/ontokg-eq#>
+# CQ5 — Explainability and provenance.
+# For an executed CQ result entity, return the supporting observations (with metric
+# values), the evidence items, and the official sources that justify the result.
+SELECT ?entity ?observation ?metricName ?metricValue ?evidenceItem ?evidenceSource WHERE {
+  ?qe a :QueryExecution ; :hasQueryFamilyIdentifier "CQ5" ; :hasEvidenceBundle ?bundle .
+  ?bundle :explainsResultEntity ?entity ; :includesObservation ?observation .
+  ?observation :hasMetricName ?metricName ; :hasMetricValue ?metricValue .
+  OPTIONAL { ?bundle :containsEvidenceItem ?evidenceItem .
+             OPTIONAL { ?evidenceItem :hasEvidenceSource ?evidenceSource . } }
+}
+ORDER BY ?observation

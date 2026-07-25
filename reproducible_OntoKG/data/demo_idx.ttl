@@ -1,0 +1,4806 @@
+@prefix : <https://w3id.org/ontokg-eq#> .
+@prefix idx: <https://w3id.org/ontokg-eq/idx#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/ontokg-eq/idx> a owl:Ontology ;
+    rdfs:label "OntoKG-EQ IDX (Indonesia Stock Exchange) Instances"@en ;
+    owl:imports <https://w3id.org/ontokg-eq/alignment>,
+        <https://w3id.org/ontokg-eq/core> .
+
+idx:comp_IDX_COMP_BANK_001 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6532.5 ;
+    :hasObservationDate "2026-01-15"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_002 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6562.5 ;
+    :hasObservationDate "2026-01-19"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_003 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6512.5 ;
+    :hasObservationDate "2026-01-20"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_004 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6345.0 ;
+    :hasObservationDate "2026-01-21"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_005 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6315.0 ;
+    :hasObservationDate "2026-01-22"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_006 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6320.0 ;
+    :hasObservationDate "2026-01-23"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_007 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6280.0 ;
+    :hasObservationDate "2026-01-26"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_008 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6155.0 ;
+    :hasObservationDate "2026-01-27"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_009 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5792.5 ;
+    :hasObservationDate "2026-01-28"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_010 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5915.0 ;
+    :hasObservationDate "2026-01-29"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_011 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6110.0 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_012 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6200.0 ;
+    :hasObservationDate "2026-02-02"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_013 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6240.0 ;
+    :hasObservationDate "2026-02-03"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_014 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6400.0 ;
+    :hasObservationDate "2026-02-04"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_015 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6425.0 ;
+    :hasObservationDate "2026-02-05"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_016 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6362.5 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_017 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6250.0 ;
+    :hasObservationDate "2026-02-09"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_018 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6287.5 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_019 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6237.5 ;
+    :hasObservationDate "2026-02-11"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_020 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6200.0 ;
+    :hasObservationDate "2026-02-12"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_021 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6137.5 ;
+    :hasObservationDate "2026-02-13"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_022 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6275.0 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_023 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6125.0 ;
+    :hasObservationDate "2026-02-19"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_024 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6175.0 ;
+    :hasObservationDate "2026-02-20"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_025 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6287.5 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_026 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6300.0 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_027 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6312.5 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_028 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6312.5 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_029 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6225.0 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_030 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6050.0 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_031 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6087.5 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_032 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5927.5 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_033 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6112.5 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_034 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5990.0 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_035 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5847.5 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_036 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5942.5 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_037 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5852.5 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_038 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5930.0 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_039 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5812.5 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_040 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5725.0 ;
+    :hasObservationDate "2026-03-16"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_041 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5752.5 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_042 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5935.0 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_043 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5857.5 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_044 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5730.0 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_045 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5575.0 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_046 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5585.0 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_047 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5610.0 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_048 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5612.5 ;
+    :hasObservationDate "2026-04-02"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_049 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5555.0 ;
+    :hasObservationDate "2026-04-06"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_050 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5505.0 ;
+    :hasObservationDate "2026-04-07"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_051 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5710.0 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_052 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5522.5 ;
+    :hasObservationDate "2026-04-09"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_053 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5685.0 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_054 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5587.5 ;
+    :hasObservationDate "2026-04-13"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_055 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5730.0 ;
+    :hasObservationDate "2026-04-14"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_056 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5600.0 ;
+    :hasObservationDate "2026-04-15"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_057 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5582.5 ;
+    :hasObservationDate "2026-04-16"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_058 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5522.5 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_059 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5547.5 ;
+    :hasObservationDate "2026-04-20"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_060 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5600.0 ;
+    :hasObservationDate "2026-04-21"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_061 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5600.0 ;
+    :hasObservationDate "2026-04-22"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_062 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5527.5 ;
+    :hasObservationDate "2026-04-23"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_063 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5275.0 ;
+    :hasObservationDate "2026-04-24"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_064 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5187.5 ;
+    :hasObservationDate "2026-04-27"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_065 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5215.0 ;
+    :hasObservationDate "2026-04-28"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_066 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5202.5 ;
+    :hasObservationDate "2026-04-29"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_067 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5120.0 ;
+    :hasObservationDate "2026-04-30"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_068 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5160.0 ;
+    :hasObservationDate "2026-05-04"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_069 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5220.0 ;
+    :hasObservationDate "2026-05-05"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_070 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5230.0 ;
+    :hasObservationDate "2026-05-06"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_071 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5432.5 ;
+    :hasObservationDate "2026-05-07"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_072 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5402.5 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_073 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5200.0 ;
+    :hasObservationDate "2026-05-11"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_074 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5182.5 ;
+    :hasObservationDate "2026-05-12"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_075 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5150.0 ;
+    :hasObservationDate "2026-05-13"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_076 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5127.5 ;
+    :hasObservationDate "2026-05-18"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_077 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5040.0 ;
+    :hasObservationDate "2026-05-19"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_078 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5102.5 ;
+    :hasObservationDate "2026-05-20"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_079 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5060.0 ;
+    :hasObservationDate "2026-05-21"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_080 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5010.0 ;
+    :hasObservationDate "2026-05-22"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_081 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5160.0 ;
+    :hasObservationDate "2026-05-25"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_082 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5052.5 ;
+    :hasObservationDate "2026-05-26"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_BANK_083 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 4890.0 ;
+    :hasObservationDate "2026-05-29"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_comp_Banking_selected_peer_basket .
+
+idx:comp_IDX_COMP_JCI_001 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9075.40625 ;
+    :hasObservationDate "2026-01-15"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_002 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9133.873047 ;
+    :hasObservationDate "2026-01-19"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_003 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9134.700195 ;
+    :hasObservationDate "2026-01-20"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_004 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9010.330078 ;
+    :hasObservationDate "2026-01-21"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_005 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8992.182617 ;
+    :hasObservationDate "2026-01-22"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_006 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8951.009766 ;
+    :hasObservationDate "2026-01-23"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_007 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8975.333984 ;
+    :hasObservationDate "2026-01-26"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_008 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8980.230469 ;
+    :hasObservationDate "2026-01-27"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_009 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8320.555664 ;
+    :hasObservationDate "2026-01-28"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_010 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8232.203125 ;
+    :hasObservationDate "2026-01-29"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_011 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8329.606445 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_012 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7922.730957 ;
+    :hasObservationDate "2026-02-02"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_013 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8122.597168 ;
+    :hasObservationDate "2026-02-03"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_014 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8146.716797 ;
+    :hasObservationDate "2026-02-04"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_015 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8103.878906 ;
+    :hasObservationDate "2026-02-05"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_016 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7935.259766 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_017 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8031.874023 ;
+    :hasObservationDate "2026-02-09"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_018 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8131.737793 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_019 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8290.96582 ;
+    :hasObservationDate "2026-02-11"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_020 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8265.351562 ;
+    :hasObservationDate "2026-02-12"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_021 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8212.271484 ;
+    :hasObservationDate "2026-02-13"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_022 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8310.226562 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_023 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8274.081055 ;
+    :hasObservationDate "2026-02-19"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_024 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8271.766602 ;
+    :hasObservationDate "2026-02-20"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_025 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8396.082031 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_026 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8280.833008 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_027 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8322.228516 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_028 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8235.261719 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_029 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8235.485352 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_030 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 8016.833008 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_031 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7939.76709 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_032 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7577.063965 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_033 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7710.537109 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_034 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7585.687012 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_035 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7337.369141 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_036 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7440.913086 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_037 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7389.398926 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_038 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7362.117188 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_039 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7137.211914 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_040 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7022.288086 ;
+    :hasObservationDate "2026-03-16"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_041 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7106.838867 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_042 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7302.121094 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_043 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7164.09082 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_044 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7097.057129 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_045 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7091.669922 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_046 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7048.222168 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_047 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7184.437988 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_048 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7026.782227 ;
+    :hasObservationDate "2026-04-02"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_049 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6989.425781 ;
+    :hasObservationDate "2026-04-06"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_050 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6971.026855 ;
+    :hasObservationDate "2026-04-07"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_051 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7279.208984 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_052 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7307.588867 ;
+    :hasObservationDate "2026-04-09"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_053 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7458.496094 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_054 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7500.187012 ;
+    :hasObservationDate "2026-04-13"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_055 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7675.951172 ;
+    :hasObservationDate "2026-04-14"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_056 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7623.585938 ;
+    :hasObservationDate "2026-04-15"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_057 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7621.381836 ;
+    :hasObservationDate "2026-04-16"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_058 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7634.003906 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_059 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7594.11084 ;
+    :hasObservationDate "2026-04-20"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_060 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7559.379883 ;
+    :hasObservationDate "2026-04-21"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_061 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7541.611816 ;
+    :hasObservationDate "2026-04-22"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_062 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7378.605957 ;
+    :hasObservationDate "2026-04-23"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_063 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7129.490234 ;
+    :hasObservationDate "2026-04-24"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_064 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7106.52002 ;
+    :hasObservationDate "2026-04-27"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_065 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7072.39209 ;
+    :hasObservationDate "2026-04-28"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_066 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7101.226074 ;
+    :hasObservationDate "2026-04-29"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_067 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6956.804199 ;
+    :hasObservationDate "2026-04-30"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_068 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6971.953125 ;
+    :hasObservationDate "2026-05-04"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_069 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7057.105957 ;
+    :hasObservationDate "2026-05-05"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_070 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7092.466797 ;
+    :hasObservationDate "2026-05-06"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_071 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7174.320801 ;
+    :hasObservationDate "2026-05-07"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_072 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6969.395996 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_073 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6905.620117 ;
+    :hasObservationDate "2026-05-11"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_074 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6858.898926 ;
+    :hasObservationDate "2026-05-12"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_075 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6723.319824 ;
+    :hasObservationDate "2026-05-13"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_076 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6599.240234 ;
+    :hasObservationDate "2026-05-18"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_077 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6370.679199 ;
+    :hasObservationDate "2026-05-19"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_078 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6318.5 ;
+    :hasObservationDate "2026-05-20"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_079 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6094.940918 ;
+    :hasObservationDate "2026-05-21"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_080 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6162.044922 ;
+    :hasObservationDate "2026-05-22"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_081 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6206.349121 ;
+    :hasObservationDate "2026-05-25"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_082 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6130.189941 ;
+    :hasObservationDate "2026-05-26"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_JCI_083 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 6127.380859 ;
+    :hasObservationDate "2026-05-29"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:comp_IDX_COMP_TELE_001 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1405.0 ;
+    :hasObservationDate "2026-01-15"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_002 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1402.5 ;
+    :hasObservationDate "2026-01-19"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_003 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1400.0 ;
+    :hasObservationDate "2026-01-20"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_004 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1402.5 ;
+    :hasObservationDate "2026-01-21"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_005 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1520.0 ;
+    :hasObservationDate "2026-01-22"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_006 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1512.5 ;
+    :hasObservationDate "2026-01-23"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_007 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1512.5 ;
+    :hasObservationDate "2026-01-26"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_008 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1530.0 ;
+    :hasObservationDate "2026-01-27"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_009 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1377.5 ;
+    :hasObservationDate "2026-01-28"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_010 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1380.0 ;
+    :hasObservationDate "2026-01-29"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_011 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1377.5 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_012 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1375.0 ;
+    :hasObservationDate "2026-02-02"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_013 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1370.0 ;
+    :hasObservationDate "2026-02-03"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_014 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1335.0 ;
+    :hasObservationDate "2026-02-04"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_015 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1332.5 ;
+    :hasObservationDate "2026-02-05"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_016 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1337.5 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_017 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1320.0 ;
+    :hasObservationDate "2026-02-09"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_018 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1362.5 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_019 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1367.5 ;
+    :hasObservationDate "2026-02-11"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_020 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1372.5 ;
+    :hasObservationDate "2026-02-12"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_021 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1377.5 ;
+    :hasObservationDate "2026-02-13"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_022 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1382.5 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_023 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1367.5 ;
+    :hasObservationDate "2026-02-19"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_024 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1387.5 ;
+    :hasObservationDate "2026-02-20"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_025 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1425.0 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_026 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1420.0 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_027 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1447.5 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_028 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1415.0 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_029 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1407.5 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_030 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1355.0 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_031 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1392.0 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_032 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1327.0 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_033 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1362.0 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_034 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1320.0 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_035 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1229.0 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_036 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1258.0 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_037 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1248.0 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_038 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1301.0 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_039 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1226.0 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_040 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1233.0 ;
+    :hasObservationDate "2026-03-16"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_041 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1314.0 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_042 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1350.0 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_043 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1314.0 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_044 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1290.0 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_045 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1285.0 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_046 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1289.0 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_047 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1299.0 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_048 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1287.0 ;
+    :hasObservationDate "2026-04-02"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_049 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1261.0 ;
+    :hasObservationDate "2026-04-06"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_050 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1283.0 ;
+    :hasObservationDate "2026-04-07"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_051 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1333.0 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_052 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1303.0 ;
+    :hasObservationDate "2026-04-09"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_053 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1326.0 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_054 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1313.0 ;
+    :hasObservationDate "2026-04-13"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_055 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1302.5 ;
+    :hasObservationDate "2026-04-14"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_056 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1285.0 ;
+    :hasObservationDate "2026-04-15"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_057 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1290.0 ;
+    :hasObservationDate "2026-04-16"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_058 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1280.0 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_059 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1259.0 ;
+    :hasObservationDate "2026-04-20"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_060 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1262.5 ;
+    :hasObservationDate "2026-04-21"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_061 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1245.0 ;
+    :hasObservationDate "2026-04-22"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_062 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1230.0 ;
+    :hasObservationDate "2026-04-23"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_063 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1229.0 ;
+    :hasObservationDate "2026-04-24"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_064 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1246.0 ;
+    :hasObservationDate "2026-04-27"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_065 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1213.0 ;
+    :hasObservationDate "2026-04-28"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_066 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1231.5 ;
+    :hasObservationDate "2026-04-29"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_067 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1235.5 ;
+    :hasObservationDate "2026-04-30"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_068 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1281.0 ;
+    :hasObservationDate "2026-05-04"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_069 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1299.0 ;
+    :hasObservationDate "2026-05-05"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_070 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1305.0 ;
+    :hasObservationDate "2026-05-06"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_071 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1315.0 ;
+    :hasObservationDate "2026-05-07"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_072 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1357.0 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_073 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1326.0 ;
+    :hasObservationDate "2026-05-11"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_074 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1413.0 ;
+    :hasObservationDate "2026-05-12"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_075 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1420.0 ;
+    :hasObservationDate "2026-05-13"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_076 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1374.0 ;
+    :hasObservationDate "2026-05-18"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_077 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1325.0 ;
+    :hasObservationDate "2026-05-19"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_078 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1280.0 ;
+    :hasObservationDate "2026-05-20"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_079 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1240.0 ;
+    :hasObservationDate "2026-05-21"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_080 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1223.0 ;
+    :hasObservationDate "2026-05-22"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_081 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1276.0 ;
+    :hasObservationDate "2026-05-25"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_082 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1275.0 ;
+    :hasObservationDate "2026-05-26"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:comp_IDX_COMP_TELE_083 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1270.0 ;
+    :hasObservationDate "2026-05-29"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_comp_Telecommunications_selected_peer_basket .
+
+idx:derived_bench_return_IDX_CO_BMRI a :MarketObservation,
+        :Observation ;
+    :hasMetricName "benchmark window return %" ;
+    :hasMetricValue -13.488951 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:derived_bench_return_IDX_CO_TOWR a :MarketObservation,
+        :Observation ;
+    :hasMetricName "benchmark window return %" ;
+    :hasMetricValue -1.533713 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:derived_event_ar_IDX_CO_BBCA_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue -8.294118 ;
+    :hasObservationDate "2026-01-28"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1 .
+
+idx:derived_event_ar_IDX_CO_BBCA_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue -3.674587 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3 .
+
+idx:derived_event_ar_IDX_CO_BMRI_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue 0.009901 ;
+    :hasObservationDate "2026-02-09"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInEventWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m1p1_event_1_1 .
+
+idx:derived_event_ar_IDX_CO_BMRI_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue 4.683981 ;
+    :hasObservationDate "2026-02-11"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInEventWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3 .
+
+idx:derived_event_ar_IDX_CO_ISAT_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue 3.343905 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m1p1_event_1_1 .
+
+idx:derived_event_ar_IDX_CO_ISAT_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue 1.056377 ;
+    :hasObservationDate "2026-02-12"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m3p3_event_3_3 .
+
+idx:derived_event_vol_IDX_CO_BBCA_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 2.024185 ;
+    :hasObservationDate "2026-01-28"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1 .
+
+idx:derived_event_vol_IDX_CO_BBCA_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 2.274067 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3 .
+
+idx:derived_event_vol_IDX_CO_BMRI_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 1.324054 ;
+    :hasObservationDate "2026-02-09"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInEventWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m1p1_event_1_1 .
+
+idx:derived_event_vol_IDX_CO_BMRI_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 1.233389 ;
+    :hasObservationDate "2026-02-11"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInEventWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3 .
+
+idx:derived_event_vol_IDX_CO_ISAT_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 1.311362 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m1p1_event_1_1 .
+
+idx:derived_event_vol_IDX_CO_ISAT_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 1.259696 ;
+    :hasObservationDate "2026-02-12"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m3p3_event_3_3 .
+
+idx:derived_fund_growth_IDX_CO_BMRI a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "YoY profit growth %" ;
+    :hasMetricValue 0.92 ;
+    :hasObservationDate "2025-12-31"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInPeriod idx:period_IDX_FUND_BMRI_FY2025 .
+
+idx:derived_fund_growth_IDX_CO_ISAT a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "YoY profit growth %" ;
+    :hasMetricValue 12.2 ;
+    :hasObservationDate "2025-12-31"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInPeriod idx:period_IDX_FUND_ISAT_FY2025 .
+
+idx:derived_fund_growth_IDX_CO_TOWR a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "YoY profit growth %" ;
+    :hasMetricValue 10.28 ;
+    :hasObservationDate "2026-03-18"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInPeriod idx:period_IDX_FUND_TOWR_FY2025 .
+
+idx:derived_fx_corr_company_IDX_CO_BBCA a :MarketObservation,
+        :Observation ;
+    :hasMetricName "FX vs company return correlation" ;
+    :hasMetricValue 0.111 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:derived_fx_corr_company_IDX_CO_ISAT a :MarketObservation,
+        :Observation ;
+    :hasMetricName "FX vs company return correlation" ;
+    :hasMetricValue -0.213521 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:derived_fx_corr_company_IDX_CO_TOWR a :MarketObservation,
+        :Observation ;
+    :hasMetricName "FX vs company return correlation" ;
+    :hasMetricValue -0.432967 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:derived_post_return_IDX_CO_BMRI a :MarketObservation,
+        :Observation ;
+    :hasMetricName "post-report window return %" ;
+    :hasMetricValue -5.935552 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:derived_post_return_IDX_CO_TOWR a :MarketObservation,
+        :Observation ;
+    :hasMetricName "post-report window return %" ;
+    :hasMetricValue -0.384821 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:derived_sector_return_IDX_CO_BBCA a :MarketObservation,
+        :Observation ;
+    :hasMetricName "sector window return %" ;
+    :hasMetricValue -5.089273 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:derived_sector_return_IDX_CO_BMRI a :MarketObservation,
+        :Observation ;
+    :hasMetricName "sector window return %" ;
+    :hasMetricValue -13.535839 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Banking ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:derived_sector_return_IDX_CO_TOWR a :MarketObservation,
+        :Observation ;
+    :hasMetricName "sector window return %" ;
+    :hasMetricValue 3.708475 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:fund_IDX_FUND_BBCA_FY2024 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 444.83 ;
+    :hasObservationDate "2024-12-31"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInPeriod idx:period_IDX_FUND_BBCA_FY2024 .
+
+idx:fund_IDX_FUND_BBCA_FY2025 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 466.85 ;
+    :hasObservationDate "2025-12-31"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInPeriod idx:period_IDX_FUND_BBCA_FY2025 .
+
+idx:fund_IDX_FUND_BMRI_FY2024 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 597.67 ;
+    :hasObservationDate "2024-12-31"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInPeriod idx:period_IDX_FUND_BMRI_FY2024 .
+
+idx:fund_IDX_FUND_BMRI_FY2025 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 603.23 ;
+    :hasObservationDate "2025-12-31"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInPeriod idx:period_IDX_FUND_BMRI_FY2025 .
+
+idx:fund_IDX_FUND_ISAT_FY2024 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 152.27 ;
+    :hasObservationDate "2024-12-31"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInPeriod idx:period_IDX_FUND_ISAT_FY2024 .
+
+idx:fund_IDX_FUND_ISAT_FY2025 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 170.84 ;
+    :hasObservationDate "2025-12-31"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInPeriod idx:period_IDX_FUND_ISAT_FY2025 .
+
+idx:fund_IDX_FUND_TOWR_FY2024 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 67.0 ;
+    :hasObservationDate "2024-12-31"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInPeriod idx:period_IDX_FUND_TOWR_FY2024 .
+
+idx:fund_IDX_FUND_TOWR_FY2025 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 69.0 ;
+    :hasObservationDate "2026-03-18"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInPeriod idx:period_IDX_FUND_TOWR_FY2025 .
+
+idx:fx_IDX_FX_USDIDR_001 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16845.099609 ;
+    :hasObservationDate "2026-01-15"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_002 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16876.599609 ;
+    :hasObservationDate "2026-01-19"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_003 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16939.0 ;
+    :hasObservationDate "2026-01-20"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_004 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16960.099609 ;
+    :hasObservationDate "2026-01-21"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_005 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16897.0 ;
+    :hasObservationDate "2026-01-22"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_006 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16820.0 ;
+    :hasObservationDate "2026-01-23"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_007 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16770.0 ;
+    :hasObservationDate "2026-01-26"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_008 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16734.0 ;
+    :hasObservationDate "2026-01-27"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_009 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16674.699219 ;
+    :hasObservationDate "2026-01-28"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_010 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16722.800781 ;
+    :hasObservationDate "2026-01-29"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_011 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16778.300781 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_012 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16758.400391 ;
+    :hasObservationDate "2026-02-02"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_013 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16758.400391 ;
+    :hasObservationDate "2026-02-03"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_014 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16759.0 ;
+    :hasObservationDate "2026-02-04"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_015 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16800.0 ;
+    :hasObservationDate "2026-02-05"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_016 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16879.900391 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_017 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16843.5 ;
+    :hasObservationDate "2026-02-09"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_018 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16796.0 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_019 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16778.0 ;
+    :hasObservationDate "2026-02-11"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_020 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16793.900391 ;
+    :hasObservationDate "2026-02-12"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_021 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16809.0 ;
+    :hasObservationDate "2026-02-13"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_022 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16840.0 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_023 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16915.300781 ;
+    :hasObservationDate "2026-02-19"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_024 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16887.199219 ;
+    :hasObservationDate "2026-02-20"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_025 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16843.400391 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_026 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16804.300781 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_027 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16816.800781 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_028 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16749.800781 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_029 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16749.0 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_030 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16795.0 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_031 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16863.0 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_032 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16898.099609 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_033 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16865.0 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_034 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16913.099609 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_035 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16923.699219 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_036 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16886.0 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_037 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16852.0 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_038 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16884.0 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_039 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16908.0 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_040 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16952.099609 ;
+    :hasObservationDate "2026-03-16"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_041 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16953.099609 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_042 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16797.300781 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_043 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16749.599609 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_044 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16925.0 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_045 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16958.0 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_046 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16975.400391 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_047 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16936.400391 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_048 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16924.099609 ;
+    :hasObservationDate "2026-04-02"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_049 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 16988.0 ;
+    :hasObservationDate "2026-04-06"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_050 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17015.300781 ;
+    :hasObservationDate "2026-04-07"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_051 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17027.400391 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_052 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17005.5 ;
+    :hasObservationDate "2026-04-09"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_053 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17059.0 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_054 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17083.0 ;
+    :hasObservationDate "2026-04-13"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_055 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17079.199219 ;
+    :hasObservationDate "2026-04-14"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_056 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17129.0 ;
+    :hasObservationDate "2026-04-15"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_057 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17146.099609 ;
+    :hasObservationDate "2026-04-16"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_058 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17123.0 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_059 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17133.0 ;
+    :hasObservationDate "2026-04-20"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_060 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17123.800781 ;
+    :hasObservationDate "2026-04-21"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_061 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17133.099609 ;
+    :hasObservationDate "2026-04-22"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_062 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17199.5 ;
+    :hasObservationDate "2026-04-23"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_063 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17329.0 ;
+    :hasObservationDate "2026-04-24"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_064 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17246.0 ;
+    :hasObservationDate "2026-04-27"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_065 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17216.0 ;
+    :hasObservationDate "2026-04-28"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_066 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17244.0 ;
+    :hasObservationDate "2026-04-29"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_067 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17334.199219 ;
+    :hasObservationDate "2026-04-30"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_068 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17288.5 ;
+    :hasObservationDate "2026-05-04"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_069 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17346.199219 ;
+    :hasObservationDate "2026-05-05"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_070 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17389.800781 ;
+    :hasObservationDate "2026-05-06"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_071 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17296.900391 ;
+    :hasObservationDate "2026-05-07"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_072 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17294.900391 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_073 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17358.0 ;
+    :hasObservationDate "2026-05-11"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_074 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17413.0 ;
+    :hasObservationDate "2026-05-12"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_075 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17549.0 ;
+    :hasObservationDate "2026-05-13"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_076 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17586.0 ;
+    :hasObservationDate "2026-05-18"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_077 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17701.0 ;
+    :hasObservationDate "2026-05-19"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_078 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17777.0 ;
+    :hasObservationDate "2026-05-20"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_079 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17658.400391 ;
+    :hasObservationDate "2026-05-21"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_080 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17692.0 ;
+    :hasObservationDate "2026-05-22"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_081 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17692.0 ;
+    :hasObservationDate "2026-05-25"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_082 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17762.0 ;
+    :hasObservationDate "2026-05-26"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:fx_IDX_FX_USDIDR_083 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 17840.0 ;
+    :hasObservationDate "2026-05-29"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair .
+
+idx:mkt_IDX_MKT_BBCA_EVENT_M1P1_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-01-26"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1 .
+
+idx:mkt_IDX_MKT_BBCA_EVENT_M1P1_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -1.960784 ;
+    :hasObservationDate "2026-01-27"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1 .
+
+idx:mkt_IDX_MKT_BBCA_EVENT_M1P1_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -6.333333 ;
+    :hasObservationDate "2026-01-28"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1 .
+
+idx:mkt_IDX_MKT_BBCA_EVENT_M3P3_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -0.649351 ;
+    :hasObservationDate "2026-01-22"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_BBCA_EVENT_M3P3_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-01-23"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_BBCA_EVENT_M3P3_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-01-26"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_BBCA_EVENT_M3P3_04 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -1.960784 ;
+    :hasObservationDate "2026-01-27"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_BBCA_EVENT_M3P3_05 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -6.333333 ;
+    :hasObservationDate "2026-01-28"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_BBCA_EVENT_M3P3_06 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 2.491103 ;
+    :hasObservationDate "2026-01-29"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_BBCA_EVENT_M3P3_07 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 2.777778 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_BBCA_POST30_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7500.0 ;
+    :hasObservationDate "2026-01-27"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7025.0 ;
+    :hasObservationDate "2026-01-28"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7200.0 ;
+    :hasObservationDate "2026-01-29"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_04 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7400.0 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_05 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7600.0 ;
+    :hasObservationDate "2026-02-02"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_06 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7650.0 ;
+    :hasObservationDate "2026-02-03"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_07 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7800.0 ;
+    :hasObservationDate "2026-02-04"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_08 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7800.0 ;
+    :hasObservationDate "2026-02-05"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_09 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7675.0 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_10 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7500.0 ;
+    :hasObservationDate "2026-02-09"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_11 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7475.0 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_12 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7450.0 ;
+    :hasObservationDate "2026-02-11"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_13 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7325.0 ;
+    :hasObservationDate "2026-02-12"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_14 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7200.0 ;
+    :hasObservationDate "2026-02-13"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_15 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7275.0 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_16 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7175.0 ;
+    :hasObservationDate "2026-02-19"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_17 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7225.0 ;
+    :hasObservationDate "2026-02-20"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_18 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7300.0 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_19 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7225.0 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_20 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7325.0 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_21 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7300.0 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_22 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7175.0 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_23 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7025.0 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_24 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7075.0 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_25 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 6875.0 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_26 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7100.0 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_27 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7000.0 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_28 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 6875.0 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_29 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 6975.0 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_30 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 6825.0 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BBCA_POST30_31 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 6900.0 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_EVENT_M1P1_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 1.0 ;
+    :hasObservationDate "2026-02-05"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInEventWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m1p1_event_1_1 .
+
+idx:mkt_IDX_MKT_BMRI_EVENT_M1P1_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInEventWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m1p1_event_1_1 .
+
+idx:mkt_IDX_MKT_BMRI_EVENT_M1P1_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -0.990099 ;
+    :hasObservationDate "2026-02-09"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInEventWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m1p1_event_1_1 .
+
+idx:mkt_IDX_MKT_BMRI_EVENT_M3P3_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.625 ;
+    :hasObservationDate "2026-02-03"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInEventWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_BMRI_EVENT_M3P3_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 3.519669 ;
+    :hasObservationDate "2026-02-04"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInEventWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_BMRI_EVENT_M3P3_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 1.0 ;
+    :hasObservationDate "2026-02-05"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInEventWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_BMRI_EVENT_M3P3_04 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInEventWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_BMRI_EVENT_M3P3_05 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -0.990099 ;
+    :hasObservationDate "2026-02-09"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInEventWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_BMRI_EVENT_M3P3_06 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 2.0 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInEventWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_BMRI_EVENT_M3P3_07 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -1.470588 ;
+    :hasObservationDate "2026-02-11"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInEventWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_BMRI_POST30_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 5050.0 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 5000.0 ;
+    :hasObservationDate "2026-02-09"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 5100.0 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_04 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 5025.0 ;
+    :hasObservationDate "2026-02-11"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_05 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 5075.0 ;
+    :hasObservationDate "2026-02-12"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_06 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 5075.0 ;
+    :hasObservationDate "2026-02-13"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_07 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 5275.0 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_08 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 5075.0 ;
+    :hasObservationDate "2026-02-19"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_09 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 5125.0 ;
+    :hasObservationDate "2026-02-20"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_10 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 5275.0 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_11 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 5375.0 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_12 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 5300.0 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_13 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 5325.0 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_14 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 5275.0 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_15 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 5075.0 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_16 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 5100.0 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_17 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 4980.0 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_18 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 5125.0 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_19 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 4980.0 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_20 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 4820.0 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_21 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 4910.0 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_22 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 4880.0 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_23 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 4960.0 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_24 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 4750.0 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_25 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 4700.0 ;
+    :hasObservationDate "2026-03-16"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_26 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 4730.0 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_27 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 4970.0 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_28 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 4840.0 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_29 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 4760.0 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_30 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 4700.0 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_BMRI_POST30_31 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 4720.0 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_EVENT_M1P1_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.938967 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m1p1_event_1_1 .
+
+idx:mkt_IDX_MKT_ISAT_EVENT_M1P1_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -1.860465 ;
+    :hasObservationDate "2026-02-09"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m1p1_event_1_1 .
+
+idx:mkt_IDX_MKT_ISAT_EVENT_M1P1_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 4.265403 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m1p1_event_1_1 .
+
+idx:mkt_IDX_MKT_ISAT_EVENT_M3P3_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -2.727273 ;
+    :hasObservationDate "2026-02-04"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_ISAT_EVENT_M3P3_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -0.46729 ;
+    :hasObservationDate "2026-02-05"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_ISAT_EVENT_M3P3_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.938967 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_ISAT_EVENT_M3P3_04 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -1.860465 ;
+    :hasObservationDate "2026-02-09"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_ISAT_EVENT_M3P3_05 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 4.265403 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_ISAT_EVENT_M3P3_06 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.454545 ;
+    :hasObservationDate "2026-02-11"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_ISAT_EVENT_M3P3_07 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.452489 ;
+    :hasObservationDate "2026-02-12"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_ISAT_POST30_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2110.0 ;
+    :hasObservationDate "2026-02-09"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2200.0 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2210.0 ;
+    :hasObservationDate "2026-02-11"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_04 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2220.0 ;
+    :hasObservationDate "2026-02-12"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_05 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2230.0 ;
+    :hasObservationDate "2026-02-13"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_06 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2240.0 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_07 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2220.0 ;
+    :hasObservationDate "2026-02-19"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_08 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2260.0 ;
+    :hasObservationDate "2026-02-20"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_09 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2330.0 ;
+    :hasObservationDate "2026-02-23"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_10 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2330.0 ;
+    :hasObservationDate "2026-02-24"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_11 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2380.0 ;
+    :hasObservationDate "2026-02-25"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_12 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2320.0 ;
+    :hasObservationDate "2026-02-26"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_13 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2310.0 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_14 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2210.0 ;
+    :hasObservationDate "2026-03-02"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_15 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2290.0 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_16 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2180.0 ;
+    :hasObservationDate "2026-03-04"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_17 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2240.0 ;
+    :hasObservationDate "2026-03-05"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_18 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2160.0 ;
+    :hasObservationDate "2026-03-06"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_19 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2000.0 ;
+    :hasObservationDate "2026-03-09"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_20 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2050.0 ;
+    :hasObservationDate "2026-03-10"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_21 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2030.0 ;
+    :hasObservationDate "2026-03-11"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_22 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2140.0 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_23 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2000.0 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_24 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2020.0 ;
+    :hasObservationDate "2026-03-16"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_25 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2150.0 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_26 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2200.0 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_27 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2130.0 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_28 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2090.0 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_29 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2080.0 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_30 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2090.0 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_ISAT_POST30_31 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 2100.0 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_EVENT_M1P1_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 7.174888 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1 .
+
+idx:mkt_IDX_MKT_TOWR_EVENT_M1P1_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 4.60251 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1 .
+
+idx:mkt_IDX_MKT_TOWR_EVENT_M1P1_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -0.4 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1 .
+
+idx:mkt_IDX_MKT_TOWR_EVENT_M3P3_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -2.164502 ;
+    :hasObservationDate "2026-03-13"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_TOWR_EVENT_M3P3_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -1.327434 ;
+    :hasObservationDate "2026-03-16"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_TOWR_EVENT_M3P3_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 7.174888 ;
+    :hasObservationDate "2026-03-17"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_TOWR_EVENT_M3P3_04 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 4.60251 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_TOWR_EVENT_M3P3_05 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -0.4 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_TOWR_EVENT_M3P3_06 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -1.606426 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_TOWR_EVENT_M3P3_07 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3 .
+
+idx:mkt_IDX_MKT_TOWR_POST30_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 500.0 ;
+    :hasObservationDate "2026-03-25"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 498.0 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 490.0 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_04 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 490.0 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_05 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 488.0 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_06 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 498.0 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_07 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 494.0 ;
+    :hasObservationDate "2026-04-02"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_08 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 492.0 ;
+    :hasObservationDate "2026-04-06"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_09 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 486.0 ;
+    :hasObservationDate "2026-04-07"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_10 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 496.0 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_11 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 486.0 ;
+    :hasObservationDate "2026-04-09"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_12 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 492.0 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_13 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 486.0 ;
+    :hasObservationDate "2026-04-13"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_14 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 505.0 ;
+    :hasObservationDate "2026-04-14"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_15 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 500.0 ;
+    :hasObservationDate "2026-04-15"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_16 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 510.0 ;
+    :hasObservationDate "2026-04-16"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_17 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 510.0 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_18 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 498.0 ;
+    :hasObservationDate "2026-04-20"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_19 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 505.0 ;
+    :hasObservationDate "2026-04-21"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_20 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 505.0 ;
+    :hasObservationDate "2026-04-22"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_21 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 505.0 ;
+    :hasObservationDate "2026-04-23"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_22 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 488.0 ;
+    :hasObservationDate "2026-04-24"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_23 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 482.0 ;
+    :hasObservationDate "2026-04-27"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_24 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 476.0 ;
+    :hasObservationDate "2026-04-28"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_25 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 478.0 ;
+    :hasObservationDate "2026-04-29"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_26 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 476.0 ;
+    :hasObservationDate "2026-04-30"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_27 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 482.0 ;
+    :hasObservationDate "2026-05-04"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_28 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 488.0 ;
+    :hasObservationDate "2026-05-05"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_29 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 480.0 ;
+    :hasObservationDate "2026-05-06"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_30 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 480.0 ;
+    :hasObservationDate "2026-05-07"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:mkt_IDX_MKT_TOWR_POST30_31 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 474.0 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedOverWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report .
+
+idx:prov_evid_IDX_EVID_BBCA_AR2025 a :ProvenanceRecord ;
+    :derivedFrom idx:evid_IDX_EVID_BBCA_AR2025 ;
+    :hasRetrievalDate "2026-06-28T00:00:00"^^xsd:dateTime .
+
+idx:prov_evid_IDX_EVID_BMRI_AR2025 a :ProvenanceRecord ;
+    :derivedFrom idx:evid_IDX_EVID_BMRI_AR2025 ;
+    :hasRetrievalDate "2026-06-28T00:00:00"^^xsd:dateTime .
+
+idx:prov_evid_IDX_EVID_ISAT_AR2025 a :ProvenanceRecord ;
+    :derivedFrom idx:evid_IDX_EVID_ISAT_AR2025 ;
+    :hasRetrievalDate "2026-06-28T00:00:00"^^xsd:dateTime .
+
+idx:prov_evid_IDX_EVID_TOWR_AR2025 a :ProvenanceRecord ;
+    :derivedFrom idx:evid_IDX_EVID_TOWR_AR2025 ;
+    :hasRetrievalDate "2026-06-28T00:00:00"^^xsd:dateTime .
+
+idx:query_exec_CQ1_1 a :QueryExecution ;
+    :hasEvidenceBundle idx:evidence_bundle_CQ1_1 ;
+    :hasParameterValues "market=idx; resultEntity=IDX_CO_BBCA; timeContext=FY2025; post-report 30 trading days" ;
+    :hasQueryFamilyIdentifier "CQ1" ;
+    :hasQueryInstanceIdentifier "CQ1-001" ;
+    :usesMarketIndexBenchmark idx:market_index_benchmark .
+
+idx:query_exec_CQ2_1 a :QueryExecution ;
+    :hasEvidenceBundle idx:evidence_bundle_CQ2_1 ;
+    :hasParameterValues "market=idx; resultEntity=IDX_CO_BMRI; timeContext=FY2025; post-report 30 trading days" ;
+    :hasQueryFamilyIdentifier "CQ2" ;
+    :hasQueryInstanceIdentifier "CQ2-001" ;
+    :usesMarketIndexBenchmark idx:market_index_benchmark .
+
+idx:query_exec_CQ3_1 a :QueryExecution ;
+    :hasEvidenceBundle idx:evidence_bundle_CQ3_1 ;
+    :hasParameterValues "market=idx; resultEntity=IDX_CO_ISAT; timeContext=FY2025; post-report 30 trading days" ;
+    :hasQueryFamilyIdentifier "CQ3" ;
+    :hasQueryInstanceIdentifier "CQ3-001" ;
+    :usesMarketIndexBenchmark idx:market_index_benchmark .
+
+idx:query_exec_CQ4_1 a :QueryExecution ;
+    :hasEvidenceBundle idx:evidence_bundle_CQ4_1 ;
+    :hasParameterValues "market=idx; resultEntity=IDX_CO_TOWR; timeContext=FY2025; post-report 30 trading days" ;
+    :hasQueryFamilyIdentifier "CQ4" ;
+    :hasQueryInstanceIdentifier "CQ4-001" .
+
+idx:query_exec_CQ5_1 a :QueryExecution ;
+    :hasEvidenceBundle idx:evidence_bundle_CQ5_1 ;
+    :hasParameterValues "market=idx; resultEntity=IDX_CO_BBCA; timeContext=FY2025; post-report 30 trading days" ;
+    :hasQueryFamilyIdentifier "CQ5" ;
+    :hasQueryInstanceIdentifier "CQ5-001" .
+
+idx:source_IDX_SRC_BBCA a :EvidenceSource ;
+    :hasSourceIdentifier "IDX_SRC_BBCA" ;
+    :hasSourceType "derived/aggregated" .
+
+idx:source_IDX_SRC_BBCA_HISTORY a :EvidenceSource ;
+    :hasSourceIdentifier "IDX_SRC_BBCA_HISTORY" ;
+    :hasSourceType "derived/aggregated" .
+
+idx:source_IDX_SRC_BMRI a :EvidenceSource ;
+    :hasSourceIdentifier "IDX_SRC_BMRI" ;
+    :hasSourceType "derived/aggregated" .
+
+idx:source_IDX_SRC_BMRI_HISTORY a :EvidenceSource ;
+    :hasSourceIdentifier "IDX_SRC_BMRI_HISTORY" ;
+    :hasSourceType "derived/aggregated" .
+
+idx:source_IDX_SRC_COMP_BANK a :EvidenceSource ;
+    :hasSourceIdentifier "IDX_SRC_COMP_BANK" ;
+    :hasSourceType "derived/aggregated" .
+
+idx:source_IDX_SRC_COMP_TELE a :EvidenceSource ;
+    :hasSourceIdentifier "IDX_SRC_COMP_TELE" ;
+    :hasSourceType "derived/aggregated" .
+
+idx:source_IDX_SRC_ISAT a :EvidenceSource ;
+    :hasSourceIdentifier "IDX_SRC_ISAT" ;
+    :hasSourceType "derived/aggregated" .
+
+idx:source_IDX_SRC_ISAT_HISTORY a :EvidenceSource ;
+    :hasSourceIdentifier "IDX_SRC_ISAT_HISTORY" ;
+    :hasSourceType "derived/aggregated" .
+
+idx:source_IDX_SRC_JCI a :EvidenceSource ;
+    :hasSourceIdentifier "IDX_SRC_JCI" ;
+    :hasSourceType "derived/aggregated" .
+
+idx:source_IDX_SRC_TOWR a :EvidenceSource ;
+    :hasSourceIdentifier "IDX_SRC_TOWR" ;
+    :hasSourceType "derived/aggregated" .
+
+idx:source_IDX_SRC_TOWR_HISTORY a :EvidenceSource ;
+    :hasSourceIdentifier "IDX_SRC_TOWR_HISTORY" ;
+    :hasSourceType "derived/aggregated" .
+
+idx:source_IDX_SRC_USDIDR a :EvidenceSource ;
+    :hasSourceIdentifier "IDX_SRC_USDIDR" ;
+    :hasSourceType "derived/aggregated" .
+
+idx:source_None a :EvidenceSource ;
+    :hasSourceIdentifier "None" .
+
+idx:derived_bench_return_IDX_CO_ISAT a :MarketObservation,
+        :Observation ;
+    :hasMetricName "benchmark window return %" ;
+    :hasMetricValue -9.475603 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:derived_event_ar_IDX_CO_TOWR_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue 11.377398 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1 .
+
+idx:derived_event_ar_IDX_CO_TOWR_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue 6.279037 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3 .
+
+idx:derived_event_vol_IDX_CO_TOWR_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 2.164363 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1 .
+
+idx:derived_event_vol_IDX_CO_TOWR_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 1.44533 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3 .
+
+idx:derived_fx_change a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency idx:currency_USD ;
+    :hasDealtCurrency idx:currency_IDR ;
+    :hasMetricName "FX window change %" ;
+    :hasMetricValue 5.906171 ;
+    :hasObservationDate "2026-05-29"^^xsd:date ;
+    :isObservationOf idx:observed_fx_pair ;
+    :observedOverWindow idx:window_fx_series .
+
+idx:derived_fx_corr_bench a :MarketObservation,
+        :Observation ;
+    :hasMetricName "FX vs benchmark return correlation" ;
+    :hasMetricValue -0.199972 ;
+    :hasObservationDate "2026-05-29"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_comp_Jakarta_Composite_Index_JCI .
+
+idx:derived_fx_corr_company_IDX_CO_BMRI a :MarketObservation,
+        :Observation ;
+    :hasMetricName "FX vs company return correlation" ;
+    :hasMetricValue -0.501856 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedOverWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report .
+
+idx:derived_post_return_IDX_CO_ISAT a :MarketObservation,
+        :Observation ;
+    :hasMetricName "post-report window return %" ;
+    :hasMetricValue -0.744813 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:derived_sector_return_IDX_CO_ISAT a :MarketObservation,
+        :Observation ;
+    :hasMetricName "sector window return %" ;
+    :hasMetricValue -1.614096 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf idx:sector_classifier_Telecommunications ;
+    :observedOverWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report .
+
+idx:evidence_bundle_CQ1_1 a :EvidenceBundle ;
+    :containsEvidenceItem idx:evid_IDX_EVID_BBCA_AR2025 ;
+    :explainsResultEntity idx:company_IDX_CO_BBCA ;
+    :hasValidationStatus idx:validation_passed ;
+    :includesObservation idx:derived_bench_return_IDX_CO_BBCA,
+        idx:derived_fund_growth_IDX_CO_BBCA,
+        idx:derived_post_return_IDX_CO_BBCA .
+
+idx:evidence_bundle_CQ2_1 a :EvidenceBundle ;
+    :containsEvidenceItem idx:evid_IDX_EVID_BMRI_AR2025 ;
+    :explainsResultEntity idx:company_IDX_CO_BMRI ;
+    :hasValidationStatus idx:validation_passed ;
+    :includesObservation idx:derived_fx_change,
+        idx:derived_fx_corr_bench,
+        idx:derived_fx_corr_company_IDX_CO_BMRI .
+
+idx:evidence_bundle_CQ3_1 a :EvidenceBundle ;
+    :containsEvidenceItem idx:evid_IDX_EVID_ISAT_AR2025 ;
+    :explainsResultEntity idx:company_IDX_CO_ISAT ;
+    :hasValidationStatus idx:validation_passed ;
+    :includesObservation idx:derived_bench_return_IDX_CO_ISAT,
+        idx:derived_post_return_IDX_CO_ISAT,
+        idx:derived_sector_return_IDX_CO_ISAT .
+
+idx:evidence_bundle_CQ4_1 a :EvidenceBundle ;
+    :containsEvidenceItem idx:evid_IDX_EVID_TOWR_AR2025 ;
+    :explainsResultEntity idx:company_IDX_CO_TOWR ;
+    :hasValidationStatus idx:validation_passed ;
+    :includesObservation idx:derived_event_ar_IDX_CO_TOWR_event_1_1,
+        idx:derived_event_ar_IDX_CO_TOWR_event_3_3,
+        idx:derived_event_vol_IDX_CO_TOWR_event_1_1,
+        idx:derived_event_vol_IDX_CO_TOWR_event_3_3 .
+
+idx:evidence_bundle_CQ5_1 a :EvidenceBundle ;
+    :containsEvidenceItem idx:evid_IDX_EVID_BBCA_AR2025 ;
+    :explainsResultEntity idx:company_IDX_CO_BBCA ;
+    :hasValidationStatus idx:validation_passed ;
+    :includesObservation idx:derived_bench_return_IDX_CO_BBCA,
+        idx:derived_fund_growth_IDX_CO_BBCA,
+        idx:derived_post_return_IDX_CO_BBCA .
+
+idx:period_IDX_FUND_BBCA_FY2024 a :ReportingPeriod ;
+    :hasEndDate "2024-12-31"^^xsd:date ;
+    :hasStartDate "2024-01-01"^^xsd:date .
+
+idx:period_IDX_FUND_BMRI_FY2024 a :ReportingPeriod ;
+    :hasEndDate "2024-12-31"^^xsd:date ;
+    :hasStartDate "2024-01-01"^^xsd:date .
+
+idx:period_IDX_FUND_ISAT_FY2024 a :ReportingPeriod ;
+    :hasEndDate "2024-12-31"^^xsd:date ;
+    :hasStartDate "2024-01-01"^^xsd:date .
+
+idx:period_IDX_FUND_TOWR_FY2024 a :ReportingPeriod ;
+    :hasEndDate "2024-12-31"^^xsd:date ;
+    :hasStartDate "2024-01-01"^^xsd:date .
+
+idx:source_IDX_SRC_BBCA_DISCLOSURE a :EvidenceSource ;
+    :hasSourceIdentifier "IDX_SRC_BBCA_DISCLOSURE" ;
+    :hasSourceType "derived/aggregated" .
+
+idx:source_IDX_SRC_BMRI_DISCLOSURE a :EvidenceSource ;
+    :hasSourceIdentifier "IDX_SRC_BMRI_DISCLOSURE" ;
+    :hasSourceType "derived/aggregated" .
+
+idx:source_IDX_SRC_ISAT_DISCLOSURE a :EvidenceSource ;
+    :hasSourceIdentifier "IDX_SRC_ISAT_DISCLOSURE" ;
+    :hasSourceType "derived/aggregated" .
+
+idx:source_IDX_SRC_TOWR_DISCLOSURE a :EvidenceSource ;
+    :hasSourceIdentifier "IDX_SRC_TOWR_DISCLOSURE" ;
+    :hasSourceType "derived/aggregated" .
+
+idx:window_fx_series a :AnalysisWindow ;
+    :hasEndDate "2026-05-29"^^xsd:date ;
+    :hasStartDate "2026-01-15"^^xsd:date ;
+    :hasWindowType "fx-series-window" .
+
+idx:derived_bench_return_IDX_CO_BBCA a :MarketObservation,
+        :Observation ;
+    :hasMetricName "benchmark window return %" ;
+    :hasMetricValue -19.021998 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf idx:market_index_benchmark ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:derived_fund_growth_IDX_CO_BBCA a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "YoY profit growth %" ;
+    :hasMetricValue 4.93 ;
+    :hasObservationDate "2025-12-31"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInPeriod idx:period_IDX_FUND_BBCA_FY2025 .
+
+idx:derived_post_return_IDX_CO_BBCA a :MarketObservation,
+        :Observation ;
+    :hasMetricName "post-report window return %" ;
+    :hasMetricValue -9.657818 ;
+    :hasObservationDate "2026-03-12"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedOverWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report .
+
+idx:evid_IDX_EVID_BMRI_AR2025 a :Announcement,
+        :EvidenceItem ;
+    rdfs:label "BMRI FY2025 annual financial results"@en ;
+    :aboutCompany idx:company_IDX_CO_BMRI ;
+    :hasAnnouncementDate "2026-02-06"^^xsd:date ;
+    :hasAnnouncementType "FY2025 audited annual financial results" ;
+    :hasEvidenceIdentifier "IDX_EVID_BMRI_AR2025" ;
+    :hasEvidenceSource idx:source_IDX_SRC_BMRI_DISCLOSURE ;
+    :hasEvidenceURL "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_EREP/202502/20260206200915-59344-0/FinancialStatement-2025-Tahunan-BMRI.pdf"^^xsd:anyURI ;
+    :publishedBy idx:publisher_Indonesia_Stock_Exchange .
+
+idx:evid_IDX_EVID_ISAT_AR2025 a :Announcement,
+        :EvidenceItem ;
+    rdfs:label "ISAT FY2025 annual financial results"@en ;
+    :aboutCompany idx:company_IDX_CO_ISAT ;
+    :hasAnnouncementDate "2026-02-09"^^xsd:date ;
+    :hasAnnouncementType "FY2025 audited annual financial results" ;
+    :hasEvidenceIdentifier "IDX_EVID_ISAT_AR2025" ;
+    :hasEvidenceSource idx:source_IDX_SRC_ISAT_DISCLOSURE ;
+    :hasEvidenceURL "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_EREP/202502/20260209114515-59345-0/Info%20Memo%20FY25%20Eng%20vFinal.pdf"^^xsd:anyURI ;
+    :publishedBy idx:publisher_Indonesia_Stock_Exchange .
+
+idx:evid_IDX_EVID_TOWR_AR2025 a :Announcement,
+        :EvidenceItem ;
+    rdfs:label "TOWR FY2025 annual financial results"@en ;
+    :aboutCompany idx:company_IDX_CO_TOWR ;
+    :hasAnnouncementDate "2026-03-18"^^xsd:date ;
+    :hasAnnouncementType "FY2025 audited annual financial results" ;
+    :hasEvidenceIdentifier "IDX_EVID_TOWR_AR2025" ;
+    :hasEvidenceSource idx:source_IDX_SRC_TOWR_DISCLOSURE ;
+    :hasEvidenceURL "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_EREP/202503/20260318093358-60005-0/sarana%20menara%20nusantara_311225.pdf"^^xsd:anyURI ;
+    :publishedBy idx:publisher_Indonesia_Stock_Exchange .
+
+idx:period_IDX_FUND_BBCA_FY2025 a :ReportingPeriod ;
+    :hasEndDate "2025-12-31"^^xsd:date ;
+    :hasStartDate "2025-01-01"^^xsd:date .
+
+idx:period_IDX_FUND_BMRI_FY2025 a :ReportingPeriod ;
+    :hasEndDate "2025-12-31"^^xsd:date ;
+    :hasStartDate "2025-01-01"^^xsd:date .
+
+idx:period_IDX_FUND_ISAT_FY2025 a :ReportingPeriod ;
+    :hasEndDate "2025-12-31"^^xsd:date ;
+    :hasStartDate "2025-01-01"^^xsd:date .
+
+idx:period_IDX_FUND_TOWR_FY2025 a :ReportingPeriod ;
+    :hasEndDate "2025-12-31"^^xsd:date ;
+    :hasReportDate "2026-03-18"^^xsd:date ;
+    :hasStartDate "2025-01-01"^^xsd:date .
+
+idx:sector_scheme a :IndustrySectorClassificationScheme ;
+    rdfs:label "IDX sector classification"@en .
+
+idx:evid_IDX_EVID_BBCA_AR2025 a :Announcement,
+        :EvidenceItem ;
+    rdfs:label "BBCA FY2025 annual financial results"@en ;
+    :aboutCompany idx:company_IDX_CO_BBCA ;
+    :hasAnnouncementDate "2026-01-27"^^xsd:date ;
+    :hasAnnouncementType "FY2025 audited annual financial results" ;
+    :hasEvidenceIdentifier "IDX_EVID_BBCA_AR2025" ;
+    :hasEvidenceSource idx:source_IDX_SRC_BBCA_DISCLOSURE ;
+    :hasEvidenceURL "https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_EREP/202601/64f3c86958_5340cba4f1.pdf"^^xsd:anyURI ;
+    :publishedBy idx:publisher_Indonesia_Stock_Exchange .
+
+idx:publisher_Indonesia_Stock_Exchange a :Publisher ;
+    rdfs:label "Indonesia Stock Exchange"@en .
+
+idx:validation_passed a :ValidationStatus ;
+    :hasValidationFlag "passed" .
+
+idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1 a :EventWindow ;
+    :hasEndDate "2026-01-28"^^xsd:date ;
+    :hasStartDate "2026-01-26"^^xsd:date ;
+    :hasWindowType "(-1,+1)" .
+
+idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m1p1_event_1_1 a :EventWindow ;
+    :hasEndDate "2026-02-09"^^xsd:date ;
+    :hasStartDate "2026-02-05"^^xsd:date ;
+    :hasWindowType "(-1,+1)" .
+
+idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m1p1_event_1_1 a :EventWindow ;
+    :hasEndDate "2026-02-10"^^xsd:date ;
+    :hasStartDate "2026-02-06"^^xsd:date ;
+    :hasWindowType "(-1,+1)" .
+
+idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1 a :EventWindow ;
+    :hasEndDate "2026-03-26"^^xsd:date ;
+    :hasStartDate "2026-03-17"^^xsd:date ;
+    :hasWindowType "(-1,+1)" .
+
+idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3 a :EventWindow ;
+    :hasEndDate "2026-01-30"^^xsd:date ;
+    :hasStartDate "2026-01-22"^^xsd:date ;
+    :hasWindowType "(-3,+3)" .
+
+idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3 a :EventWindow ;
+    :hasEndDate "2026-02-11"^^xsd:date ;
+    :hasStartDate "2026-02-03"^^xsd:date ;
+    :hasWindowType "(-3,+3)" .
+
+idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m3p3_event_3_3 a :EventWindow ;
+    :hasEndDate "2026-02-12"^^xsd:date ;
+    :hasStartDate "2026-02-04"^^xsd:date ;
+    :hasWindowType "(-3,+3)" .
+
+idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3 a :EventWindow ;
+    :hasEndDate "2026-03-30"^^xsd:date ;
+    :hasStartDate "2026-03-13"^^xsd:date ;
+    :hasWindowType "(-3,+3)" .
+
+idx:window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report a :AnalysisWindow ;
+    :hasEndDate "2026-03-12"^^xsd:date ;
+    :hasStartDate "2026-01-27"^^xsd:date ;
+    :hasWindowType "post_report" .
+
+idx:window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report a :AnalysisWindow ;
+    :hasEndDate "2026-03-31"^^xsd:date ;
+    :hasStartDate "2026-02-06"^^xsd:date ;
+    :hasWindowType "post_report" .
+
+idx:window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report a :AnalysisWindow ;
+    :hasEndDate "2026-04-01"^^xsd:date ;
+    :hasStartDate "2026-02-09"^^xsd:date ;
+    :hasWindowType "post_report" .
+
+idx:window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report a :AnalysisWindow ;
+    :hasEndDate "2026-05-08"^^xsd:date ;
+    :hasStartDate "2026-03-25"^^xsd:date ;
+    :hasWindowType "post_report" .
+
+idx:company_IDX_CO_BMRI a :Company,
+        :ObservedEntity ;
+    rdfs:label "PT Bank Mandiri (Persero) Tbk"@en ;
+    :hasCompanyIdentifier "BMRI" ;
+    :hasCompanyName "PT Bank Mandiri (Persero) Tbk" ;
+    :isClassifiedByIndustrySector idx:sector_classifier_Banking .
+
+idx:company_IDX_CO_ISAT a :Company,
+        :ObservedEntity ;
+    rdfs:label "PT Indosat Ooredoo Hutchison Tbk"@en ;
+    :hasCompanyIdentifier "ISAT" ;
+    :hasCompanyName "PT Indosat Ooredoo Hutchison Tbk" ;
+    :isClassifiedByIndustrySector idx:sector_classifier_Telecommunications .
+
+idx:company_IDX_CO_TOWR a :Company,
+        :ObservedEntity ;
+    rdfs:label "PT Sarana Menara Nusantara Tbk"@en ;
+    :hasCompanyIdentifier "TOWR" ;
+    :hasCompanyName "PT Sarana Menara Nusantara Tbk" ;
+    :isClassifiedByIndustrySector idx:sector_classifier_Telecommunications .
+
+idx:company_IDX_CO_BBCA a :Company,
+        :ObservedEntity ;
+    rdfs:label "PT Bank Central Asia Tbk"@en ;
+    :hasCompanyIdentifier "BBCA" ;
+    :hasCompanyName "PT Bank Central Asia Tbk" ;
+    :isClassifiedByIndustrySector idx:sector_classifier_Banking .
+
+idx:window_comp_Banking_selected_peer_basket a :AnalysisWindow ;
+    :hasEndDate "2026-05-29"^^xsd:date ;
+    :hasStartDate "2026-01-15"^^xsd:date ;
+    :hasWindowType "post_report" .
+
+idx:window_comp_Telecommunications_selected_peer_basket a :AnalysisWindow ;
+    :hasEndDate "2026-05-29"^^xsd:date ;
+    :hasStartDate "2026-01-15"^^xsd:date ;
+    :hasWindowType "post_report" .
+
+idx:currency_IDR a :Currency ;
+    :hasCurrencyCode "IDR" .
+
+idx:currency_USD a :Currency ;
+    :hasCurrencyCode "USD" .
+
+idx:observed_fx_pair a :ObservedEntity ;
+    rdfs:label "USD/IDR currency pair"@en .
+
+idx:window_comp_Jakarta_Composite_Index_JCI a :AnalysisWindow ;
+    :hasEndDate "2026-05-29"^^xsd:date ;
+    :hasStartDate "2026-01-15"^^xsd:date ;
+    :hasWindowType "post_report" .
+
+idx:sector_classifier_Banking a :IndustrySectorClassifier,
+        :ObservedEntity ;
+    rdfs:label "Banking Sector Classifier"@en ;
+    :isDefinedInIndustrySectorScheme idx:sector_scheme .
+
+idx:sector_classifier_Telecommunications a :IndustrySectorClassifier,
+        :ObservedEntity ;
+    rdfs:label "Telecommunications Sector Classifier"@en ;
+    :isDefinedInIndustrySectorScheme idx:sector_scheme .
+
+idx:market_index_benchmark a :MarketIndex,
+        :ObservedEntity ;
+    rdfs:label "Jakarta Composite Index (JCI)"@en .
+

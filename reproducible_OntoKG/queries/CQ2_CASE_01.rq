@@ -1,0 +1,11 @@
+PREFIX : <https://w3id.org/ontokg-eq#>
+# CQ2 — FX context and market behaviour.
+# Association between USD/local FX movement and company- vs benchmark-level market
+# behaviour over the window: daily-return correlations plus the FX window change.
+SELECT ?company ?fxVsCompanyCorr ?fxVsBenchmarkCorr ?fxWindowChange WHERE {
+  ?cc :isObservationOf ?company ; :hasMetricName "FX vs company return correlation" ; :hasMetricValue ?fxVsCompanyCorr .
+  ?company a :Company .
+  ?bc :hasMetricName "FX vs benchmark return correlation" ; :hasMetricValue ?fxVsBenchmarkCorr .
+  ?fx :hasMetricName "FX window change %" ; :hasMetricValue ?fxWindowChange .
+}
+ORDER BY DESC(?fxVsCompanyCorr)

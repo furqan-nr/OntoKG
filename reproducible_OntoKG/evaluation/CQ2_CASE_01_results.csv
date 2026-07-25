@@ -1,0 +1,4 @@
+qe,bundle,obs,metricName,metricValue
+https://w3id.org/ontokg-eq/demo#query_exec_cq2_1,https://w3id.org/ontokg-eq/demo#evidence_bundle_cq2_1,https://w3id.org/ontokg-eq/demo#fx_obs_pkr_usd_postreport,exchange rate,278.5
+https://w3id.org/ontokg-eq/demo#query_exec_cq2_1,https://w3id.org/ontokg-eq/demo#evidence_bundle_cq2_1,https://w3id.org/ontokg-eq/demo#market_obs_company_A_postreport,post-report return,-3.2
+https://w3id.org/ontokg-eq/demo#query_exec_cq2_1,https://w3id.org/ontokg-eq/demo#evidence_bundle_cq2_1,https://w3id.org/ontokg-eq/demo#market_obs_kse100_postreport,benchmark return,1.1

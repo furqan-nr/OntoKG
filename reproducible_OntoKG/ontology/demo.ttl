@@ -1,0 +1,424 @@
+@prefix : <https://w3id.org/ontokg-eq#> .
+@prefix core: <https://w3id.org/ontokg-eq#> .
+@prefix demo: <https://w3id.org/ontokg-eq/demo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/ontokg-eq/demo>
+    a owl:Ontology ;
+    owl:versionIRI <https://w3id.org/ontokg-eq/demo/v2.3> ;
+    owl:imports <https://w3id.org/ontokg-eq/core> ,
+                <https://w3id.org/ontokg-eq/alignment> ;
+    rdfs:label "OntoKG-EQ Demo Instances"@en ;
+    rdfs:comment "Phase 6 demonstrator instance data aligned to the revised CQ-bounded core, with explicit CQ1–CQ5 examples, time-scoped observations, evidence-linked provenance, and a lightweight traceability path."@en .
+
+#################################################################
+# Shared entities
+#################################################################
+
+demo:company_A a :Company ;
+    rdfs:label "Company A"@en ;
+    :hasCompanyIdentifier "CMP-A" ;
+    :hasCompanyName "Company A" ;
+    :isClassifiedByIndustrySector demo:sector_classifier_banking .
+
+demo:company_B a :Company ;
+    rdfs:label "Company B"@en ;
+    :hasCompanyIdentifier "CMP-B" ;
+    :hasCompanyName "Company B" ;
+    :isClassifiedByIndustrySector demo:sector_classifier_banking .
+
+demo:sector_classifier_banking a :IndustrySectorClassifier ;
+    rdfs:label "Banking Sector Classifier"@en ;
+    :isDefinedInIndustrySectorScheme demo:sector_scheme_demo .
+
+demo:sector_scheme_demo a :IndustrySectorClassificationScheme ;
+    rdfs:label "Demo Sector Scheme"@en .
+
+demo:market_index_kse100 a :MarketIndex ;
+    rdfs:label "KSE-100"@en .
+
+demo:reporting_period_2024_q4 a :ReportingPeriod ;
+    :hasStartDate "2024-10-01"^^xsd:date ;
+    :hasEndDate "2024-12-31"^^xsd:date ;
+    :hasReportDate "2025-01-31"^^xsd:date .
+
+demo:reporting_period_2025_q1 a :ReportingPeriod ;
+    :hasStartDate "2025-01-01"^^xsd:date ;
+    :hasEndDate "2025-03-31"^^xsd:date ;
+    :hasReportDate "2025-04-30"^^xsd:date .
+
+demo:analysis_window_post_report a :AnalysisWindow ;
+    :hasStartDate "2025-02-01"^^xsd:date ;
+    :hasEndDate "2025-02-10"^^xsd:date ;
+    :hasWindowType "post-report" .
+
+demo:analysis_window_relative_q1 a :AnalysisWindow ;
+    :hasStartDate "2025-02-01"^^xsd:date ;
+    :hasEndDate "2025-03-31"^^xsd:date ;
+    :hasWindowType "relative-performance" .
+
+demo:event_window_m1_p1 a :EventWindow ;
+    :hasStartDate "2025-01-30"^^xsd:date ;
+    :hasEndDate "2025-02-01"^^xsd:date ;
+    :hasWindowType "(-1,+1)" .
+
+demo:event_window_m3_p3 a :EventWindow ;
+    :hasStartDate "2025-01-28"^^xsd:date ;
+    :hasEndDate "2025-02-03"^^xsd:date ;
+    :hasWindowType "(-3,+3)" .
+
+demo:currency_PKR a :Currency ;
+    :hasCurrencyCode "PKR" .
+
+demo:currency_USD a :Currency ;
+    :hasCurrencyCode "USD" .
+
+demo:observed_fx_pair_pkr_usd a :ObservedEntity ;
+    rdfs:label "PKR/USD currency pair"@en .
+
+#################################################################
+# Publishers and source evidence items
+#################################################################
+
+demo:source_psx_official_portal a :EvidenceSource ;
+    rdfs:label "PSX Official Portal"@en ;
+    :hasSourceType "exchange portal" ;
+    :hasSourceIdentifier "PSX-PORTAL" ;
+    :hasSourceURL "https://example.org/psx/portal"^^xsd:anyURI .
+
+demo:source_sbp_data_portal a :EvidenceSource ;
+    rdfs:label "SBP Data Portal"@en ;
+    :hasSourceType "central bank data portal" ;
+    :hasSourceIdentifier "SBP-DATA" ;
+    :hasSourceURL "https://example.org/sbp/data"^^xsd:anyURI .
+
+demo:publisher_psx a :Publisher ;
+    rdfs:label "Pakistan Stock Exchange"@en .
+
+demo:publisher_sbp a :Publisher ;
+    rdfs:label "State Bank of Pakistan"@en .
+
+demo:announcement_company_A_1 a :Announcement ;
+    :hasEvidenceSource demo:source_psx_official_portal ;
+    :aboutCompany demo:company_A ;
+    :publishedBy demo:publisher_psx ;
+    :hasAssociatedDisclosure demo:disclosure_company_A_1 ;
+    :hasEvidenceIdentifier "ANN-001" ;
+    :hasEvidenceURL "https://example.org/psx/announcement/companyA-2025-01-31"^^xsd:anyURI ;
+    :hasAnnouncementType "financial results" ;
+    :hasAnnouncementDate "2025-01-31"^^xsd:date .
+
+demo:announcement_company_B_1 a :Announcement ;
+    :hasEvidenceSource demo:source_psx_official_portal ;
+    :aboutCompany demo:company_B ;
+    :publishedBy demo:publisher_psx ;
+    :hasAssociatedDisclosure demo:disclosure_company_B_1 ;
+    :hasEvidenceIdentifier "ANN-002" ;
+    :hasEvidenceURL "https://example.org/psx/announcement/companyB-2025-01-31"^^xsd:anyURI ;
+    :hasAnnouncementType "financial results" ;
+    :hasAnnouncementDate "2025-01-31"^^xsd:date .
+
+demo:disclosure_company_A_1 a :Disclosure ;
+    :hasEvidenceSource demo:source_psx_official_portal ;
+    :publishedBy demo:publisher_psx ;
+    :hasEvidenceIdentifier "DISC-001" ;
+    :hasEvidenceURL "https://example.org/disclosure/companyA-q4"^^xsd:anyURI .
+
+demo:disclosure_company_B_1 a :Disclosure ;
+    :hasEvidenceSource demo:source_psx_official_portal ;
+    :publishedBy demo:publisher_psx ;
+    :hasEvidenceIdentifier "DISC-002" ;
+    :hasEvidenceURL "https://example.org/disclosure/companyB-q4"^^xsd:anyURI .
+
+demo:disclosure_market_snapshot_post_report a :Disclosure ;
+    :hasEvidenceSource demo:source_psx_official_portal ;
+    :publishedBy demo:publisher_psx ;
+    :hasEvidenceIdentifier "MKT-POST-001" ;
+    :hasEvidenceURL "https://example.org/psx/market/post-report-window"^^xsd:anyURI .
+
+demo:disclosure_market_snapshot_relative_q1 a :Disclosure ;
+    :hasEvidenceSource demo:source_psx_official_portal ;
+    :publishedBy demo:publisher_psx ;
+    :hasEvidenceIdentifier "MKT-Q1-001" ;
+    :hasEvidenceURL "https://example.org/psx/market/relative-q1-window"^^xsd:anyURI .
+
+demo:disclosure_sbp_fx_2025_02_10 a :Disclosure ;
+    :hasEvidenceSource demo:source_sbp_data_portal ;
+    :publishedBy demo:publisher_sbp ;
+    :hasEvidenceIdentifier "FX-001" ;
+    :hasEvidenceURL "https://example.org/sbp/fx/pkr-usd-2025-02-10"^^xsd:anyURI .
+
+#################################################################
+# Provenance records
+#################################################################
+
+demo:prov_company_A_disclosure a :ProvenanceRecord ;
+    :derivedFrom demo:disclosure_company_A_1 ;
+    :hasExtractionDate "2025-02-10T10:15:00"^^xsd:dateTime ;
+    :hasRetrievalDate "2025-02-10T10:30:00"^^xsd:dateTime .
+
+demo:prov_company_B_disclosure a :ProvenanceRecord ;
+    :derivedFrom demo:disclosure_company_B_1 ;
+    :hasExtractionDate "2025-02-10T10:20:00"^^xsd:dateTime ;
+    :hasRetrievalDate "2025-02-10T10:35:00"^^xsd:dateTime .
+
+demo:prov_market_post_report a :ProvenanceRecord ;
+    :derivedFrom demo:disclosure_market_snapshot_post_report ;
+    :hasExtractionDate "2025-02-10T10:40:00"^^xsd:dateTime ;
+    :hasRetrievalDate "2025-02-10T10:45:00"^^xsd:dateTime .
+
+demo:prov_market_relative_q1 a :ProvenanceRecord ;
+    :derivedFrom demo:disclosure_market_snapshot_relative_q1 ;
+    :hasExtractionDate "2025-03-31T16:00:00"^^xsd:dateTime ;
+    :hasRetrievalDate "2025-03-31T16:05:00"^^xsd:dateTime .
+
+demo:prov_fx_2025_02_10 a :ProvenanceRecord ;
+    :derivedFrom demo:disclosure_sbp_fx_2025_02_10 ;
+    :hasExtractionDate "2025-02-10T11:00:00"^^xsd:dateTime ;
+    :hasRetrievalDate "2025-02-10T11:05:00"^^xsd:dateTime .
+
+demo:prov_announcement_company_A_1 a :ProvenanceRecord ;
+    :derivedFrom demo:announcement_company_A_1 ;
+    :hasExtractionDate "2025-02-10T11:10:00"^^xsd:dateTime ;
+    :hasRetrievalDate "2025-02-10T11:15:00"^^xsd:dateTime .
+
+#################################################################
+# CQ1 observations: fundamentals vs post-report market response
+#################################################################
+
+demo:fund_obs_company_A_q4 a :FundamentalObservation ;
+    :isObservationOf demo:company_A ;
+    :observedInPeriod demo:reporting_period_2024_q4 ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue "12.4"^^xsd:decimal ;
+    :hasObservationDate "2025-01-31"^^xsd:date ;
+    :supportedByEvidenceItem demo:disclosure_company_A_1 ;
+    :hasValidationStatus demo:validation_passed ;
+    :hasProvenanceRecord demo:prov_company_A_disclosure .
+
+demo:fund_obs_company_B_q4 a :FundamentalObservation ;
+    :isObservationOf demo:company_B ;
+    :observedInPeriod demo:reporting_period_2024_q4 ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue "7.1"^^xsd:decimal ;
+    :hasObservationDate "2025-01-31"^^xsd:date ;
+    :supportedByEvidenceItem demo:disclosure_company_B_1 ;
+    :hasValidationStatus demo:validation_passed ;
+    :hasProvenanceRecord demo:prov_company_B_disclosure .
+
+demo:market_obs_company_A_postreport a :MarketObservation ;
+    :isObservationOf demo:company_A ;
+    :observedOverWindow demo:analysis_window_post_report ;
+    :hasMetricName "post-report return" ;
+    :hasMetricValue "-3.2"^^xsd:decimal ;
+    :hasObservationDate "2025-02-10"^^xsd:date ;
+    :supportedByEvidenceItem demo:disclosure_market_snapshot_post_report ;
+    :hasValidationStatus demo:validation_passed ;
+    :hasProvenanceRecord demo:prov_market_post_report .
+
+demo:market_obs_company_B_postreport a :MarketObservation ;
+    :isObservationOf demo:company_B ;
+    :observedOverWindow demo:analysis_window_post_report ;
+    :hasMetricName "post-report return" ;
+    :hasMetricValue "2.4"^^xsd:decimal ;
+    :hasObservationDate "2025-02-10"^^xsd:date ;
+    :supportedByEvidenceItem demo:disclosure_market_snapshot_post_report ;
+    :hasValidationStatus demo:validation_passed ;
+    :hasProvenanceRecord demo:prov_market_post_report .
+
+demo:market_obs_sector_banking_postreport a :MarketObservation ;
+    :isObservationOf demo:sector_classifier_banking ;
+    :observedOverWindow demo:analysis_window_post_report ;
+    :hasMetricName "sector return" ;
+    :hasMetricValue "0.8"^^xsd:decimal ;
+    :hasObservationDate "2025-02-10"^^xsd:date ;
+    :supportedByEvidenceItem demo:disclosure_market_snapshot_post_report ;
+    :hasProvenanceRecord demo:prov_market_post_report .
+
+demo:market_obs_kse100_postreport a :MarketObservation ;
+    :isObservationOf demo:market_index_kse100 ;
+    :observedOverWindow demo:analysis_window_post_report ;
+    :hasMetricName "benchmark return" ;
+    :hasMetricValue "1.1"^^xsd:decimal ;
+    :hasObservationDate "2025-02-10"^^xsd:date ;
+    :supportedByEvidenceItem demo:disclosure_market_snapshot_post_report ;
+    :hasProvenanceRecord demo:prov_market_post_report .
+
+#################################################################
+# CQ2 observation: FX context over predefined window
+#################################################################
+
+demo:fx_obs_pkr_usd_postreport a :ExchangeRateObservation ;
+    :isObservationOf demo:observed_fx_pair_pkr_usd ;
+    :hasBaseCurrency demo:currency_PKR ;
+    :hasDealtCurrency demo:currency_USD ;
+    :observedOverWindow demo:analysis_window_post_report ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue "278.5"^^xsd:decimal ;
+    :hasObservationDate "2025-02-10"^^xsd:date ;
+    :supportedByEvidenceItem demo:disclosure_sbp_fx_2025_02_10 ;
+    :hasValidationStatus demo:validation_passed ;
+    :hasProvenanceRecord demo:prov_fx_2025_02_10 .
+
+#################################################################
+# CQ3 observations: relative outperformance vs sector and benchmark
+#################################################################
+
+demo:market_obs_company_A_relative_q1 a :MarketObservation ;
+    :isObservationOf demo:company_A ;
+    :observedOverWindow demo:analysis_window_relative_q1 ;
+    :hasMetricName "window return" ;
+    :hasMetricValue "4.8"^^xsd:decimal ;
+    :hasObservationDate "2025-03-31"^^xsd:date ;
+    :supportedByEvidenceItem demo:disclosure_market_snapshot_relative_q1 ;
+    :hasProvenanceRecord demo:prov_market_relative_q1 .
+
+demo:market_obs_company_B_relative_q1 a :MarketObservation ;
+    :isObservationOf demo:company_B ;
+    :observedOverWindow demo:analysis_window_relative_q1 ;
+    :hasMetricName "window return" ;
+    :hasMetricValue "1.2"^^xsd:decimal ;
+    :hasObservationDate "2025-03-31"^^xsd:date ;
+    :supportedByEvidenceItem demo:disclosure_market_snapshot_relative_q1 ;
+    :hasProvenanceRecord demo:prov_market_relative_q1 .
+
+demo:market_obs_sector_banking_relative_q1 a :MarketObservation ;
+    :isObservationOf demo:sector_classifier_banking ;
+    :observedOverWindow demo:analysis_window_relative_q1 ;
+    :hasMetricName "sector return" ;
+    :hasMetricValue "2.1"^^xsd:decimal ;
+    :hasObservationDate "2025-03-31"^^xsd:date ;
+    :supportedByEvidenceItem demo:disclosure_market_snapshot_relative_q1 ;
+    :hasProvenanceRecord demo:prov_market_relative_q1 .
+
+demo:market_obs_kse100_relative_q1 a :MarketObservation ;
+    :isObservationOf demo:market_index_kse100 ;
+    :observedOverWindow demo:analysis_window_relative_q1 ;
+    :hasMetricName "benchmark return" ;
+    :hasMetricValue "1.5"^^xsd:decimal ;
+    :hasObservationDate "2025-03-31"^^xsd:date ;
+    :supportedByEvidenceItem demo:disclosure_market_snapshot_relative_q1 ;
+    :hasProvenanceRecord demo:prov_market_relative_q1 .
+
+#################################################################
+# CQ4 observations: event-window market reaction around official announcement
+#################################################################
+
+demo:market_obs_company_A_event_return a :MarketObservation ;
+    :isObservationOf demo:company_A ;
+    :observedInEventWindow demo:event_window_m1_p1 ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue "5.4"^^xsd:decimal ;
+    :hasObservationDate "2025-02-01"^^xsd:date ;
+    :supportedByEvidenceItem demo:announcement_company_A_1 ;
+    :hasValidationStatus demo:validation_passed ;
+    :hasProvenanceRecord demo:prov_announcement_company_A_1 .
+
+demo:market_obs_company_A_event_volume a :MarketObservation ;
+    :isObservationOf demo:company_A ;
+    :observedInEventWindow demo:event_window_m3_p3 ;
+    :hasMetricName "abnormal trading volume" ;
+    :hasMetricValue "18.0"^^xsd:decimal ;
+    :hasObservationDate "2025-02-03"^^xsd:date ;
+    :supportedByEvidenceItem demo:announcement_company_A_1 ;
+    :hasProvenanceRecord demo:prov_announcement_company_A_1 .
+
+#################################################################
+# Evidence bundles
+#################################################################
+
+demo:evidence_bundle_cq1_1 a :EvidenceBundle ;
+    :hasValidationStatus demo:validation_passed ;
+    :explainsResultEntity demo:company_A ;
+    :includesObservation demo:fund_obs_company_A_q4 ,
+                         demo:fund_obs_company_B_q4 ,
+                         demo:market_obs_company_A_postreport ,
+                         demo:market_obs_company_B_postreport ,
+                         demo:market_obs_kse100_postreport ;
+    :containsEvidenceItem demo:disclosure_company_A_1 ,
+                          demo:disclosure_company_B_1 ,
+                          demo:disclosure_market_snapshot_post_report .
+
+demo:evidence_bundle_cq2_1 a :EvidenceBundle ;
+    :hasValidationStatus demo:validation_passed ;
+    :explainsResultEntity demo:company_A ;
+    :includesObservation demo:fx_obs_pkr_usd_postreport ,
+                         demo:market_obs_company_A_postreport ,
+                         demo:market_obs_kse100_postreport ;
+    :containsEvidenceItem demo:disclosure_sbp_fx_2025_02_10 ,
+                          demo:disclosure_market_snapshot_post_report .
+
+demo:evidence_bundle_cq3_1 a :EvidenceBundle ;
+    :hasValidationStatus demo:validation_passed ;
+    :explainsResultEntity demo:company_A ;
+    :includesObservation demo:market_obs_company_A_relative_q1 ,
+                         demo:market_obs_sector_banking_relative_q1 ,
+                         demo:market_obs_kse100_relative_q1 ;
+    :containsEvidenceItem demo:disclosure_market_snapshot_relative_q1 .
+
+demo:evidence_bundle_cq4_1 a :EvidenceBundle ;
+    :hasValidationStatus demo:validation_passed ;
+    :explainsResultEntity demo:company_A ;
+    :includesObservation demo:market_obs_company_A_event_return ,
+                         demo:market_obs_company_A_event_volume ;
+    :containsEvidenceItem demo:announcement_company_A_1 ,
+                          demo:disclosure_company_A_1 .
+
+demo:evidence_bundle_cq5_1 a :EvidenceBundle ;
+    :hasValidationStatus demo:validation_passed ;
+    :explainsResultEntity demo:company_A ;
+    :includesObservation demo:market_obs_company_A_relative_q1 ,
+                         demo:market_obs_sector_banking_relative_q1 ,
+                         demo:market_obs_kse100_relative_q1 ,
+                         demo:market_obs_company_A_event_return ;
+    :containsEvidenceItem demo:disclosure_market_snapshot_relative_q1 ,
+                          demo:announcement_company_A_1 ,
+                          demo:disclosure_company_A_1 .
+
+#################################################################
+# Validation status
+#################################################################
+
+demo:validation_passed a :ValidationStatus ;
+    :hasValidationFlag "passed" .
+
+
+#################################################################
+# Query executions
+#################################################################
+
+demo:query_exec_cq1_1 a :QueryExecution ;
+    :usesMarketIndexBenchmark demo:market_index_kse100 ;
+    :hasEvidenceBundle demo:evidence_bundle_cq1_1 ;
+    :hasQueryFamilyIdentifier "CQ1" ;
+    :hasQueryInstanceIdentifier "CQ1-001" ;
+    :hasParameterValues "reportingPeriod=2024Q4; comparisonCompanies=company_A,company_B; benchmark=KSE100; window=post-report" .
+
+demo:query_exec_cq2_1 a :QueryExecution ;
+    :usesMarketIndexBenchmark demo:market_index_kse100 ;
+    :hasEvidenceBundle demo:evidence_bundle_cq2_1 ;
+    :hasQueryFamilyIdentifier "CQ2" ;
+    :hasQueryInstanceIdentifier "CQ2-001" ;
+    :hasParameterValues "currencyPair=PKR/USD; targetLevel=company; targetEntity=company_A; window=2025-02-01_to_2025-02-10" .
+
+demo:query_exec_cq3_1 a :QueryExecution ;
+    :usesMarketIndexBenchmark demo:market_index_kse100 ;
+    :hasEvidenceBundle demo:evidence_bundle_cq3_1 ;
+    :hasQueryFamilyIdentifier "CQ3" ;
+    :hasQueryInstanceIdentifier "CQ3-001" ;
+    :hasParameterValues "targetEntity=company_A; sectorComparator=banking; benchmark=KSE100; window=2025Q1" .
+
+demo:query_exec_cq4_1 a :QueryExecution ;
+    :hasEvidenceBundle demo:evidence_bundle_cq4_1 ;
+    :hasQueryFamilyIdentifier "CQ4" ;
+    :hasQueryInstanceIdentifier "CQ4-001" ;
+    :hasParameterValues "targetEntity=company_A; eventWindow1=(-1,+1); eventWindow2=(-3,+3); announcementDate=2025-01-31" .
+
+demo:query_exec_cq5_1 a :QueryExecution ;
+    :hasEvidenceBundle demo:evidence_bundle_cq5_1 ;
+    :hasQueryFamilyIdentifier "CQ5" ;
+    :hasQueryInstanceIdentifier "CQ5-001" ;
+    :hasParameterValues "targetQueryInstance=CQ3-001; targetEntity=company_A; explanationFocus=outperformance-and-supporting-event-evidence" .

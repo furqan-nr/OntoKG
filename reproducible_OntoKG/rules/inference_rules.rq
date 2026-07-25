@@ -1,0 +1,68 @@
+# OntoKG-EQ inference rules (A4). Applied by infer_and_explain.py.
+# Each rule derives an :AnalyticalFinding from observation-level metrics.
+
+# ---- R1  (CQ1: fundamentals-market-divergence) ----
+PREFIX : <https://w3id.org/ontokg-eq#>
+CONSTRUCT {
+  ?f a :AnalyticalFinding ; :hasFindingType "fundamentals-market-divergence" ;
+     :derivedByRule "R1" ; :forCompetencyQuestion "CQ1" ;
+     :concernsEntity ?company ; :supportedByObservation ?fg, ?cr, ?br .
+} WHERE {
+  ?fg :isObservationOf ?company ; :hasMetricName "YoY profit growth %" ; :hasMetricValue ?g .
+  ?company a :Company .
+  ?cr :isObservationOf ?company ; :hasMetricName "post-report window return %" ;
+      :hasMetricValue ?cret ; :observedOverWindow ?w .
+  ?br :isObservationOf ?bm ; :hasMetricName "benchmark window return %" ;
+      :hasMetricValue ?bret ; :observedOverWindow ?w .
+  ?bm a :MarketIndex .
+  FILTER(?g > 0 && ?cret < ?bret)
+  BIND(IRI(CONCAT(STR(?company), "_finding_R1")) AS ?f)
+}
+
+# ---- R2  (CQ2: fx-sensitive) ----
+PREFIX : <https://w3id.org/ontokg-eq#>
+CONSTRUCT {
+  ?f a :AnalyticalFinding ; :hasFindingType "fx-sensitive" ;
+     :derivedByRule "R2" ; :forCompetencyQuestion "CQ2" ;
+     :concernsEntity ?company ; :supportedByObservation ?cc .
+} WHERE {
+  ?cc :isObservationOf ?company ; :hasMetricName "FX vs company return correlation" ; :hasMetricValue ?r .
+  ?company a :Company .
+  FILTER(ABS(?r) >= 0.3)
+  BIND(IRI(CONCAT(STR(?company), "_finding_R2")) AS ?f)
+}
+
+# ---- R3  (CQ3: relative-outperformer) ----
+PREFIX : <https://w3id.org/ontokg-eq#>
+CONSTRUCT {
+  ?f a :AnalyticalFinding ; :hasFindingType "relative-outperformer" ;
+     :derivedByRule "R3" ; :forCompetencyQuestion "CQ3" ;
+     :concernsEntity ?company ; :supportedByObservation ?cr, ?sr, ?br .
+} WHERE {
+  ?cr :isObservationOf ?company ; :hasMetricName "post-report window return %" ;
+      :hasMetricValue ?cret ; :observedOverWindow ?w .
+  ?company a :Company ; :isClassifiedByIndustrySector ?sector .
+  ?sr :isObservationOf ?sector ; :hasMetricName "sector window return %" ;
+      :hasMetricValue ?sret ; :observedOverWindow ?w .
+  ?br :isObservationOf ?bm ; :hasMetricName "benchmark window return %" ;
+      :hasMetricValue ?bret ; :observedOverWindow ?w .
+  ?bm a :MarketIndex .
+  FILTER(?cret > ?sret && ?cret > ?bret)
+  BIND(IRI(CONCAT(STR(?company), "_finding_R3")) AS ?f)
+}
+
+# ---- R4  (CQ4: abnormal-event-reaction) ----
+PREFIX : <https://w3id.org/ontokg-eq#>
+CONSTRUCT {
+  ?f a :AnalyticalFinding ; :hasFindingType "abnormal-event-reaction" ;
+     :derivedByRule "R4" ; :forCompetencyQuestion "CQ4" ;
+     :concernsEntity ?company ; :supportedByObservation ?ar .
+} WHERE {
+  ?ar :isObservationOf ?company ; :hasMetricName "cumulative abnormal return %" ;
+      :hasMetricValue ?car ; :observedInEventWindow ?ew .
+  OPTIONAL { ?vr :isObservationOf ?company ; :hasMetricName "abnormal volume ratio" ;
+             :hasMetricValue ?vol ; :observedInEventWindow ?ew . }
+  FILTER(ABS(?car) >= 2.0 || COALESCE(?vol, 0) >= 1.5)
+  BIND(IRI(CONCAT(STR(?ew), "_finding_R4")) AS ?f)
+}
+

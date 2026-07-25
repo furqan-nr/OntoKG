@@ -1,0 +1,46 @@
+@prefix :    <https://w3id.org/ontokg-eq#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+# ============================================================================
+# OntoKG-EQ inference layer vocabulary (LAYERED EXTENSION, not the frozen core).
+# Every term is justified by a competency question. These terms describe DERIVED,
+# evidence-linked classifications produced by the inference rules in
+# rules/inference_rules.rq and materialized by infer_and_explain.py.
+# ============================================================================
+
+<https://w3id.org/ontokg-eq/rules>
+    a owl:Ontology ;
+    owl:imports <https://w3id.org/ontokg-eq/core> ;
+    rdfs:label "OntoKG-EQ Inference / Findings Vocabulary"@en ;
+    rdfs:comment "CQ-justified layer for derived analytical findings and their explanation links."@en .
+
+:AnalyticalFinding a owl:Class ;
+    rdfs:label "Analytical Finding"@en ;
+    rdfs:comment "A derived, evidence-linked classification produced by an inference rule from observation-level metrics (CQ1-CQ4). A finding is itself explainable: it points back to the observations that triggered it."@en .
+
+:hasFindingType a owl:DatatypeProperty ;
+    rdfs:domain :AnalyticalFinding ; rdfs:range xsd:string ;
+    rdfs:label "has finding type"@en ;
+    rdfs:comment "The derived classification label, e.g. relative-outperformer, fundamentals-market-divergence, abnormal-event-reaction, fx-sensitive."@en .
+
+:derivedByRule a owl:DatatypeProperty ;
+    rdfs:domain :AnalyticalFinding ; rdfs:range xsd:string ;
+    rdfs:label "derived by rule"@en ;
+    rdfs:comment "Identifier of the inference rule that produced the finding (provenance of the derivation)."@en .
+
+:forCompetencyQuestion a owl:DatatypeProperty ;
+    rdfs:domain :AnalyticalFinding ; rdfs:range xsd:string ;
+    rdfs:label "for competency question"@en ;
+    rdfs:comment "The CQ family the finding answers (CQ1-CQ4)."@en .
+
+:concernsEntity a owl:ObjectProperty ;
+    rdfs:domain :AnalyticalFinding ; rdfs:range owl:Thing ;
+    rdfs:label "concerns entity"@en ;
+    rdfs:comment "The result entity (company) the finding is about."@en .
+
+:supportedByObservation a owl:ObjectProperty ;
+    rdfs:domain :AnalyticalFinding ; rdfs:range :Observation ;
+    rdfs:label "supported by observation"@en ;
+    rdfs:comment "The observation(s) whose metric values triggered the rule, giving the finding its evidence trail."@en .

@@ -1,0 +1,4 @@
+entity,observation,metricName,metricValue,evidenceItem,evidenceSource
+company_IDX_CO_BRIS,derived_bench_return_IDX_CO_BRIS,benchmark window return %,-19.378946,evid_IDX_EVID_BRIS,source_IDX_SRC_BRIS
+company_IDX_CO_BRIS,derived_fund_growth_IDX_CO_BRIS,YoY profit growth %,8.0166,evid_IDX_EVID_BRIS,source_IDX_SRC_BRIS
+company_IDX_CO_BRIS,derived_post_return_IDX_CO_BRIS,post-report window return %,-17.517627,evid_IDX_EVID_BRIS,source_IDX_SRC_BRIS

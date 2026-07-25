@@ -1,0 +1,70 @@
+@prefix core: <https://w3id.org/ontokg-eq#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<https://w3id.org/ontokg-eq/alignment>
+    a owl:Ontology ;
+    owl:versionIRI <https://w3id.org/ontokg-eq/alignment/v2.3> ;
+    owl:imports <https://w3id.org/ontokg-eq/core> ;
+    rdfs:label "OntoKG-EQ Alignment Layer"@en ;
+    rdfs:comment "Useful weak alignments from the CQ-bounded OntoKG-EQ core to selected FIBO and PROV-O concepts."@en .
+
+#################################################################
+# Class alignments
+#################################################################
+
+core:Company
+    skos:closeMatch <https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/FormalBusinessOrganization> ;
+    rdfs:seeAlso <https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/> .
+
+core:IndustrySectorClassifier
+    skos:closeMatch <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/IndustrySectorClassifier> .
+
+core:IndustrySectorClassificationScheme
+    skos:closeMatch <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/IndustrySectorClassificationScheme> .
+
+core:MarketIndex
+    skos:closeMatch <https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/BasketIndices/MarketIndex> ;
+    rdfs:seeAlso <https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/BasketIndices/> .
+
+core:ExchangeRateObservation
+    skos:closeMatch <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ExchangeRate> .
+
+core:Currency
+    skos:exactMatch <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency> .
+
+core:Publisher
+    skos:closeMatch <https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/Publishers/Publisher> .
+
+core:ProvenanceRecord
+    skos:closeMatch prov:Entity ;
+    rdfs:seeAlso prov:Entity .
+
+core:EvidenceSource
+    skos:closeMatch prov:Entity ;
+    rdfs:seeAlso prov:Entity .
+
+#################################################################
+# Property alignments
+#################################################################
+
+core:hasBaseCurrency
+    skos:closeMatch <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasBaseCurrency> .
+
+core:hasDealtCurrency
+    skos:closeMatch <https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasDealtCurrency> .
+
+core:publishedBy
+    skos:closeMatch <https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/Publishers/hasPublisher> .
+
+core:derivedFrom
+    rdfs:subPropertyOf prov:wasDerivedFrom ;
+    skos:closeMatch prov:wasDerivedFrom ;
+    rdfs:comment "Maps the local core provenance relation to PROV-O derivation semantics."@en .
+
+core:hasEvidenceSource
+    rdfs:subPropertyOf prov:hadPrimarySource ;
+    skos:closeMatch prov:hadPrimarySource ;
+    rdfs:comment "Maps the local evidence-source relation to PROV-O primary-source semantics."@en .

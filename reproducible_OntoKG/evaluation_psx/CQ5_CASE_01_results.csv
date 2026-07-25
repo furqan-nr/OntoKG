@@ -1,0 +1,4 @@
+entity,observation,metricName,metricValue,evidenceItem,evidenceSource
+company_2,derived_bench_return_2,benchmark window return %,-15.549857,evid_2,source_19
+company_2,derived_fund_growth_2,YoY profit growth %,13.645345,evid_2,source_19
+company_2,derived_post_return_2,post-report window return %,-14.201368,evid_2,source_19

@@ -1,0 +1,4 @@
+entity,observation,metricName,metricValue,evidenceItem,evidenceSource
+company_IDX_CO_BBCA,derived_bench_return_IDX_CO_BBCA,benchmark window return %,-19.021998,evid_IDX_EVID_BBCA_AR2025,source_IDX_SRC_BBCA_DISCLOSURE
+company_IDX_CO_BBCA,derived_fund_growth_IDX_CO_BBCA,YoY profit growth %,4.93,evid_IDX_EVID_BBCA_AR2025,source_IDX_SRC_BBCA_DISCLOSURE
+company_IDX_CO_BBCA,derived_post_return_IDX_CO_BBCA,post-report window return %,-9.657818,evid_IDX_EVID_BBCA_AR2025,source_IDX_SRC_BBCA_DISCLOSURE

@@ -1,0 +1,11 @@
+# Core reproduction (Python 3.10+)
+rdflib>=7.0
+pyshacl>=0.25
+openpyxl>=3.1
+pandas>=2.0
+pyoxigraph>=0.4          # triplestore + scaling benchmarks
+# LLM evidence-to-text faithfulness panel (run on a GPU / Kaggle)
+transformers>=4.44
+accelerate
+bitsandbytes
+sentencepiece

@@ -1,0 +1,258 @@
+@prefix shape: <https://w3id.org/ontokg-eq/shapes#> .
+@prefix core: <https://w3id.org/ontokg-eq#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/ontokg-eq/shapes>
+    a owl:Ontology ;
+    owl:versionIRI <https://w3id.org/ontokg-eq/shapes/v2.3> ;
+    owl:imports <https://w3id.org/ontokg-eq/core> ;
+    rdfs:label "OntoKG-EQ SHACL Shapes"@en ;
+    rdfs:comment "Minimum SHACL validation for the revised CQ-bounded Phase 6 core."@en .
+
+#################################################################
+# Company
+#################################################################
+
+shape:CompanyShape
+    a sh:NodeShape ;
+    sh:targetClass core:Company ;
+    sh:property [
+        sh:path core:hasCompanyIdentifier ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path core:hasCompanyName ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] .
+
+#################################################################
+# Observation core
+#################################################################
+
+shape:ObservationShape
+    a sh:NodeShape ;
+    sh:targetClass core:Observation ;
+    sh:property [
+        sh:path core:hasMetricName ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path core:hasMetricValue ;
+        sh:datatype xsd:decimal ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] ;
+    sh:or (
+        [ sh:property [ sh:path core:hasObservationDate ; sh:datatype xsd:date ; sh:minCount 1 ; sh:maxCount 1 ] ]
+        [ sh:property [ sh:path core:observedInPeriod ; sh:class core:ReportingPeriod ; sh:minCount 1 ; sh:maxCount 1 ] ]
+        [ sh:property [ sh:path core:observedOverWindow ; sh:class core:AnalysisWindow ; sh:minCount 1 ; sh:maxCount 1 ] ]
+        [ sh:property [ sh:path core:observedInEventWindow ; sh:class core:EventWindow ; sh:minCount 1 ; sh:maxCount 1 ] ]
+    ) .
+
+shape:FundamentalObservationShape
+    a sh:NodeShape ;
+    sh:targetClass core:FundamentalObservation ;
+    sh:property [
+        sh:path core:isObservationOf ;
+        sh:class core:Company ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path core:observedInPeriod ;
+        sh:class core:ReportingPeriod ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] .
+
+shape:MarketObservationShape
+    a sh:NodeShape ;
+    sh:targetClass core:MarketObservation ;
+    sh:property [
+        sh:path core:isObservationOf ;
+        sh:class core:ObservedEntity ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] ;
+    sh:or (
+        [ sh:property [ sh:path core:observedOverWindow ; sh:class core:AnalysisWindow ; sh:minCount 1 ; sh:maxCount 1 ] ]
+        [ sh:property [ sh:path core:observedInEventWindow ; sh:class core:EventWindow ; sh:minCount 1 ; sh:maxCount 1 ] ]
+    ) .
+
+shape:ExchangeRateObservationShape
+    a sh:NodeShape ;
+    sh:targetClass core:ExchangeRateObservation ;
+    sh:property [
+        sh:path core:hasBaseCurrency ;
+        sh:class core:Currency ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path core:hasDealtCurrency ;
+        sh:class core:Currency ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] .
+
+#################################################################
+# Reporting periods and windows
+#################################################################
+
+shape:ReportingPeriodShape
+    a sh:NodeShape ;
+    sh:targetClass core:ReportingPeriod ;
+    sh:property [
+        sh:path core:hasStartDate ;
+        sh:datatype xsd:date ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path core:hasEndDate ;
+        sh:datatype xsd:date ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] .
+
+shape:AnalysisWindowShape
+    a sh:NodeShape ;
+    sh:targetClass core:AnalysisWindow ;
+    sh:property [
+        sh:path core:hasStartDate ;
+        sh:datatype xsd:date ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path core:hasEndDate ;
+        sh:datatype xsd:date ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path core:hasWindowType ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] .
+
+shape:EventWindowShape
+    a sh:NodeShape ;
+    sh:targetClass core:EventWindow ;
+    sh:property [
+        sh:path core:hasStartDate ;
+        sh:datatype xsd:date ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path core:hasEndDate ;
+        sh:datatype xsd:date ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path core:hasWindowType ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] .
+
+#################################################################
+# Evidence and explainability
+#################################################################
+
+shape:EvidenceItemSourceShape
+    a sh:NodeShape ;
+    sh:targetClass core:EvidenceItem ;
+    sh:property [
+        sh:path core:hasEvidenceSource ;
+        sh:class core:EvidenceSource ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] .
+
+shape:AnnouncementShape
+    a sh:NodeShape ;
+    sh:targetClass core:Announcement ;
+    sh:property [
+        sh:path core:aboutCompany ;
+        sh:class core:Company ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path core:hasAnnouncementDate ;
+        sh:datatype xsd:date ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] .
+
+shape:EvidenceSourceShape
+    a sh:NodeShape ;
+    sh:targetClass core:EvidenceSource ;
+    sh:or (
+        [ sh:property [ sh:path core:hasSourceIdentifier ; sh:datatype xsd:string ; sh:minCount 1 ; sh:maxCount 1 ] ]
+        [ sh:property [ sh:path core:hasSourceURL ; sh:datatype xsd:anyURI ; sh:minCount 1 ; sh:maxCount 1 ] ]
+    ) .
+
+shape:ProvenanceRecordShape
+    a sh:NodeShape ;
+    sh:targetClass core:ProvenanceRecord ;
+    sh:or (
+        [ sh:property [ sh:path core:hasExtractionDate ; sh:datatype xsd:dateTime ; sh:minCount 1 ; sh:maxCount 1 ] ]
+        [ sh:property [ sh:path core:hasRetrievalDate ; sh:datatype xsd:dateTime ; sh:minCount 1 ; sh:maxCount 1 ] ]
+    ) .
+
+shape:ValidationStatusShape
+    a sh:NodeShape ;
+    sh:targetClass core:ValidationStatus ;
+    sh:property [
+        sh:path core:hasValidationFlag ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] .
+
+shape:EvidenceBundleShape
+    a sh:NodeShape ;
+    sh:targetClass core:EvidenceBundle ;
+    sh:property [
+        sh:path core:explainsResultEntity ;
+        sh:minCount 1
+    ] ;
+    sh:or (
+        [ sh:property [ sh:path core:includesObservation ; sh:class core:Observation ; sh:minCount 1 ] ]
+        [ sh:property [ sh:path core:containsEvidenceItem ; sh:class core:EvidenceItem ; sh:minCount 1 ] ]
+    ) .
+
+shape:QueryExecutionShape
+    a sh:NodeShape ;
+    sh:targetClass core:QueryExecution ;
+    sh:property [
+        sh:path core:hasQueryFamilyIdentifier ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path core:hasQueryInstanceIdentifier ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path core:hasEvidenceBundle ;
+        sh:class core:EvidenceBundle ;
+        sh:minCount 1
+    ] .

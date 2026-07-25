@@ -1,0 +1,5 @@
+company_symbol,announcement_date,anchor_trade_date,pre_trading_days,post_trading_days,required_pre,required_post,status
+BBCA,2026-01-27,2026-01-27,7,75,5,35,COMPLETE
+BMRI,2026-02-06,2026-02-06,15,67,5,35,COMPLETE
+ISAT,2026-02-09,2026-02-09,16,66,5,35,COMPLETE
+TOWR,2026-03-18,2026-03-25,41,41,5,35,COMPLETE

@@ -1,0 +1,345 @@
+@prefix : <https://w3id.org/ontokg-eq#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/ontokg-eq/core>
+    rdf:type owl:Ontology ;
+    owl:versionIRI <https://w3id.org/ontokg-eq/core/v2.3> ;
+    rdfs:label "OntoKG-EQ Core Ontology"@en ;
+    rdfs:comment "CQ-driven, provenance-aware core ontology for explainable stock analysis in emerging-market settings. Supports evidence-linked analytical querying over company fundamentals, market observations, market-index comparison, exchange-rate context, official announcements/disclosures, and explicit temporal/provenance context."@en .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+:aboutCompany rdf:type owl:ObjectProperty ;
+    rdfs:domain :Announcement ;
+    rdfs:range :Company ;
+    rdfs:label "about company"@en .
+
+:containsEvidenceItem rdf:type owl:ObjectProperty ;
+    rdfs:domain :EvidenceBundle ;
+    rdfs:range :EvidenceItem ;
+    rdfs:label "contains evidence item"@en .
+
+:derivedFrom rdf:type owl:ObjectProperty ;
+    rdfs:domain :ProvenanceRecord ;
+    rdfs:range :EvidenceItem ;
+    rdfs:comment "Links a provenance record to the evidence item from which it is derived."@en ;
+    rdfs:label "derived from"@en .
+
+:explainsResultEntity rdf:type owl:ObjectProperty ;
+    rdfs:domain :EvidenceBundle ;
+    rdfs:range owl:Thing ;
+    rdfs:label "explains result entity"@en .
+
+:hasAssociatedDisclosure rdf:type owl:ObjectProperty ;
+    rdfs:domain :Announcement ;
+    rdfs:range :Disclosure ;
+    rdfs:label "has associated disclosure"@en .
+
+:hasBaseCurrency rdf:type owl:ObjectProperty ;
+    rdfs:domain :ExchangeRateObservation ;
+    rdfs:range :Currency ;
+    rdfs:label "has base currency"@en .
+
+:hasDealtCurrency rdf:type owl:ObjectProperty ;
+    rdfs:domain :ExchangeRateObservation ;
+    rdfs:range :Currency ;
+    rdfs:label "has dealt currency"@en .
+
+:hasEvidenceBundle rdf:type owl:ObjectProperty ;
+    owl:inverseOf :isEvidenceBundleFor ;
+    rdfs:domain :QueryExecution ;
+    rdfs:range :EvidenceBundle ;
+    rdfs:label "has evidence bundle"@en .
+
+:hasEvidenceSource rdf:type owl:ObjectProperty ;
+    rdfs:domain :EvidenceItem ;
+    rdfs:range :EvidenceSource ;
+    rdfs:comment "Links an evidence item to the official source system or repository from which it was retrieved."@en ;
+    rdfs:label "has evidence source"@en .
+
+:hasProvenanceRecord rdf:type owl:ObjectProperty ;
+    rdfs:range :ProvenanceRecord ;
+    rdfs:comment "Reusable provenance link intended for observations, evidence items, and explanation bundles."@en ;
+    rdfs:label "has provenance record"@en .
+
+:hasValidationStatus rdf:type owl:ObjectProperty ;
+    rdfs:range :ValidationStatus ;
+    rdfs:comment "Reusable validation-status link intended for observations, evidence items, and explanation bundles."@en ;
+    rdfs:label "has validation status"@en .
+
+:includesObservation rdf:type owl:ObjectProperty ;
+    rdfs:domain :EvidenceBundle ;
+    rdfs:range :Observation ;
+    rdfs:label "includes observation"@en .
+
+:isClassifiedByIndustrySector rdf:type owl:ObjectProperty ;
+    rdfs:domain :Company ;
+    rdfs:range :IndustrySectorClassifier ;
+    rdfs:label "is classified by industry sector"@en .
+
+:isDefinedInIndustrySectorScheme rdf:type owl:ObjectProperty ;
+    rdfs:domain :IndustrySectorClassifier ;
+    rdfs:range :IndustrySectorClassificationScheme ;
+    rdfs:label "is defined in industry sector scheme"@en .
+
+:isEvidenceBundleFor rdf:type owl:ObjectProperty ;
+    rdfs:domain :EvidenceBundle ;
+    rdfs:range :QueryExecution ;
+    rdfs:label "is evidence bundle for"@en .
+
+:isObservationOf rdf:type owl:ObjectProperty ;
+    rdfs:domain :Observation ;
+    rdfs:range :ObservedEntity ;
+    rdfs:label "is observation of"@en .
+
+:observedInEventWindow rdf:type owl:ObjectProperty ;
+    rdfs:domain :MarketObservation ;
+    rdfs:range :EventWindow ;
+    rdfs:label "observed in event window"@en .
+
+:observedInPeriod rdf:type owl:ObjectProperty ;
+    rdfs:domain :FundamentalObservation ;
+    rdfs:range :ReportingPeriod ;
+    rdfs:label "observed in period"@en .
+
+:observedOverWindow rdf:type owl:ObjectProperty ;
+    rdfs:domain :Observation ;
+    rdfs:range :AnalysisWindow ;
+    rdfs:label "observed over window"@en .
+
+:publishedBy rdf:type owl:ObjectProperty ;
+    rdfs:domain :EvidenceItem ;
+    rdfs:range :Publisher ;
+    rdfs:label "published by"@en .
+
+:supportedByEvidenceItem rdf:type owl:ObjectProperty ;
+    rdfs:domain :Observation ;
+    rdfs:range :EvidenceItem ;
+    rdfs:label "supported by evidence item"@en .
+
+:usesMarketIndexBenchmark rdf:type owl:ObjectProperty ;
+    rdfs:domain :QueryExecution ;
+    rdfs:range :MarketIndex ;
+    rdfs:comment "Links a query execution to the market index selected as benchmark in the analytic context."@en ;
+    rdfs:label "uses market index benchmark"@en .
+
+#################################################################
+#    Data Properties
+#################################################################
+
+:hasAnnouncementDate rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Announcement ;
+    rdfs:range xsd:date ;
+    rdfs:label "has announcement date"@en .
+
+:hasAnnouncementType rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Announcement ;
+    rdfs:range xsd:string ;
+    rdfs:label "has announcement type"@en .
+
+:hasCompanyIdentifier rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Company ;
+    rdfs:range xsd:string ;
+    rdfs:label "has company identifier"@en .
+
+:hasCompanyName rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Company ;
+    rdfs:range xsd:string ;
+    rdfs:label "has company name"@en .
+
+:hasCurrencyCode rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Currency ;
+    rdfs:range xsd:string ;
+    rdfs:label "has currency code"@en .
+
+:hasEndDate rdf:type owl:DatatypeProperty ;
+    rdfs:domain :TemporalInterval ;
+    rdfs:range xsd:date ;
+    rdfs:label "has end date"@en .
+
+:hasEvidenceIdentifier rdf:type owl:DatatypeProperty ;
+    rdfs:domain :EvidenceItem ;
+    rdfs:range xsd:string ;
+    rdfs:label "has evidence identifier"@en .
+
+:hasEvidenceURL rdf:type owl:DatatypeProperty ;
+    rdfs:domain :EvidenceItem ;
+    rdfs:range xsd:anyURI ;
+    rdfs:label "has evidence URL"@en .
+
+:hasExtractionDate rdf:type owl:DatatypeProperty ;
+    rdfs:domain :ProvenanceRecord ;
+    rdfs:range xsd:dateTime ;
+    rdfs:label "has extraction date"@en .
+
+:hasMetricName rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Observation ;
+    rdfs:range xsd:string ;
+    rdfs:label "has metric name"@en .
+
+:hasMetricValue rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Observation ;
+    rdfs:range xsd:decimal ;
+    rdfs:label "has metric value"@en .
+
+:hasObservationDate rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Observation ;
+    rdfs:range xsd:date ;
+    rdfs:label "has observation date"@en .
+
+:hasParameterValues rdf:type owl:DatatypeProperty ;
+    rdfs:domain :QueryExecution ;
+    rdfs:range xsd:string ;
+    rdfs:label "has parameter values"@en .
+
+:hasQueryFamilyIdentifier rdf:type owl:DatatypeProperty ;
+    rdfs:domain :QueryExecution ;
+    rdfs:range xsd:string ;
+    rdfs:label "has query family identifier"@en .
+
+:hasQueryInstanceIdentifier rdf:type owl:DatatypeProperty ;
+    rdfs:domain :QueryExecution ;
+    rdfs:range xsd:string ;
+    rdfs:label "has query instance identifier"@en .
+
+:hasReportDate rdf:type owl:DatatypeProperty ;
+    rdfs:domain :ReportingPeriod ;
+    rdfs:range xsd:date ;
+    rdfs:label "has report date"@en .
+
+:hasRetrievalDate rdf:type owl:DatatypeProperty ;
+    rdfs:domain :ProvenanceRecord ;
+    rdfs:range xsd:dateTime ;
+    rdfs:label "has retrieval date"@en .
+
+:hasSourceIdentifier rdf:type owl:DatatypeProperty ;
+    rdfs:domain :EvidenceSource ;
+    rdfs:range xsd:string ;
+    rdfs:label "has source identifier"@en .
+
+:hasSourceType rdf:type owl:DatatypeProperty ;
+    rdfs:domain :EvidenceSource ;
+    rdfs:range xsd:string ;
+    rdfs:label "has source type"@en .
+
+:hasSourceURL rdf:type owl:DatatypeProperty ;
+    rdfs:domain :EvidenceSource ;
+    rdfs:range xsd:anyURI ;
+    rdfs:label "has source URL"@en .
+
+:hasStartDate rdf:type owl:DatatypeProperty ;
+    rdfs:domain :TemporalInterval ;
+    rdfs:range xsd:date ;
+    rdfs:label "has start date"@en .
+
+:hasValidationFlag rdf:type owl:DatatypeProperty ;
+    rdfs:domain :ValidationStatus ;
+    rdfs:range xsd:string ;
+    rdfs:label "has validation flag"@en .
+
+:hasWindowType rdf:type owl:DatatypeProperty ;
+    rdfs:domain :TimeWindow ;
+    rdfs:range xsd:string ;
+    rdfs:label "has window type"@en .
+
+#################################################################
+#    Classes
+#################################################################
+
+:AnalysisWindow rdf:type owl:Class ;
+    rdfs:subClassOf :TimeWindow ;
+    rdfs:label "Analysis Window"@en .
+
+:Announcement rdf:type owl:Class ;
+    rdfs:subClassOf :EvidenceItem ;
+    rdfs:label "Announcement"@en .
+
+:Company rdf:type owl:Class ;
+    rdfs:subClassOf :ObservedEntity ;
+    rdfs:label "Company"@en .
+
+:Currency rdf:type owl:Class ;
+    rdfs:label "Currency"@en .
+
+:Disclosure rdf:type owl:Class ;
+    rdfs:subClassOf :EvidenceItem ;
+    rdfs:label "Disclosure"@en .
+
+:EventWindow rdf:type owl:Class ;
+    rdfs:subClassOf :TimeWindow ;
+    rdfs:label "Event Window"@en .
+
+:EvidenceBundle rdf:type owl:Class ;
+    rdfs:label "Evidence Bundle"@en .
+
+:EvidenceItem rdf:type owl:Class ;
+    rdfs:label "Evidence Item"@en .
+
+:EvidenceSource rdf:type owl:Class ;
+    rdfs:comment "Represents the official portal, repository, API, or source system from which an evidence item was retrieved."@en ;
+    rdfs:label "Evidence Source"@en .
+
+:ExchangeRateObservation rdf:type owl:Class ;
+    rdfs:subClassOf :Observation ;
+    rdfs:comment "An observed exchange-rate value recorded with base and dealt currencies."@en ;
+    rdfs:label "Exchange Rate Observation"@en .
+
+:FundamentalObservation rdf:type owl:Class ;
+    rdfs:subClassOf :Observation ;
+    rdfs:label "Fundamental Observation"@en .
+
+:IndustrySectorClassificationScheme rdf:type owl:Class ;
+    rdfs:comment "A scheme that defines industry-sector classifiers."@en ;
+    rdfs:label "Industry Sector Classification Scheme"@en .
+
+:IndustrySectorClassifier rdf:type owl:Class ;
+    rdfs:subClassOf :ObservedEntity ;
+    rdfs:comment "A classifier assigned to a company to represent its industry-sector category."@en ;
+    rdfs:label "Industry Sector Classifier"@en .
+
+:MarketIndex rdf:type owl:Class ;
+    rdfs:subClassOf :ObservedEntity ;
+    rdfs:comment "A market index that can be selected as an analytical benchmark in a query execution."@en ;
+    rdfs:label "Market Index"@en .
+
+:MarketObservation rdf:type owl:Class ;
+    rdfs:subClassOf :Observation ;
+    rdfs:label "Market Observation"@en .
+
+:Observation rdf:type owl:Class ;
+    rdfs:label "Observation"@en .
+
+:ObservedEntity rdf:type owl:Class ;
+    rdfs:comment "A lightweight superclass for the entity that an observation is about in the v1 core."@en ;
+    rdfs:label "Observed Entity"@en .
+
+:ProvenanceRecord rdf:type owl:Class ;
+    rdfs:label "Provenance Record"@en .
+
+:Publisher rdf:type owl:Class ;
+    rdfs:comment "The issuing organization of an evidence item, kept distinct from the retrieval source system."@en ;
+    rdfs:label "Publisher"@en .
+
+:QueryExecution rdf:type owl:Class ;
+    rdfs:label "Query Execution"@en .
+
+:ReportingPeriod rdf:type owl:Class ;
+    rdfs:subClassOf :TemporalInterval ;
+    rdfs:label "Reporting Period"@en .
+
+:TemporalInterval rdf:type owl:Class ;
+    rdfs:comment "A lightweight temporal abstraction retained to keep reporting periods and windows explicitly time-scoped."@en ;
+    rdfs:label "Temporal Interval"@en .
+
+:TimeWindow rdf:type owl:Class ;
+    rdfs:subClassOf :TemporalInterval ;
+    rdfs:comment "A lightweight bounded window abstraction retained for analysis and event-study applicability."@en ;
+    rdfs:label "Time Window"@en .
+
+:ValidationStatus rdf:type owl:Class ;
+    rdfs:label "Validation Status"@en .

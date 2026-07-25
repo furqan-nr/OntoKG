@@ -1,0 +1,3016 @@
+@prefix : <https://w3id.org/ontokg-eq#> .
+@prefix msx: <https://w3id.org/ontokg-eq/msx#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/ontokg-eq/msx> a owl:Ontology ;
+    rdfs:label "OntoKG-EQ MSX (Bursa Malaysia) Instances"@en ;
+    owl:imports <https://w3id.org/ontokg-eq/alignment>,
+        <https://w3id.org/ontokg-eq/core> .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_001 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1695.21 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_002 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1683.1014 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_003 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1687.0391 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_004 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1695.977 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_005 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1689.3779 ;
+    :hasObservationDate "2026-04-02"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_006 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1682.9103 ;
+    :hasObservationDate "2026-04-03"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_007 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1679.6353 ;
+    :hasObservationDate "2026-04-06"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_008 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1677.0939 ;
+    :hasObservationDate "2026-04-07"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_009 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1686.0891 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_010 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1680.0435 ;
+    :hasObservationDate "2026-04-09"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_011 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1682.0167 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_012 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1674.9908 ;
+    :hasObservationDate "2026-04-13"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_013 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1680.6681 ;
+    :hasObservationDate "2026-04-14"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_014 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1679.6574 ;
+    :hasObservationDate "2026-04-15"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_015 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1678.2577 ;
+    :hasObservationDate "2026-04-16"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_016 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1679.5796 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_017 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1682.9369 ;
+    :hasObservationDate "2026-04-20"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_018 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1687.0928 ;
+    :hasObservationDate "2026-04-21"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_019 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1682.1752 ;
+    :hasObservationDate "2026-04-22"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_020 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1682.8823 ;
+    :hasObservationDate "2026-04-23"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_021 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1682.7386 ;
+    :hasObservationDate "2026-04-24"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_022 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1687.8618 ;
+    :hasObservationDate "2026-04-27"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_023 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1692.5076 ;
+    :hasObservationDate "2026-04-28"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_024 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1687.425 ;
+    :hasObservationDate "2026-04-29"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_025 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1685.5658 ;
+    :hasObservationDate "2026-04-30"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_026 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1692.4276 ;
+    :hasObservationDate "2026-05-04"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_027 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1697.6604 ;
+    :hasObservationDate "2026-05-05"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_028 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1698.6598 ;
+    :hasObservationDate "2026-05-06"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_029 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1700.2209 ;
+    :hasObservationDate "2026-05-07"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_030 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1695.4361 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_031 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1695.8529 ;
+    :hasObservationDate "2026-05-11"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_032 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1698.097 ;
+    :hasObservationDate "2026-05-12"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_033 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1693.5894 ;
+    :hasObservationDate "2026-05-13"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_034 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1695.6864 ;
+    :hasObservationDate "2026-05-14"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_035 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1695.4731 ;
+    :hasObservationDate "2026-05-15"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_036 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1694.3532 ;
+    :hasObservationDate "2026-05-18"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_037 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1691.1692 ;
+    :hasObservationDate "2026-05-19"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_038 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1685.6532 ;
+    :hasObservationDate "2026-05-20"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_039 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1683.6995 ;
+    :hasObservationDate "2026-05-21"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_040 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1685.6611 ;
+    :hasObservationDate "2026-05-22"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_041 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1684.4605 ;
+    :hasObservationDate "2026-05-25"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_042 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1680.0308 ;
+    :hasObservationDate "2026-05-26"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_043 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1682.344 ;
+    :hasObservationDate "2026-05-28"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_044 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1696.5008 ;
+    :hasObservationDate "2026-05-29"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_045 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1680.7873 ;
+    :hasObservationDate "2026-06-03"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FBMKLCI_PROXY_046 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 1676.2872 ;
+    :hasObservationDate "2026-06-04"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_001 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7.7 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_002 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7.48 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_003 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7.55 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_004 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7.71 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_005 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.525 ;
+    :hasObservationDate "2026-04-02"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_006 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.375 ;
+    :hasObservationDate "2026-04-03"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_007 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.31 ;
+    :hasObservationDate "2026-04-06"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_008 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.255 ;
+    :hasObservationDate "2026-04-07"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_009 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.44 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_010 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.305 ;
+    :hasObservationDate "2026-04-09"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_011 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.34 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_012 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.185 ;
+    :hasObservationDate "2026-04-13"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_013 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.295 ;
+    :hasObservationDate "2026-04-14"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_014 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.28 ;
+    :hasObservationDate "2026-04-15"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_015 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.255 ;
+    :hasObservationDate "2026-04-16"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_016 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.285 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_017 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.465 ;
+    :hasObservationDate "2026-04-20"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_018 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.58 ;
+    :hasObservationDate "2026-04-21"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_019 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.48 ;
+    :hasObservationDate "2026-04-22"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_020 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.5 ;
+    :hasObservationDate "2026-04-23"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_021 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.48 ;
+    :hasObservationDate "2026-04-24"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_022 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.375 ;
+    :hasObservationDate "2026-04-27"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_023 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.5 ;
+    :hasObservationDate "2026-04-28"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_024 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.365 ;
+    :hasObservationDate "2026-04-29"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_025 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.37 ;
+    :hasObservationDate "2026-04-30"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_026 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.485 ;
+    :hasObservationDate "2026-05-04"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_027 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.545 ;
+    :hasObservationDate "2026-05-05"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_028 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.575 ;
+    :hasObservationDate "2026-05-06"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_029 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.65 ;
+    :hasObservationDate "2026-05-07"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_030 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 9.555 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_031 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 11.18 ;
+    :hasObservationDate "2026-05-11"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_032 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 11.24 ;
+    :hasObservationDate "2026-05-12"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_033 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 11.18 ;
+    :hasObservationDate "2026-05-13"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_FINANCIAL_SERVICES_034 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 11.18 ;
+    :hasObservationDate "2026-05-14"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_comp_Financial_Services_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_001 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 3.65 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_002 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.3 ;
+    :hasObservationDate "2026-04-20"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_003 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.34 ;
+    :hasObservationDate "2026-04-21"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_004 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.27 ;
+    :hasObservationDate "2026-04-22"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_005 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.295 ;
+    :hasObservationDate "2026-04-23"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_006 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.3 ;
+    :hasObservationDate "2026-04-24"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_007 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.55 ;
+    :hasObservationDate "2026-04-27"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_008 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.6 ;
+    :hasObservationDate "2026-04-28"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_009 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.545 ;
+    :hasObservationDate "2026-04-29"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_010 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.485 ;
+    :hasObservationDate "2026-04-30"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_011 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.595 ;
+    :hasObservationDate "2026-05-04"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_012 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.7 ;
+    :hasObservationDate "2026-05-05"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_013 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.675 ;
+    :hasObservationDate "2026-05-06"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_014 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.67 ;
+    :hasObservationDate "2026-05-07"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_015 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.61 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_016 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.61 ;
+    :hasObservationDate "2026-05-11"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_017 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.65 ;
+    :hasObservationDate "2026-05-12"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_018 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.565 ;
+    :hasObservationDate "2026-05-13"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_019 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.61 ;
+    :hasObservationDate "2026-05-14"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_020 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.595 ;
+    :hasObservationDate "2026-05-15"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_021 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.575 ;
+    :hasObservationDate "2026-05-18"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_022 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.54 ;
+    :hasObservationDate "2026-05-19"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_023 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.475 ;
+    :hasObservationDate "2026-05-20"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_024 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.435 ;
+    :hasObservationDate "2026-05-21"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_025 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.48 ;
+    :hasObservationDate "2026-05-22"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_026 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.47 ;
+    :hasObservationDate "2026-05-25"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_027 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.42 ;
+    :hasObservationDate "2026-05-26"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_028 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.455 ;
+    :hasObservationDate "2026-05-28"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_029 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.555 ;
+    :hasObservationDate "2026-05-29"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_030 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 5.435 ;
+    :hasObservationDate "2026-06-03"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_031 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "comparator value" ;
+    :hasMetricValue 7.39 ;
+    :hasObservationDate "2026-06-04"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_comp_Telecommunications_Media_selected_peer_basket .
+
+msx:derived_bench_return_MY_CO_CIMB a :MarketObservation,
+        :Observation ;
+    :hasMetricName "benchmark window return %" ;
+    :hasMetricValue 0.027099 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:derived_bench_return_MY_CO_MAXIS a :MarketObservation,
+        :Observation ;
+    :hasMetricName "benchmark window return %" ;
+    :hasMetricValue 0.164388 ;
+    :hasObservationDate "2026-06-03"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:derived_fund_growth_MY_CO_CIMB a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "YoY profit growth %" ;
+    :hasMetricValue 1.708075 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedInPeriod msx:period_MY_FUND_CIMB_FY2025 .
+
+msx:derived_fund_growth_MY_CO_MAXIS a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "YoY profit growth %" ;
+    :hasMetricValue 11.819484 ;
+    :hasObservationDate "2026-04-16"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedInPeriod msx:period_MY_FUND_MAXIS_FY2025 .
+
+msx:derived_fund_growth_MY_CO_TM a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "YoY profit growth %" ;
+    :hasMetricValue 17.931034 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedInPeriod msx:period_MY_FUND_TM_FY2025 .
+
+msx:derived_fx_corr_company_MY_CO_MAXIS a :MarketObservation,
+        :Observation ;
+    :hasMetricName "FX vs company return correlation" ;
+    :hasMetricValue 0.123566 ;
+    :hasObservationDate "2026-06-03"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:derived_fx_corr_company_MY_CO_MAYBANK a :MarketObservation,
+        :Observation ;
+    :hasMetricName "FX vs company return correlation" ;
+    :hasMetricValue -0.003998 ;
+    :hasObservationDate "2026-05-14"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:derived_fx_corr_company_MY_CO_TM a :MarketObservation,
+        :Observation ;
+    :hasMetricName "FX vs company return correlation" ;
+    :hasMetricValue 0.224079 ;
+    :hasObservationDate "2026-06-04"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:derived_post_return_MY_CO_CIMB a :MarketObservation,
+        :Observation ;
+    :hasMetricName "post-report window return %" ;
+    :hasMetricValue 3.28986 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:derived_post_return_MY_CO_MAXIS a :MarketObservation,
+        :Observation ;
+    :hasMetricName "post-report window return %" ;
+    :hasMetricValue -6.313796 ;
+    :hasObservationDate "2026-06-03"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:derived_sector_return_MY_CO_CIMB a :MarketObservation,
+        :Observation ;
+    :hasMetricName "sector window return %" ;
+    :hasMetricValue 24.197602 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:derived_sector_return_MY_CO_MAXIS a :MarketObservation,
+        :Observation ;
+    :hasMetricName "sector window return %" ;
+    :hasMetricValue 47.979891 ;
+    :hasObservationDate "2026-06-03"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:derived_sector_return_MY_CO_MAYBANK a :MarketObservation,
+        :Observation ;
+    :hasMetricName "sector window return %" ;
+    :hasMetricValue 41.009378 ;
+    :hasObservationDate "2026-05-14"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Financial_Services ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:fund_MY_FUND_CIMB_FY2024 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 0.72 ;
+    :hasObservationDate "2025-03-27"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedInPeriod msx:period_MY_FUND_CIMB_FY2024 .
+
+msx:fund_MY_FUND_CIMB_FY2025 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 0.731 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedInPeriod msx:period_MY_FUND_CIMB_FY2025 .
+
+msx:fund_MY_FUND_MAXIS_FY2024 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 0.178 ;
+    :hasObservationDate "2025-04-16"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedInPeriod msx:period_MY_FUND_MAXIS_FY2024 .
+
+msx:fund_MY_FUND_MAXIS_FY2025 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 0.199 ;
+    :hasObservationDate "2026-04-16"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedInPeriod msx:period_MY_FUND_MAXIS_FY2025 .
+
+msx:fund_MY_FUND_MAYBANK_FY2024 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 0.84 ;
+    :hasObservationDate "2025-04-08"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedInPeriod msx:period_MY_FUND_MAYBANK_FY2024 .
+
+msx:fund_MY_FUND_MAYBANK_FY2025 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 0.87 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedInPeriod msx:period_MY_FUND_MAYBANK_FY2025 .
+
+msx:fund_MY_FUND_TM_FY2024 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 0.38 ;
+    :hasObservationDate "2025-04-25"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedInPeriod msx:period_MY_FUND_TM_FY2024 .
+
+msx:fund_MY_FUND_TM_FY2025 a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "EPS" ;
+    :hasMetricValue 0.44 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedInPeriod msx:period_MY_FUND_TM_FY2025 .
+
+msx:fx_MY_FX_USDMYR_001 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.023 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_002 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0269 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_003 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0304 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_004 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0335 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_005 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0359 ;
+    :hasObservationDate "2026-04-02"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_006 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0376 ;
+    :hasObservationDate "2026-04-03"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_007 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0385 ;
+    :hasObservationDate "2026-04-06"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_008 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0388 ;
+    :hasObservationDate "2026-04-07"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_009 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0383 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_010 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0373 ;
+    :hasObservationDate "2026-04-09"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_011 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0358 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_012 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.034 ;
+    :hasObservationDate "2026-04-13"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_013 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0321 ;
+    :hasObservationDate "2026-04-14"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_014 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0304 ;
+    :hasObservationDate "2026-04-15"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_015 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0288 ;
+    :hasObservationDate "2026-04-16"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_016 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0277 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_017 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0272 ;
+    :hasObservationDate "2026-04-20"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_018 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0273 ;
+    :hasObservationDate "2026-04-21"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_019 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0282 ;
+    :hasObservationDate "2026-04-22"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_020 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0298 ;
+    :hasObservationDate "2026-04-23"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_021 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0321 ;
+    :hasObservationDate "2026-04-24"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_022 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0351 ;
+    :hasObservationDate "2026-04-27"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_023 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0385 ;
+    :hasObservationDate "2026-04-28"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_024 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0424 ;
+    :hasObservationDate "2026-04-29"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_025 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0465 ;
+    :hasObservationDate "2026-04-30"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_026 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0506 ;
+    :hasObservationDate "2026-05-04"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_027 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0545 ;
+    :hasObservationDate "2026-05-05"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_028 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0581 ;
+    :hasObservationDate "2026-05-06"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_029 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0612 ;
+    :hasObservationDate "2026-05-07"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_030 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0637 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_031 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0655 ;
+    :hasObservationDate "2026-05-11"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_032 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0666 ;
+    :hasObservationDate "2026-05-12"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_033 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0669 ;
+    :hasObservationDate "2026-05-13"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_034 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0665 ;
+    :hasObservationDate "2026-05-14"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_035 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0656 ;
+    :hasObservationDate "2026-05-15"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_036 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0641 ;
+    :hasObservationDate "2026-05-18"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_037 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0624 ;
+    :hasObservationDate "2026-05-19"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_038 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0605 ;
+    :hasObservationDate "2026-05-20"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_039 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0587 ;
+    :hasObservationDate "2026-05-21"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_040 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0572 ;
+    :hasObservationDate "2026-05-22"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_041 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.056 ;
+    :hasObservationDate "2026-05-25"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_042 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0554 ;
+    :hasObservationDate "2026-05-26"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_043 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0554 ;
+    :hasObservationDate "2026-05-28"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_044 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0562 ;
+    :hasObservationDate "2026-05-29"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_045 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0577 ;
+    :hasObservationDate "2026-06-03"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:fx_MY_FX_USDMYR_046 a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "exchange rate" ;
+    :hasMetricValue 4.0599 ;
+    :hasObservationDate "2026-06-04"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair .
+
+msx:mkt_MY_MKT_CIMB_POST30_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.7 ;
+    :hasObservationDate "2026-03-27"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.48 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.55 ;
+    :hasObservationDate "2026-03-31"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_04 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.71 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_05 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.59 ;
+    :hasObservationDate "2026-04-02"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_06 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.49 ;
+    :hasObservationDate "2026-04-03"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_07 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.4 ;
+    :hasObservationDate "2026-04-06"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_08 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.35 ;
+    :hasObservationDate "2026-04-07"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_09 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.56 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_10 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.45 ;
+    :hasObservationDate "2026-04-09"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_11 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.52 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_12 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.39 ;
+    :hasObservationDate "2026-04-13"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_13 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.55 ;
+    :hasObservationDate "2026-04-14"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_14 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.5 ;
+    :hasObservationDate "2026-04-15"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_15 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.45 ;
+    :hasObservationDate "2026-04-16"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_16 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.47 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_17 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.59 ;
+    :hasObservationDate "2026-04-20"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_18 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.8 ;
+    :hasObservationDate "2026-04-21"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_19 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.74 ;
+    :hasObservationDate "2026-04-22"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_20 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.78 ;
+    :hasObservationDate "2026-04-23"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_21 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.8 ;
+    :hasObservationDate "2026-04-24"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_22 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.65 ;
+    :hasObservationDate "2026-04-27"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_23 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.78 ;
+    :hasObservationDate "2026-04-28"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_24 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.69 ;
+    :hasObservationDate "2026-04-29"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_25 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.66 ;
+    :hasObservationDate "2026-04-30"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_26 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.69 ;
+    :hasObservationDate "2026-05-04"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_27 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.89 ;
+    :hasObservationDate "2026-05-05"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_28 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.93 ;
+    :hasObservationDate "2026-05-06"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_29 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 8.04 ;
+    :hasObservationDate "2026-05-07"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_CIMB_POST30_30 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.93 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_EVENT_M1P1_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-04-15"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedInEventWindow msx:window_MY_CO_MAXIS_MAXIS_AR2025_event_m1_p1_event_window_1_1 .
+
+msx:mkt_MY_MKT_MAXIS_EVENT_M1P1_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.835655 ;
+    :hasObservationDate "2026-04-16"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedInEventWindow msx:window_MY_CO_MAXIS_MAXIS_AR2025_event_m1_p1_event_window_1_1 .
+
+msx:mkt_MY_MKT_MAXIS_EVENT_M1P1_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.828729 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedInEventWindow msx:window_MY_CO_MAXIS_MAXIS_AR2025_event_m1_p1_event_window_1_1 .
+
+msx:mkt_MY_MKT_MAXIS_EVENT_M3P3_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.0 ;
+    :hasObservationDate "2026-04-13"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedInEventWindow msx:window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3 .
+
+msx:mkt_MY_MKT_MAXIS_EVENT_M3P3_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.568182 ;
+    :hasObservationDate "2026-04-14"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedInEventWindow msx:window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3 .
+
+msx:mkt_MY_MKT_MAXIS_EVENT_M3P3_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 1.412429 ;
+    :hasObservationDate "2026-04-15"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedInEventWindow msx:window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3 .
+
+msx:mkt_MY_MKT_MAXIS_EVENT_M3P3_04 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.835655 ;
+    :hasObservationDate "2026-04-16"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedInEventWindow msx:window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3 .
+
+msx:mkt_MY_MKT_MAXIS_EVENT_M3P3_05 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue 0.828729 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedInEventWindow msx:window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3 .
+
+msx:mkt_MY_MKT_MAXIS_EVENT_M3P3_06 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -1.369863 ;
+    :hasObservationDate "2026-04-20"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedInEventWindow msx:window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3 .
+
+msx:mkt_MY_MKT_MAXIS_EVENT_M3P3_07 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal return" ;
+    :hasMetricValue -0.277778 ;
+    :hasObservationDate "2026-04-21"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedInEventWindow msx:window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3 .
+
+msx:mkt_MY_MKT_MAXIS_POST30_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.65 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.6 ;
+    :hasObservationDate "2026-04-20"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.59 ;
+    :hasObservationDate "2026-04-21"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_04 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.54 ;
+    :hasObservationDate "2026-04-22"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_05 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.5 ;
+    :hasObservationDate "2026-04-23"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_06 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.5 ;
+    :hasObservationDate "2026-04-24"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_07 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.52 ;
+    :hasObservationDate "2026-04-27"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_08 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.54 ;
+    :hasObservationDate "2026-04-28"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_09 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.5 ;
+    :hasObservationDate "2026-04-29"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_10 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.49 ;
+    :hasObservationDate "2026-04-30"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_11 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.58 ;
+    :hasObservationDate "2026-05-04"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_12 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.6 ;
+    :hasObservationDate "2026-05-05"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_13 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.66 ;
+    :hasObservationDate "2026-05-06"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_14 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.65 ;
+    :hasObservationDate "2026-05-07"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_15 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.59 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_16 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.61 ;
+    :hasObservationDate "2026-05-11"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_17 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.61 ;
+    :hasObservationDate "2026-05-12"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_18 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.58 ;
+    :hasObservationDate "2026-05-13"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_19 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.6 ;
+    :hasObservationDate "2026-05-14"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_20 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.62 ;
+    :hasObservationDate "2026-05-15"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_21 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.62 ;
+    :hasObservationDate "2026-05-18"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_22 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.58 ;
+    :hasObservationDate "2026-05-19"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_23 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.52 ;
+    :hasObservationDate "2026-05-20"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_24 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.53 ;
+    :hasObservationDate "2026-05-21"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_25 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.51 ;
+    :hasObservationDate "2026-05-22"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_26 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.49 ;
+    :hasObservationDate "2026-05-25"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_27 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.44 ;
+    :hasObservationDate "2026-05-26"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_28 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.45 ;
+    :hasObservationDate "2026-05-28"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_29 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.71 ;
+    :hasObservationDate "2026-05-29"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAXIS_POST30_30 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 3.4 ;
+    :hasObservationDate "2026-06-03"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedOverWindow msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.46 ;
+    :hasObservationDate "2026-04-02"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.26 ;
+    :hasObservationDate "2026-04-03"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.22 ;
+    :hasObservationDate "2026-04-06"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_04 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.16 ;
+    :hasObservationDate "2026-04-07"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_05 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.32 ;
+    :hasObservationDate "2026-04-08"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_06 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.16 ;
+    :hasObservationDate "2026-04-09"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_07 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.16 ;
+    :hasObservationDate "2026-04-10"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_08 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 10.98 ;
+    :hasObservationDate "2026-04-13"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_09 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.04 ;
+    :hasObservationDate "2026-04-14"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_10 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.06 ;
+    :hasObservationDate "2026-04-15"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_11 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.06 ;
+    :hasObservationDate "2026-04-16"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_12 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.1 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_13 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.34 ;
+    :hasObservationDate "2026-04-20"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_14 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.36 ;
+    :hasObservationDate "2026-04-21"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_15 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.22 ;
+    :hasObservationDate "2026-04-22"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_16 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.22 ;
+    :hasObservationDate "2026-04-23"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_17 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.16 ;
+    :hasObservationDate "2026-04-24"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_18 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.1 ;
+    :hasObservationDate "2026-04-27"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_19 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.22 ;
+    :hasObservationDate "2026-04-28"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_20 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.04 ;
+    :hasObservationDate "2026-04-29"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_21 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.08 ;
+    :hasObservationDate "2026-04-30"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_22 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.28 ;
+    :hasObservationDate "2026-05-04"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_23 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.2 ;
+    :hasObservationDate "2026-05-05"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_24 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.22 ;
+    :hasObservationDate "2026-05-06"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_25 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.26 ;
+    :hasObservationDate "2026-05-07"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_26 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.18 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_27 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.18 ;
+    :hasObservationDate "2026-05-11"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_28 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.24 ;
+    :hasObservationDate "2026-05-12"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_29 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.18 ;
+    :hasObservationDate "2026-05-13"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_MAYBANK_POST30_30 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 11.18 ;
+    :hasObservationDate "2026-05-14"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_01 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.0 ;
+    :hasObservationDate "2026-04-20"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_02 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.09 ;
+    :hasObservationDate "2026-04-21"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_03 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.0 ;
+    :hasObservationDate "2026-04-22"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_04 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.09 ;
+    :hasObservationDate "2026-04-23"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_05 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.1 ;
+    :hasObservationDate "2026-04-24"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_06 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.58 ;
+    :hasObservationDate "2026-04-27"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_07 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.66 ;
+    :hasObservationDate "2026-04-28"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_08 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.59 ;
+    :hasObservationDate "2026-04-29"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_09 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.48 ;
+    :hasObservationDate "2026-04-30"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_10 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.61 ;
+    :hasObservationDate "2026-05-04"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_11 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.8 ;
+    :hasObservationDate "2026-05-05"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_12 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.69 ;
+    :hasObservationDate "2026-05-06"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_13 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.69 ;
+    :hasObservationDate "2026-05-07"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_14 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.63 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_15 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.61 ;
+    :hasObservationDate "2026-05-11"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_16 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.69 ;
+    :hasObservationDate "2026-05-12"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_17 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.55 ;
+    :hasObservationDate "2026-05-13"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_18 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.62 ;
+    :hasObservationDate "2026-05-14"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_19 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.57 ;
+    :hasObservationDate "2026-05-15"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_20 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.53 ;
+    :hasObservationDate "2026-05-18"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_21 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.5 ;
+    :hasObservationDate "2026-05-19"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_22 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.43 ;
+    :hasObservationDate "2026-05-20"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_23 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.34 ;
+    :hasObservationDate "2026-05-21"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_24 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.45 ;
+    :hasObservationDate "2026-05-22"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_25 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.45 ;
+    :hasObservationDate "2026-05-25"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_26 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.4 ;
+    :hasObservationDate "2026-05-26"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_27 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.46 ;
+    :hasObservationDate "2026-05-28"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_28 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.4 ;
+    :hasObservationDate "2026-05-29"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_29 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.47 ;
+    :hasObservationDate "2026-06-03"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:mkt_MY_MKT_TM_POST30_30 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "close price" ;
+    :hasMetricValue 7.39 ;
+    :hasObservationDate "2026-06-04"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:prov_evid_MY_EVID_CIMB_AR2025 a :ProvenanceRecord ;
+    :derivedFrom msx:evid_MY_EVID_CIMB_AR2025 ;
+    :hasRetrievalDate "2026-06-11T00:00:00"^^xsd:dateTime .
+
+msx:prov_evid_MY_EVID_MAXIS_AR2025 a :ProvenanceRecord ;
+    :derivedFrom msx:evid_MY_EVID_MAXIS_AR2025 ;
+    :hasRetrievalDate "2026-06-11T00:00:00"^^xsd:dateTime .
+
+msx:prov_evid_MY_EVID_MAYBANK_AR2025 a :ProvenanceRecord ;
+    :derivedFrom msx:evid_MY_EVID_MAYBANK_AR2025 ;
+    :hasRetrievalDate "2026-06-11T00:00:00"^^xsd:dateTime .
+
+msx:prov_evid_MY_EVID_TM_AR2025 a :ProvenanceRecord ;
+    :derivedFrom msx:evid_MY_EVID_TM_AR2025 ;
+    :hasRetrievalDate "2026-06-11T00:00:00"^^xsd:dateTime .
+
+msx:query_exec_CQ1_1 a :QueryExecution ;
+    :hasEvidenceBundle msx:evidence_bundle_CQ1_1 ;
+    :hasParameterValues "market=msx; resultEntity=MY_CO_MAYBANK; timeContext=FY2024-FY2025; MAYBANK_annual_report_2025_post30" ;
+    :hasQueryFamilyIdentifier "CQ1" ;
+    :hasQueryInstanceIdentifier "CQ1-001" ;
+    :usesMarketIndexBenchmark msx:market_index_benchmark .
+
+msx:query_exec_CQ2_1 a :QueryExecution ;
+    :hasEvidenceBundle msx:evidence_bundle_CQ2_1 ;
+    :hasParameterValues "market=msx; resultEntity=MY_CO_CIMB; timeContext=CIMB_annual_report_2025_post30; USD/MYR daily context" ;
+    :hasQueryFamilyIdentifier "CQ2" ;
+    :hasQueryInstanceIdentifier "CQ2-001" ;
+    :usesMarketIndexBenchmark msx:market_index_benchmark .
+
+msx:query_exec_CQ3_1 a :QueryExecution ;
+    :hasEvidenceBundle msx:evidence_bundle_CQ3_1 ;
+    :hasParameterValues "market=msx; resultEntity=MY_CO_TM; timeContext=TM_annual_report_2025_post30; selected telecom peer basket; FBM KLCI proxy context" ;
+    :hasQueryFamilyIdentifier "CQ3" ;
+    :hasQueryInstanceIdentifier "CQ3-001" ;
+    :usesMarketIndexBenchmark msx:market_index_benchmark .
+
+msx:query_exec_CQ4_1 a :QueryExecution ;
+    :hasEvidenceBundle msx:evidence_bundle_CQ4_1 ;
+    :hasParameterValues "market=msx; resultEntity=MY_CO_MAXIS; timeContext=MAXIS_AR2025_event_m1_p1; MAXIS_AR2025_event_m3_p3" ;
+    :hasQueryFamilyIdentifier "CQ4" ;
+    :hasQueryInstanceIdentifier "CQ4-001" .
+
+msx:query_exec_CQ5_1 a :QueryExecution ;
+    :hasEvidenceBundle msx:evidence_bundle_CQ5_1 ;
+    :hasParameterValues "market=msx; resultEntity=MY_CO_MAYBANK; timeContext=QueryExecution_Malaysia_CQ1_CASE_01; EvidenceBundle_Malaysia_MAYBANK_CQ1" ;
+    :hasQueryFamilyIdentifier "CQ5" ;
+    :hasQueryInstanceIdentifier "CQ5-001" .
+
+msx:source_MY_SRC_BNM_USDMYR_REFERENCE a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_BNM_USDMYR_REFERENCE" ;
+    :hasSourceType "central_bank_fx_reference" ;
+    :hasSourceURL "https://www.bnm.gov.my/kuala-lumpur-usd/myr-reference-rate"^^xsd:anyURI .
+
+msx:source_MY_SRC_BURSA_KLCI a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_BURSA_KLCI" ;
+    :hasSourceType "benchmark_methodology" ;
+    :hasSourceURL "https://www.bursamalaysia.com/trade/our_products_services/indices/ftse_bursa_malaysia_indices/ftse_bursa_malaysia_klci"^^xsd:anyURI .
+
+msx:source_MY_SRC_BURSA_PROFILE_CIMB a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_BURSA_PROFILE_CIMB" ;
+    :hasSourceType "exchange_company_profile" ;
+    :hasSourceURL "https://www.bursamalaysia.com/trade/trading_resources/listing_directory/company-profile?stock_code=1023"^^xsd:anyURI .
+
+msx:source_MY_SRC_BURSA_PROFILE_MAXIS a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_BURSA_PROFILE_MAXIS" ;
+    :hasSourceType "exchange_company_profile" ;
+    :hasSourceURL "https://www.bursamalaysia.com/trade/trading_resources/listing_directory/company-profile?stock_code=6012"^^xsd:anyURI .
+
+msx:source_MY_SRC_BURSA_PROFILE_MAYBANK a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_BURSA_PROFILE_MAYBANK" ;
+    :hasSourceType "exchange_company_profile" ;
+    :hasSourceURL "https://www.bursamalaysia.com/trade/trading_resources/listing_directory/company-profile?stock_code=1155"^^xsd:anyURI .
+
+msx:source_MY_SRC_BURSA_PROFILE_TM a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_BURSA_PROFILE_TM" ;
+    :hasSourceType "exchange_company_profile" ;
+    :hasSourceURL "https://www.bursamalaysia.com/trade/trading_resources/listing_directory/company-profile?stock_code=4863"^^xsd:anyURI .
+
+msx:source_MY_SRC_CIMB_RESULTS_FY2025 a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_CIMB_RESULTS_FY2025" ;
+    :hasSourceType "financial_results_summary" ;
+    :hasSourceURL "https://www.cimb.com/en/newsroom/2026/cimb-delivers-net-profit-of-rm-7-9-billion-with-roe-at-11-3-percent-strengthens-long-term-value-creation-for-shareholders.html"^^xsd:anyURI .
+
+msx:source_MY_SRC_COMP_FINANCIAL_SERVICES a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_COMP_FINANCIAL_SERVICES" ;
+    :hasSourceType "constructed_peer_basket" ;
+    :hasSourceURL "https://stockanalysis.com/quote/klse/MAYBANK/history/ ; https://stockanalysis.com/quote/klse/CIMB/history/"^^xsd:anyURI .
+
+msx:source_MY_SRC_COMP_TELECOMMUNICATIONS_AND_MEDIA a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_COMP_TELECOMMUNICATIONS_AND_MEDIA" ;
+    :hasSourceType "constructed_peer_basket" ;
+    :hasSourceURL "https://stockanalysis.com/quote/klse/TM/history/ ; https://stockanalysis.com/quote/klse/MAXIS/history/"^^xsd:anyURI .
+
+msx:source_MY_SRC_DATAGOV_MY_EXCHANGE_1200 a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_DATAGOV_MY_EXCHANGE_1200" ;
+    :hasSourceType "official_open_data_fx" ;
+    :hasSourceURL "https://data.gov.my/data-catalogue/exchangerates_daily_1200"^^xsd:anyURI .
+
+msx:source_MY_SRC_FBMKLCI_BURSA a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_FBMKLCI_BURSA" ;
+    :hasSourceType "benchmark_index_definition" ;
+    :hasSourceURL "https://www.bursamalaysia.com/trade/our_products_services/indices/ftse_bursa_malaysia_indices/ftse_bursa_malaysia_klci"^^xsd:anyURI .
+
+msx:source_MY_SRC_LSEG_COUNTRY_CLASSIFICATION a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_LSEG_COUNTRY_CLASSIFICATION" ;
+    :hasSourceType "market_classification" ;
+    :hasSourceURL "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/matrix-of-markets.pdf"^^xsd:anyURI .
+
+msx:source_MY_SRC_MARKET_CIMB a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_MARKET_CIMB" ;
+    :hasSourceType "market_price_history" ;
+    :hasSourceURL "https://stockanalysis.com/quote/klse/CIMB/history/"^^xsd:anyURI .
+
+msx:source_MY_SRC_MARKET_MAXIS a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_MARKET_MAXIS" ;
+    :hasSourceType "market_price_history" ;
+    :hasSourceURL "https://stockanalysis.com/quote/klse/MAXIS/history/"^^xsd:anyURI .
+
+msx:source_MY_SRC_MARKET_MAYBANK a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_MARKET_MAYBANK" ;
+    :hasSourceType "market_price_history" ;
+    :hasSourceURL "https://stockanalysis.com/quote/klse/MAYBANK/history/"^^xsd:anyURI .
+
+msx:source_MY_SRC_MARKET_TM a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_MARKET_TM" ;
+    :hasSourceType "market_price_history" ;
+    :hasSourceURL "https://stockanalysis.com/quote/klse/TM/history/"^^xsd:anyURI .
+
+msx:source_MY_SRC_MAXIS_AR2024 a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_MAXIS_AR2024" ;
+    :hasSourceType "annual_report_financials" ;
+    :hasSourceURL "https://maxis.listedcompany.com/ar24/"^^xsd:anyURI .
+
+msx:derived_bench_return_MY_CO_TM a :MarketObservation,
+        :Observation ;
+    :hasMetricName "benchmark window return %" ;
+    :hasMetricValue -0.182116 ;
+    :hasObservationDate "2026-06-04"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:derived_event_ar_MY_CO_MAXIS_event_window_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue 1.664384 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedInEventWindow msx:window_MY_CO_MAXIS_MAXIS_AR2025_event_m1_p1_event_window_1_1 .
+
+msx:derived_event_ar_MY_CO_MAXIS_event_window_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "cumulative abnormal return %" ;
+    :hasMetricValue 1.997354 ;
+    :hasObservationDate "2026-04-21"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedInEventWindow msx:window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3 .
+
+msx:derived_event_vol_MY_CO_MAXIS_event_window_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 0.623457 ;
+    :hasObservationDate "2026-04-17"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedInEventWindow msx:window_MY_CO_MAXIS_MAXIS_AR2025_event_m1_p1_event_window_1_1 .
+
+msx:derived_event_vol_MY_CO_MAXIS_event_window_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 0.448218 ;
+    :hasObservationDate "2026-04-21"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAXIS ;
+    :observedInEventWindow msx:window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3 .
+
+msx:derived_fx_change a :ExchangeRateObservation,
+        :Observation ;
+    :hasBaseCurrency msx:currency_USD ;
+    :hasDealtCurrency msx:currency_MYR ;
+    :hasMetricName "FX window change %" ;
+    :hasMetricValue 0.917226 ;
+    :hasObservationDate "2026-06-04"^^xsd:date ;
+    :isObservationOf msx:observed_fx_pair ;
+    :observedOverWindow msx:window_fx_series .
+
+msx:derived_fx_corr_bench a :MarketObservation,
+        :Observation ;
+    :hasMetricName "FX vs benchmark return correlation" ;
+    :hasMetricValue 0.054705 ;
+    :hasObservationDate "2026-06-04"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_comp_FBM_KLCI_demonstrator_proxy .
+
+msx:derived_fx_corr_company_MY_CO_CIMB a :MarketObservation,
+        :Observation ;
+    :hasMetricName "FX vs company return correlation" ;
+    :hasMetricValue -0.054852 ;
+    :hasObservationDate "2026-05-08"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_CIMB ;
+    :observedOverWindow msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:derived_post_return_MY_CO_TM a :MarketObservation,
+        :Observation ;
+    :hasMetricName "post-report window return %" ;
+    :hasMetricValue 5.81726 ;
+    :hasObservationDate "2026-06-04"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_TM ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:derived_sector_return_MY_CO_TM a :MarketObservation,
+        :Observation ;
+    :hasMetricName "sector window return %" ;
+    :hasMetricValue 83.950452 ;
+    :hasObservationDate "2026-06-04"^^xsd:date ;
+    :isObservationOf msx:sector_classifier_Telecommunications_Media ;
+    :observedOverWindow msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:evidence_bundle_CQ1_1 a :EvidenceBundle ;
+    :containsEvidenceItem msx:evid_MY_EVID_MAYBANK_AR2025 ;
+    :explainsResultEntity msx:company_MY_CO_MAYBANK ;
+    :hasValidationStatus msx:validation_passed ;
+    :includesObservation msx:derived_bench_return_MY_CO_MAYBANK,
+        msx:derived_fund_growth_MY_CO_MAYBANK,
+        msx:derived_post_return_MY_CO_MAYBANK .
+
+msx:evidence_bundle_CQ2_1 a :EvidenceBundle ;
+    :containsEvidenceItem msx:evid_MY_EVID_CIMB_AR2025 ;
+    :explainsResultEntity msx:company_MY_CO_CIMB ;
+    :hasValidationStatus msx:validation_passed ;
+    :includesObservation msx:derived_fx_change,
+        msx:derived_fx_corr_bench,
+        msx:derived_fx_corr_company_MY_CO_CIMB .
+
+msx:evidence_bundle_CQ3_1 a :EvidenceBundle ;
+    :containsEvidenceItem msx:evid_MY_EVID_TM_AR2025 ;
+    :explainsResultEntity msx:company_MY_CO_TM ;
+    :hasValidationStatus msx:validation_passed ;
+    :includesObservation msx:derived_bench_return_MY_CO_TM,
+        msx:derived_post_return_MY_CO_TM,
+        msx:derived_sector_return_MY_CO_TM .
+
+msx:evidence_bundle_CQ4_1 a :EvidenceBundle ;
+    :containsEvidenceItem msx:evid_MY_EVID_MAXIS_AR2025 ;
+    :explainsResultEntity msx:company_MY_CO_MAXIS ;
+    :hasValidationStatus msx:validation_passed ;
+    :includesObservation msx:derived_event_ar_MY_CO_MAXIS_event_window_1_1,
+        msx:derived_event_ar_MY_CO_MAXIS_event_window_3_3,
+        msx:derived_event_vol_MY_CO_MAXIS_event_window_1_1,
+        msx:derived_event_vol_MY_CO_MAXIS_event_window_3_3 .
+
+msx:evidence_bundle_CQ5_1 a :EvidenceBundle ;
+    :containsEvidenceItem msx:evid_MY_EVID_MAYBANK_AR2025 ;
+    :explainsResultEntity msx:company_MY_CO_MAYBANK ;
+    :hasValidationStatus msx:validation_passed ;
+    :includesObservation msx:derived_bench_return_MY_CO_MAYBANK,
+        msx:derived_fund_growth_MY_CO_MAYBANK,
+        msx:derived_post_return_MY_CO_MAYBANK .
+
+msx:period_MY_FUND_CIMB_FY2024 a :ReportingPeriod ;
+    :hasEndDate "2024-12-31"^^xsd:date ;
+    :hasReportDate "2025-03-27"^^xsd:date ;
+    :hasStartDate "2024-01-01"^^xsd:date .
+
+msx:period_MY_FUND_MAXIS_FY2024 a :ReportingPeriod ;
+    :hasEndDate "2024-12-31"^^xsd:date ;
+    :hasReportDate "2025-04-16"^^xsd:date ;
+    :hasStartDate "2024-01-01"^^xsd:date .
+
+msx:period_MY_FUND_MAYBANK_FY2024 a :ReportingPeriod ;
+    :hasEndDate "2024-12-31"^^xsd:date ;
+    :hasReportDate "2025-04-08"^^xsd:date ;
+    :hasStartDate "2024-01-01"^^xsd:date .
+
+msx:period_MY_FUND_TM_FY2024 a :ReportingPeriod ;
+    :hasEndDate "2024-12-31"^^xsd:date ;
+    :hasReportDate "2025-04-25"^^xsd:date ;
+    :hasStartDate "2024-01-01"^^xsd:date .
+
+msx:source_MY_SRC_CIMB_AR2025 a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_CIMB_AR2025" ;
+    :hasSourceType "exchange_annual_report_announcement" ;
+    :hasSourceURL "https://www.bursamalaysia.com/bm/market_information/announcements/company_announcement?cat=AR%2CARCO&company=1023"^^xsd:anyURI .
+
+msx:source_MY_SRC_MAXIS_AR2025 a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_MAXIS_AR2025" ;
+    :hasSourceType "annual_report_financials" ;
+    :hasSourceURL "https://maxis.listedcompany.com/ar.html"^^xsd:anyURI .
+
+msx:source_MY_SRC_MAYBANK_AR2025 a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_MAYBANK_AR2025" ;
+    :hasSourceType "annual_report_financials" ;
+    :hasSourceURL "https://www.maybank.com/iwov-resources/documents/pdf/annual-report/2025/maybank-ar2025-integrated-annual-report.pdf"^^xsd:anyURI .
+
+msx:source_MY_SRC_TM_AR2025 a :EvidenceSource ;
+    :hasSourceIdentifier "MY_SRC_TM_AR2025" ;
+    :hasSourceType "annual_report_financials" ;
+    :hasSourceURL "https://tm.com.my/iar2025/template/pdf/TM_FR2025.pdf"^^xsd:anyURI .
+
+msx:window_fx_series a :AnalysisWindow ;
+    :hasEndDate "2026-06-04"^^xsd:date ;
+    :hasStartDate "2026-03-27"^^xsd:date ;
+    :hasWindowType "fx-series-window" .
+
+msx:derived_bench_return_MY_CO_MAYBANK a :MarketObservation,
+        :Observation ;
+    :hasMetricName "benchmark window return %" ;
+    :hasMetricValue -0.007088 ;
+    :hasObservationDate "2026-05-14"^^xsd:date ;
+    :isObservationOf msx:market_index_benchmark ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:derived_fund_growth_MY_CO_MAYBANK a :FundamentalObservation,
+        :Observation ;
+    :hasMetricName "YoY profit growth %" ;
+    :hasMetricValue 4.214616 ;
+    :hasObservationDate "2026-04-01"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedInPeriod msx:period_MY_FUND_MAYBANK_FY2025 .
+
+msx:derived_post_return_MY_CO_MAYBANK a :MarketObservation,
+        :Observation ;
+    :hasMetricName "post-report window return %" ;
+    :hasMetricValue -2.342408 ;
+    :hasObservationDate "2026-05-14"^^xsd:date ;
+    :isObservationOf msx:company_MY_CO_MAYBANK ;
+    :observedOverWindow msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days .
+
+msx:evid_MY_EVID_CIMB_AR2025 a :Announcement,
+        :EvidenceItem ;
+    rdfs:label "Annual Report & CG Report - 2025"@en ;
+    :aboutCompany msx:company_MY_CO_CIMB ;
+    :hasAnnouncementDate "2026-03-26"^^xsd:date ;
+    :hasAnnouncementType "Annual Report & CG Report" ;
+    :hasEvidenceIdentifier "MY_EVID_CIMB_AR2025" ;
+    :hasEvidenceSource msx:source_MY_SRC_CIMB_AR2025 ;
+    :hasEvidenceURL "https://www.bursamalaysia.com/bm/market_information/announcements/company_announcement?cat=AR%2CARCO&company=1023"^^xsd:anyURI ;
+    :publishedBy msx:publisher_Bursa_Malaysia .
+
+msx:evid_MY_EVID_MAXIS_AR2025 a :Announcement,
+        :EvidenceItem ;
+    rdfs:label "Annual Report & CG Report - 2025"@en ;
+    :aboutCompany msx:company_MY_CO_MAXIS ;
+    :hasAnnouncementDate "2026-04-16"^^xsd:date ;
+    :hasAnnouncementType "Annual Report & CG Report" ;
+    :hasEvidenceIdentifier "MY_EVID_MAXIS_AR2025" ;
+    :hasEvidenceSource msx:source_MY_SRC_MAXIS_AR2025 ;
+    :hasEvidenceURL "https://maxis.listedcompany.com/ar.html"^^xsd:anyURI ;
+    :publishedBy msx:publisher_Bursa_Malaysia .
+
+msx:evid_MY_EVID_TM_AR2025 a :Announcement,
+        :EvidenceItem ;
+    rdfs:label "Annual Report & CG Report - 2025"@en ;
+    :aboutCompany msx:company_MY_CO_TM ;
+    :hasAnnouncementDate "2026-04-17"^^xsd:date ;
+    :hasAnnouncementType "Annual Report & CG Report" ;
+    :hasEvidenceIdentifier "MY_EVID_TM_AR2025" ;
+    :hasEvidenceSource msx:source_MY_SRC_TM_AR2025 ;
+    :hasEvidenceURL "https://tm.com.my/iar2025/template/pdf/Telekom_Malaysia_Berhad_IAR25.pdf"^^xsd:anyURI ;
+    :publishedBy msx:publisher_Bursa_Malaysia .
+
+msx:period_MY_FUND_CIMB_FY2025 a :ReportingPeriod ;
+    :hasEndDate "2025-12-31"^^xsd:date ;
+    :hasReportDate "2026-03-26"^^xsd:date ;
+    :hasStartDate "2025-01-01"^^xsd:date .
+
+msx:period_MY_FUND_MAXIS_FY2025 a :ReportingPeriod ;
+    :hasEndDate "2025-12-31"^^xsd:date ;
+    :hasReportDate "2026-04-16"^^xsd:date ;
+    :hasStartDate "2025-01-01"^^xsd:date .
+
+msx:period_MY_FUND_MAYBANK_FY2025 a :ReportingPeriod ;
+    :hasEndDate "2025-12-31"^^xsd:date ;
+    :hasReportDate "2026-04-01"^^xsd:date ;
+    :hasStartDate "2025-01-01"^^xsd:date .
+
+msx:period_MY_FUND_TM_FY2025 a :ReportingPeriod ;
+    :hasEndDate "2025-12-31"^^xsd:date ;
+    :hasReportDate "2026-04-17"^^xsd:date ;
+    :hasStartDate "2025-01-01"^^xsd:date .
+
+msx:sector_scheme a :IndustrySectorClassificationScheme ;
+    rdfs:label "Bursa Malaysia sector classification"@en .
+
+msx:evid_MY_EVID_MAYBANK_AR2025 a :Announcement,
+        :EvidenceItem ;
+    rdfs:label "Annual Report & CG Report - 2025"@en ;
+    :aboutCompany msx:company_MY_CO_MAYBANK ;
+    :hasAnnouncementDate "2026-04-01"^^xsd:date ;
+    :hasAnnouncementType "Annual Report & CG Report" ;
+    :hasEvidenceIdentifier "MY_EVID_MAYBANK_AR2025" ;
+    :hasEvidenceSource msx:source_MY_SRC_MAYBANK_AR2025 ;
+    :hasEvidenceURL "https://www.maybank.com/iwov-resources/documents/pdf/annual-report/2025/maybank-ar2025-integrated-annual-report.pdf"^^xsd:anyURI ;
+    :publishedBy msx:publisher_Bursa_Malaysia .
+
+msx:publisher_Bursa_Malaysia a :Publisher ;
+    rdfs:label "Bursa Malaysia"@en .
+
+msx:validation_passed a :ValidationStatus ;
+    :hasValidationFlag "passed" .
+
+msx:window_MY_CO_MAXIS_MAXIS_AR2025_event_m1_p1_event_window_1_1 a :EventWindow ;
+    :hasEndDate "2026-04-17"^^xsd:date ;
+    :hasStartDate "2026-04-15"^^xsd:date ;
+    :hasWindowType "(-1,+1)" .
+
+msx:window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3 a :EventWindow ;
+    :hasEndDate "2026-04-21"^^xsd:date ;
+    :hasStartDate "2026-04-13"^^xsd:date ;
+    :hasWindowType "(-3,+3)" .
+
+msx:window_comp_Telecommunications_Media_selected_peer_basket a :AnalysisWindow ;
+    :hasEndDate "2026-06-04"^^xsd:date ;
+    :hasStartDate "2026-04-17"^^xsd:date ;
+    :hasWindowType "post_report_30_trading_days" .
+
+msx:window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days a :AnalysisWindow ;
+    :hasEndDate "2026-05-08"^^xsd:date ;
+    :hasStartDate "2026-03-27"^^xsd:date ;
+    :hasWindowType "post_report_30_trading_days" .
+
+msx:window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days a :AnalysisWindow ;
+    :hasEndDate "2026-06-03"^^xsd:date ;
+    :hasStartDate "2026-04-17"^^xsd:date ;
+    :hasWindowType "post_report_30_trading_days" .
+
+msx:window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days a :AnalysisWindow ;
+    :hasEndDate "2026-05-14"^^xsd:date ;
+    :hasStartDate "2026-04-02"^^xsd:date ;
+    :hasWindowType "post_report_30_trading_days" .
+
+msx:window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days a :AnalysisWindow ;
+    :hasEndDate "2026-06-04"^^xsd:date ;
+    :hasStartDate "2026-04-20"^^xsd:date ;
+    :hasWindowType "post_report_30_trading_days" .
+
+msx:window_comp_Financial_Services_selected_peer_basket a :AnalysisWindow ;
+    :hasEndDate "2026-05-14"^^xsd:date ;
+    :hasStartDate "2026-03-27"^^xsd:date ;
+    :hasWindowType "post_report_30_trading_days" .
+
+msx:sector_classifier_Telecommunications_Media a :IndustrySectorClassifier,
+        :ObservedEntity ;
+    rdfs:label "Telecommunications & Media Sector Classifier"@en ;
+    :isDefinedInIndustrySectorScheme msx:sector_scheme .
+
+msx:company_MY_CO_CIMB a :Company,
+        :ObservedEntity ;
+    rdfs:label "CIMB Group Holdings Berhad"@en ;
+    :hasCompanyIdentifier "1023" ;
+    :hasCompanyName "CIMB Group Holdings Berhad" ;
+    :isClassifiedByIndustrySector msx:sector_classifier_Financial_Services .
+
+msx:company_MY_CO_TM a :Company,
+        :ObservedEntity ;
+    rdfs:label "Telekom Malaysia Berhad"@en ;
+    :hasCompanyIdentifier "4863" ;
+    :hasCompanyName "Telekom Malaysia Berhad" ;
+    :isClassifiedByIndustrySector msx:sector_classifier_Telecommunications_Media .
+
+msx:company_MY_CO_MAYBANK a :Company,
+        :ObservedEntity ;
+    rdfs:label "Malayan Banking Berhad"@en ;
+    :hasCompanyIdentifier "1155" ;
+    :hasCompanyName "Malayan Banking Berhad" ;
+    :isClassifiedByIndustrySector msx:sector_classifier_Financial_Services .
+
+msx:sector_classifier_Financial_Services a :IndustrySectorClassifier,
+        :ObservedEntity ;
+    rdfs:label "Financial Services Sector Classifier"@en ;
+    :isDefinedInIndustrySectorScheme msx:sector_scheme .
+
+msx:currency_MYR a :Currency ;
+    :hasCurrencyCode "MYR" .
+
+msx:currency_USD a :Currency ;
+    :hasCurrencyCode "USD" .
+
+msx:observed_fx_pair a :ObservedEntity ;
+    rdfs:label "USD/MYR currency pair"@en .
+
+msx:window_comp_FBM_KLCI_demonstrator_proxy a :AnalysisWindow ;
+    :hasEndDate "2026-06-04"^^xsd:date ;
+    :hasStartDate "2026-03-27"^^xsd:date ;
+    :hasWindowType "post_report_30_trading_days" .
+
+msx:company_MY_CO_MAXIS a :Company,
+        :ObservedEntity ;
+    rdfs:label "Maxis Berhad"@en ;
+    :hasCompanyIdentifier "6012" ;
+    :hasCompanyName "Maxis Berhad" ;
+    :isClassifiedByIndustrySector msx:sector_classifier_Telecommunications_Media .
+
+msx:market_index_benchmark a :MarketIndex,
+        :ObservedEntity ;
+    rdfs:label "FBM KLCI (demonstrator proxy)"@en .
+

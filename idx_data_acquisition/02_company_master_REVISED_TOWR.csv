@@ -1,0 +1,5 @@
+company_id,company_symbol,stock_code,official_company_name,sector,sector_scheme,exchange,listing_status,fiscal_year_end,official_idx_page,retrieval_date,source_id
+IDX_CO_BBCA,BBCA,BBCA,PT Bank Central Asia Tbk,Banking,IDX sector classification,Indonesia Stock Exchange,Listed,31-Dec,https://stockanalysis.com/quote/idx/BBCA/,2026-06-27,IDX_SRC_BBCA
+IDX_CO_BMRI,BMRI,BMRI,PT Bank Mandiri (Persero) Tbk,Banking,IDX sector classification,Indonesia Stock Exchange,Listed,31-Dec,https://stockanalysis.com/quote/idx/BMRI/,2026-06-27,IDX_SRC_BMRI
+IDX_CO_TOWR,TOWR,TOWR,PT Sarana Menara Nusantara Tbk,Telecommunications,CQ3 normalized peer-basket sector,Indonesia Stock Exchange,Listed,31-Dec,https://www.idx.co.id/StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_EREP/202503/20260318093358-60005-0/sarana%20menara%20nusantara_311225.pdf,2026-06-28,IDX_SRC_TOWR
+IDX_CO_ISAT,ISAT,ISAT,PT Indosat Ooredoo Hutchison Tbk,Telecommunications,CQ3 normalized peer-basket sector,Indonesia Stock Exchange,Listed,31-Dec,https://stockanalysis.com/quote/idx/ISAT/,2026-06-27,IDX_SRC_ISAT

@@ -1,0 +1,4 @@
+prov_id,derived_from,evidence_source,retrieval_date,extraction_date
+prov_company_A_disclosure,disclosure_company_A_1,PSX,2025-02-10T10:30:00,2025-02-10T10:15:00
+prov_company_B_disclosure,disclosure_company_B_1,PSX,2025-02-10T10:35:00,2025-02-10T10:20:00
+prov_market_post_report,disclosure_market_snapshot_post_report,PSX,2025-02-10T10:45:00,2025-02-10T10:40:00

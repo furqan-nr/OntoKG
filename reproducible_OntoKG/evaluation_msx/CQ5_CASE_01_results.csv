@@ -1,0 +1,4 @@
+entity,observation,metricName,metricValue,evidenceItem,evidenceSource
+company_MY_CO_MAYBANK,derived_bench_return_MY_CO_MAYBANK,benchmark window return %,-0.007088,evid_MY_EVID_MAYBANK_AR2025,source_MY_SRC_MAYBANK_AR2025
+company_MY_CO_MAYBANK,derived_fund_growth_MY_CO_MAYBANK,YoY profit growth %,4.214616,evid_MY_EVID_MAYBANK_AR2025,source_MY_SRC_MAYBANK_AR2025
+company_MY_CO_MAYBANK,derived_post_return_MY_CO_MAYBANK,post-report window return %,-2.342408,evid_MY_EVID_MAYBANK_AR2025,source_MY_SRC_MAYBANK_AR2025

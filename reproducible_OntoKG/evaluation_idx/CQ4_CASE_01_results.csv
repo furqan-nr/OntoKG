@@ -1,0 +1,7 @@
+company,announcement,announcementDate,eventWindow,cumAbnormalReturn,abnormalVolumeRatio
+company_IDX_CO_BBCA,evid_IDX_EVID_BBCA_AR2025,2026-01-27,"(-1,+1)",-8.294118,2.024185
+company_IDX_CO_BBCA,evid_IDX_EVID_BBCA_AR2025,2026-01-27,"(-3,+3)",-3.674587,2.274067
+company_IDX_CO_BMRI,evid_IDX_EVID_BMRI_AR2025,2026-02-06,"(-3,+3)",4.683981,1.233389
+company_IDX_CO_ISAT,evid_IDX_EVID_ISAT_AR2025,2026-02-09,"(-1,+1)",3.343905,1.311362
+company_IDX_CO_TOWR,evid_IDX_EVID_TOWR_AR2025,2026-03-18,"(-1,+1)",11.377398,2.164363
+company_IDX_CO_TOWR,evid_IDX_EVID_TOWR_AR2025,2026-03-18,"(-3,+3)",6.279037,1.44533

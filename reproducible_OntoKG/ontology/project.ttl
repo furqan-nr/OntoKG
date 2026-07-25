@@ -1,0 +1,12 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://w3id.org/ontokg-eq/project>
+    a owl:Ontology ;
+    owl:versionIRI <https://w3id.org/ontokg-eq/project/v2.3> ;
+    owl:imports <https://w3id.org/ontokg-eq/core> ,
+                <https://w3id.org/ontokg-eq/alignment> ,
+                <https://w3id.org/ontokg-eq/shapes> ,
+                <https://w3id.org/ontokg-eq/demo> ;
+    rdfs:label "OntoKG-EQ Project Ontology"@en ;
+    rdfs:comment "Top-level Phase 6 project ontology that imports the revised core, alignment, SHACL shapes, and demo modules."@en .

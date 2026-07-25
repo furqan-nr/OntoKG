@@ -1,0 +1,6 @@
+method,cases,numeric_faithfulness,hallucinated_numbers,unsupported_assertions,provenance_coverage
+OntoKG-EQ (provenance-grounded),47,1.00,0.00,0.00,1.00
+GraphRAG/LLM Qwen2.5-7B-Instruct (curated),6,1.00,0.00,0.00,0.33
+GraphRAG/LLM Qwen2.5-7B-Instruct (scaled-64),41,1.00,0.00,0.00,0.44
+GraphRAG/LLM SmolLM2-1.7B-Instruct (curated),6,1.00,0.00,0.00,0.83
+GraphRAG/LLM SmolLM2-1.7B-Instruct (scaled-64),41,0.92,0.29,0.00,0.95

@@ -1,0 +1,20 @@
+Reasoner Check Summary
+
+Date: 2026-05-14
+Time: user-run session (local time)
+Operator: user-run (reported)
+Tool: Protégé
+Reasoner: ELK 0.6.0
+Ontology loaded: ontology/project.ttl
+
+Results
+- Ontology consistency: PASS (no inconsistent ontology reported)
+- Unsatisfiable named classes: 0 (reported)
+- Notes: Result is based on user-provided Protégé + ELK run artifacts and screenshots.
+
+Evidence
+- Screenshots captured: yes
+- SHACL screenshot indicates: "SHACL constraint violations: none"
+- Query screenshot indicates CQ1 worked case result with bundle and result entity label.
+- Explanation-path screenshot indicates CQ1 evidence bundle link structure.
+- Attached ontology package files include core.ttl, alignment.ttl, shapes.ttl, project.ttl, catalog-v001.xml, and demo.ttl.

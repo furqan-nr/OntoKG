@@ -1,0 +1,15 @@
+PREFIX : <https://w3id.org/ontokg-eq#>
+# CQ4 — Announcements vs market reaction.
+# Official announcements temporally aligned with abnormal market activity:
+# cumulative abnormal return beyond +/-2% OR abnormal volume ratio >= 1.5 in a
+# short event window (-1,+1) or (-3,+3).
+SELECT ?company ?announcement ?announcementDate ?eventWindow ?cumAbnormalReturn ?abnormalVolumeRatio WHERE {
+  ?ar :isObservationOf ?company ; :hasMetricName "cumulative abnormal return %" ;
+      :hasMetricValue ?cumAbnormalReturn ; :observedInEventWindow ?ew .
+  ?ew :hasWindowType ?eventWindow .
+  OPTIONAL { ?vr :isObservationOf ?company ; :hasMetricName "abnormal volume ratio" ;
+             :hasMetricValue ?abnormalVolumeRatio ; :observedInEventWindow ?ew . }
+  ?announcement a :Announcement ; :aboutCompany ?company ; :hasAnnouncementDate ?announcementDate .
+  FILTER( ABS(?cumAbnormalReturn) >= 2.0 || COALESCE(?abnormalVolumeRatio, 0) >= 1.5 )
+}
+ORDER BY ?company ?eventWindow

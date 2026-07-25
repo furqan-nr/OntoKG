@@ -1,0 +1,3 @@
+qe,bundle,company,eventObs,abnormalReturn,volume
+https://w3id.org/ontokg-eq/demo#query_exec_cq4_1,https://w3id.org/ontokg-eq/demo#evidence_bundle_cq4_1,https://w3id.org/ontokg-eq/demo#company_A,https://w3id.org/ontokg-eq/demo#market_obs_company_A_event_return,5.4,
+https://w3id.org/ontokg-eq/demo#query_exec_cq4_1,https://w3id.org/ontokg-eq/demo#evidence_bundle_cq4_1,https://w3id.org/ontokg-eq/demo#company_A,https://w3id.org/ontokg-eq/demo#market_obs_company_A_event_volume,18.0,

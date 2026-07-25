@@ -1,0 +1,16 @@
+PREFIX : <https://w3id.org/ontokg-eq#>
+# CQ1 — Fundamentals vs market response.
+# Companies with stronger reported fundamentals (positive YoY profit growth) but a
+# weaker subsequent market response (post-report window return below the broad-market
+# benchmark over the SAME window).
+SELECT ?company ?yoyProfitGrowth ?companyReturn ?benchmarkReturn WHERE {
+  ?fg :isObservationOf ?company ; :hasMetricName "YoY profit growth %" ; :hasMetricValue ?yoyProfitGrowth .
+  ?company a :Company .
+  ?cr :isObservationOf ?company ; :hasMetricName "post-report window return %" ;
+      :hasMetricValue ?companyReturn ; :observedOverWindow ?w .
+  ?br :isObservationOf ?bm ; :hasMetricName "benchmark window return %" ;
+      :hasMetricValue ?benchmarkReturn ; :observedOverWindow ?w .
+  ?bm a :MarketIndex .
+  FILTER(?yoyProfitGrowth > 0 && ?companyReturn < ?benchmarkReturn)
+}
+ORDER BY DESC(?yoyProfitGrowth)

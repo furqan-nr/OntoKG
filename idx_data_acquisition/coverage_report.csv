@@ -1,0 +1,8 @@
+file,data_source,first_date,last_date,rows,covers_anchored_event_window,status,notes
+BBCA_history.csv,Dataset-Saham-IDX archive + MarketWatch public history,2019-07-29,2026-02-27,1376,NO,PARTIAL,Archive covers through 2025-02-21; appended verified 2026-01-28..2026-02-27. Backfill through at least 2026-03-18 and 5 pre-event trading days.
+BMRI_history.csv,Dataset-Saham-IDX archive,2019-07-29,2025-02-21,1355,NO,PARTIAL,FY2025 event anchor is 2026-02-06. Backfill 2026-01-29..2026-03-27.
+TLKM_history.csv,Dataset-Saham-IDX archive,2019-07-29,2025-02-21,1355,NO,PARTIAL,FY2024 event anchor is 2025-04-18. Backfill 2025-04-11..2025-06-10.
+ISAT_history.csv,Dataset-Saham-IDX archive,2019-07-29,2025-02-21,1355,NO,PARTIAL,FY2025 event anchor is 2026-02-09. Backfill 2026-02-02..2026-03-31.
+USDIDR_history.csv,Bank Indonesia JISDOR,2026-06-12,2026-06-26,10,NO,PARTIAL,Verified current JISDOR rows only. Need official daily rates for all four event windows.
+JCI_history.csv,MarketWatch Jakarta Composite Index historical table,2026-05-29,2026-06-26,19,NO,PARTIAL,Verified current rows only. Need official/approved JCI close series for all four event windows.
+announcements.csv,Official IDX issuer disclosure PDFs,2025-04-18,2026-02-09,4,YES,COMPLETE,All four required event anchors supplied with official document links.
