@@ -1,10 +1,11 @@
-# Core reproduction (Python 3.10+)
-rdflib>=7.0
-pyshacl>=0.25
-openpyxl>=3.1
-pandas>=2.0
-pyoxigraph>=0.4          # triplestore + scaling benchmarks
-# LLM evidence-to-text faithfulness panel (run on a GPU / Kaggle)
+# Core reproduction — exact versions used to produce the archived results (Python 3.10.12)
+rdflib==7.6.0
+pyshacl==0.31.0
+openpyxl==3.1.5
+pandas==2.3.3
+pyoxigraph==0.5.9
+# LLM evidence-to-text faithfulness panel (GPU / Kaggle). Exact versions are pinned in
+# kaggle_faithfulness/ontokg_faithfulness_panel.ipynb
 transformers>=4.44
 accelerate
 bitsandbytes
