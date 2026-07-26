@@ -47,7 +47,7 @@ python docs/triplestore_benchmark.py    # unchanged CQ1-CQ5 on Oxigraph (ms late
 python docs/scaling_benchmark.py 1,3,30   # controlled scaling (37k, 111k, 1.11M triples)
 python docs/fault_injection.py data/demo_psx.ttl   # SHACL error-detection (8/8)
 python docs/sql_baseline.py             # serious relational baseline
-python expert_study/analyze_expert_study.py "Form responses (17).xlsx"   # participant-level user-study stats
+python expert_study/analyze_expert_study.py   # participant-level user-study stats (paths resolve to the script folder)
 python docs/make_figures.py             # regenerate figures
 ```
 

@@ -29,8 +29,7 @@ regenerates `evaluation_faithfulness/triplestore_benchmark.md` and `scaling_benc
 ## LLM faithfulness panel (GPU)
 
 - Platform: Kaggle notebook, single NVIDIA T4 GPU (16 GB).
-- Frameworks: transformers, accelerate, bitsandbytes, sentencepiece (4-bit loading). Exact versions are
-  pinned inside `kaggle_faithfulness/ontokg_faithfulness_panel.ipynb`.
+- Frameworks: transformers, accelerate, bitsandbytes, sentencepiece (4-bit loading). The models and libraries used are listed in `kaggle_faithfulness/ontokg_faithfulness_panel.ipynb` (pin these package versions and Hugging Face model revisions for bit-exact reproduction).
 - Models: eight open-weight instruction models — Qwen2.5-0.5B/1.5B/3B/7B-Instruct, SmolLM2-1.7B-Instruct,
   Phi-3.5-mini-instruct, Mistral-7B-Instruct-v0.3, TinyLlama-1.1B-Chat.
 

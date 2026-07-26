@@ -18,7 +18,8 @@ from math import comb
 import openpyxl
 
 SEED, BOOT = 12345, 10000
-DEFAULT = "Form responses (17).xlsx"
+HERE = os.path.dirname(os.path.abspath(__file__))
+DEFAULT = os.path.join(HERE, "Form responses (17).xlsx")
 
 def num(x):
     try: return float(x)
@@ -54,7 +55,9 @@ def binom_two_sided(k, n, p=0.5):
 def main():
     path=sys.argv[1] if len(sys.argv)>1 else DEFAULT
     if not os.path.exists(path):
-        print(f"Raw export not found: {path}"); return
+        alt=os.path.join(HERE, os.path.basename(path))
+        if os.path.exists(alt): path=alt
+        else: print(f"Raw export not found: {path}"); return
     ws=openpyxl.load_workbook(path, data_only=True).active
     rows=list(ws.iter_rows(values_only=True))[1:]
     P=[]
@@ -98,8 +101,9 @@ def main():
     L.append("NOTE: an earlier version reported item-level p-values (~1e-22); those were pseudoreplicated "
              "(treating the 8 nested ratings per participant as independent) and are superseded by the "
              "participant-level analysis above.")
-    open("results.md","w",encoding="utf-8").write("\n".join(L)+"\n")
-    print("\n".join(L)); print("\nWrote results.md")
+    outp=os.path.join(HERE,"results.md")
+    open(outp,"w",encoding="utf-8").write("\n".join(L)+"\n")
+    print("\n".join(L)); print(f"\nWrote {outp}")
 
 if __name__ == "__main__":
     main()
