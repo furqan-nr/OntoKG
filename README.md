@@ -44,10 +44,10 @@ python build_market_graph.py psx        # then: msx, idx, idx_scaled  -> data/de
 pyshacl -s shacl/shapes.ttl -d data/demo_psx.ttl -f human       # expect: Conforms True
 python infer_and_explain.py psx         # inference + explanation bundles -> evaluation_psx/
 python docs/triplestore_benchmark.py    # unchanged CQ1-CQ5 on Oxigraph (ms latencies)
-python docs/scaling_benchmark.py 3,30   # controlled scaling (1e5, 1e6 triples)
+python docs/scaling_benchmark.py 1,3,30   # controlled scaling (37k, 111k, 1.11M triples)
 python docs/fault_injection.py data/demo_psx.ttl   # SHACL error-detection (8/8)
 python docs/sql_baseline.py             # serious relational baseline
-python expert_study/analyze_google_form_responses.py "<responses>.xlsx"   # user-study statistics
+python expert_study/analyze_expert_study.py "Form responses (17).xlsx"   # participant-level user-study stats
 python docs/make_figures.py             # regenerate figures
 ```
 
@@ -69,7 +69,7 @@ on a GPU, with the four `.ttl` files in `kaggle_faithfulness/dataset_files/` add
 | Component ablations | `docs/ablation_study.py` | `evaluation_*/` outputs |
 | 8-model LLM faithfulness + pairwise McNemar | `kaggle_faithfulness/ontokg_faithfulness_panel.ipynb` | `evaluation_faithfulness/panel_results.md`, `panel_mcnemar.csv` |
 | Deterministic vs generative cost | — | `evaluation_faithfulness/compute_cost.md` |
-| User study (n = 17): trust/completeness/preference | `expert_study/analyze_google_form_responses.py` | `expert_study/*(Responses).xlsx`, `expert_study/results.md` |
+| User study (n = 17): trust/completeness/preference | `expert_study/analyze_expert_study.py` | `expert_study/Form responses (17).xlsx`, `expert_study/results.md` |
 | Figures | `docs/make_figures.py` | (regenerated) |
 
 ## Notes

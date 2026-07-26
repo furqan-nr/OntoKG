@@ -48,5 +48,5 @@ for K in Ks:
         lat[cq]=[c,round(best,1)]
     rows.append({"triples":n,"build_s":round(bt,1),"ingest_s":round(ingest,1),"lat":lat})
     json.dump(rows,open(results_path,"w"))
-    print(f"triples={n:,} build={bt:.1f}s ingest={ingest:.1f}s CQ1={lat[1]} CQ2={lat[2]} CQ3={lat[3]}",flush=True)
+    print(f"triples={n:,} build={bt:.1f}s ingest={ingest:.1f}s CQ1={lat[1]} CQ3={lat[3]}",flush=True)
     del store; shutil.rmtree(d,ignore_errors=True)

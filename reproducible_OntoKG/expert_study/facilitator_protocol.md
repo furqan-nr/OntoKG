@@ -16,7 +16,7 @@ forced A/B preference; optional verification time.
   students, junior analysts, or faculty colleagues). 12 is enough for significance if the effect is as
   large as expected; more is better.
 - **Materials (in this folder):** `participant_packet.docx` (print or share one per participant),
-  `response_form.xlsx` (data entry), `analyze_expert_study.py` (analysis).
+  the Google Form for collection (exported as `Form responses (17).xlsx`), `analyze_expert_study.py` (analysis).
 - **Time:** ~20–30 min per participant; the whole study can be done in a week.
 
 ## Procedure (per participant)
@@ -26,8 +26,7 @@ forced A/B preference; optional verification time.
    or use a digital form that reveals B only after A is submitted).
 3. Reveal **Version B**; they re-rate Trust + Completeness and mark which version they'd rather receive.
 4. (Optional) Time how long they spend verifying each version and record seconds.
-5. Transfer their ratings into `response_form.xlsx` (one row per item; 15 participants × 8 items are
-   pre-filled — add rows for more).
+5. Responses are collected through the Google Form and exported as `Form responses (17).xlsx` (one row per participant); the completed study collected 17 participants.
 
 ## Bias controls
 - Reveal B only after A is rated (prevents anchoring).
@@ -38,8 +37,7 @@ forced A/B preference; optional verification time.
 ## Analysis
 Run `python analyze_expert_study.py` in this folder. It computes descriptive stats, a Wilcoxon
 signed-rank test (B vs A) for Trust and Completeness, an exact sign test, the rank-biserial effect size,
-and a binomial test on preference, and writes `results.md` including a ready-to-paste §7.6 paragraph. Send
-me `results.md` (or the filled `response_form.xlsx`) and I will finalise §7.6 in the manuscript.
+and a binomial test on preference, and writes `results.md`, which reports the Section 7.6 statistics (participant-level, n = 17).
 
 ## Ethics / consent
 The packet's first page is a short anonymous-consent block (18+, voluntary, aggregate reporting, no

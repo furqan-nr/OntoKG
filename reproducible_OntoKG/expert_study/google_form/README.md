@@ -7,7 +7,7 @@ submission is timestamped and logged to a Google Sheet, giving you auditable, do
 | File | What it does |
 |---|---|
 | `create_google_form.gs` | One-click Apps Script that **builds the whole form** from the 8 real items (consent, background, and each statement shown first without evidence, then with it). |
-| `analyze_google_form_responses.py` | Reads the Form's exported responses and computes the Section 7.6 statistics + a ready-to-paste paragraph. |
+| `analyze_google_form_responses.py` | Deprecated shim; runs the canonical participant-level analysis (`../analyze_expert_study.py`). |
 
 ## Step 1 — Create the form (about 2 minutes, once)
 1. Go to **https://script.google.com** → **New project**.
@@ -30,10 +30,10 @@ preference. It is anonymous; an optional Participant ID field lets you track who
 
 ## Step 4 — Analyse
 1. In the linked Google Sheet: **File → Download → Microsoft Excel (.xlsx)**.
-2. Put that file next to `analyze_google_form_responses.py`, renamed `responses.xlsx` (or pass its path).
-3. Run: `pip install openpyxl` then `python analyze_google_form_responses.py responses.xlsx`.
+2. The collected export in this repository is `../Form responses (17).xlsx`.
+3. Run: `pip install openpyxl` then `python ../analyze_expert_study.py "../Form responses (17).xlsx"`.
 4. It writes `results.md` with the trust/completeness/preference statistics and a ready-to-paste
-   Section 7.6 paragraph. Send me `results.md` (or the responses file) and I'll finalise §7.6.
+   Section 7.6 paragraph. The canonical participant-level analysis is `../analyze_expert_study.py`; `results.md` reproduces the Section 7.6 numbers.
 
 ## Notes
 - Target **12–20** respondents; 12 is enough if the effect is as large as expected, more is better.

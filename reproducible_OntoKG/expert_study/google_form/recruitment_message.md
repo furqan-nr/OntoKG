@@ -50,4 +50,4 @@ faculty, and finance-savvy colleagues. Over-invite by ~50% since not everyone re
 
 ## After collection
 Responses tab → linked Google Sheet → File → Download → Microsoft Excel → run
-`analyze_google_form_responses.py` (see README), then use `results.md` in the write-up.
+`analyze_expert_study.py` (see README), then use `results.md` in the write-up.

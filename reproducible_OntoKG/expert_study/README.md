@@ -8,8 +8,7 @@ to regenerate its statistics. The study has already been run; nothing here requi
 | File | What it is |
 |---|---|
 | `Form responses (17).xlsx` | Raw anonymous Google Form export — the 17 collected responses |
-| `response_form.xlsx` | The responses arranged on sheet `Data` (input to the analysis script) |
-| `analyze_expert_study.py` | Recomputes the participant-level statistics and writes `results.md` |
+| `analyze_expert_study.py` | Canonical analysis: reads `Form responses (17).xlsx`, computes participant-level statistics, writes `results.md` (openpyxl + standard library only) |
 | `results.md` | The regenerated statistics, as reported in §7.6 |
 | `facilitator_protocol.docx` / `.md` | The protocol used: design, procedure, bias controls, ethics |
 | `participant_packet.docx` / `.md` | Consent + instructions + the 8 A/B items + rating grids given to participants |
@@ -19,12 +18,13 @@ to regenerate its statistics. The study has already been run; nothing here requi
 ## Reproduce the reported statistics
 ```
 pip install openpyxl
-python analyze_expert_study.py      # reads response_form.xlsx (sheet 'Data'), writes results.md
+python analyze_expert_study.py "Form responses (17).xlsx"   # writes results.md
 ```
-Then compare `results.md` with §7.6. Expected values (participant-level, n = 17): trust +2.87
-(Wilcoxon p ≈ 5×10⁻⁴, n = 17); completeness +3.35 (p ≈ 6×10⁻⁴, n = 16 non-zero pairs — one participant
-rated completeness identically for both versions, a zero difference the signed-rank test excludes); and
-16/17 participants preferring the evidence-grounded version on all eight items (sign test p ≈ 1.5×10⁻⁵).
+Then compare `results.md` with §7.6. Expected values (participant-level, n = 17): trust +2.87 [2.10, 3.52]
+(exact Wilcoxon p ≈ 7.6×10⁻⁵, n = 17); completeness +3.35 [2.61, 4.00] (p ≈ 6.1×10⁻⁵, n = 16 non-zero pairs —
+one participant rated completeness identically for both versions, a zero difference the signed-rank test
+excludes); and 16/17 participants preferring the evidence-grounded version on all eight items, 17/17 on a
+majority (sign test p ≈ 1.5×10⁻⁵).
 
 ## Design (as run)
 Each participant gave voluntary opt-in consent, rated Version A (result-only note), then rated Version B

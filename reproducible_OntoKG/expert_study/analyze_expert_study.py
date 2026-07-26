@@ -1,109 +1,105 @@
 #!/usr/bin/env python3
-"""Analyze the OntoKG-EQ expert study. No external stats libraries required.
+"""Canonical, dependency-light reproduction of the Section 7.6 human-utility study.
 
-Reads response_form.xlsx (sheet 'Data'), and for the paired A (result-only) vs B (with evidence)
-conditions computes: descriptive stats, a Wilcoxon signed-rank test (normal approximation with
-continuity + tie correction), an exact sign test, the matched-pairs rank-biserial effect size, and a
-binomial test on the B-vs-A preference. Writes results.md with a ready-to-paste Section 7.6 paragraph.
+Reads the raw Google Form export ("Form responses (17).xlsx") and computes the *participant-level*
+statistics reported in Section 7.6 (each participant contributes one mean per condition, avoiding
+pseudoreplication of the 8 nested item ratings). Uses only openpyxl + the standard library:
+  * exact Wilcoxon signed-rank test (full sign enumeration; valid for n<=~20),
+  * a participant bootstrap 95% CI (fixed seed for reproducibility),
+  * an exact two-sided sign/binomial test on the per-participant preference.
 
-Usage:  pip install openpyxl ; python analyze_expert_study.py
+Usage:  pip install openpyxl
+        python analyze_expert_study.py ["Form responses (17).xlsx"]
+Writes results.md (the paragraph reported in Section 7.6).
 """
-import math, statistics as st
-from collections import Counter
+import sys, os, statistics, random
+from itertools import product
+from math import comb
 import openpyxl
 
-def norm_sf(z):  # upper-tail standard normal
-    return 0.5*math.erfc(z/math.sqrt(2))
+SEED, BOOT = 12345, 10000
+DEFAULT = "Form responses (17).xlsx"
 
-def wilcoxon(a, b):
-    """Two-sided Wilcoxon signed-rank on paired (a,b); returns (W, p, n_nonzero)."""
-    d=[y-x for x,y in zip(a,b) if (y-x)!=0]
-    n=len(d)
-    if n==0: return 0.0, 1.0, 0
-    order=sorted(range(n), key=lambda i: abs(d[i]))
-    ranks=[0.0]*n; i=0
-    while i<n:
-        j=i
-        while j+1<n and abs(d[order[j+1]])==abs(d[order[i]]): j+=1
-        r=(i+j)/2+1
-        for k in range(i,j+1): ranks[order[k]]=r
-        i=j+1
-    Wp=sum(ranks[i] for i in range(n) if d[i]>0)
-    Wm=sum(ranks[i] for i in range(n) if d[i]<0)
-    W=min(Wp,Wm)
-    mu=n*(n+1)/4
-    ties=Counter(abs(x) for x in d)
-    tie=sum(t**3-t for t in ties.values())
-    sd=math.sqrt(n*(n+1)*(2*n+1)/24 - tie/48)
-    if sd==0: return W,1.0,n
-    z=(W-mu+0.5)/sd
-    return W, min(1.0,2*norm_sf(abs(z))), n
-
-def sign_test(a,b):
-    pos=sum(1 for x,y in zip(a,b) if y>x); neg=sum(1 for x,y in zip(a,b) if y<x); n=pos+neg
-    if n==0: return 1.0,pos,neg
-    from math import comb
-    k=min(pos,neg); p=min(1.0,2*sum(comb(n,i) for i in range(k+1))/2**n)
-    return p,pos,neg
-
-def binom_test(k,n,p=0.5):
-    if n==0: return 1.0
-    from math import comb
-    probs=[comb(n,i)*p**i*(1-p)**(n-i) for i in range(n+1)]
-    obs=probs[k]; return min(1.0,sum(pp for pp in probs if pp<=obs+1e-12))
-
-def col(rows,name): return [r[name] for r in rows]
 def num(x):
     try: return float(x)
-    except: return None
+    except Exception: return None
+
+def rankavg(vals):
+    order = sorted(range(len(vals)), key=lambda i: vals[i]); ranks=[0.0]*len(vals); i=0
+    while i < len(vals):
+        j=i
+        while j+1 < len(vals) and vals[order[j+1]]==vals[order[i]]: j+=1
+        avg=(i+j)/2+1
+        for k in range(i, j+1): ranks[order[k]]=avg
+        i=j+1
+    return ranks
+
+def wilcoxon_exact(diffs):
+    d=[x for x in diffs if x!=0]; n=len(d); r=rankavg([abs(x) for x in d])
+    Wplus=sum(r[i] for i in range(n) if d[i]>0); mean=sum(r)/2; obs=abs(Wplus-mean)
+    cnt=sum(1 for s in product((0,1), repeat=n)
+            if abs(sum(r[i] for i in range(n) if s[i])-mean) >= obs-1e-9)
+    return n, Wplus, cnt/(2**n)
+
+def boot_ci(diffs, seed=SEED, B=BOOT):
+    rnd=random.Random(seed); n=len(diffs); out=[]
+    for _ in range(B):
+        out.append(sum(diffs[rnd.randrange(n)] for _ in range(n))/n)
+    out.sort(); return out[int(0.025*B)], out[int(0.975*B)-1]
+
+def binom_two_sided(k, n, p=0.5):
+    pr=[comb(n,i)*p**i*(1-p)**(n-i) for i in range(n+1)]
+    return sum(x for x in pr if x <= pr[k]+1e-12)
 
 def main():
-    wb=openpyxl.load_workbook("response_form.xlsx", data_only=True)
-    ws=wb["Data"]; H=[c.value for c in ws[1]]
-    rows=[dict(zip(H,[c.value for c in r])) for r in ws.iter_rows(min_row=2)]
-    # keep rows with both trust_A and trust_B filled
-    def ok(r): return num(r.get("trust_A")) is not None and num(r.get("trust_B")) is not None
-    R=[r for r in rows if ok(r)]
-    if not R:
-        print("No completed rows found. Fill response_form.xlsx first."); return
-    tA=[num(r["trust_A"]) for r in R]; tB=[num(r["trust_B"]) for r in R]
-    cA=[num(r["completeness_A"]) for r in R if num(r.get("completeness_A")) is not None]
-    cB=[num(r["completeness_B"]) for r in R if num(r.get("completeness_B")) is not None]
-    parts=sorted(set(r["participant_id"] for r in R))
-    pref=Counter(str(r.get("preference (A/B/=)")).strip().upper() for r in R if r.get("preference (A/B/=)"))
-    def line(name,A,B):
-        W,p,n=wilcoxon(A,B); rb=1-2*W/(n*(n+1)/2) if n else 0
-        return (f"- **{name}:** A mean {st.mean(A):.2f} (median {st.median(A):.1f}) vs "
-                f"B mean {st.mean(B):.2f} (median {st.median(B):.1f}); "
-                f"Wilcoxon signed-rank p = {p:.4g} (n={n} non-tied pairs), rank-biserial r = {rb:.2f}")
-    out=[]
-    out.append("# Expert study — results\n")
-    out.append(f"Participants: {len(parts)}; paired responses: {len(R)} (across 8 items).\n")
-    out.append(line("Trust", tA, tB))
-    if cA and cB and len(cA)==len(cB): out.append(line("Completeness of justification", cA, cB))
-    b=pref.get("B",0); a=pref.get("A",0); eq=pref.get("=",0)+pref.get("EQUAL",0)
-    pb=binom_test(b, a+b) if (a+b)>0 else 1.0
-    out.append(f"- **Preference:** B {b}, A {a}, no-difference {eq}; among A/B choices, prefer-B "
-               f"{b}/{a+b} = {(b/(a+b)*100 if (a+b) else 0):.0f}% (binomial p = {pb:.4g}).")
-    # optional timing
-    taA=[num(r.get("verify_time_A_sec")) for r in R if num(r.get("verify_time_A_sec")) is not None]
-    taB=[num(r.get("verify_time_B_sec")) for r in R if num(r.get("verify_time_B_sec")) is not None]
-    if taA and taB and len(taA)==len(taB):
-        W,p,n=wilcoxon(taB,taA)
-        out.append(f"- **Verification time (s):** A mean {st.mean(taA):.1f} vs B mean {st.mean(taB):.1f}; Wilcoxon p = {p:.4g}.")
-    # §7.6 template
-    W,p,n=wilcoxon(tA,tB)
-    out.append("\n## Ready-to-paste Section 7.6 paragraph (fill any [bracketed] context)\n")
-    out.append(f"> We ran the pre-registered within-subject study with {len(parts)} participants "
-               f"[roles/experience], each rating {8} OntoKG-EQ statements first as result-only notes (Version A) and "
-               f"then with the provenance-grounded evidence bundle (Version B). Adding the evidence raised mean trust "
-               f"from {st.mean(tA):.2f} to {st.mean(tB):.2f} on a 7-point scale (Wilcoxon signed-rank p = {p:.4g}) and "
-               f"mean perceived completeness from {st.mean(cA) if cA else float('nan'):.2f} to "
-               f"{st.mean(cB) if cB else float('nan'):.2f}; "
-               f"{(b/(a+b)*100 if (a+b) else 0):.0f}% of participants preferred the evidence-grounded version "
-               f"(binomial p = {pb:.4g}). This converts the paper's structural faithfulness guarantee into a "
-               f"measured improvement in analyst trust and verifiability.")
-    txt="\n".join(out)
-    open("results.md","w").write(txt+"\n"); print(txt); print("\nWrote results.md")
+    path=sys.argv[1] if len(sys.argv)>1 else DEFAULT
+    if not os.path.exists(path):
+        print(f"Raw export not found: {path}"); return
+    ws=openpyxl.load_workbook(path, data_only=True).active
+    rows=list(ws.iter_rows(values_only=True))[1:]
+    P=[]
+    for r in rows:
+        if r[0] is None: continue
+        TA=TB=CA=CB=None; ta=[];tb=[];ca=[];cb=[];pref=[]
+        for k in range(8):
+            b=4+6*k
+            for lst,idx in ((ta,b),(ca,b+1),(tb,b+3),(cb,b+4)):
+                v=num(r[idx])
+                if v is not None: lst.append(v)
+            p=str(r[b+5]); pref.append(p)
+        P.append(dict(role=r[2], yrs=num(r[3]),
+                      tA=statistics.mean(ta), tB=statistics.mean(tb),
+                      cA=statistics.mean(ca), cB=statistics.mean(cb),
+                      prefB=sum(1 for p in pref if p and p.strip().startswith('B'))))
+    n=len(P)
+    td=[p['tB']-p['tA'] for p in P]; cd=[p['cB']-p['cA'] for p in P]
+    nt,Wt,pt=wilcoxon_exact(td); nc,Wc,pc=wilcoxon_exact(cd)
+    tlo,thi=boot_ci(td); clo,chi=boot_ci(cd)
+    allB=sum(1 for p in P if p['prefB']==8); majB=sum(1 for p in P if p['prefB']>4)
+    yrs=[p['yrs'] for p in P if p['yrs'] is not None]
+    L=[]
+    L.append(f"# User study — results (executed, n = {n}; participant-level analysis)\n")
+    L.append("Within-subject design; 8 real OntoKG-EQ statements; ad-hoc 7-point scales. "
+             "Version A = result-only note, Version B = same statement with its provenance-grounded "
+             "evidence bundle. **Analysis is at the participant level** (each participant contributes one "
+             "mean per condition) to avoid pseudoreplicating the 8 nested item ratings.\n")
+    L.append(f"| Measure | A (mean) | B (mean) | Δ (95% CI, participant bootstrap) | Test (participant-level, exact) |")
+    L.append("|---|---:|---:|---|---|")
+    L.append(f"| Trust | {statistics.mean([p['tA'] for p in P]):.2f} | {statistics.mean([p['tB'] for p in P]):.2f} "
+             f"| +{statistics.mean(td):.2f} [{tlo:.2f}, {thi:.2f}] | Wilcoxon p = {pt:.1e} (n={nt}) |")
+    L.append(f"| Completeness of justification | {statistics.mean([p['cA'] for p in P]):.2f} | {statistics.mean([p['cB'] for p in P]):.2f} "
+             f"| +{statistics.mean(cd):.2f} [{clo:.2f}, {chi:.2f}] | Wilcoxon p = {pc:.1e} (n={nc}) |")
+    L.append(f"| Preference | — | {allB}/{n} prefer B on all 8 items; {majB}/{n} on a majority | — "
+             f"| sign test p = {binom_two_sided(majB,n):.1e} |")
+    L.append("")
+    if yrs: L.append(f"Participants: {n}; median experience {statistics.median(yrs):.0f} years (range {min(yrs):.0f}–{max(yrs):.0f}).")
+    L.append(f"Completeness uses n={nc}: {sum(1 for d in cd if d==0)} participant(s) rated completeness "
+             "identically for both versions (a zero difference the signed-rank test excludes).\n")
+    L.append("NOTE: an earlier version reported item-level p-values (~1e-22); those were pseudoreplicated "
+             "(treating the 8 nested ratings per participant as independent) and are superseded by the "
+             "participant-level analysis above.")
+    open("results.md","w",encoding="utf-8").write("\n".join(L)+"\n")
+    print("\n".join(L)); print("\nWrote results.md")
 
-if __name__=="__main__": main()
+if __name__ == "__main__":
+    main()
