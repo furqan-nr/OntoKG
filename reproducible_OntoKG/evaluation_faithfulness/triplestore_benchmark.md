@@ -1,10 +1,11 @@
-# Triplestore benchmark (Oxigraph) — unchanged CQ1–CQ5 SPARQL
+# Triplestore benchmark (Oxigraph) - unchanged CQ1-CQ5 SPARQL
 
-```
-loaded 37,046 triples in 70 ms from demo_idx_scaled.ttl
-CQ1: 17 rows  median 3.8 ms  [3.7, 4.3]  (20 runs)
-CQ2: 63 rows  median 0.3 ms  [0.2, 0.6]  (20 runs)
-CQ3: 24 rows  median 5.0 ms  [4.9, 5.6]  (20 runs)
-CQ4: 0 rows  median 1.6 ms  [1.6, 2.9]  (20 runs)
-CQ5: 3 rows  median 0.1 ms  [0.1, 0.1]  (20 runs)
-```
+Graph: demo_idx_scaled.ttl (37,046 triples). One-time load 70 ms. Latency = median of 20 recorded runs, min-max in brackets. Representative run; latencies are hardware- and run-dependent (this script regenerates this file on each run).
+
+| Query | Rows | Latency (ms): median [min-max] |
+|---|---:|---|
+| CQ1 | 17 | 3.8 [3.7, 4.3] |
+| CQ2 | 63 | 0.3 [0.2, 0.6] |
+| CQ3 | 24 | 5.0 [4.9, 5.6] |
+| CQ4 | 0 | 1.6 [1.6, 2.9] |
+| CQ5 | 3 | 0.1 [0.1, 0.1] |

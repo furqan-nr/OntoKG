@@ -55,7 +55,10 @@ def build_scaled_cases(g):
 def score(ans,facts,prov,tol=0.05):
     ns=[round(float(x),2) for x in NUM.findall(ans)]
     mt=[n for n in ns if any(abs(n-t)<=tol for t in facts)]
-    return {"nf":round(len(mt)/len(ns),3) if ns else 1.0,"halluc":len(ns)-len(mt),
+    rc=[t for t in facts if any(abs(n-t)<=tol for n in ns)]
+    return {"nf":round(len(mt)/len(ns),3) if ns else 1.0,
+            "nrec":round(len(rc)/len(facts),3) if facts else 1.0,
+            "halluc":len(ns)-len(mt),
             "unsup":len(PRED.findall(ans)),"prov":1 if any(t and str(t).lower() in ans.lower() for t in prov) else 0}
 
 def main():
@@ -67,7 +70,8 @@ def main():
     onto=[score(c["onto"],c["facts"],c["prov"]) for c in cases]
     def agg(ss,name):
         k=len(ss)
-        return [name,k,round(sum(s["nf"] for s in ss)/k,3),round(sum(s["halluc"] for s in ss)/k,2),
+        return [name,k,round(sum(s["nf"] for s in ss)/k,3),round(sum(s["nrec"] for s in ss)/k,3),
+                round(sum(s["halluc"] for s in ss)/k,2),
                 round(sum(s["unsup"] for s in ss)/k,2),round(sum(s["prov"] for s in ss)/k,2)]
     rows=[agg(onto,"OntoKG-EQ (provenance-grounded)")]
     if spec:
@@ -77,8 +81,8 @@ def main():
     md=os.path.join(OUT,"graphrag_faithfulness_scaled.md")
     with open(md,"w") as f:
         f.write(f"# Faithfulness across the scaled IDX cohort ({n} cases: {n3} CQ3 + {n1} CQ1)\n\n")
-        f.write("| Method | cases | numeric faithfulness | halluc. numbers | unsupported assertions | provenance |\n|---|---:|---:|---:|---:|---:|\n")
-        for r in rows: f.write(f"| {r[0]} | {r[1]} | {r[2]:.2f} | {r[3]:.2f} | {r[4]:.2f} | {r[5]:.2f} |\n")
+        f.write("| Method | cases | numeric precision | numeric recall | halluc. numbers | unsupported assertions | provenance |\n|---|---:|---:|---:|---:|---:|---:|\n")
+        for r in rows: f.write(f"| {r[0]} | {r[1]} | {r[2]:.2f} | {r[3]:.2f} | {r[4]:.2f} | {r[5]:.2f} | {r[6]:.2f} |\n")
         if not spec: f.write("\n> No LLM set; OntoKG-EQ reference only. Set ONTOKG_LLM=hf:Qwen/Qwen2.5-7B-Instruct on a GPU for live rows.\n")
     for r in rows: print("  ",r)
     print("wrote",md)

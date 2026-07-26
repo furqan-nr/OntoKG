@@ -1,7 +1,9 @@
-# Controlled scaling benchmark (Oxigraph, on-disk) — unchanged CQ1/CQ3
+# Controlled scaling benchmark (Oxigraph, on-disk) - unchanged CQ1/CQ3
 
-```
-triples=37,046 build=0.0s ingest=0.2s CQ1=[17, 9.4] CQ3=[24, 11.9]
-triples=111,130 build=0.0s ingest=0.8s CQ1=[51, 31.8] CQ3=[72, 39.4]
-triples=1,111,264 build=0.4s ingest=14.4s CQ1=[510, 468.6] CQ3=[720, 690.5]
-```
+Replicated 64-stock IDX graph to larger sizes. On-disk Oxigraph store; latency = best of 3 timed runs per scale. Representative run; latencies are hardware- and run-dependent (this script regenerates this file on each run).
+
+| Triples | Ingest (s) | CQ1 rows | CQ1 latency (ms) | CQ3 rows | CQ3 latency (ms) |
+|---:|---:|---:|---:|---:|---:|
+| 37,046 | 0.2 | 17 | 9.4 | 24 | 11.9 |
+| 111,130 | 0.8 | 51 | 31.8 | 72 | 39.4 |
+| 1,111,264 | 14.4 | 510 | 468.6 | 720 | 690.5 |

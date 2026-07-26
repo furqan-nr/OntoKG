@@ -1,19 +1,37 @@
 {
-  "engine": "Oxigraph",
   "triples": 37046,
-  "load_ms": 71,
-  "rows": {
-    "CQ1": 17,
-    "CQ2": 63,
-    "CQ3": 24,
-    "CQ4": 0,
-    "CQ5": 3
-  },
-  "query_ms_best_of_5": {
-    "CQ1": 3.81,
-    "CQ2": 0.26,
-    "CQ3": 5.06,
-    "CQ4": 1.63,
-    "CQ5": 0.09
+  "load_ms": 70,
+  "runs": 20,
+  "cq": {
+    "CQ1": {
+      "rows": 17,
+      "median_ms": 3.8,
+      "min_ms": 3.7,
+      "max_ms": 4.3
+    },
+    "CQ2": {
+      "rows": 63,
+      "median_ms": 0.3,
+      "min_ms": 0.2,
+      "max_ms": 0.6
+    },
+    "CQ3": {
+      "rows": 24,
+      "median_ms": 5.0,
+      "min_ms": 4.9,
+      "max_ms": 5.6
+    },
+    "CQ4": {
+      "rows": 0,
+      "median_ms": 1.6,
+      "min_ms": 1.6,
+      "max_ms": 2.9
+    },
+    "CQ5": {
+      "rows": 3,
+      "median_ms": 0.1,
+      "min_ms": 0.1,
+      "max_ms": 0.1
+    }
   }
 }

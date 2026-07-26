@@ -33,7 +33,7 @@ CQ={n:open(f"queries/CQ{n}_CASE_01.rq").read() for n in (1,3)}
 Ks=[int(x) for x in (sys.argv[1] if len(sys.argv)>1 else "3").split(",")]
 import json
 results_path="evaluation_faithfulness/_scaling_rows.json"
-rows=json.load(open(results_path)) if os.path.exists(results_path) else []
+rows=[]   # fresh each run (no append: avoids duplicate rows on re-run)
 for K in Ks:
     d=tempfile.mkdtemp(); nt=os.path.join(d,"g.nt"); sd=os.path.join(d,"store")
     t0=time.perf_counter(); build_nt(K,nt); bt=time.perf_counter()-t0
@@ -50,3 +50,16 @@ for K in Ks:
     json.dump(rows,open(results_path,"w"))
     print(f"triples={n:,} build={bt:.1f}s ingest={ingest:.1f}s CQ1={lat[1]} CQ3={lat[3]}",flush=True)
     del store; shutil.rmtree(d,ignore_errors=True)
+
+# regenerate committed artifacts (JSON + Markdown) from THIS run
+os.makedirs("evaluation_faithfulness", exist_ok=True)
+json.dump(rows, open(results_path,"w"), indent=2)
+with open("evaluation_faithfulness/scaling_benchmark.md","w") as f:
+    f.write("# Controlled scaling benchmark (Oxigraph, on-disk) - unchanged CQ1/CQ3\n\n")
+    f.write("Replicated 64-stock IDX graph to larger sizes. On-disk Oxigraph store; "
+            "latency = best of 3 timed runs per scale. Representative run.\n\n")
+    f.write("| Triples | Ingest (s) | CQ1 rows | CQ1 latency (ms) | CQ3 rows | CQ3 latency (ms) |\n")
+    f.write("|---:|---:|---:|---:|---:|---:|\n")
+    for r in rows:
+        f.write(f"| {r['triples']:,} | {r['ingest_s']} | {r['lat'][1][0]} | {r['lat'][1][1]} | {r['lat'][3][0]} | {r['lat'][3][1]} |\n")
+print("wrote evaluation_faithfulness/scaling_benchmark.md")

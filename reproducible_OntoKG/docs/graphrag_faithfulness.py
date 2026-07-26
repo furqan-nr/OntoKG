@@ -64,15 +64,18 @@ def build_cases():
                   + (f"Evidence: FY results announced {date} (source: {short(src)})." if src else ""))
             cases.append(dict(market=m,label=label,ftype=ftype,question=q,context=ctx,
                               factnums=set(round(n,2) for n in nums),
-                              prov_tokens=[date, short(src) if src else "", "disclosure", "Stock Exchange"],
+                              prov_tokens=[date, short(src) if src else ""],   # specific source/date only (no generic tokens)
                               onto_answer=onto))
     return cases
 
 def score(answer, factnums, prov_tokens, tol=0.05):
     nums=[round(float(x),2) for x in NUM.findall(answer)]
     matched=[n for n in nums if any(abs(n-t)<=tol for t in factnums)]
-    nf=(len(matched)/len(nums)) if nums else 1.0
-    return {"numbers":len(nums),"num_faithful":round(nf,2),
+    nf=(len(matched)/len(nums)) if nums else 1.0                  # PRECISION: stated numbers that are correct
+    facts=list(factnums)
+    recalled=[t for t in facts if any(abs(n-t)<=tol for n in nums)]
+    nrec=(len(recalled)/len(facts)) if facts else 1.0            # RECALL/COMPLETENESS: expected facts actually stated
+    return {"numbers":len(nums),"num_faithful":round(nf,2),"num_recall":round(nrec,2),
             "halluc_numbers":len(nums)-len(matched),
             "unsupported_assertions":len(PRED.findall(answer)),
             "provenance":1 if any(t and t.lower() in answer.lower() for t in prov_tokens) else 0}
@@ -129,6 +132,7 @@ def main():
     def agg(ss,name):
         n=len(ss)
         return [name,n,round(sum(s["num_faithful"] for s in ss)/n,3),
+                round(sum(s["num_recall"] for s in ss)/n,3),
                 round(sum(s["halluc_numbers"] for s in ss)/n,2),
                 round(sum(s["unsupported_assertions"] for s in ss)/n,2),
                 round(sum(s["provenance"] for s in ss)/n,2)]
@@ -149,6 +153,7 @@ def main():
       "  variant: numeric hallucination": f"{c0['label']}: return 99.99; "+ "; ".join(f"x = {n}" for n in nums[:2]) + f". Source: {c0['prov_tokens'][1]}.",
       "  variant: unsupported assertion": c0["onto_answer"]+" It is likely to keep rising because of strong momentum.",
       "  variant: missing provenance": "; ".join(f"x = {n}" for n in nums)+".",
+      "  variant: omission (no numbers)": f"{c0['label']} outperformed both its sector and the broad-market benchmark over the window. Source: {c0['prov_tokens'][1]}.",
     }
     vrows=[(k,score(v,c0["factnums"],c0["prov_tokens"])) for k,v in variants.items()]
 
@@ -162,12 +167,12 @@ def main():
         f.write("# Explanation faithfulness: GraphRAG/LLM vs OntoKG-EQ (D5)\n\n")
         f.write(f"Worked cases: {len(cases)} (CQ3 outperformer + CQ1 divergence findings across PSX/MSX/IDX). "
                 "Scored automatically against the validated graph.\n\n")
-        f.write("| Method | cases | numeric faithfulness | halluc. numbers | unsupported assertions | provenance |\n")
-        f.write("|---|---:|---:|---:|---:|---:|\n")
-        for r in rows: f.write(f"| {r[0]} | {r[1]} | {r[2]:.2f} | {r[3]:.2f} | {r[4]:.2f} | {r[5]:.2f} |\n")
+        f.write("| Method | cases | numeric precision | numeric recall | halluc. numbers | unsupported assertions | provenance |\n")
+        f.write("|---|---:|---:|---:|---:|---:|---:|\n")
+        for r in rows: f.write(f"| {r[0]} | {r[1]} | {r[2]:.2f} | {r[3]:.2f} | {r[4]:.2f} | {r[5]:.2f} | {r[6]:.2f} |\n")
         f.write("\n*Controlled metric-validation variants (single case; confirm each failure detector):*\n\n")
-        f.write("| Variant | numeric faithfulness | halluc. numbers | unsupported assertions | provenance |\n|---|---:|---:|---:|---:|\n")
-        for k,s in vrows: f.write(f"| {k.strip()} | {s['num_faithful']:.2f} | {s['halluc_numbers']} | {s['unsupported_assertions']} | {s['provenance']} |\n")
+        f.write("| Variant | numeric precision | numeric recall | halluc. numbers | unsupported assertions | provenance |\n|---|---:|---:|---:|---:|---:|\n")
+        for k,sc in vrows: f.write(f"| {k.strip()} | {sc['num_faithful']:.2f} | {sc['num_recall']:.2f} | {sc['halluc_numbers']} | {sc['unsupported_assertions']} | {sc['provenance']} |\n")
         if not spec:
             f.write("\n> No LLM provider set (ONTOKG_LLM unset): only the OntoKG-EQ reference and controlled "
                     "variants are scored. Set ONTOKG_LLM (e.g. `hf:Qwen/Qwen2.5-7B-Instruct` on a free GPU) "
