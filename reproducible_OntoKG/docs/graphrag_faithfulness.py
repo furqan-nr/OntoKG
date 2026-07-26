@@ -159,10 +159,10 @@ def main():
 
     # write outputs
     with open(os.path.join(OUT,"graphrag_faithfulness.csv"),"w",newline="") as f:
-        w=csv.writer(f); w.writerow(["method","cases/answers","numeric faithfulness (mean)",
+        w=csv.writer(f); w.writerow(["method","cases/answers","numeric precision (mean)","numeric recall (mean)",
             "hallucinated numbers (mean)","unsupported assertions (mean)","provenance coverage (mean)"])
         for r in rows: w.writerow(r)
-        for k,s in vrows: w.writerow([k.strip(),1,s["num_faithful"],s["halluc_numbers"],s["unsupported_assertions"],s["provenance"]])
+        for k,sc in vrows: w.writerow([k.strip(),1,sc["num_faithful"],sc["num_recall"],sc["halluc_numbers"],sc["unsupported_assertions"],sc["provenance"]])
     with open(os.path.join(OUT,"graphrag_faithfulness.md"),"w") as f:
         f.write("# Explanation faithfulness: GraphRAG/LLM vs OntoKG-EQ (D5)\n\n")
         f.write(f"Worked cases: {len(cases)} (CQ3 outperformer + CQ1 divergence findings across PSX/MSX/IDX). "

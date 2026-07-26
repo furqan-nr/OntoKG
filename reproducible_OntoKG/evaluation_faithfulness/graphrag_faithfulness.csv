@@ -1,7 +1,7 @@
-method,cases/answers,numeric faithfulness (mean),hallucinated numbers (mean),unsupported assertions (mean),provenance coverage (mean)
+method,cases/answers,numeric precision (mean),numeric recall (mean),hallucinated numbers (mean),unsupported assertions (mean),provenance coverage (mean)
 OntoKG-EQ (provenance-grounded),6,1.0,1.0,0.0,0.0,1.0
-variant: faithful,1,1.0,0,0,1
-variant: numeric hallucination,1,0.67,1,0,1
-variant: unsupported assertion,1,1.0,0,2,1
-variant: missing provenance,1,1.0,0,0,0
-variant: omission (no numbers),1,1.0,0,0,1
+variant: faithful,1,1.0,1.0,0,0,1
+variant: numeric hallucination,1,0.67,0.67,1,0,1
+variant: unsupported assertion,1,1.0,1.0,0,2,1
+variant: missing provenance,1,1.0,1.0,0,0,0
+variant: omission (no numbers),1,1.0,0.0,0,0,1
