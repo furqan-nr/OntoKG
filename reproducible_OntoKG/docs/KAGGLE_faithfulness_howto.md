@@ -2,7 +2,7 @@
 
 No paid API key is needed: a Kaggle notebook gives a free GPU on which you load an open-weight
 instruct model locally and generate real GraphRAG answers. The harness then scores them automatically
-against the validated knowledge graph and appends a live `GraphRAG/LLM` row to Table 7.
+against the validated knowledge graph and appends a live model row to the model-comparison results.
 
 ## Steps
 
@@ -33,7 +33,7 @@ print(open("/kaggle/working/graphrag_faithfulness.md").read())
 ```
 
 4. **Copy the live row** from `/kaggle/working/graphrag_faithfulness.md` (the
-   `GraphRAG/LLM [hf:Qwen/Qwen2.5-7B-Instruct]` line) into **Table 7** of the manuscript, and download
+   `GraphRAG/LLM [hf:Qwen/Qwen2.5-7B-Instruct]` line) into the model-comparison results, and download
    `graphrag_faithfulness.{md,csv}` from the notebook's Output for the reproducibility bundle.
 
 ## Model options
@@ -49,5 +49,4 @@ print(open("/kaggle/working/graphrag_faithfulness.md").read())
 
 A live, real-LLM `GraphRAG/LLM` row to compare against the OntoKG-EQ provenance-grounded reference
 (faithfulness 1.00, 0 hallucinated numbers, 0 unsupported assertions, full provenance). Running across
-multiple models turns Table 7 into a faithfulness/hallucination distribution — the headline empirical
-result that most strengthens the ESWA submission.
+multiple models turns Table 7 into a faithfulness/hallucination distribution — the model-comparison distribution reported in the evaluation.

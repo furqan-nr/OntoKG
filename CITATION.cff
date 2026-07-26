@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: "OntoKG-EQ: A provenance-grounded, competency-question-governed knowledge graph for auditable analyst querying — reproducibility package"
+message: "If you use this software or data, please cite the archived release and the associated manuscript."
+type: software
+version: "1.1.0"
+date-released: 2026-07-25
+authors:
+  - family-names: "Nasir"
+    given-names: "Furqan"
+    affiliation: "City University of Science and Information Technology (CUSIT), Peshawar, Pakistan"
+    orcid: "https://orcid.org/0000-0002-5259-3448"
+  - family-names: "Ehsan"
+    given-names: "Muhammad"
+    affiliation: "City University of Science and Information Technology (CUSIT), Peshawar, Pakistan"
+    orcid: "https://orcid.org/0009-0007-4954-1683"
+  - family-names: "Ahmad"
+    given-names: "Sher Jeel"
+    affiliation: "University of Engineering and Technology (UET), Peshawar, Pakistan"
+    orcid: "https://orcid.org/0009-0006-1997-304X"
+  - family-names: "Altaf"
+    given-names: "Abdul Moiz"
+    affiliation: "City University of Science and Information Technology (CUSIT), Peshawar, Pakistan"
+    orcid: "https://orcid.org/0009-0008-0992-8493"
+contact:
+  - family-names: "Nasir"
+    given-names: "Furqan"
+    email: "furqannr@gmail.com"
+repository-code: "https://github.com/furqan-nr/OntoKG"
+doi: "10.5281/zenodo.21569317"
+license: "CC-BY-4.0"
+keywords:
+  - knowledge graph
+  - ontology engineering
+  - competency questions
+  - provenance
+  - SHACL
+  - SPARQL
+  - explainable querying

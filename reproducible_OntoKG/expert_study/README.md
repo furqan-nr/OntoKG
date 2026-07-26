@@ -25,6 +25,6 @@ Only `participant_packet.docx` (printed or shared). It is self-contained: consen
 statements in both versions, and the rating boxes. Nothing else is needed.
 
 ## Why it matters
-This is the single highest-leverage addition for a *confident* ESWA accept: it converts "explanations are
-faithful by construction" into "explanations measurably raise analyst trust and verifiability." Optional —
-the paper is already submittable without it — but it moves the paper from ~84% to ~88%+ per the review.
+This study measures whether the provenance-grounded explanations improve analyst trust and perceived
+completeness over result-only notes, turning the structural faithfulness guarantee into a measured
+human-utility result. It is optional for reproduction; the pipeline and its results stand without it.

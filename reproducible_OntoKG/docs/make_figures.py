@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""OntoKG-EQ manuscript figures, styled to Elsevier / ESWA conventions
+"""OntoKG-EQ figures (vector PDF/SVG + PNG), styled to standard journal conventions
 (no in-figure title; 'Fig. N.' caption supplied in the manuscript; clean sans-serif;
 coherent limited palette with the market-dependent layer highlighted). Vector PDF+SVG + PNG.
 Run: python make_figures.py"""

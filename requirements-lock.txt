@@ -1,0 +1,10 @@
+# Frozen reference environment (versions used to produce the archived results). Python 3.10+.
+
+rdflib==7.6.0
+pyshacl==0.31.0
+openpyxl==3.1.5
+pandas==2.3.3
+pyoxigraph==0.5.9
+# transformers: (install as needed)
+# accelerate: (install as needed)
+# bitsandbytes: (install as needed)
