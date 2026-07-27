@@ -158,4 +158,47 @@ def main() -> None:
 
     common = pd.DatetimeIndex(sorted(set.intersection(*(set(frame["Date"]) for frame in aligned.values()))))
     if common.empty:
-        write_status(args.output, "BLOCKED: no common date exists across all six 
+        write_status(args.output, "BLOCKED: no common date exists across all six series. "
+                     "No final CSVs were written.")
+        raise SystemExit("BLOCKED: empty exact-date intersection across the six series")
+
+    # Per-announcement coverage, computed only over exact common dates.
+    coverage = [case_coverage(common, symbol, args.required_pre, args.required_post) for symbol in EQUITIES]
+    pd.DataFrame(coverage).to_csv(args.output / "coverage_report.csv", index=False)
+
+    # Per-series overlap: rows available in-window vs rows retained on common dates.
+    overlap = pd.DataFrame({
+        "series": list(SERIES),
+        "rows_in_window": [int(len(aligned[name])) for name in SERIES],
+        "rows_on_common_dates": [int(aligned[name]["Date"].isin(common).sum()) for name in SERIES],
+    })
+    overlap.to_csv(args.output / "series_overlap_report.csv", index=False)
+
+    incomplete = [row for row in coverage if row["status"] != "COMPLETE"]
+    if incomplete:
+        failing = ", ".join(f'{row["company_symbol"]}={row["status"]}' for row in incomplete)
+        write_status(
+            args.output,
+            "BLOCKED: at least one announcement case lacks a sufficient exact-date common window. "
+            "No final CSVs were written.\n"
+            f"Common dates: {len(common)} ({common.min().date()} to {common.max().date()}). "
+            f"Failing cases: {failing}",
+        )
+        raise SystemExit("BLOCKED: insufficient exact-date common window for one or more cases")
+
+    # All cases satisfied: write the strictly date-aligned final CSVs.
+    write_output(args.output, aligned, common)
+    write_status(
+        args.output,
+        "OK: strictly date-aligned inputs written. "
+        f"{len(common)} exact common trading dates from {common.min().date()} to {common.max().date()} "
+        f"across {len(SERIES)} series; no interpolation or fill applied.",
+    )
+    print(
+        f"Wrote {len(SERIES)} synchronized series on {len(common)} exact common dates "
+        f"({common.min().date()} to {common.max().date()}) to {args.output}"
+    )
+
+
+if __name__ == "__main__":
+    main()

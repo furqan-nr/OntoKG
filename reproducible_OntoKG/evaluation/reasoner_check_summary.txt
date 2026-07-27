@@ -13,7 +13,7 @@ Results
 - Notes: Result is based on user-provided Protégé + ELK run artifacts and screenshots.
 
 Evidence
-- Screenshots captured: yes
+- Screenshots captured: yes (retained by the operator; not redistributed in this public archive)
 - SHACL screenshot indicates: "SHACL constraint violations: none"
 - Query screenshot indicates CQ1 worked case result with bundle and result entity label.
 - Explanation-path screenshot indicates CQ1 evidence bundle link structure.

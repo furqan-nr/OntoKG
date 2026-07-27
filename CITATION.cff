@@ -3,7 +3,7 @@ title: "OntoKG-EQ: A provenance-grounded, competency-question-governed knowledge
 message: "If you use this software or data, please cite the archived release and the associated manuscript."
 type: software
 version: "1.1.0"
-date-released: 2026-07-25
+date-released: 2026-07-27
 authors:
   - family-names: "Nasir"
     given-names: "Furqan"
@@ -26,7 +26,7 @@ contact:
     given-names: "Furqan"
     email: "furqannr@gmail.com"
 repository-code: "https://github.com/furqan-nr/OntoKG"
-doi: "10.5281/zenodo.21569317"
+doi: "10.5281/zenodo.21569316"
 license: "CC-BY-4.0"
 keywords:
   - knowledge graph

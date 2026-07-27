@@ -40,4 +40,12 @@ The downloader requests **unadjusted daily close** and daily volume for equities
 Save the six source files using these exact names and required columns:
 
 - `BBCA_history_source.csv`, `BMRI_history_source.csv`, `ISAT_history_source.csv`, `TOWR_history_source.csv`: `Date,Close,Volume`
-- `USDIDR_hi
+- `USDIDR_history_source.csv` and `JCI_history_source.csv`: `Date,Close`
+
+After the six source files are in place, run the synchronized builder and check the outputs:
+
+```bash
+python build_synchronized_idx_inputs.py --raw raw_downloads --output final_raw_inputs
+```
+
+Use `final_raw_inputs/` only once `coverage_report.csv` marks every company `COMPLETE` and `build_status.txt` begins with `OK:`.

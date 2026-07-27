@@ -85,4 +85,23 @@ evidence item → source → provenance` — the same explainability path in bot
 | `data/demo.ttl` | Original hand-curated PSX demonstrator (343 triples, abstract Company A/B). Used by the published `run_sparql_queries.py` checks. Unchanged. |
 | `data/demo_psx.ttl` | Full PSX graph materialized from the `PSX data v4` spreadsheets by `build_market_graph.py`. Apples-to-apples counterpart of `data/demo_msx.ttl`. |
 
-## How to rep
+## How to reproduce
+
+From the `reproducible_OntoKG/` directory:
+
+```bash
+python -m pip install -r ../requirements.txt
+# Materialize each market graph from its nine spreadsheets
+python build_market_graph.py            # writes data/demo_psx.ttl and data/demo_msx.ttl
+# Validate structure (expect Conforms: True for each graph)
+python -m pyshacl -s shacl/shapes.ttl data/demo_psx.ttl
+python -m pyshacl -s shacl/shapes.ttl data/demo_msx.ttl
+# Answer the competency questions on each market
+python run_sparql_queries.py
+```
+
+The run prints the per-market SHACL verdict and the CQ1--CQ5 row counts, and writes the worked evidence bundles used for the explainability path.
+
+## Note on triple counts
+
+The counts in the results table above (PSX 3,805, MSX 2,442) are from the initial two-market portability snapshot, before the full derived-metric layer of Section 4.3 was added to the builder. The authoritative per-market figures for the final three-market pipeline (PSX 4,065, MSX 2,618, IDX 4,185 triples), which materializes the nine derived metrics as first-class observations, are those reported in the manuscript. The portability conclusion is unchanged: the ontology, SHACL shapes, CQ templates, and rules are reused byte-identical, and only the per-market data and adapter differ.

@@ -64,7 +64,7 @@ on a GPU, with the four `.ttl` files in `kaggle_faithfulness/dataset_files/` add
 | Unchanged CQ SPARQL on a triplestore, single-digit ms | `docs/triplestore_benchmark.py` | `evaluation_faithfulness/triplestore_benchmark.md` |
 | Controlled scaling to ~1.1M triples | `docs/scaling_benchmark.py` | `evaluation_faithfulness/scaling_benchmark.md` |
 | Fault-injection: SHACL detects 8/8 injected errors | `docs/fault_injection.py` | `evaluation_faithfulness/fault_injection.md` |
-| Analytical correctness: 64/64 metrics match independent recompute | (script in `docs/`) | `evaluation_faithfulness/analytical_correctness.md` |
+| Analytical correctness: 64/64 metrics match independent recompute | `reproducible_OntoKG/docs/analytical_correctness.py` | `evaluation_faithfulness/analytical_correctness.md` |
 | Serious relational (SQL) baseline: features/effort | `docs/sql_baseline.py` | console output |
 | Component ablations | `docs/ablation_study.py` | `evaluation_*/` outputs |
 | 8-model LLM faithfulness + pairwise McNemar | `kaggle_faithfulness/ontokg_faithfulness_panel.ipynb` | `evaluation_faithfulness/panel_results.md`, `panel_mcnemar.csv` |
@@ -78,4 +78,4 @@ on a GPU, with the four `.ttl` files in `kaggle_faithfulness/dataset_files/` add
   licensed feeds; replace before any empirical market claim.
 - The user-study responses are fully anonymous (no personal identifiers).
 - Source repository: https://github.com/furqan-nr/OntoKG
-- Archived immutable release: https://doi.org/10.5281/zenodo.21569317
+- Archived immutable release: https://doi.org/10.5281/zenodo.21569316

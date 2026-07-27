@@ -49,4 +49,4 @@ print(open("/kaggle/working/graphrag_faithfulness.md").read())
 
 A live, real-LLM `GraphRAG/LLM` row to compare against the OntoKG-EQ provenance-grounded reference
 (faithfulness 1.00, 0 hallucinated numbers, 0 unsupported assertions, full provenance). Running across
-multiple models turns Table 7 into a faithfulness/hallucination distribution — the model-comparison distribution reported in the evaluation.
+multiple models turns the faithfulness table into a faithfulness/hallucination distribution — the model-comparison distribution reported in the evaluation.

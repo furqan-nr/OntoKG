@@ -1,0 +1,16 @@
+{
+  "note": "Deterministic CPU pipeline lock (ontology build, SHACL, SPARQL, metrics). The GPU LLM-faithfulness panel emits its own exact lock (packages, CUDA/GPU, model_revisions) from the Kaggle notebook run; see kaggle_faithfulness/.",
+  "python": "3.10",
+  "packages": {
+    "rdflib": "7.6.0",
+    "pyshacl": "0.31.0",
+    "openpyxl": "3.1.5",
+    "pandas": "2.3.3",
+    "pyoxigraph": "0.5.9"
+  },
+  "hardware": "single workstation, 2 vCPU, 3.8 GB RAM",
+  "gpu_panel": {
+    "platform": "Kaggle free tier (dual NVIDIA T4, 2x16 GB)",
+    "note": "each panel model runs in 4-bit on a single T4; exact torch/transformers/accelerate/bitsandbytes versions, CUDA, and per-model revisions are recorded by the notebook at run time"
+  }
+}
