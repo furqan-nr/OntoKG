@@ -1,0 +1,4294 @@
+[
+  {
+    "finding": "https://w3id.org/ontokg-eq/psx#company_1_finding_R2",
+    "rule": "R2",
+    "entity": "https://w3id.org/ontokg-eq/psx#company_1",
+    "status": "sufficient",
+    "support_complete": true,
+    "sufficient_witness": true,
+    "finding_support_sufficient": true,
+    "bundle": "https://w3id.org/ontokg-eq/psx#company_1_finding_R2_bundle",
+    "bundle_valid": true,
+    "bundle_sufficient": true,
+    "bundle_all_roles_available": true,
+    "bundle_status": "sufficient",
+    "bundle_witnesses": [
+      {
+        "correlation": "https://w3id.org/ontokg-eq/psx#derived_fx_corr_company_1"
+      }
+    ],
+    "full_graph_truth": true,
+    "witnesses": [
+      {
+        "correlation": "https://w3id.org/ontokg-eq/psx#derived_fx_corr_company_1"
+      }
+    ],
+    "role_candidates": {
+      "correlation": [
+        "https://w3id.org/ontokg-eq/psx#derived_fx_corr_company_1"
+      ]
+    },
+    "source_linkage": {
+      "https://w3id.org/ontokg-eq/psx#derived_fx_corr_company_1": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row10_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row11_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row12_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row13_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row14_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row15_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row16_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row17_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row18_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row19_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row20_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row21_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row22_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row23_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row24_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row25_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row26_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row27_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row28_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row29_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row30_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row3_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row4_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row5_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row6_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row7_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row8_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row9_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row23_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row24_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row25_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row26_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row27_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row28_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row29_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row30_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row31_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row32_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row33_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row34_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row35_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row36_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row37_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row38_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row39_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row40_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row41_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row42_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row43_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row44_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row45_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row46_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row47_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row48_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row49_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row50_pkr_usd_rate",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row51_pkr_usd_rate"
+      ]
+    },
+    "source_paths": {
+      "https://w3id.org/ontokg-eq/psx#derived_fx_corr_company_1": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row10_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row11_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row12_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row13_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row14_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row15_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row16_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row17_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row18_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row19_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row20_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row21_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row22_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row23_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row24_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row25_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row26_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row27_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row28_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row29_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row30_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row3_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row4_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row5_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row6_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row7_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row8_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row9_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row23_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row24_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row25_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row26_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row27_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row28_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row29_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row30_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row31_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row32_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row33_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row34_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row35_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row36_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row37_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row38_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row39_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row40_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row41_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row42_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row43_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row44_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row45_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row46_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row47_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row48_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row49_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row50_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_06_sbp_fx_final_Sheet1_row51_pkr_usd_rate",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_24"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      }
+    },
+    "source_linkage_complete": true,
+    "source_sufficient_witness": true,
+    "source_truth_verified": false,
+    "units": {
+      "https://w3id.org/ontokg-eq/psx#derived_fx_corr_company_1": {
+        "expected": "coefficient",
+        "declared": [],
+        "status": "unverified_absent"
+      }
+    },
+    "temporal_policy": {
+      "shared_deciding_window": "checked_where_required",
+      "event_finding_to_window_anchor": "not_applicable",
+      "growth_reporting_period_to_return_window_anchor": "not_applicable"
+    },
+    "unit_verification": "unverified",
+    "market": "psx"
+  },
+  {
+    "finding": "https://w3id.org/ontokg-eq/psx#company_1_finding_R3",
+    "rule": "R3",
+    "entity": "https://w3id.org/ontokg-eq/psx#company_1",
+    "status": "sufficient",
+    "support_complete": true,
+    "sufficient_witness": true,
+    "finding_support_sufficient": true,
+    "bundle": "https://w3id.org/ontokg-eq/psx#company_1_finding_R3_bundle",
+    "bundle_valid": true,
+    "bundle_sufficient": true,
+    "bundle_all_roles_available": true,
+    "bundle_status": "sufficient",
+    "bundle_witnesses": [
+      {
+        "company": "https://w3id.org/ontokg-eq/psx#derived_post_return_1",
+        "sector": "https://w3id.org/ontokg-eq/psx#derived_sector_return_1",
+        "benchmark": "https://w3id.org/ontokg-eq/psx#derived_bench_return_1"
+      }
+    ],
+    "full_graph_truth": true,
+    "witnesses": [
+      {
+        "company": "https://w3id.org/ontokg-eq/psx#derived_post_return_1",
+        "sector": "https://w3id.org/ontokg-eq/psx#derived_sector_return_1",
+        "benchmark": "https://w3id.org/ontokg-eq/psx#derived_bench_return_1"
+      }
+    ],
+    "role_candidates": {
+      "company": [
+        "https://w3id.org/ontokg-eq/psx#derived_post_return_1"
+      ],
+      "sector": [
+        "https://w3id.org/ontokg-eq/psx#derived_sector_return_1"
+      ],
+      "benchmark": [
+        "https://w3id.org/ontokg-eq/psx#derived_bench_return_1"
+      ]
+    },
+    "source_linkage": {
+      "https://w3id.org/ontokg-eq/psx#derived_bench_return_1": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row204_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row205_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row206_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row207_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row208_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row209_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row269_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row270_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row271_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row272_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row273_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row274_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row275_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row276_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row277_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row278_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row279_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row280_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row281_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row282_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row283_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row284_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row285_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row286_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row287_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row288_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row289_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row49_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row50_daily_return"
+      ],
+      "https://w3id.org/ontokg-eq/psx#derived_post_return_1": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row10_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row11_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row12_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row13_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row14_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row15_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row16_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row17_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row18_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row19_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row20_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row21_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row22_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row23_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row24_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row25_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row26_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row27_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row28_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row29_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row30_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row3_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row4_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row5_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row6_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row7_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row8_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row9_daily_return"
+      ],
+      "https://w3id.org/ontokg-eq/psx#derived_sector_return_1": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row149_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row150_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row151_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row152_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row153_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row154_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row155_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row156_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row157_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row158_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row159_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row62_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row63_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row64_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row65_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row66_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row67_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row68_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row69_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row70_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row71_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row72_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row73_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row74_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row75_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row76_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row77_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row78_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row79_daily_return"
+      ]
+    },
+    "source_paths": {
+      "https://w3id.org/ontokg-eq/psx#derived_bench_return_1": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row204_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row205_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row206_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row207_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row208_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row209_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row269_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row270_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row271_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row272_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row273_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row274_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row275_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row276_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row277_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row278_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row279_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row280_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row281_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row282_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row283_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row284_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row285_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row286_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row287_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row288_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row289_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row49_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row50_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_post_return_1": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row10_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row11_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row12_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row13_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row14_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row15_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row16_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row17_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row18_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row19_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row20_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row21_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row22_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row23_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row24_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row25_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row26_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row27_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row28_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row29_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row30_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row3_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row4_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row5_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row6_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row7_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row8_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row9_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_sector_return_1": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row149_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row150_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row151_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row152_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row153_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row154_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row155_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row156_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row157_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row158_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row159_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row62_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row63_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row64_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row65_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row66_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row67_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row68_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row69_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row70_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row71_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row72_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row73_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row74_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row75_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row76_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row77_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row78_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row79_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      }
+    },
+    "source_linkage_complete": true,
+    "source_sufficient_witness": true,
+    "source_truth_verified": false,
+    "units": {
+      "https://w3id.org/ontokg-eq/psx#derived_post_return_1": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_sector_return_1": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_bench_return_1": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      }
+    },
+    "temporal_policy": {
+      "shared_deciding_window": "checked_where_required",
+      "event_finding_to_window_anchor": "not_applicable",
+      "growth_reporting_period_to_return_window_anchor": "not_applicable"
+    },
+    "unit_verification": "unverified",
+    "market": "psx"
+  },
+  {
+    "finding": "https://w3id.org/ontokg-eq/psx#company_3_finding_R3",
+    "rule": "R3",
+    "entity": "https://w3id.org/ontokg-eq/psx#company_3",
+    "status": "sufficient",
+    "support_complete": true,
+    "sufficient_witness": true,
+    "finding_support_sufficient": true,
+    "bundle": "https://w3id.org/ontokg-eq/psx#company_3_finding_R3_bundle",
+    "bundle_valid": true,
+    "bundle_sufficient": true,
+    "bundle_all_roles_available": true,
+    "bundle_status": "sufficient",
+    "bundle_witnesses": [
+      {
+        "company": "https://w3id.org/ontokg-eq/psx#derived_post_return_3",
+        "sector": "https://w3id.org/ontokg-eq/psx#derived_sector_return_3",
+        "benchmark": "https://w3id.org/ontokg-eq/psx#derived_bench_return_3"
+      }
+    ],
+    "full_graph_truth": true,
+    "witnesses": [
+      {
+        "company": "https://w3id.org/ontokg-eq/psx#derived_post_return_3",
+        "sector": "https://w3id.org/ontokg-eq/psx#derived_sector_return_3",
+        "benchmark": "https://w3id.org/ontokg-eq/psx#derived_bench_return_3"
+      }
+    ],
+    "role_candidates": {
+      "company": [
+        "https://w3id.org/ontokg-eq/psx#derived_post_return_3"
+      ],
+      "sector": [
+        "https://w3id.org/ontokg-eq/psx#derived_sector_return_3"
+      ],
+      "benchmark": [
+        "https://w3id.org/ontokg-eq/psx#derived_bench_return_3"
+      ]
+    },
+    "source_linkage": {
+      "https://w3id.org/ontokg-eq/psx#derived_bench_return_3": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row204_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row205_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row206_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row207_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row208_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row209_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row266_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row267_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row268_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row269_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row270_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row271_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row272_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row273_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row274_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row275_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row276_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row277_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row278_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row279_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row280_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row281_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row282_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row283_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row284_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row285_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row286_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row287_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row288_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row289_daily_return"
+      ],
+      "https://w3id.org/ontokg-eq/psx#derived_post_return_3": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row100_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row101_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row102_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row103_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row104_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row105_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row106_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row107_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row108_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row109_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row110_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row82_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row83_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row84_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row85_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row86_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row87_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row88_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row89_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row90_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row91_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row92_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row93_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row94_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row95_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row96_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row97_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row98_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row99_daily_return"
+      ],
+      "https://w3id.org/ontokg-eq/psx#derived_sector_return_3": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row234_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row235_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row236_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row237_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row238_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row239_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row297_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row298_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row299_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row300_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row301_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row302_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row303_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row304_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row305_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row306_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row307_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row308_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row309_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row310_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row311_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row312_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row313_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row314_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row315_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row316_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row317_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row318_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row319_daily_return"
+      ]
+    },
+    "source_paths": {
+      "https://w3id.org/ontokg-eq/psx#derived_sector_return_3": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row234_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row235_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row236_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row237_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row238_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row239_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row297_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row298_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row299_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row300_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row301_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row302_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row303_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row304_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row305_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row306_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row307_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row308_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row309_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row310_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row311_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row312_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row313_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row314_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row315_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row316_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row317_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row318_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row319_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_bench_return_3": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row204_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row205_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row206_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row207_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row208_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row209_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row266_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row267_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row268_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row269_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row270_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row271_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row272_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row273_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row274_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row275_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row276_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row277_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row278_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row279_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row280_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row281_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row282_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row283_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row284_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row285_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row286_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row287_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row288_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_05_comparators_corrected_Sheet1_row289_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_23"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_post_return_3": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row100_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row101_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row102_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row103_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row104_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row105_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row106_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row107_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row108_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row109_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row110_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row82_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row83_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row84_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row85_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row86_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row87_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row88_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row89_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row90_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row91_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row92_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row93_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row94_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row95_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row96_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row97_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row98_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row99_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_7"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      }
+    },
+    "source_linkage_complete": true,
+    "source_sufficient_witness": true,
+    "source_truth_verified": false,
+    "units": {
+      "https://w3id.org/ontokg-eq/psx#derived_post_return_3": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_sector_return_3": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_bench_return_3": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      }
+    },
+    "temporal_policy": {
+      "shared_deciding_window": "checked_where_required",
+      "event_finding_to_window_anchor": "not_applicable",
+      "growth_reporting_period_to_return_window_anchor": "not_applicable"
+    },
+    "unit_verification": "unverified",
+    "market": "psx"
+  },
+  {
+    "finding": "https://w3id.org/ontokg-eq/psx#window_1_event_1_1_event_1_1_finding_R4",
+    "rule": "R4",
+    "entity": "https://w3id.org/ontokg-eq/psx#company_1",
+    "status": "sufficient",
+    "support_complete": true,
+    "sufficient_witness": true,
+    "finding_support_sufficient": true,
+    "bundle": "https://w3id.org/ontokg-eq/psx#window_1_event_1_1_event_1_1_finding_R4_bundle",
+    "bundle_valid": true,
+    "bundle_sufficient": true,
+    "bundle_all_roles_available": true,
+    "bundle_status": "sufficient",
+    "bundle_witnesses": [
+      {
+        "event_return": "https://w3id.org/ontokg-eq/psx#derived_event_ar_1_event_1_1"
+      }
+    ],
+    "full_graph_truth": true,
+    "witnesses": [
+      {
+        "event_return": "https://w3id.org/ontokg-eq/psx#derived_event_ar_1_event_1_1"
+      }
+    ],
+    "role_candidates": {
+      "event_return": [
+        "https://w3id.org/ontokg-eq/psx#derived_event_ar_1_event_1_1"
+      ],
+      "volume": [
+        "https://w3id.org/ontokg-eq/psx#derived_event_vol_1_event_1_1"
+      ]
+    },
+    "source_linkage": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_1_event_1_1": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row32_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row33_daily_return"
+      ],
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_1_event_1_1": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row10_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row11_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row12_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row13_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row14_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row15_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row16_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row17_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row18_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row19_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row20_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row21_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row22_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row23_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row24_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row25_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row26_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row27_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row28_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row29_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row2_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row30_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row31_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row32_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row33_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row3_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row4_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row5_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row6_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row7_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row8_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row9_volume"
+      ]
+    },
+    "source_paths": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_1_event_1_1": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row10_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row11_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row12_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row13_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row14_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row15_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row16_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row17_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row18_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row19_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row20_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row21_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row22_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row23_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row24_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row25_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row26_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row27_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row28_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row29_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row2_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row30_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row31_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row32_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row33_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row3_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row4_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row5_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row6_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row7_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row8_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row9_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_1_event_1_1": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row32_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row33_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      }
+    },
+    "source_linkage_complete": true,
+    "source_sufficient_witness": true,
+    "source_truth_verified": false,
+    "units": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_1_event_1_1": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_1_event_1_1": {
+        "expected": "ratio",
+        "declared": [],
+        "status": "unverified_absent"
+      }
+    },
+    "temporal_policy": {
+      "shared_deciding_window": "checked_where_required",
+      "event_finding_to_window_anchor": "unverified_no_declared_anchor",
+      "growth_reporting_period_to_return_window_anchor": "not_applicable"
+    },
+    "unit_verification": "unverified",
+    "market": "psx"
+  },
+  {
+    "finding": "https://w3id.org/ontokg-eq/psx#window_1_event_3_3_event_3_3_finding_R4",
+    "rule": "R4",
+    "entity": "https://w3id.org/ontokg-eq/psx#company_1",
+    "status": "sufficient",
+    "support_complete": true,
+    "sufficient_witness": true,
+    "finding_support_sufficient": true,
+    "bundle": "https://w3id.org/ontokg-eq/psx#window_1_event_3_3_event_3_3_finding_R4_bundle",
+    "bundle_valid": true,
+    "bundle_sufficient": true,
+    "bundle_all_roles_available": true,
+    "bundle_status": "sufficient",
+    "bundle_witnesses": [
+      {
+        "event_return": "https://w3id.org/ontokg-eq/psx#derived_event_ar_1_event_3_3"
+      }
+    ],
+    "full_graph_truth": true,
+    "witnesses": [
+      {
+        "event_return": "https://w3id.org/ontokg-eq/psx#derived_event_ar_1_event_3_3"
+      }
+    ],
+    "role_candidates": {
+      "event_return": [
+        "https://w3id.org/ontokg-eq/psx#derived_event_ar_1_event_3_3"
+      ],
+      "volume": [
+        "https://w3id.org/ontokg-eq/psx#derived_event_vol_1_event_3_3"
+      ]
+    },
+    "source_linkage": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_1_event_3_3": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row37_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row38_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row39_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row40_daily_return"
+      ],
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_1_event_3_3": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row10_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row11_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row12_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row13_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row14_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row15_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row16_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row17_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row18_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row19_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row20_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row21_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row22_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row23_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row24_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row25_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row26_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row27_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row28_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row29_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row2_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row30_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row36_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row37_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row38_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row39_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row3_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row40_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row4_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row5_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row6_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row7_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row8_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row9_volume"
+      ]
+    },
+    "source_paths": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_1_event_3_3": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row37_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row38_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row39_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row40_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_1_event_3_3": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row10_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row11_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row12_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row13_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row14_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row15_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row16_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row17_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row18_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row19_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row20_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row21_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row22_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row23_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row24_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row25_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row26_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row27_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row28_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row29_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row2_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row30_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row36_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row37_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row38_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row39_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row3_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row40_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row4_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row5_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row6_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row7_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row8_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row9_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_5"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      }
+    },
+    "source_linkage_complete": true,
+    "source_sufficient_witness": true,
+    "source_truth_verified": false,
+    "units": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_1_event_3_3": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_1_event_3_3": {
+        "expected": "ratio",
+        "declared": [],
+        "status": "unverified_absent"
+      }
+    },
+    "temporal_policy": {
+      "shared_deciding_window": "checked_where_required",
+      "event_finding_to_window_anchor": "unverified_no_declared_anchor",
+      "growth_reporting_period_to_return_window_anchor": "not_applicable"
+    },
+    "unit_verification": "unverified",
+    "market": "psx"
+  },
+  {
+    "finding": "https://w3id.org/ontokg-eq/psx#window_2_event_1_1_event_1_1_finding_R4",
+    "rule": "R4",
+    "entity": "https://w3id.org/ontokg-eq/psx#company_2",
+    "status": "sufficient",
+    "support_complete": true,
+    "sufficient_witness": true,
+    "finding_support_sufficient": true,
+    "bundle": "https://w3id.org/ontokg-eq/psx#window_2_event_1_1_event_1_1_finding_R4_bundle",
+    "bundle_valid": true,
+    "bundle_sufficient": true,
+    "bundle_all_roles_available": true,
+    "bundle_status": "sufficient",
+    "bundle_witnesses": [
+      {
+        "volume": "https://w3id.org/ontokg-eq/psx#derived_event_vol_2_event_1_1"
+      }
+    ],
+    "full_graph_truth": true,
+    "witnesses": [
+      {
+        "volume": "https://w3id.org/ontokg-eq/psx#derived_event_vol_2_event_1_1"
+      }
+    ],
+    "role_candidates": {
+      "event_return": [
+        "https://w3id.org/ontokg-eq/psx#derived_event_ar_2_event_1_1"
+      ],
+      "volume": [
+        "https://w3id.org/ontokg-eq/psx#derived_event_vol_2_event_1_1"
+      ]
+    },
+    "source_linkage": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_2_event_1_1": [],
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_2_event_1_1": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row41_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row42_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row43_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row44_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row45_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row46_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row47_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row48_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row49_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row50_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row51_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row52_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row53_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row54_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row55_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row56_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row57_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row58_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row59_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row60_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row61_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row62_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row63_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row64_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row65_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row66_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row67_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row68_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row69_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row70_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row73_volume"
+      ]
+    },
+    "source_paths": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_2_event_1_1": {
+        "cells": [],
+        "complete": false
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_2_event_1_1": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row41_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row42_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row43_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row44_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row45_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row46_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row47_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row48_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row49_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row50_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row51_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row52_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row53_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row54_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row55_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row56_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row57_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row58_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row59_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row60_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row61_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row62_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row63_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row64_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row65_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row66_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row67_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row68_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row69_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row70_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row73_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      }
+    },
+    "source_linkage_complete": false,
+    "source_sufficient_witness": true,
+    "source_truth_verified": false,
+    "units": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_2_event_1_1": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_2_event_1_1": {
+        "expected": "ratio",
+        "declared": [],
+        "status": "unverified_absent"
+      }
+    },
+    "temporal_policy": {
+      "shared_deciding_window": "checked_where_required",
+      "event_finding_to_window_anchor": "unverified_no_declared_anchor",
+      "growth_reporting_period_to_return_window_anchor": "not_applicable"
+    },
+    "unit_verification": "unverified",
+    "market": "psx"
+  },
+  {
+    "finding": "https://w3id.org/ontokg-eq/psx#window_2_event_3_3_event_3_3_finding_R4",
+    "rule": "R4",
+    "entity": "https://w3id.org/ontokg-eq/psx#company_2",
+    "status": "sufficient",
+    "support_complete": true,
+    "sufficient_witness": true,
+    "finding_support_sufficient": true,
+    "bundle": "https://w3id.org/ontokg-eq/psx#window_2_event_3_3_event_3_3_finding_R4_bundle",
+    "bundle_valid": true,
+    "bundle_sufficient": true,
+    "bundle_all_roles_available": true,
+    "bundle_status": "sufficient",
+    "bundle_witnesses": [
+      {
+        "volume": "https://w3id.org/ontokg-eq/psx#derived_event_vol_2_event_3_3"
+      }
+    ],
+    "full_graph_truth": true,
+    "witnesses": [
+      {
+        "volume": "https://w3id.org/ontokg-eq/psx#derived_event_vol_2_event_3_3"
+      }
+    ],
+    "role_candidates": {
+      "event_return": [
+        "https://w3id.org/ontokg-eq/psx#derived_event_ar_2_event_3_3"
+      ],
+      "volume": [
+        "https://w3id.org/ontokg-eq/psx#derived_event_vol_2_event_3_3"
+      ]
+    },
+    "source_linkage": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_2_event_3_3": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row77_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row78_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row79_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row80_daily_return"
+      ],
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_2_event_3_3": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row41_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row42_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row43_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row44_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row45_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row46_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row47_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row48_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row49_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row50_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row51_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row52_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row53_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row54_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row55_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row56_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row57_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row58_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row59_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row60_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row61_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row62_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row63_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row64_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row65_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row66_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row67_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row68_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row69_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row70_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row76_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row77_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row78_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row79_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row80_volume"
+      ]
+    },
+    "source_paths": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_2_event_3_3": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row77_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row78_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row79_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row80_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_2_event_3_3": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row41_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row42_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row43_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row44_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row45_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row46_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row47_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row48_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row49_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row50_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row51_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row52_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row53_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row54_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row55_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row56_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row57_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row58_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row59_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row60_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row61_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row62_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row63_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row64_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row65_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row66_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row67_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row68_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row69_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row70_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row76_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row77_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row78_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row79_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row80_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_6"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      }
+    },
+    "source_linkage_complete": true,
+    "source_sufficient_witness": true,
+    "source_truth_verified": false,
+    "units": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_2_event_3_3": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_2_event_3_3": {
+        "expected": "ratio",
+        "declared": [],
+        "status": "unverified_absent"
+      }
+    },
+    "temporal_policy": {
+      "shared_deciding_window": "checked_where_required",
+      "event_finding_to_window_anchor": "unverified_no_declared_anchor",
+      "growth_reporting_period_to_return_window_anchor": "not_applicable"
+    },
+    "unit_verification": "unverified",
+    "market": "psx"
+  },
+  {
+    "finding": "https://w3id.org/ontokg-eq/psx#window_4_event_1_1_event_1_1_finding_R4",
+    "rule": "R4",
+    "entity": "https://w3id.org/ontokg-eq/psx#company_4",
+    "status": "sufficient",
+    "support_complete": true,
+    "sufficient_witness": true,
+    "finding_support_sufficient": true,
+    "bundle": "https://w3id.org/ontokg-eq/psx#window_4_event_1_1_event_1_1_finding_R4_bundle",
+    "bundle_valid": true,
+    "bundle_sufficient": true,
+    "bundle_all_roles_available": true,
+    "bundle_status": "sufficient",
+    "bundle_witnesses": [
+      {
+        "event_return": "https://w3id.org/ontokg-eq/psx#derived_event_ar_4_event_1_1"
+      },
+      {
+        "volume": "https://w3id.org/ontokg-eq/psx#derived_event_vol_4_event_1_1"
+      }
+    ],
+    "full_graph_truth": true,
+    "witnesses": [
+      {
+        "event_return": "https://w3id.org/ontokg-eq/psx#derived_event_ar_4_event_1_1"
+      },
+      {
+        "volume": "https://w3id.org/ontokg-eq/psx#derived_event_vol_4_event_1_1"
+      }
+    ],
+    "role_candidates": {
+      "event_return": [
+        "https://w3id.org/ontokg-eq/psx#derived_event_ar_4_event_1_1"
+      ],
+      "volume": [
+        "https://w3id.org/ontokg-eq/psx#derived_event_vol_4_event_1_1"
+      ]
+    },
+    "source_linkage": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_4_event_1_1": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row152_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row153_daily_return"
+      ],
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_4_event_1_1": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row121_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row122_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row123_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row124_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row125_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row126_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row127_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row128_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row129_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row130_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row131_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row132_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row133_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row134_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row135_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row136_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row137_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row138_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row139_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row140_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row141_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row142_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row143_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row144_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row145_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row146_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row147_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row148_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row149_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row150_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row151_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row152_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row153_volume"
+      ]
+    },
+    "source_paths": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_4_event_1_1": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row121_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row122_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row123_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row124_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row125_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row126_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row127_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row128_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row129_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row130_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row131_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row132_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row133_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row134_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row135_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row136_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row137_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row138_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row139_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row140_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row141_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row142_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row143_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row144_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row145_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row146_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row147_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row148_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row149_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row150_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row151_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row152_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row153_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_4_event_1_1": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row152_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row153_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      }
+    },
+    "source_linkage_complete": true,
+    "source_sufficient_witness": true,
+    "source_truth_verified": false,
+    "units": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_4_event_1_1": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_4_event_1_1": {
+        "expected": "ratio",
+        "declared": [],
+        "status": "unverified_absent"
+      }
+    },
+    "temporal_policy": {
+      "shared_deciding_window": "checked_where_required",
+      "event_finding_to_window_anchor": "unverified_no_declared_anchor",
+      "growth_reporting_period_to_return_window_anchor": "not_applicable"
+    },
+    "unit_verification": "unverified",
+    "market": "psx"
+  },
+  {
+    "finding": "https://w3id.org/ontokg-eq/psx#window_4_event_3_3_event_3_3_finding_R4",
+    "rule": "R4",
+    "entity": "https://w3id.org/ontokg-eq/psx#company_4",
+    "status": "sufficient",
+    "support_complete": true,
+    "sufficient_witness": true,
+    "finding_support_sufficient": true,
+    "bundle": "https://w3id.org/ontokg-eq/psx#window_4_event_3_3_event_3_3_finding_R4_bundle",
+    "bundle_valid": true,
+    "bundle_sufficient": true,
+    "bundle_all_roles_available": true,
+    "bundle_status": "sufficient",
+    "bundle_witnesses": [
+      {
+        "event_return": "https://w3id.org/ontokg-eq/psx#derived_event_ar_4_event_3_3"
+      }
+    ],
+    "full_graph_truth": true,
+    "witnesses": [
+      {
+        "event_return": "https://w3id.org/ontokg-eq/psx#derived_event_ar_4_event_3_3"
+      }
+    ],
+    "role_candidates": {
+      "event_return": [
+        "https://w3id.org/ontokg-eq/psx#derived_event_ar_4_event_3_3"
+      ],
+      "volume": [
+        "https://w3id.org/ontokg-eq/psx#derived_event_vol_4_event_3_3"
+      ]
+    },
+    "source_linkage": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_4_event_3_3": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row155_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row156_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row157_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row158_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row159_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row160_daily_return"
+      ],
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_4_event_3_3": [
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row121_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row122_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row123_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row124_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row125_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row126_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row127_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row128_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row129_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row130_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row131_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row132_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row133_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row134_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row135_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row136_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row137_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row138_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row139_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row140_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row141_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row142_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row143_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row144_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row145_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row146_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row147_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row148_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row149_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row150_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row154_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row155_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row156_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row157_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row158_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row159_volume",
+        "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row160_volume"
+      ]
+    },
+    "source_paths": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_4_event_3_3": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row155_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row156_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row157_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row158_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row159_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row160_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_4_event_3_3": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row121_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row122_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row123_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row124_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row125_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row126_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row127_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row128_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row129_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row130_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row131_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row132_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row133_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row134_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row135_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row136_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row137_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row138_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row139_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row140_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row141_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row142_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row143_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row144_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row145_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row146_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row147_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row148_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row149_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row150_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row154_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row155_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row156_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row157_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row158_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row159_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#psx_04_market_windows_corrected_Sheet1_row160_volume",
+            "sources": [
+              "https://w3id.org/ontokg-eq/psx#source_8"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      }
+    },
+    "source_linkage_complete": true,
+    "source_sufficient_witness": true,
+    "source_truth_verified": false,
+    "units": {
+      "https://w3id.org/ontokg-eq/psx#derived_event_ar_4_event_3_3": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      },
+      "https://w3id.org/ontokg-eq/psx#derived_event_vol_4_event_3_3": {
+        "expected": "ratio",
+        "declared": [],
+        "status": "unverified_absent"
+      }
+    },
+    "temporal_policy": {
+      "shared_deciding_window": "checked_where_required",
+      "event_finding_to_window_anchor": "unverified_no_declared_anchor",
+      "growth_reporting_period_to_return_window_anchor": "not_applicable"
+    },
+    "unit_verification": "unverified",
+    "market": "psx"
+  }
+]

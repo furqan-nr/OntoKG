@@ -2057,7 +2057,7 @@ idx:company_IDX_CO_BMRI_finding_R3_qe a :QueryExecution ;
     :hasEvidenceBundle idx:company_IDX_CO_BMRI_finding_R3_bundle ;
     :hasParameterValues "auto-generated explanation for finding company_IDX_CO_BMRI_finding_R3" ;
     :hasQueryFamilyIdentifier "CQ3" ;
-    :hasQueryInstanceIdentifier "CQ3-GEN-9" .
+    :hasQueryInstanceIdentifier "CQ3-GEN-2" .
 
 idx:company_IDX_CO_ISAT_finding_R3 a :AnalyticalFinding ;
     :concernsEntity idx:company_IDX_CO_ISAT ;
@@ -2085,7 +2085,7 @@ idx:company_IDX_CO_TOWR_finding_R2_qe a :QueryExecution ;
     :hasEvidenceBundle idx:company_IDX_CO_TOWR_finding_R2_bundle ;
     :hasParameterValues "auto-generated explanation for finding company_IDX_CO_TOWR_finding_R2" ;
     :hasQueryFamilyIdentifier "CQ2" ;
-    :hasQueryInstanceIdentifier "CQ2-GEN-5" .
+    :hasQueryInstanceIdentifier "CQ2-GEN-4" .
 
 idx:derived_bench_return_IDX_CO_TOWR a :MarketObservation,
         :Observation ;
@@ -2111,22 +2111,6 @@ idx:derived_event_ar_IDX_CO_ISAT_event_3_3 a :MarketObservation,
     :isObservationOf idx:company_IDX_CO_ISAT ;
     :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m3p3_event_3_3 .
 
-idx:derived_event_vol_IDX_CO_BBCA_event_1_1 a :MarketObservation,
-        :Observation ;
-    :hasMetricName "abnormal volume ratio" ;
-    :hasMetricValue 2.024185 ;
-    :hasObservationDate "2026-01-28"^^xsd:date ;
-    :isObservationOf idx:company_IDX_CO_BBCA ;
-    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1 .
-
-idx:derived_event_vol_IDX_CO_BBCA_event_3_3 a :MarketObservation,
-        :Observation ;
-    :hasMetricName "abnormal volume ratio" ;
-    :hasMetricValue 2.274067 ;
-    :hasObservationDate "2026-01-30"^^xsd:date ;
-    :isObservationOf idx:company_IDX_CO_BBCA ;
-    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3 .
-
 idx:derived_event_vol_IDX_CO_BMRI_event_1_1 a :MarketObservation,
         :Observation ;
     :hasMetricName "abnormal volume ratio" ;
@@ -2134,22 +2118,6 @@ idx:derived_event_vol_IDX_CO_BMRI_event_1_1 a :MarketObservation,
     :hasObservationDate "2026-02-09"^^xsd:date ;
     :isObservationOf idx:company_IDX_CO_BMRI ;
     :observedInEventWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m1p1_event_1_1 .
-
-idx:derived_event_vol_IDX_CO_BMRI_event_3_3 a :MarketObservation,
-        :Observation ;
-    :hasMetricName "abnormal volume ratio" ;
-    :hasMetricValue 1.233389 ;
-    :hasObservationDate "2026-02-11"^^xsd:date ;
-    :isObservationOf idx:company_IDX_CO_BMRI ;
-    :observedInEventWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3 .
-
-idx:derived_event_vol_IDX_CO_ISAT_event_1_1 a :MarketObservation,
-        :Observation ;
-    :hasMetricName "abnormal volume ratio" ;
-    :hasMetricValue 1.311362 ;
-    :hasObservationDate "2026-02-10"^^xsd:date ;
-    :isObservationOf idx:company_IDX_CO_ISAT ;
-    :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m1p1_event_1_1 .
 
 idx:derived_event_vol_IDX_CO_ISAT_event_3_3 a :MarketObservation,
         :Observation ;
@@ -4451,46 +4419,50 @@ idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1_finding_R4 a :Analytical
     :derivedByRule "R4" ;
     :forCompetencyQuestion "CQ4" ;
     :hasFindingType "abnormal-event-reaction" ;
-    :supportedByObservation idx:derived_event_ar_IDX_CO_BBCA_event_1_1 .
+    :supportedByObservation idx:derived_event_ar_IDX_CO_BBCA_event_1_1,
+        idx:derived_event_vol_IDX_CO_BBCA_event_1_1 .
 
 idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1_finding_R4_qe a :QueryExecution ;
     :hasEvidenceBundle idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1_finding_R4_bundle ;
     :hasParameterValues "auto-generated explanation for finding window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1_finding_R4" ;
     :hasQueryFamilyIdentifier "CQ4" ;
-    :hasQueryInstanceIdentifier "CQ4-GEN-7" .
+    :hasQueryInstanceIdentifier "CQ4-GEN-5" .
 
 idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3_finding_R4 a :AnalyticalFinding ;
     :concernsEntity idx:company_IDX_CO_BBCA ;
     :derivedByRule "R4" ;
     :forCompetencyQuestion "CQ4" ;
     :hasFindingType "abnormal-event-reaction" ;
-    :supportedByObservation idx:derived_event_ar_IDX_CO_BBCA_event_3_3 .
+    :supportedByObservation idx:derived_event_ar_IDX_CO_BBCA_event_3_3,
+        idx:derived_event_vol_IDX_CO_BBCA_event_3_3 .
 
 idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3_finding_R4_qe a :QueryExecution ;
     :hasEvidenceBundle idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3_finding_R4_bundle ;
     :hasParameterValues "auto-generated explanation for finding window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3_finding_R4" ;
     :hasQueryFamilyIdentifier "CQ4" ;
-    :hasQueryInstanceIdentifier "CQ4-GEN-4" .
+    :hasQueryInstanceIdentifier "CQ4-GEN-6" .
 
 idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3_finding_R4 a :AnalyticalFinding ;
     :concernsEntity idx:company_IDX_CO_BMRI ;
     :derivedByRule "R4" ;
     :forCompetencyQuestion "CQ4" ;
     :hasFindingType "abnormal-event-reaction" ;
-    :supportedByObservation idx:derived_event_ar_IDX_CO_BMRI_event_3_3 .
+    :supportedByObservation idx:derived_event_ar_IDX_CO_BMRI_event_3_3,
+        idx:derived_event_vol_IDX_CO_BMRI_event_3_3 .
 
 idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3_finding_R4_qe a :QueryExecution ;
     :hasEvidenceBundle idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3_finding_R4_bundle ;
     :hasParameterValues "auto-generated explanation for finding window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3_finding_R4" ;
     :hasQueryFamilyIdentifier "CQ4" ;
-    :hasQueryInstanceIdentifier "CQ4-GEN-6" .
+    :hasQueryInstanceIdentifier "CQ4-GEN-7" .
 
 idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m1p1_event_1_1_finding_R4 a :AnalyticalFinding ;
     :concernsEntity idx:company_IDX_CO_ISAT ;
     :derivedByRule "R4" ;
     :forCompetencyQuestion "CQ4" ;
     :hasFindingType "abnormal-event-reaction" ;
-    :supportedByObservation idx:derived_event_ar_IDX_CO_ISAT_event_1_1 .
+    :supportedByObservation idx:derived_event_ar_IDX_CO_ISAT_event_1_1,
+        idx:derived_event_vol_IDX_CO_ISAT_event_1_1 .
 
 idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m1p1_event_1_1_finding_R4_qe a :QueryExecution ;
     :hasEvidenceBundle idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m1p1_event_1_1_finding_R4_bundle ;
@@ -4503,20 +4475,22 @@ idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1_finding_R4 a :Analytical
     :derivedByRule "R4" ;
     :forCompetencyQuestion "CQ4" ;
     :hasFindingType "abnormal-event-reaction" ;
-    :supportedByObservation idx:derived_event_ar_IDX_CO_TOWR_event_1_1 .
+    :supportedByObservation idx:derived_event_ar_IDX_CO_TOWR_event_1_1,
+        idx:derived_event_vol_IDX_CO_TOWR_event_1_1 .
 
 idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1_finding_R4_qe a :QueryExecution ;
     :hasEvidenceBundle idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1_finding_R4_bundle ;
     :hasParameterValues "auto-generated explanation for finding window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1_finding_R4" ;
     :hasQueryFamilyIdentifier "CQ4" ;
-    :hasQueryInstanceIdentifier "CQ4-GEN-2" .
+    :hasQueryInstanceIdentifier "CQ4-GEN-9" .
 
 idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3_finding_R4 a :AnalyticalFinding ;
     :concernsEntity idx:company_IDX_CO_TOWR ;
     :derivedByRule "R4" ;
     :forCompetencyQuestion "CQ4" ;
     :hasFindingType "abnormal-event-reaction" ;
-    :supportedByObservation idx:derived_event_ar_IDX_CO_TOWR_event_3_3 .
+    :supportedByObservation idx:derived_event_ar_IDX_CO_TOWR_event_3_3,
+        idx:derived_event_vol_IDX_CO_TOWR_event_3_3 .
 
 idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3_finding_R4_qe a :QueryExecution ;
     :hasEvidenceBundle idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3_finding_R4_bundle ;
@@ -4556,22 +4530,6 @@ idx:company_IDX_CO_TOWR_finding_R2_bundle a :EvidenceBundle ;
     :explainsResultEntity idx:company_IDX_CO_TOWR ;
     :hasValidationStatus idx:validation_passed ;
     :includesObservation idx:derived_fx_corr_company_IDX_CO_TOWR .
-
-idx:derived_event_vol_IDX_CO_TOWR_event_1_1 a :MarketObservation,
-        :Observation ;
-    :hasMetricName "abnormal volume ratio" ;
-    :hasMetricValue 2.164363 ;
-    :hasObservationDate "2026-03-26"^^xsd:date ;
-    :isObservationOf idx:company_IDX_CO_TOWR ;
-    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1 .
-
-idx:derived_event_vol_IDX_CO_TOWR_event_3_3 a :MarketObservation,
-        :Observation ;
-    :hasMetricName "abnormal volume ratio" ;
-    :hasMetricValue 1.44533 ;
-    :hasObservationDate "2026-03-30"^^xsd:date ;
-    :isObservationOf idx:company_IDX_CO_TOWR ;
-    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3 .
 
 idx:derived_fx_change a :ExchangeRateObservation,
         :Observation ;
@@ -4668,37 +4626,43 @@ idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1_finding_R4_bundle a :Evi
     :containsEvidenceItem idx:evid_IDX_EVID_BBCA_AR2025 ;
     :explainsResultEntity idx:company_IDX_CO_BBCA ;
     :hasValidationStatus idx:validation_passed ;
-    :includesObservation idx:derived_event_ar_IDX_CO_BBCA_event_1_1 .
+    :includesObservation idx:derived_event_ar_IDX_CO_BBCA_event_1_1,
+        idx:derived_event_vol_IDX_CO_BBCA_event_1_1 .
 
 idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3_finding_R4_bundle a :EvidenceBundle ;
     :containsEvidenceItem idx:evid_IDX_EVID_BBCA_AR2025 ;
     :explainsResultEntity idx:company_IDX_CO_BBCA ;
     :hasValidationStatus idx:validation_passed ;
-    :includesObservation idx:derived_event_ar_IDX_CO_BBCA_event_3_3 .
+    :includesObservation idx:derived_event_ar_IDX_CO_BBCA_event_3_3,
+        idx:derived_event_vol_IDX_CO_BBCA_event_3_3 .
 
 idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3_finding_R4_bundle a :EvidenceBundle ;
     :containsEvidenceItem idx:evid_IDX_EVID_BMRI_AR2025 ;
     :explainsResultEntity idx:company_IDX_CO_BMRI ;
     :hasValidationStatus idx:validation_passed ;
-    :includesObservation idx:derived_event_ar_IDX_CO_BMRI_event_3_3 .
+    :includesObservation idx:derived_event_ar_IDX_CO_BMRI_event_3_3,
+        idx:derived_event_vol_IDX_CO_BMRI_event_3_3 .
 
 idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m1p1_event_1_1_finding_R4_bundle a :EvidenceBundle ;
     :containsEvidenceItem idx:evid_IDX_EVID_ISAT_AR2025 ;
     :explainsResultEntity idx:company_IDX_CO_ISAT ;
     :hasValidationStatus idx:validation_passed ;
-    :includesObservation idx:derived_event_ar_IDX_CO_ISAT_event_1_1 .
+    :includesObservation idx:derived_event_ar_IDX_CO_ISAT_event_1_1,
+        idx:derived_event_vol_IDX_CO_ISAT_event_1_1 .
 
 idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1_finding_R4_bundle a :EvidenceBundle ;
     :containsEvidenceItem idx:evid_IDX_EVID_TOWR_AR2025 ;
     :explainsResultEntity idx:company_IDX_CO_TOWR ;
     :hasValidationStatus idx:validation_passed ;
-    :includesObservation idx:derived_event_ar_IDX_CO_TOWR_event_1_1 .
+    :includesObservation idx:derived_event_ar_IDX_CO_TOWR_event_1_1,
+        idx:derived_event_vol_IDX_CO_TOWR_event_1_1 .
 
 idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3_finding_R4_bundle a :EvidenceBundle ;
     :containsEvidenceItem idx:evid_IDX_EVID_TOWR_AR2025 ;
     :explainsResultEntity idx:company_IDX_CO_TOWR ;
     :hasValidationStatus idx:validation_passed ;
-    :includesObservation idx:derived_event_ar_IDX_CO_TOWR_event_3_3 .
+    :includesObservation idx:derived_event_ar_IDX_CO_TOWR_event_3_3,
+        idx:derived_event_vol_IDX_CO_TOWR_event_3_3 .
 
 idx:window_fx_series a :AnalysisWindow ;
     :hasEndDate "2026-05-29"^^xsd:date ;
@@ -4749,6 +4713,38 @@ idx:derived_event_ar_IDX_CO_ISAT_event_1_1 a :MarketObservation,
         :Observation ;
     :hasMetricName "cumulative abnormal return %" ;
     :hasMetricValue 3.343905 ;
+    :hasObservationDate "2026-02-10"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_ISAT ;
+    :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m1p1_event_1_1 .
+
+idx:derived_event_vol_IDX_CO_BBCA_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 2.024185 ;
+    :hasObservationDate "2026-01-28"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1 .
+
+idx:derived_event_vol_IDX_CO_BBCA_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 2.274067 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BBCA ;
+    :observedInEventWindow idx:window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3 .
+
+idx:derived_event_vol_IDX_CO_BMRI_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 1.233389 ;
+    :hasObservationDate "2026-02-11"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_BMRI ;
+    :observedInEventWindow idx:window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3 .
+
+idx:derived_event_vol_IDX_CO_ISAT_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 1.311362 ;
     :hasObservationDate "2026-02-10"^^xsd:date ;
     :isObservationOf idx:company_IDX_CO_ISAT ;
     :observedInEventWindow idx:window_IDX_CO_ISAT_ISAT_FY2025_event_m1p1_event_1_1 .
@@ -4833,6 +4829,22 @@ idx:derived_event_ar_IDX_CO_TOWR_event_3_3 a :MarketObservation,
         :Observation ;
     :hasMetricName "cumulative abnormal return %" ;
     :hasMetricValue 6.279037 ;
+    :hasObservationDate "2026-03-30"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3 .
+
+idx:derived_event_vol_IDX_CO_TOWR_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 2.164363 ;
+    :hasObservationDate "2026-03-26"^^xsd:date ;
+    :isObservationOf idx:company_IDX_CO_TOWR ;
+    :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1 .
+
+idx:derived_event_vol_IDX_CO_TOWR_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 1.44533 ;
     :hasObservationDate "2026-03-30"^^xsd:date ;
     :isObservationOf idx:company_IDX_CO_TOWR ;
     :observedInEventWindow idx:window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3 .

@@ -1,5 +1,42 @@
+# ---------------------------------------------------------------
+# Public repository / Zenodo archive: reproducibility material only
+# (code, ontology, shapes, queries, rules, contracts, inputs that
+# the scripts read, generated outputs, protocols, README/CITATION).
+# Everything below stays local.
+# ---------------------------------------------------------------
+
+# Python / OS / editor noise
 __pycache__/
 *.pyc
 .DS_Store
+Thumbs.db
 *.tmp
+~$*
+.~lock.*#
 _b*.md
+
+# Local dependency caches and third-party software (obtain from upstream)
+.jws_deps/
+.jws_external_deps/
+jws_external/
+
+# Manuscript drafts, revision notes, cover letters, waiver/ethics letters,
+# review bundles and release-candidate zips (not reproducibility material)
+jws_submission/
+jws_revision/
+
+# Local audit runs and scratch folders
+package_audit_*/
+tmp/
+
+# Third-party captures retained locally; published as URL + SHA256 only
+reproducible_OntoKG/evaluation_jws/source_authentication/evidence/
+reproducible_OntoKG/evaluation_jws/authentic_prices_psx/evidence/
+reproducible_OntoKG/evaluation_jws/authentic_prices_malaysia/maybank_issuer_published_20260302_20260529.csv
+reproducible_OntoKG/external_applications/nhs_rtt_v1/source/
+
+# Human-study material that must not be public
+reproducible_OntoKG/objective_study_v2/answer_key.md
+reproducible_OntoKG/expert_study/Form responses*.xlsx
+reproducible_OntoKG/expert_study/**/*responses*.xlsx
+reproducible_OntoKG/expert_study/**/*responses*.csv

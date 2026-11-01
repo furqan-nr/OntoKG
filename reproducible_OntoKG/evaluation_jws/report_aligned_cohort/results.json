@@ -1,0 +1,4114 @@
+{
+  "version": "1.0",
+  "review_date": "2026-10-16",
+  "scope": "All eight curated PSX/MSX companies; not the IDX/scaled cohort",
+  "selection_policy": "Complete PSX/MSX company roster, date eligibility decided from official matched evidence, not numerical labels. Only FFC and Maybank date evidence authenticated in this bounded audit.",
+  "candidates": 8,
+  "eligibility_counts": {
+    "excluded_no_verified_matching_disclosure_date": 4,
+    "official_date_match": 2,
+    "excluded_wrong_period_february_anchor_no_september_2025_price_coverage": 2
+  },
+  "all_candidate_numerical_labels": {
+    "negative": 5,
+    "positive": 3
+  },
+  "eligible_numerical_labels": {
+    "positive": 2
+  },
+  "eligible_document_dated_replays": 2,
+  "authenticated_empirical_benchmark_classifications": 0,
+  "authenticated_first_earnings_reactions": 0,
+  "synthetic_controls_passed": 8,
+  "input_workbook_sha256": {
+    "PSX data v4\\02_company_master_final.xlsx": "e97ff6993dcb0549f5d03741c0a0fb7448b90477459a12afdeacb9a432818977",
+    "PSX data v4\\03_fundamentals_final.xlsx": "05be4be861ebbd5303b1bb562d2d548f6f6b272a82733d2abcdde827a60a3993",
+    "PSX data v4\\04_market_windows_corrected.xlsx": "e82f39275a732565a41ac9f4ba5c72d5c44bd6d87e6d9256a6957752923885c2",
+    "PSX data v4\\05_comparators_corrected.xlsx": "c9b0543123da58db794a068c7661639264228f5abc031396875ad8127e154def",
+    "updated MSX\\MY_02_company_master_final.xlsx": "d4432a4c878d56ab92be8df9a6854909c928cb4858a31f8e7c8148c25d8bd1e7",
+    "updated MSX\\MY_03_fundamentals_final.xlsx": "14a0c793476bbb8724d0cf202d0ba75d64e7ce93ce62e5b39f5cc7294b91ca0e",
+    "updated MSX\\MY_04_market_windows_corrected.xlsx": "b9a8563d6a82d6e64057a4be302b20d7ff66a7ebbd04c34df8cb52b501f81561",
+    "updated MSX\\MY_05_comparators_corrected.xlsx": "271beb854a957c70c108a13925b8677800d409c9c6683bae7ead6565c7985cab"
+  },
+  "records": [
+    {
+      "market": "psx",
+      "company": "https://w3id.org/ontokg-eq/psx#company_1",
+      "symbol": "ENGROH",
+      "declared_anchor_dates": [
+        "2026-02-26"
+      ],
+      "declared_report_date": "2026-02-26",
+      "official_date_evidence": null,
+      "eligible_disclosure_dated_replay": false,
+      "eligibility": "excluded_no_verified_matching_disclosure_date",
+      "numerical_R1_label": "negative",
+      "growth_percent": "-97.43105383173856202783104506",
+      "growth_source_status": "same_field_workbook_comparison_not_universally_source_authenticated",
+      "observed_horizon": {
+        "dates": [
+          "2026-02-27",
+          "2026-03-02",
+          "2026-03-03",
+          "2026-03-04",
+          "2026-03-05",
+          "2026-03-06",
+          "2026-03-09",
+          "2026-03-10",
+          "2026-03-11",
+          "2026-03-12",
+          "2026-03-13",
+          "2026-03-16",
+          "2026-03-17",
+          "2026-03-18",
+          "2026-03-19",
+          "2026-03-24",
+          "2026-03-25",
+          "2026-03-26",
+          "2026-03-27",
+          "2026-03-30",
+          "2026-03-31",
+          "2026-04-01",
+          "2026-04-02",
+          "2026-04-03",
+          "2026-04-06",
+          "2026-04-07",
+          "2026-04-08",
+          "2026-04-09",
+          "2026-04-10"
+        ],
+        "missing_company_dates": [],
+        "missing_benchmark_dates": [],
+        "observations": 29,
+        "intervals": 28,
+        "status": "complete_observed_interval_replay",
+        "company_return_percent": "4.735755878233950025797891943686887300100",
+        "benchmark_return_percent": "-6.287000816424064975479014700333810993870"
+      },
+      "first_close_vs_disclosure_days": 1,
+      "full_first_publication_reaction_eligible": false,
+      "first_earnings_publication_timestamp_authenticated": false,
+      "benchmark_construction": [
+        "Interpolated from PSX closing rate summaries; forward-fill after last official date"
+      ],
+      "benchmark_kind": "interpolated_forward_filled",
+      "benchmark_source_authenticated": false,
+      "market_prices_source_authenticated": false,
+      "pre_anchor_observed_close_dates": [
+        "2026-02-25"
+      ],
+      "on_anchor_observed_close_dates": [
+        "2026-02-26"
+      ],
+      "independent_pre_event_volume_baseline_available": false,
+      "disclosure_close_to_first_post_close_return": null,
+      "source_cells": [
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J2",
+          "field": "close",
+          "value": "271.34"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J3",
+          "field": "close",
+          "value": "244.21"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J4",
+          "field": "close",
+          "value": "261.44"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J5",
+          "field": "close",
+          "value": "253.4"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J6",
+          "field": "close",
+          "value": "266.54"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J7",
+          "field": "close",
+          "value": "255.31"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J8",
+          "field": "close",
+          "value": "236.24"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J9",
+          "field": "close",
+          "value": "259.86"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J10",
+          "field": "close",
+          "value": "269.26"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J11",
+          "field": "close",
+          "value": "280.99"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J12",
+          "field": "close",
+          "value": "271"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J13",
+          "field": "close",
+          "value": "261.29"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J14",
+          "field": "close",
+          "value": "263.93"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J15",
+          "field": "close",
+          "value": "267.17"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J16",
+          "field": "close",
+          "value": "261.84"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J17",
+          "field": "close",
+          "value": "278.92"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J18",
+          "field": "close",
+          "value": "282.9"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J19",
+          "field": "close",
+          "value": "271.66"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J20",
+          "field": "close",
+          "value": "271.84"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J21",
+          "field": "close",
+          "value": "261.84"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J22",
+          "field": "close",
+          "value": "264.75"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J23",
+          "field": "close",
+          "value": "270.56"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J24",
+          "field": "close",
+          "value": "266.66"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J25",
+          "field": "close",
+          "value": "257.41"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J26",
+          "field": "close",
+          "value": "262.84"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J27",
+          "field": "close",
+          "value": "262.37"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J28",
+          "field": "close",
+          "value": "288.61"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J29",
+          "field": "close",
+          "value": "285.81"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J30",
+          "field": "close",
+          "value": "284.19"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C4",
+          "field": "value",
+          "value": "168062.17"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C13",
+          "field": "value",
+          "value": "163533.8542857143"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C14",
+          "field": "value",
+          "value": "162024.4157142857"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C25",
+          "field": "value",
+          "value": "160514.9771428572"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C26",
+          "field": "value",
+          "value": "159005.5385714286"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C27",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C28",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C29",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C30",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C31",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C32",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C33",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C34",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C35",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C36",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C37",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C38",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C39",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C40",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C41",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C42",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C43",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C44",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C45",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C46",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C47",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C48",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C49",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C50",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\03_fundamentals_final.xlsx",
+          "sheet": "Sheet1",
+          "cell": "I2",
+          "field": "profit_after_tax_thousand_pkr",
+          "value": "0.253154"
+        },
+        {
+          "workbook": "PSX data v4\\03_fundamentals_final.xlsx",
+          "sheet": "Sheet1",
+          "cell": "I3",
+          "field": "profit_after_tax_thousand_pkr",
+          "value": "9.854391"
+        }
+      ],
+      "pre_event_caveat": "No prespecified independent pre-event baseline; a few event rows, where present, cannot establish a stable estimation period.",
+      "horizon_caveat": "First available post-disclosure close to final available close; omits disclosure-day and first-post-close reaction. Observed dates only, not certified trading-calendar completeness; 30 observations mean 29 intervals, not automatically 30-day return."
+    },
+    {
+      "market": "psx",
+      "company": "https://w3id.org/ontokg-eq/psx#company_2",
+      "symbol": "FFC",
+      "declared_anchor_dates": [
+        "2026-01-29"
+      ],
+      "declared_report_date": "2026-01-29",
+      "official_date_evidence": {
+        "date": "2026-01-29",
+        "status": "official_financial_results_document_date_matched",
+        "url": "https://dps.psx.com.pk/download/document/269389.pdf",
+        "locator": "Page 1, issuer letter Ref 6.12-PSX/S/FFC dated January 29 2026; board meeting 29/01/2026 at 1030",
+        "event": "FFC financial results year ended December 31 2025",
+        "first_earnings_release_authenticated": false
+      },
+      "eligible_disclosure_dated_replay": true,
+      "eligibility": "official_date_match",
+      "numerical_R1_label": "positive",
+      "growth_percent": "13.64534472962975533418931101",
+      "growth_source_status": "same_field_workbook_comparison_not_universally_source_authenticated",
+      "observed_horizon": {
+        "dates": [
+          "2026-01-30",
+          "2026-02-02",
+          "2026-02-03",
+          "2026-02-04",
+          "2026-02-06",
+          "2026-02-09",
+          "2026-02-10",
+          "2026-02-11",
+          "2026-02-12",
+          "2026-02-13",
+          "2026-02-16",
+          "2026-02-17",
+          "2026-02-18",
+          "2026-02-19",
+          "2026-02-20",
+          "2026-02-23",
+          "2026-02-24",
+          "2026-02-25",
+          "2026-02-26",
+          "2026-02-27",
+          "2026-03-02",
+          "2026-03-03",
+          "2026-03-04",
+          "2026-03-05",
+          "2026-03-06",
+          "2026-03-09",
+          "2026-03-10",
+          "2026-03-11",
+          "2026-03-12",
+          "2026-03-13"
+        ],
+        "missing_company_dates": [],
+        "missing_benchmark_dates": [],
+        "observations": 30,
+        "intervals": 29,
+        "status": "complete_observed_interval_replay",
+        "company_return_percent": "-14.87503610445656421496168680021068012305",
+        "benchmark_return_percent": "-14.48538828585869845492717259594420486791"
+      },
+      "first_close_vs_disclosure_days": 1,
+      "full_first_publication_reaction_eligible": false,
+      "first_earnings_publication_timestamp_authenticated": false,
+      "benchmark_construction": [
+        "Interpolated from PSX closing rate summaries; forward-fill after last official date"
+      ],
+      "benchmark_kind": "interpolated_forward_filled",
+      "benchmark_source_authenticated": false,
+      "market_prices_source_authenticated": false,
+      "pre_anchor_observed_close_dates": [],
+      "on_anchor_observed_close_dates": [],
+      "independent_pre_event_volume_baseline_available": false,
+      "disclosure_close_to_first_post_close_return": null,
+      "source_cells": [
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J41",
+          "field": "close",
+          "value": "588.57"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J42",
+          "field": "close",
+          "value": "580.58"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J43",
+          "field": "close",
+          "value": "590.05"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J44",
+          "field": "close",
+          "value": "590.04"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J45",
+          "field": "close",
+          "value": "576.77"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J46",
+          "field": "close",
+          "value": "575.59"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J47",
+          "field": "close",
+          "value": "578.67"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J48",
+          "field": "close",
+          "value": "577.68"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J49",
+          "field": "close",
+          "value": "580.54"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J50",
+          "field": "close",
+          "value": "579.58"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J51",
+          "field": "close",
+          "value": "569.38"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J52",
+          "field": "close",
+          "value": "565.51"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J53",
+          "field": "close",
+          "value": "571.73"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J54",
+          "field": "close",
+          "value": "553.1"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J55",
+          "field": "close",
+          "value": "555.74"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J56",
+          "field": "close",
+          "value": "541.08"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J57",
+          "field": "close",
+          "value": "534.04"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J58",
+          "field": "close",
+          "value": "531.79"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J59",
+          "field": "close",
+          "value": "555.88"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J60",
+          "field": "close",
+          "value": "552.6"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J61",
+          "field": "close",
+          "value": "497.5"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J62",
+          "field": "close",
+          "value": "526.53"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J63",
+          "field": "close",
+          "value": "525"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J64",
+          "field": "close",
+          "value": "540.36"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J65",
+          "field": "close",
+          "value": "522.29"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J66",
+          "field": "close",
+          "value": "471.4"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J67",
+          "field": "close",
+          "value": "509.94"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J68",
+          "field": "close",
+          "value": "507.56"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J69",
+          "field": "close",
+          "value": "504.79"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J70",
+          "field": "close",
+          "value": "501.02"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C2",
+          "field": "value",
+          "value": "170138.09125"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C3",
+          "field": "value",
+          "value": "168893.09"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C4",
+          "field": "value",
+          "value": "168062.17"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C8",
+          "field": "value",
+          "value": "172628.09375"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C9",
+          "field": "value",
+          "value": "171383.0925"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C13",
+          "field": "value",
+          "value": "163533.8542857143"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C14",
+          "field": "value",
+          "value": "162024.4157142857"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C25",
+          "field": "value",
+          "value": "160514.9771428572"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C26",
+          "field": "value",
+          "value": "159005.5385714286"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C27",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C28",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C29",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C30",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C31",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C32",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C82",
+          "field": "value",
+          "value": "184174.49"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C89",
+          "field": "value",
+          "value": "184155.2428571428"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C90",
+          "field": "value",
+          "value": "184148.8271428571"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C91",
+          "field": "value",
+          "value": "184142.4114285714"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C92",
+          "field": "value",
+          "value": "184129.58"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C105",
+          "field": "value",
+          "value": "182810.46"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C106",
+          "field": "value",
+          "value": "182370.7533333333"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C107",
+          "field": "value",
+          "value": "181931.0466666667"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C108",
+          "field": "value",
+          "value": "181491.34"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C109",
+          "field": "value",
+          "value": "181051.6333333333"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C110",
+          "field": "value",
+          "value": "179732.5133333333"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C111",
+          "field": "value",
+          "value": "179292.8066666667"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C112",
+          "field": "value",
+          "value": "178853.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C113",
+          "field": "value",
+          "value": "177608.09875"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C114",
+          "field": "value",
+          "value": "176363.0975"
+        },
+        {
+          "workbook": "PSX data v4\\03_fundamentals_final.xlsx",
+          "sheet": "Sheet1",
+          "cell": "I4",
+          "field": "profit_after_tax_thousand_pkr",
+          "value": "73.564267"
+        },
+        {
+          "workbook": "PSX data v4\\03_fundamentals_final.xlsx",
+          "sheet": "Sheet1",
+          "cell": "I5",
+          "field": "profit_after_tax_thousand_pkr",
+          "value": "64.731439"
+        }
+      ],
+      "pre_event_caveat": "No prespecified independent pre-event baseline; a few event rows, where present, cannot establish a stable estimation period.",
+      "horizon_caveat": "First available post-disclosure close to final available close; omits disclosure-day and first-post-close reaction. Observed dates only, not certified trading-calendar completeness; 30 observations mean 29 intervals, not automatically 30-day return."
+    },
+    {
+      "market": "psx",
+      "company": "https://w3id.org/ontokg-eq/psx#company_3",
+      "symbol": "OGDC",
+      "declared_anchor_dates": [
+        "2026-02-23"
+      ],
+      "declared_report_date": "2026-02-23",
+      "official_date_evidence": null,
+      "eligible_disclosure_dated_replay": false,
+      "eligibility": "excluded_wrong_period_february_anchor_no_september_2025_price_coverage",
+      "numerical_R1_label": "negative",
+      "growth_percent": "-18.69697946945246585547948523",
+      "growth_source_status": "same_field_workbook_comparison_not_universally_source_authenticated",
+      "observed_horizon": {
+        "dates": [
+          "2026-02-24",
+          "2026-02-25",
+          "2026-02-26",
+          "2026-02-27",
+          "2026-03-02",
+          "2026-03-03",
+          "2026-03-04",
+          "2026-03-05",
+          "2026-03-06",
+          "2026-03-09",
+          "2026-03-10",
+          "2026-03-11",
+          "2026-03-12",
+          "2026-03-13",
+          "2026-03-16",
+          "2026-03-17",
+          "2026-03-18",
+          "2026-03-19",
+          "2026-03-24",
+          "2026-03-25",
+          "2026-03-26",
+          "2026-03-27",
+          "2026-03-30",
+          "2026-03-31",
+          "2026-04-01",
+          "2026-04-02",
+          "2026-04-03",
+          "2026-04-06",
+          "2026-04-07",
+          "2026-04-08"
+        ],
+        "missing_company_dates": [],
+        "missing_benchmark_dates": [],
+        "observations": 30,
+        "intervals": 29,
+        "status": "complete_observed_interval_replay",
+        "company_return_percent": "6.058059319956578071926322793010470287600",
+        "benchmark_return_percent": "-8.102895272472691552114453763868218214130"
+      },
+      "first_close_vs_disclosure_days": 1,
+      "full_first_publication_reaction_eligible": false,
+      "first_earnings_publication_timestamp_authenticated": false,
+      "benchmark_construction": [
+        "Interpolated from PSX closing rate summaries; forward-fill after last official date"
+      ],
+      "benchmark_kind": "interpolated_forward_filled",
+      "benchmark_source_authenticated": false,
+      "market_prices_source_authenticated": false,
+      "pre_anchor_observed_close_dates": [],
+      "on_anchor_observed_close_dates": [],
+      "independent_pre_event_volume_baseline_available": false,
+      "disclosure_close_to_first_post_close_return": null,
+      "source_cells": [
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J81",
+          "field": "close",
+          "value": "285.57"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J82",
+          "field": "close",
+          "value": "282.01"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J83",
+          "field": "close",
+          "value": "287"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J84",
+          "field": "close",
+          "value": "283.47"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J85",
+          "field": "close",
+          "value": "255.12"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J86",
+          "field": "close",
+          "value": "260.35"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J87",
+          "field": "close",
+          "value": "263.56"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J88",
+          "field": "close",
+          "value": "285.28"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J89",
+          "field": "close",
+          "value": "275.79"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J90",
+          "field": "close",
+          "value": "272.48"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J91",
+          "field": "close",
+          "value": "288.6"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J92",
+          "field": "close",
+          "value": "283.27"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J93",
+          "field": "close",
+          "value": "274.81"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J94",
+          "field": "close",
+          "value": "273.09"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J95",
+          "field": "close",
+          "value": "261.86"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J96",
+          "field": "close",
+          "value": "262.64"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J97",
+          "field": "close",
+          "value": "279.75"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J98",
+          "field": "close",
+          "value": "276.61"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J99",
+          "field": "close",
+          "value": "276.5"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J100",
+          "field": "close",
+          "value": "281.64"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J101",
+          "field": "close",
+          "value": "274.13"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J102",
+          "field": "close",
+          "value": "265.62"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J103",
+          "field": "close",
+          "value": "263.5"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J104",
+          "field": "close",
+          "value": "270.64"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J105",
+          "field": "close",
+          "value": "279.08"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J106",
+          "field": "close",
+          "value": "271.47"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J107",
+          "field": "close",
+          "value": "270.59"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J108",
+          "field": "close",
+          "value": "275.38"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J109",
+          "field": "close",
+          "value": "275.34"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J110",
+          "field": "close",
+          "value": "302.87"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C2",
+          "field": "value",
+          "value": "170138.09125"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C3",
+          "field": "value",
+          "value": "168893.09"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C4",
+          "field": "value",
+          "value": "168062.17"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C9",
+          "field": "value",
+          "value": "171383.0925"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C13",
+          "field": "value",
+          "value": "163533.8542857143"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C14",
+          "field": "value",
+          "value": "162024.4157142857"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C25",
+          "field": "value",
+          "value": "160514.9771428572"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C26",
+          "field": "value",
+          "value": "159005.5385714286"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C27",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C28",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C29",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C30",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C31",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C32",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C33",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C34",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C35",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C36",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C37",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C38",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C39",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C40",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C41",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C42",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C43",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C44",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C45",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C46",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C47",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C48",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\03_fundamentals_final.xlsx",
+          "sheet": "Sheet1",
+          "cell": "I6",
+          "field": "profit_after_tax_thousand_pkr",
+          "value": "169.903614"
+        },
+        {
+          "workbook": "PSX data v4\\03_fundamentals_final.xlsx",
+          "sheet": "Sheet1",
+          "cell": "I7",
+          "field": "profit_after_tax_thousand_pkr",
+          "value": "208.975771"
+        }
+      ],
+      "pre_event_caveat": "No prespecified independent pre-event baseline; a few event rows, where present, cannot establish a stable estimation period.",
+      "horizon_caveat": "First available post-disclosure close to final available close; omits disclosure-day and first-post-close reaction. Observed dates only, not certified trading-calendar completeness; 30 observations mean 29 intervals, not automatically 30-day return."
+    },
+    {
+      "market": "psx",
+      "company": "https://w3id.org/ontokg-eq/psx#company_4",
+      "symbol": "PPL",
+      "declared_anchor_dates": [
+        "2026-02-13"
+      ],
+      "declared_report_date": "2026-02-13",
+      "official_date_evidence": null,
+      "eligible_disclosure_dated_replay": false,
+      "eligibility": "excluded_wrong_period_february_anchor_no_september_2025_price_coverage",
+      "numerical_R1_label": "negative",
+      "growth_percent": "-19.49243890754187438675583042",
+      "growth_source_status": "same_field_workbook_comparison_not_universally_source_authenticated",
+      "observed_horizon": {
+        "dates": [
+          "2026-02-16",
+          "2026-02-17",
+          "2026-02-18",
+          "2026-02-19",
+          "2026-02-20",
+          "2026-02-23",
+          "2026-02-24",
+          "2026-02-25",
+          "2026-02-26",
+          "2026-02-27",
+          "2026-03-02",
+          "2026-03-03",
+          "2026-03-04",
+          "2026-03-05",
+          "2026-03-06",
+          "2026-03-09",
+          "2026-03-10",
+          "2026-03-11",
+          "2026-03-12",
+          "2026-03-13",
+          "2026-03-16",
+          "2026-03-17",
+          "2026-03-18",
+          "2026-03-19",
+          "2026-03-24",
+          "2026-03-25",
+          "2026-03-26",
+          "2026-03-27",
+          "2026-03-30",
+          "2026-03-31"
+        ],
+        "missing_company_dates": [],
+        "missing_benchmark_dates": [],
+        "observations": 30,
+        "intervals": 29,
+        "status": "complete_observed_interval_replay",
+        "company_return_percent": "-14.24120472543165000649097754121770738668",
+        "benchmark_return_percent": "-12.37194813611351275303446972579154441886"
+      },
+      "first_close_vs_disclosure_days": 3,
+      "full_first_publication_reaction_eligible": false,
+      "first_earnings_publication_timestamp_authenticated": false,
+      "benchmark_construction": [
+        "Interpolated from PSX closing rate summaries; forward-fill after last official date"
+      ],
+      "benchmark_kind": "interpolated_forward_filled",
+      "benchmark_source_authenticated": false,
+      "market_prices_source_authenticated": false,
+      "pre_anchor_observed_close_dates": [
+        "2026-02-10",
+        "2026-02-11",
+        "2026-02-12"
+      ],
+      "on_anchor_observed_close_dates": [
+        "2026-02-13"
+      ],
+      "independent_pre_event_volume_baseline_available": false,
+      "disclosure_close_to_first_post_close_return": null,
+      "source_cells": [
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J121",
+          "field": "close",
+          "value": "231.09"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J122",
+          "field": "close",
+          "value": "234.94"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J123",
+          "field": "close",
+          "value": "236.86"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J124",
+          "field": "close",
+          "value": "223.74"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J125",
+          "field": "close",
+          "value": "229.02"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J126",
+          "field": "close",
+          "value": "221.25"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J127",
+          "field": "close",
+          "value": "219.59"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J128",
+          "field": "close",
+          "value": "213.51"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J129",
+          "field": "close",
+          "value": "220.08"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J130",
+          "field": "close",
+          "value": "216.75"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J131",
+          "field": "close",
+          "value": "195.08"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J132",
+          "field": "close",
+          "value": "199.56"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J133",
+          "field": "close",
+          "value": "204.21"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J134",
+          "field": "close",
+          "value": "218.4"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J135",
+          "field": "close",
+          "value": "214.75"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J136",
+          "field": "close",
+          "value": "204.77"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J137",
+          "field": "close",
+          "value": "220.36"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J138",
+          "field": "close",
+          "value": "214.74"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J139",
+          "field": "close",
+          "value": "210.62"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J140",
+          "field": "close",
+          "value": "209.5"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J141",
+          "field": "close",
+          "value": "202.25"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J142",
+          "field": "close",
+          "value": "206.57"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J143",
+          "field": "close",
+          "value": "219.37"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J144",
+          "field": "close",
+          "value": "213.83"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J145",
+          "field": "close",
+          "value": "214.76"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J146",
+          "field": "close",
+          "value": "220.45"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J147",
+          "field": "close",
+          "value": "210.88"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J148",
+          "field": "close",
+          "value": "204.68"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J149",
+          "field": "close",
+          "value": "196.68"
+        },
+        {
+          "workbook": "PSX data v4\\04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J150",
+          "field": "close",
+          "value": "198.18"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C2",
+          "field": "value",
+          "value": "170138.09125"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C3",
+          "field": "value",
+          "value": "168893.09"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C4",
+          "field": "value",
+          "value": "168062.17"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C8",
+          "field": "value",
+          "value": "172628.09375"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C9",
+          "field": "value",
+          "value": "171383.0925"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C13",
+          "field": "value",
+          "value": "163533.8542857143"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C14",
+          "field": "value",
+          "value": "162024.4157142857"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C25",
+          "field": "value",
+          "value": "160514.9771428572"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C26",
+          "field": "value",
+          "value": "159005.5385714286"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C27",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C28",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C29",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C30",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C31",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C32",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C33",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C34",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C35",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C36",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C37",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C38",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C39",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C40",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C41",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C42",
+          "field": "value",
+          "value": "157496.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C110",
+          "field": "value",
+          "value": "179732.5133333333"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C111",
+          "field": "value",
+          "value": "179292.8066666667"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C112",
+          "field": "value",
+          "value": "178853.1"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C113",
+          "field": "value",
+          "value": "177608.09875"
+        },
+        {
+          "workbook": "PSX data v4\\05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C114",
+          "field": "value",
+          "value": "176363.0975"
+        },
+        {
+          "workbook": "PSX data v4\\03_fundamentals_final.xlsx",
+          "sheet": "Sheet1",
+          "cell": "I8",
+          "field": "profit_after_tax_thousand_pkr",
+          "value": "92.02745"
+        },
+        {
+          "workbook": "PSX data v4\\03_fundamentals_final.xlsx",
+          "sheet": "Sheet1",
+          "cell": "I9",
+          "field": "profit_after_tax_thousand_pkr",
+          "value": "114.309077"
+        }
+      ],
+      "pre_event_caveat": "No prespecified independent pre-event baseline; a few event rows, where present, cannot establish a stable estimation period.",
+      "horizon_caveat": "First available post-disclosure close to final available close; omits disclosure-day and first-post-close reaction. Observed dates only, not certified trading-calendar completeness; 30 observations mean 29 intervals, not automatically 30-day return."
+    },
+    {
+      "market": "msx",
+      "company": "https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK",
+      "symbol": "MAYBANK",
+      "declared_anchor_dates": [
+        "2026-04-01"
+      ],
+      "declared_report_date": "2026-04-01",
+      "official_date_evidence": {
+        "date": "2026-04-01",
+        "status": "official_annual_report_announcement_date_matched",
+        "url": "https://maybank.listedcompany.com/news.html/id/2605866",
+        "locator": "Announcement Info: Date Announced 01 Apr 2026; reference DCS-01042026-00004",
+        "event": "Annual Report & CG Report - 2025",
+        "first_earnings_release_authenticated": false
+      },
+      "eligible_disclosure_dated_replay": true,
+      "eligibility": "official_date_match",
+      "numerical_R1_label": "positive",
+      "growth_percent": "4.214616352949339359877883176",
+      "growth_source_status": "same_field_workbook_comparison_not_universally_source_authenticated",
+      "observed_horizon": {
+        "dates": [
+          "2026-04-02",
+          "2026-04-03",
+          "2026-04-06",
+          "2026-04-07",
+          "2026-04-08",
+          "2026-04-09",
+          "2026-04-10",
+          "2026-04-13",
+          "2026-04-14",
+          "2026-04-15",
+          "2026-04-16",
+          "2026-04-17",
+          "2026-04-20",
+          "2026-04-21",
+          "2026-04-22",
+          "2026-04-23",
+          "2026-04-24",
+          "2026-04-27",
+          "2026-04-28",
+          "2026-04-29",
+          "2026-04-30",
+          "2026-05-04",
+          "2026-05-05",
+          "2026-05-06",
+          "2026-05-07",
+          "2026-05-08",
+          "2026-05-11",
+          "2026-05-12",
+          "2026-05-13",
+          "2026-05-14"
+        ],
+        "missing_company_dates": [],
+        "missing_benchmark_dates": [],
+        "observations": 30,
+        "intervals": 29,
+        "status": "complete_observed_interval_replay",
+        "company_return_percent": "-2.443280977312390924956369982547993019110",
+        "benchmark_return_percent": "0.373421482546918602403878966334293824800"
+      },
+      "first_close_vs_disclosure_days": 1,
+      "full_first_publication_reaction_eligible": false,
+      "first_earnings_publication_timestamp_authenticated": false,
+      "benchmark_construction": [
+        "Proxy context: anchor 1695.21 plus damped selected-universe movement; replace with licensed official FBM KLCI historical feed for empirical claims."
+      ],
+      "benchmark_kind": "selected_universe_damped_proxy",
+      "benchmark_source_authenticated": false,
+      "market_prices_source_authenticated": false,
+      "pre_anchor_observed_close_dates": [],
+      "on_anchor_observed_close_dates": [],
+      "independent_pre_event_volume_baseline_available": false,
+      "disclosure_close_to_first_post_close_return": null,
+      "source_cells": [
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J2",
+          "field": "close",
+          "value": "11.46"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J3",
+          "field": "close",
+          "value": "11.26"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J4",
+          "field": "close",
+          "value": "11.22"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J5",
+          "field": "close",
+          "value": "11.16"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J6",
+          "field": "close",
+          "value": "11.32"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J7",
+          "field": "close",
+          "value": "11.16"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J8",
+          "field": "close",
+          "value": "11.16"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J9",
+          "field": "close",
+          "value": "10.98"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J10",
+          "field": "close",
+          "value": "11.04"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J11",
+          "field": "close",
+          "value": "11.06"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J12",
+          "field": "close",
+          "value": "11.06"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J13",
+          "field": "close",
+          "value": "11.1"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J14",
+          "field": "close",
+          "value": "11.34"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J15",
+          "field": "close",
+          "value": "11.36"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J16",
+          "field": "close",
+          "value": "11.22"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J17",
+          "field": "close",
+          "value": "11.22"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J18",
+          "field": "close",
+          "value": "11.16"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J19",
+          "field": "close",
+          "value": "11.1"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J20",
+          "field": "close",
+          "value": "11.22"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J21",
+          "field": "close",
+          "value": "11.04"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J22",
+          "field": "close",
+          "value": "11.08"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J23",
+          "field": "close",
+          "value": "11.28"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J24",
+          "field": "close",
+          "value": "11.2"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J25",
+          "field": "close",
+          "value": "11.22"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J26",
+          "field": "close",
+          "value": "11.26"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J27",
+          "field": "close",
+          "value": "11.18"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J28",
+          "field": "close",
+          "value": "11.18"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J29",
+          "field": "close",
+          "value": "11.24"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J30",
+          "field": "close",
+          "value": "11.18"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J31",
+          "field": "close",
+          "value": "11.18"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C71",
+          "field": "value",
+          "value": "1689.3779"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C72",
+          "field": "value",
+          "value": "1682.9103"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C73",
+          "field": "value",
+          "value": "1679.6353"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C74",
+          "field": "value",
+          "value": "1677.0939"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C75",
+          "field": "value",
+          "value": "1686.0891"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C76",
+          "field": "value",
+          "value": "1680.0435"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C77",
+          "field": "value",
+          "value": "1682.0167"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C78",
+          "field": "value",
+          "value": "1674.9908"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C79",
+          "field": "value",
+          "value": "1680.6681"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C80",
+          "field": "value",
+          "value": "1679.6574"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C81",
+          "field": "value",
+          "value": "1678.2577"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C82",
+          "field": "value",
+          "value": "1679.5796"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C83",
+          "field": "value",
+          "value": "1682.9369"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C84",
+          "field": "value",
+          "value": "1687.0928"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C85",
+          "field": "value",
+          "value": "1682.1752"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C86",
+          "field": "value",
+          "value": "1682.8823"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C87",
+          "field": "value",
+          "value": "1682.7386"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C88",
+          "field": "value",
+          "value": "1687.8618"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C89",
+          "field": "value",
+          "value": "1692.5076"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C90",
+          "field": "value",
+          "value": "1687.425"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C91",
+          "field": "value",
+          "value": "1685.5658"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C92",
+          "field": "value",
+          "value": "1692.4276"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C93",
+          "field": "value",
+          "value": "1697.6604"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C94",
+          "field": "value",
+          "value": "1698.6598"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C95",
+          "field": "value",
+          "value": "1700.2209"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C96",
+          "field": "value",
+          "value": "1695.4361"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C97",
+          "field": "value",
+          "value": "1695.8529"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C98",
+          "field": "value",
+          "value": "1698.097"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C99",
+          "field": "value",
+          "value": "1693.5894"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C100",
+          "field": "value",
+          "value": "1695.6864"
+        },
+        {
+          "workbook": "updated MSX\\MY_03_fundamentals_final.xlsx",
+          "sheet": "Sheet1",
+          "cell": "I3",
+          "field": "profit_after_tax_million_myr",
+          "value": "10513.9"
+        },
+        {
+          "workbook": "updated MSX\\MY_03_fundamentals_final.xlsx",
+          "sheet": "Sheet1",
+          "cell": "I2",
+          "field": "profit_after_tax_million_myr",
+          "value": "10088.7"
+        }
+      ],
+      "pre_event_caveat": "No prespecified independent pre-event baseline; a few event rows, where present, cannot establish a stable estimation period.",
+      "horizon_caveat": "First available post-disclosure close to final available close; omits disclosure-day and first-post-close reaction. Observed dates only, not certified trading-calendar completeness; 30 observations mean 29 intervals, not automatically 30-day return."
+    },
+    {
+      "market": "msx",
+      "company": "https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB",
+      "symbol": "CIMB",
+      "declared_anchor_dates": [
+        "2026-03-26"
+      ],
+      "declared_report_date": "2026-03-26",
+      "official_date_evidence": null,
+      "eligible_disclosure_dated_replay": false,
+      "eligibility": "excluded_no_verified_matching_disclosure_date",
+      "numerical_R1_label": "negative",
+      "growth_percent": "1.708074534161490683229813665",
+      "growth_source_status": "same_field_workbook_comparison_not_universally_source_authenticated",
+      "observed_horizon": {
+        "dates": [
+          "2026-03-27",
+          "2026-03-30",
+          "2026-03-31",
+          "2026-04-01",
+          "2026-04-02",
+          "2026-04-03",
+          "2026-04-06",
+          "2026-04-07",
+          "2026-04-08",
+          "2026-04-09",
+          "2026-04-10",
+          "2026-04-13",
+          "2026-04-14",
+          "2026-04-15",
+          "2026-04-16",
+          "2026-04-17",
+          "2026-04-20",
+          "2026-04-21",
+          "2026-04-22",
+          "2026-04-23",
+          "2026-04-24",
+          "2026-04-27",
+          "2026-04-28",
+          "2026-04-29",
+          "2026-04-30",
+          "2026-05-04",
+          "2026-05-05",
+          "2026-05-06",
+          "2026-05-07",
+          "2026-05-08"
+        ],
+        "missing_company_dates": [],
+        "missing_benchmark_dates": [],
+        "observations": 30,
+        "intervals": 29,
+        "status": "complete_observed_interval_replay",
+        "company_return_percent": "2.987012987012987012987012987012987013300",
+        "benchmark_return_percent": "0.013337580594734575657293196713091593300"
+      },
+      "first_close_vs_disclosure_days": 1,
+      "full_first_publication_reaction_eligible": false,
+      "first_earnings_publication_timestamp_authenticated": false,
+      "benchmark_construction": [
+        "Proxy context: anchor 1695.21 plus damped selected-universe movement; replace with licensed official FBM KLCI historical feed for empirical claims."
+      ],
+      "benchmark_kind": "selected_universe_damped_proxy",
+      "benchmark_source_authenticated": false,
+      "market_prices_source_authenticated": false,
+      "pre_anchor_observed_close_dates": [],
+      "on_anchor_observed_close_dates": [],
+      "independent_pre_event_volume_baseline_available": false,
+      "disclosure_close_to_first_post_close_return": null,
+      "source_cells": [
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J32",
+          "field": "close",
+          "value": "7.7"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J33",
+          "field": "close",
+          "value": "7.48"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J34",
+          "field": "close",
+          "value": "7.55"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J35",
+          "field": "close",
+          "value": "7.71"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J36",
+          "field": "close",
+          "value": "7.59"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J37",
+          "field": "close",
+          "value": "7.49"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J38",
+          "field": "close",
+          "value": "7.4"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J39",
+          "field": "close",
+          "value": "7.35"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J40",
+          "field": "close",
+          "value": "7.56"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J41",
+          "field": "close",
+          "value": "7.45"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J42",
+          "field": "close",
+          "value": "7.52"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J43",
+          "field": "close",
+          "value": "7.39"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J44",
+          "field": "close",
+          "value": "7.55"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J45",
+          "field": "close",
+          "value": "7.5"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J46",
+          "field": "close",
+          "value": "7.45"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J47",
+          "field": "close",
+          "value": "7.47"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J48",
+          "field": "close",
+          "value": "7.59"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J49",
+          "field": "close",
+          "value": "7.8"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J50",
+          "field": "close",
+          "value": "7.74"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J51",
+          "field": "close",
+          "value": "7.78"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J52",
+          "field": "close",
+          "value": "7.8"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J53",
+          "field": "close",
+          "value": "7.65"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J54",
+          "field": "close",
+          "value": "7.78"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J55",
+          "field": "close",
+          "value": "7.69"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J56",
+          "field": "close",
+          "value": "7.66"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J57",
+          "field": "close",
+          "value": "7.69"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J58",
+          "field": "close",
+          "value": "7.89"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J59",
+          "field": "close",
+          "value": "7.93"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J60",
+          "field": "close",
+          "value": "8.04"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J61",
+          "field": "close",
+          "value": "7.93"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C67",
+          "field": "value",
+          "value": "1695.21"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C68",
+          "field": "value",
+          "value": "1683.1014"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C69",
+          "field": "value",
+          "value": "1687.0391"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C70",
+          "field": "value",
+          "value": "1695.977"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C71",
+          "field": "value",
+          "value": "1689.3779"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C72",
+          "field": "value",
+          "value": "1682.9103"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C73",
+          "field": "value",
+          "value": "1679.6353"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C74",
+          "field": "value",
+          "value": "1677.0939"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C75",
+          "field": "value",
+          "value": "1686.0891"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C76",
+          "field": "value",
+          "value": "1680.0435"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C77",
+          "field": "value",
+          "value": "1682.0167"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C78",
+          "field": "value",
+          "value": "1674.9908"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C79",
+          "field": "value",
+          "value": "1680.6681"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C80",
+          "field": "value",
+          "value": "1679.6574"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C81",
+          "field": "value",
+          "value": "1678.2577"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C82",
+          "field": "value",
+          "value": "1679.5796"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C83",
+          "field": "value",
+          "value": "1682.9369"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C84",
+          "field": "value",
+          "value": "1687.0928"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C85",
+          "field": "value",
+          "value": "1682.1752"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C86",
+          "field": "value",
+          "value": "1682.8823"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C87",
+          "field": "value",
+          "value": "1682.7386"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C88",
+          "field": "value",
+          "value": "1687.8618"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C89",
+          "field": "value",
+          "value": "1692.5076"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C90",
+          "field": "value",
+          "value": "1687.425"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C91",
+          "field": "value",
+          "value": "1685.5658"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C92",
+          "field": "value",
+          "value": "1692.4276"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C93",
+          "field": "value",
+          "value": "1697.6604"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C94",
+          "field": "value",
+          "value": "1698.6598"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C95",
+          "field": "value",
+          "value": "1700.2209"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C96",
+          "field": "value",
+          "value": "1695.4361"
+        },
+        {
+          "workbook": "updated MSX\\MY_03_fundamentals_final.xlsx",
+          "sheet": "Sheet1",
+          "cell": "I5",
+          "field": "profit_after_tax_million_myr",
+          "value": "7860"
+        },
+        {
+          "workbook": "updated MSX\\MY_03_fundamentals_final.xlsx",
+          "sheet": "Sheet1",
+          "cell": "I4",
+          "field": "profit_after_tax_million_myr",
+          "value": "7728"
+        }
+      ],
+      "pre_event_caveat": "No prespecified independent pre-event baseline; a few event rows, where present, cannot establish a stable estimation period.",
+      "horizon_caveat": "First available post-disclosure close to final available close; omits disclosure-day and first-post-close reaction. Observed dates only, not certified trading-calendar completeness; 30 observations mean 29 intervals, not automatically 30-day return."
+    },
+    {
+      "market": "msx",
+      "company": "https://w3id.org/ontokg-eq/msx#company_MY_CO_TM",
+      "symbol": "TM",
+      "declared_anchor_dates": [
+        "2026-04-17"
+      ],
+      "declared_report_date": "2026-04-17",
+      "official_date_evidence": null,
+      "eligible_disclosure_dated_replay": false,
+      "eligibility": "excluded_no_verified_matching_disclosure_date",
+      "numerical_R1_label": "negative",
+      "growth_percent": "17.93103448275862068965517241",
+      "growth_source_status": "same_field_workbook_comparison_not_universally_source_authenticated",
+      "observed_horizon": {
+        "dates": [
+          "2026-04-20",
+          "2026-04-21",
+          "2026-04-22",
+          "2026-04-23",
+          "2026-04-24",
+          "2026-04-27",
+          "2026-04-28",
+          "2026-04-29",
+          "2026-04-30",
+          "2026-05-04",
+          "2026-05-05",
+          "2026-05-06",
+          "2026-05-07",
+          "2026-05-08",
+          "2026-05-11",
+          "2026-05-12",
+          "2026-05-13",
+          "2026-05-14",
+          "2026-05-15",
+          "2026-05-18",
+          "2026-05-19",
+          "2026-05-20",
+          "2026-05-21",
+          "2026-05-22",
+          "2026-05-25",
+          "2026-05-26",
+          "2026-05-28",
+          "2026-05-29",
+          "2026-06-03",
+          "2026-06-04"
+        ],
+        "missing_company_dates": [],
+        "missing_benchmark_dates": [],
+        "observations": 30,
+        "intervals": 29,
+        "status": "complete_observed_interval_replay",
+        "company_return_percent": "5.571428571428571428571428571428571428600",
+        "benchmark_return_percent": "-0.3951247369999433728026285477488787607800"
+      },
+      "first_close_vs_disclosure_days": 3,
+      "full_first_publication_reaction_eligible": false,
+      "first_earnings_publication_timestamp_authenticated": false,
+      "benchmark_construction": [
+        "Proxy context: anchor 1695.21 plus damped selected-universe movement; replace with licensed official FBM KLCI historical feed for empirical claims."
+      ],
+      "benchmark_kind": "selected_universe_damped_proxy",
+      "benchmark_source_authenticated": false,
+      "market_prices_source_authenticated": false,
+      "pre_anchor_observed_close_dates": [],
+      "on_anchor_observed_close_dates": [],
+      "independent_pre_event_volume_baseline_available": false,
+      "disclosure_close_to_first_post_close_return": null,
+      "source_cells": [
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J62",
+          "field": "close",
+          "value": "7"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J63",
+          "field": "close",
+          "value": "7.09"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J64",
+          "field": "close",
+          "value": "7"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J65",
+          "field": "close",
+          "value": "7.09"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J66",
+          "field": "close",
+          "value": "7.1"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J67",
+          "field": "close",
+          "value": "7.58"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J68",
+          "field": "close",
+          "value": "7.66"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J69",
+          "field": "close",
+          "value": "7.59"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J70",
+          "field": "close",
+          "value": "7.48"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J71",
+          "field": "close",
+          "value": "7.61"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J72",
+          "field": "close",
+          "value": "7.8"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J73",
+          "field": "close",
+          "value": "7.69"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J74",
+          "field": "close",
+          "value": "7.69"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J75",
+          "field": "close",
+          "value": "7.63"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J76",
+          "field": "close",
+          "value": "7.61"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J77",
+          "field": "close",
+          "value": "7.69"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J78",
+          "field": "close",
+          "value": "7.55"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J79",
+          "field": "close",
+          "value": "7.62"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J80",
+          "field": "close",
+          "value": "7.57"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J81",
+          "field": "close",
+          "value": "7.53"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J82",
+          "field": "close",
+          "value": "7.5"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J83",
+          "field": "close",
+          "value": "7.43"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J84",
+          "field": "close",
+          "value": "7.34"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J85",
+          "field": "close",
+          "value": "7.45"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J86",
+          "field": "close",
+          "value": "7.45"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J87",
+          "field": "close",
+          "value": "7.4"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J88",
+          "field": "close",
+          "value": "7.46"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J89",
+          "field": "close",
+          "value": "7.4"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J90",
+          "field": "close",
+          "value": "7.47"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J91",
+          "field": "close",
+          "value": "7.39"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C83",
+          "field": "value",
+          "value": "1682.9369"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C84",
+          "field": "value",
+          "value": "1687.0928"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C85",
+          "field": "value",
+          "value": "1682.1752"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C86",
+          "field": "value",
+          "value": "1682.8823"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C87",
+          "field": "value",
+          "value": "1682.7386"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C88",
+          "field": "value",
+          "value": "1687.8618"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C89",
+          "field": "value",
+          "value": "1692.5076"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C90",
+          "field": "value",
+          "value": "1687.425"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C91",
+          "field": "value",
+          "value": "1685.5658"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C92",
+          "field": "value",
+          "value": "1692.4276"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C93",
+          "field": "value",
+          "value": "1697.6604"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C94",
+          "field": "value",
+          "value": "1698.6598"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C95",
+          "field": "value",
+          "value": "1700.2209"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C96",
+          "field": "value",
+          "value": "1695.4361"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C97",
+          "field": "value",
+          "value": "1695.8529"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C98",
+          "field": "value",
+          "value": "1698.097"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C99",
+          "field": "value",
+          "value": "1693.5894"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C100",
+          "field": "value",
+          "value": "1695.6864"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C101",
+          "field": "value",
+          "value": "1695.4731"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C102",
+          "field": "value",
+          "value": "1694.3532"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C103",
+          "field": "value",
+          "value": "1691.1692"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C104",
+          "field": "value",
+          "value": "1685.6532"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C105",
+          "field": "value",
+          "value": "1683.6995"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C106",
+          "field": "value",
+          "value": "1685.6611"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C107",
+          "field": "value",
+          "value": "1684.4605"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C108",
+          "field": "value",
+          "value": "1680.0308"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C109",
+          "field": "value",
+          "value": "1682.344"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C110",
+          "field": "value",
+          "value": "1696.5008"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C111",
+          "field": "value",
+          "value": "1680.7873"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C112",
+          "field": "value",
+          "value": "1676.2872"
+        },
+        {
+          "workbook": "updated MSX\\MY_03_fundamentals_final.xlsx",
+          "sheet": "Sheet1",
+          "cell": "I7",
+          "field": "profit_after_tax_million_myr",
+          "value": "1710"
+        },
+        {
+          "workbook": "updated MSX\\MY_03_fundamentals_final.xlsx",
+          "sheet": "Sheet1",
+          "cell": "I6",
+          "field": "profit_after_tax_million_myr",
+          "value": "1450"
+        }
+      ],
+      "pre_event_caveat": "No prespecified independent pre-event baseline; a few event rows, where present, cannot establish a stable estimation period.",
+      "horizon_caveat": "First available post-disclosure close to final available close; omits disclosure-day and first-post-close reaction. Observed dates only, not certified trading-calendar completeness; 30 observations mean 29 intervals, not automatically 30-day return."
+    },
+    {
+      "market": "msx",
+      "company": "https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS",
+      "symbol": "MAXIS",
+      "declared_anchor_dates": [
+        "2026-04-16"
+      ],
+      "declared_report_date": "2026-04-16",
+      "official_date_evidence": null,
+      "eligible_disclosure_dated_replay": false,
+      "eligibility": "excluded_no_verified_matching_disclosure_date",
+      "numerical_R1_label": "positive",
+      "growth_percent": "11.81948424068767908309455587",
+      "growth_source_status": "same_field_workbook_comparison_not_universally_source_authenticated",
+      "observed_horizon": {
+        "dates": [
+          "2026-04-17",
+          "2026-04-20",
+          "2026-04-21",
+          "2026-04-22",
+          "2026-04-23",
+          "2026-04-24",
+          "2026-04-27",
+          "2026-04-28",
+          "2026-04-29",
+          "2026-04-30",
+          "2026-05-04",
+          "2026-05-05",
+          "2026-05-06",
+          "2026-05-07",
+          "2026-05-08",
+          "2026-05-11",
+          "2026-05-12",
+          "2026-05-13",
+          "2026-05-14",
+          "2026-05-15",
+          "2026-05-18",
+          "2026-05-19",
+          "2026-05-20",
+          "2026-05-21",
+          "2026-05-22",
+          "2026-05-25",
+          "2026-05-26",
+          "2026-05-28",
+          "2026-05-29",
+          "2026-06-03"
+        ],
+        "missing_company_dates": [],
+        "missing_benchmark_dates": [],
+        "observations": 30,
+        "intervals": 29,
+        "status": "complete_observed_interval_replay",
+        "company_return_percent": "-6.849315068493150684931506849315068493110",
+        "benchmark_return_percent": "0.071904898106645258134833264228739144000"
+      },
+      "first_close_vs_disclosure_days": 1,
+      "full_first_publication_reaction_eligible": false,
+      "first_earnings_publication_timestamp_authenticated": false,
+      "benchmark_construction": [
+        "Proxy context: anchor 1695.21 plus damped selected-universe movement; replace with licensed official FBM KLCI historical feed for empirical claims."
+      ],
+      "benchmark_kind": "selected_universe_damped_proxy",
+      "benchmark_source_authenticated": false,
+      "market_prices_source_authenticated": false,
+      "pre_anchor_observed_close_dates": [
+        "2026-04-13",
+        "2026-04-14",
+        "2026-04-15"
+      ],
+      "on_anchor_observed_close_dates": [
+        "2026-04-16"
+      ],
+      "independent_pre_event_volume_baseline_available": false,
+      "disclosure_close_to_first_post_close_return": null,
+      "source_cells": [
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J92",
+          "field": "close",
+          "value": "3.65"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J93",
+          "field": "close",
+          "value": "3.6"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J94",
+          "field": "close",
+          "value": "3.59"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J95",
+          "field": "close",
+          "value": "3.54"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J96",
+          "field": "close",
+          "value": "3.5"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J97",
+          "field": "close",
+          "value": "3.5"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J98",
+          "field": "close",
+          "value": "3.52"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J99",
+          "field": "close",
+          "value": "3.54"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J100",
+          "field": "close",
+          "value": "3.5"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J101",
+          "field": "close",
+          "value": "3.49"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J102",
+          "field": "close",
+          "value": "3.58"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J103",
+          "field": "close",
+          "value": "3.6"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J104",
+          "field": "close",
+          "value": "3.66"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J105",
+          "field": "close",
+          "value": "3.65"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J106",
+          "field": "close",
+          "value": "3.59"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J107",
+          "field": "close",
+          "value": "3.61"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J108",
+          "field": "close",
+          "value": "3.61"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J109",
+          "field": "close",
+          "value": "3.58"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J110",
+          "field": "close",
+          "value": "3.6"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J111",
+          "field": "close",
+          "value": "3.62"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J112",
+          "field": "close",
+          "value": "3.62"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J113",
+          "field": "close",
+          "value": "3.58"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J114",
+          "field": "close",
+          "value": "3.52"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J115",
+          "field": "close",
+          "value": "3.53"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J116",
+          "field": "close",
+          "value": "3.51"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J117",
+          "field": "close",
+          "value": "3.49"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J118",
+          "field": "close",
+          "value": "3.44"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J119",
+          "field": "close",
+          "value": "3.45"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J120",
+          "field": "close",
+          "value": "3.71"
+        },
+        {
+          "workbook": "updated MSX\\MY_04_market_windows_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "J121",
+          "field": "close",
+          "value": "3.4"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C82",
+          "field": "value",
+          "value": "1679.5796"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C83",
+          "field": "value",
+          "value": "1682.9369"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C84",
+          "field": "value",
+          "value": "1687.0928"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C85",
+          "field": "value",
+          "value": "1682.1752"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C86",
+          "field": "value",
+          "value": "1682.8823"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C87",
+          "field": "value",
+          "value": "1682.7386"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C88",
+          "field": "value",
+          "value": "1687.8618"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C89",
+          "field": "value",
+          "value": "1692.5076"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C90",
+          "field": "value",
+          "value": "1687.425"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C91",
+          "field": "value",
+          "value": "1685.5658"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C92",
+          "field": "value",
+          "value": "1692.4276"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C93",
+          "field": "value",
+          "value": "1697.6604"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C94",
+          "field": "value",
+          "value": "1698.6598"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C95",
+          "field": "value",
+          "value": "1700.2209"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C96",
+          "field": "value",
+          "value": "1695.4361"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C97",
+          "field": "value",
+          "value": "1695.8529"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C98",
+          "field": "value",
+          "value": "1698.097"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C99",
+          "field": "value",
+          "value": "1693.5894"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C100",
+          "field": "value",
+          "value": "1695.6864"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C101",
+          "field": "value",
+          "value": "1695.4731"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C102",
+          "field": "value",
+          "value": "1694.3532"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C103",
+          "field": "value",
+          "value": "1691.1692"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C104",
+          "field": "value",
+          "value": "1685.6532"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C105",
+          "field": "value",
+          "value": "1683.6995"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C106",
+          "field": "value",
+          "value": "1685.6611"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C107",
+          "field": "value",
+          "value": "1684.4605"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C108",
+          "field": "value",
+          "value": "1680.0308"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C109",
+          "field": "value",
+          "value": "1682.344"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C110",
+          "field": "value",
+          "value": "1696.5008"
+        },
+        {
+          "workbook": "updated MSX\\MY_05_comparators_corrected.xlsx",
+          "sheet": "Sheet1",
+          "cell": "C111",
+          "field": "value",
+          "value": "1680.7873"
+        },
+        {
+          "workbook": "updated MSX\\MY_03_fundamentals_final.xlsx",
+          "sheet": "Sheet1",
+          "cell": "I9",
+          "field": "profit_after_tax_million_myr",
+          "value": "1561"
+        },
+        {
+          "workbook": "updated MSX\\MY_03_fundamentals_final.xlsx",
+          "sheet": "Sheet1",
+          "cell": "I8",
+          "field": "profit_after_tax_million_myr",
+          "value": "1396"
+        }
+      ],
+      "pre_event_caveat": "No prespecified independent pre-event baseline; a few event rows, where present, cannot establish a stable estimation period.",
+      "horizon_caveat": "First available post-disclosure close to final available close; omits disclosure-day and first-post-close reaction. Observed dates only, not certified trading-calendar completeness; 30 observations mean 29 intervals, not automatically 30-day return."
+    }
+  ],
+  "bounded_primary_benchmark_search": {
+    "queries": [
+      "site.psx.com.pk January 30, 2026 KSE-100",
+      "site.psx.com.pk March 13, 2026 KSE-100",
+      "site.bursamalaysia.com 2 April 2026 KLCI"
+    ],
+    "outcome": "No exact-date primary historical endpoint pair authenticated. Search results were mostly secondary reports and unrelated official index recomposition notice; no value substituted."
+  }
+}

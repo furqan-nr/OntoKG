@@ -56,7 +56,7 @@ PREFIX : <https://w3id.org/ontokg-eq#>
 CONSTRUCT {
   ?f a :AnalyticalFinding ; :hasFindingType "abnormal-event-reaction" ;
      :derivedByRule "R4" ; :forCompetencyQuestion "CQ4" ;
-     :concernsEntity ?company ; :supportedByObservation ?ar .
+     :concernsEntity ?company ; :supportedByObservation ?ar, ?vr .
 } WHERE {
   ?ar :isObservationOf ?company ; :hasMetricName "cumulative abnormal return %" ;
       :hasMetricValue ?car ; :observedInEventWindow ?ew .

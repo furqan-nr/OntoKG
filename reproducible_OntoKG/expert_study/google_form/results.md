@@ -1,4 +1,6 @@
-# Expert study — results (from Google Form)
+# Superseded exploratory output — not current study evidence
+
+**Do not cite the inferential statistics or ready-to-paste paragraph below.** This archived output pseudoreplicates repeated item ratings, and its preregistration claim is not substantiated here. The corrected participant-level analysis is in `../results.md`. The original study measures perceived trust, completeness and preference only; it contains no objective claim-verification judgments or task durations. Preserved historical content follows.
 
 Respondents: 17; items: 8; paired trust responses: 136.
 

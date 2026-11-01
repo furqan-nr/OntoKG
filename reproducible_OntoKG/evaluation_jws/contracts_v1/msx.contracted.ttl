@@ -1,0 +1,29 @@
+@prefix contract: <https://w3id.org/ontokg-eq/contracts#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS_finding_R1> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS_finding_R1_contract_witness_1> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK_finding_R1> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK_finding_R1_contract_witness_1> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS_finding_R1_contract_witness_1> contract:benchmark <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAXIS> ;
+    contract:company <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAXIS> ;
+    contract:growth <https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAXIS> .
+
+<https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK_finding_R1_contract_witness_1> contract:benchmark <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAYBANK> ;
+    contract:company <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAYBANK> ;
+    contract:growth <https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAYBANK> .
+

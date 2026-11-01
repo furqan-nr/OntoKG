@@ -2186,7 +2186,7 @@ psx:company_1_finding_R2_qe a :QueryExecution ;
     :hasEvidenceBundle psx:company_1_finding_R2_bundle ;
     :hasParameterValues "auto-generated explanation for finding company_1_finding_R2" ;
     :hasQueryFamilyIdentifier "CQ2" ;
-    :hasQueryInstanceIdentifier "CQ2-GEN-3" .
+    :hasQueryInstanceIdentifier "CQ2-GEN-1" .
 
 psx:company_1_finding_R3 a :AnalyticalFinding ;
     :concernsEntity psx:company_1 ;
@@ -2201,7 +2201,7 @@ psx:company_1_finding_R3_qe a :QueryExecution ;
     :hasEvidenceBundle psx:company_1_finding_R3_bundle ;
     :hasParameterValues "auto-generated explanation for finding company_1_finding_R3" ;
     :hasQueryFamilyIdentifier "CQ3" ;
-    :hasQueryInstanceIdentifier "CQ3-GEN-4" .
+    :hasQueryInstanceIdentifier "CQ3-GEN-2" .
 
 psx:company_3_finding_R3 a :AnalyticalFinding ;
     :concernsEntity psx:company_3 ;
@@ -2216,7 +2216,7 @@ psx:company_3_finding_R3_qe a :QueryExecution ;
     :hasEvidenceBundle psx:company_3_finding_R3_bundle ;
     :hasParameterValues "auto-generated explanation for finding company_3_finding_R3" ;
     :hasQueryFamilyIdentifier "CQ3" ;
-    :hasQueryInstanceIdentifier "CQ3-GEN-9" .
+    :hasQueryInstanceIdentifier "CQ3-GEN-3" .
 
 psx:derived_bench_return_4 a :MarketObservation,
         :Observation ;
@@ -2241,38 +2241,6 @@ psx:derived_event_ar_3_event_3_3 a :MarketObservation,
     :hasObservationDate "2026-02-26"^^xsd:date ;
     :isObservationOf psx:company_3 ;
     :observedInEventWindow psx:window_3_event_3_3_event_3_3 .
-
-psx:derived_event_vol_1_event_1_1 a :MarketObservation,
-        :Observation ;
-    :hasMetricName "abnormal volume ratio" ;
-    :hasMetricValue 0.843392 ;
-    :hasObservationDate "2026-02-27"^^xsd:date ;
-    :isObservationOf psx:company_1 ;
-    :observedInEventWindow psx:window_1_event_1_1_event_1_1 .
-
-psx:derived_event_vol_1_event_3_3 a :MarketObservation,
-        :Observation ;
-    :hasMetricName "abnormal volume ratio" ;
-    :hasMetricValue 1.457679 ;
-    :hasObservationDate "2026-03-03"^^xsd:date ;
-    :isObservationOf psx:company_1 ;
-    :observedInEventWindow psx:window_1_event_3_3_event_3_3 .
-
-psx:derived_event_vol_2_event_1_1 a :MarketObservation,
-        :Observation ;
-    :hasMetricName "abnormal volume ratio" ;
-    :hasMetricValue 3.299579 ;
-    :hasObservationDate "2026-01-30"^^xsd:date ;
-    :isObservationOf psx:company_2 ;
-    :observedInEventWindow psx:window_2_event_1_1_event_1_1 .
-
-psx:derived_event_vol_2_event_3_3 a :MarketObservation,
-        :Observation ;
-    :hasMetricName "abnormal volume ratio" ;
-    :hasMetricValue 1.631163 ;
-    :hasObservationDate "2026-02-06"^^xsd:date ;
-    :isObservationOf psx:company_2 ;
-    :observedInEventWindow psx:window_2_event_3_3_event_3_3 .
 
 psx:derived_event_vol_3_event_1_1 a :MarketObservation,
         :Observation ;
@@ -4294,78 +4262,84 @@ psx:window_1_event_1_1_event_1_1_finding_R4 a :AnalyticalFinding ;
     :derivedByRule "R4" ;
     :forCompetencyQuestion "CQ4" ;
     :hasFindingType "abnormal-event-reaction" ;
-    :supportedByObservation psx:derived_event_ar_1_event_1_1 .
+    :supportedByObservation psx:derived_event_ar_1_event_1_1,
+        psx:derived_event_vol_1_event_1_1 .
 
 psx:window_1_event_1_1_event_1_1_finding_R4_qe a :QueryExecution ;
     :hasEvidenceBundle psx:window_1_event_1_1_event_1_1_finding_R4_bundle ;
     :hasParameterValues "auto-generated explanation for finding window_1_event_1_1_event_1_1_finding_R4" ;
     :hasQueryFamilyIdentifier "CQ4" ;
-    :hasQueryInstanceIdentifier "CQ4-GEN-5" .
+    :hasQueryInstanceIdentifier "CQ4-GEN-4" .
 
 psx:window_1_event_3_3_event_3_3_finding_R4 a :AnalyticalFinding ;
     :concernsEntity psx:company_1 ;
     :derivedByRule "R4" ;
     :forCompetencyQuestion "CQ4" ;
     :hasFindingType "abnormal-event-reaction" ;
-    :supportedByObservation psx:derived_event_ar_1_event_3_3 .
+    :supportedByObservation psx:derived_event_ar_1_event_3_3,
+        psx:derived_event_vol_1_event_3_3 .
 
 psx:window_1_event_3_3_event_3_3_finding_R4_qe a :QueryExecution ;
     :hasEvidenceBundle psx:window_1_event_3_3_event_3_3_finding_R4_bundle ;
     :hasParameterValues "auto-generated explanation for finding window_1_event_3_3_event_3_3_finding_R4" ;
     :hasQueryFamilyIdentifier "CQ4" ;
-    :hasQueryInstanceIdentifier "CQ4-GEN-2" .
+    :hasQueryInstanceIdentifier "CQ4-GEN-5" .
 
 psx:window_2_event_1_1_event_1_1_finding_R4 a :AnalyticalFinding ;
     :concernsEntity psx:company_2 ;
     :derivedByRule "R4" ;
     :forCompetencyQuestion "CQ4" ;
     :hasFindingType "abnormal-event-reaction" ;
-    :supportedByObservation psx:derived_event_ar_2_event_1_1 .
+    :supportedByObservation psx:derived_event_ar_2_event_1_1,
+        psx:derived_event_vol_2_event_1_1 .
 
 psx:window_2_event_1_1_event_1_1_finding_R4_qe a :QueryExecution ;
     :hasEvidenceBundle psx:window_2_event_1_1_event_1_1_finding_R4_bundle ;
     :hasParameterValues "auto-generated explanation for finding window_2_event_1_1_event_1_1_finding_R4" ;
     :hasQueryFamilyIdentifier "CQ4" ;
-    :hasQueryInstanceIdentifier "CQ4-GEN-1" .
+    :hasQueryInstanceIdentifier "CQ4-GEN-6" .
 
 psx:window_2_event_3_3_event_3_3_finding_R4 a :AnalyticalFinding ;
     :concernsEntity psx:company_2 ;
     :derivedByRule "R4" ;
     :forCompetencyQuestion "CQ4" ;
     :hasFindingType "abnormal-event-reaction" ;
-    :supportedByObservation psx:derived_event_ar_2_event_3_3 .
+    :supportedByObservation psx:derived_event_ar_2_event_3_3,
+        psx:derived_event_vol_2_event_3_3 .
 
 psx:window_2_event_3_3_event_3_3_finding_R4_qe a :QueryExecution ;
     :hasEvidenceBundle psx:window_2_event_3_3_event_3_3_finding_R4_bundle ;
     :hasParameterValues "auto-generated explanation for finding window_2_event_3_3_event_3_3_finding_R4" ;
     :hasQueryFamilyIdentifier "CQ4" ;
-    :hasQueryInstanceIdentifier "CQ4-GEN-8" .
+    :hasQueryInstanceIdentifier "CQ4-GEN-7" .
 
 psx:window_4_event_1_1_event_1_1_finding_R4 a :AnalyticalFinding ;
     :concernsEntity psx:company_4 ;
     :derivedByRule "R4" ;
     :forCompetencyQuestion "CQ4" ;
     :hasFindingType "abnormal-event-reaction" ;
-    :supportedByObservation psx:derived_event_ar_4_event_1_1 .
+    :supportedByObservation psx:derived_event_ar_4_event_1_1,
+        psx:derived_event_vol_4_event_1_1 .
 
 psx:window_4_event_1_1_event_1_1_finding_R4_qe a :QueryExecution ;
     :hasEvidenceBundle psx:window_4_event_1_1_event_1_1_finding_R4_bundle ;
     :hasParameterValues "auto-generated explanation for finding window_4_event_1_1_event_1_1_finding_R4" ;
     :hasQueryFamilyIdentifier "CQ4" ;
-    :hasQueryInstanceIdentifier "CQ4-GEN-7" .
+    :hasQueryInstanceIdentifier "CQ4-GEN-8" .
 
 psx:window_4_event_3_3_event_3_3_finding_R4 a :AnalyticalFinding ;
     :concernsEntity psx:company_4 ;
     :derivedByRule "R4" ;
     :forCompetencyQuestion "CQ4" ;
     :hasFindingType "abnormal-event-reaction" ;
-    :supportedByObservation psx:derived_event_ar_4_event_3_3 .
+    :supportedByObservation psx:derived_event_ar_4_event_3_3,
+        psx:derived_event_vol_4_event_3_3 .
 
 psx:window_4_event_3_3_event_3_3_finding_R4_qe a :QueryExecution ;
     :hasEvidenceBundle psx:window_4_event_3_3_event_3_3_finding_R4_bundle ;
     :hasParameterValues "auto-generated explanation for finding window_4_event_3_3_event_3_3_finding_R4" ;
     :hasQueryFamilyIdentifier "CQ4" ;
-    :hasQueryInstanceIdentifier "CQ4-GEN-6" .
+    :hasQueryInstanceIdentifier "CQ4-GEN-9" .
 
 <https://w3id.org/ontokg-eq/rules> a owl:Ontology ;
     rdfs:label "OntoKG-EQ Inference / Findings Vocabulary"@en ;
@@ -4393,22 +4367,6 @@ psx:company_3_finding_R3_bundle a :EvidenceBundle ;
     :includesObservation psx:derived_bench_return_3,
         psx:derived_post_return_3,
         psx:derived_sector_return_3 .
-
-psx:derived_event_vol_4_event_1_1 a :MarketObservation,
-        :Observation ;
-    :hasMetricName "abnormal volume ratio" ;
-    :hasMetricValue 1.582319 ;
-    :hasObservationDate "2026-02-16"^^xsd:date ;
-    :isObservationOf psx:company_4 ;
-    :observedInEventWindow psx:window_4_event_1_1_event_1_1 .
-
-psx:derived_event_vol_4_event_3_3 a :MarketObservation,
-        :Observation ;
-    :hasMetricName "abnormal volume ratio" ;
-    :hasMetricValue 1.389868 ;
-    :hasObservationDate "2026-02-18"^^xsd:date ;
-    :isObservationOf psx:company_4 ;
-    :observedInEventWindow psx:window_4_event_3_3_event_3_3 .
 
 psx:derived_fx_change a :ExchangeRateObservation,
         :Observation ;
@@ -4521,37 +4479,43 @@ psx:window_1_event_1_1_event_1_1_finding_R4_bundle a :EvidenceBundle ;
     :containsEvidenceItem psx:evid_1 ;
     :explainsResultEntity psx:company_1 ;
     :hasValidationStatus psx:validation_passed ;
-    :includesObservation psx:derived_event_ar_1_event_1_1 .
+    :includesObservation psx:derived_event_ar_1_event_1_1,
+        psx:derived_event_vol_1_event_1_1 .
 
 psx:window_1_event_3_3_event_3_3_finding_R4_bundle a :EvidenceBundle ;
     :containsEvidenceItem psx:evid_1 ;
     :explainsResultEntity psx:company_1 ;
     :hasValidationStatus psx:validation_passed ;
-    :includesObservation psx:derived_event_ar_1_event_3_3 .
+    :includesObservation psx:derived_event_ar_1_event_3_3,
+        psx:derived_event_vol_1_event_3_3 .
 
 psx:window_2_event_1_1_event_1_1_finding_R4_bundle a :EvidenceBundle ;
     :containsEvidenceItem psx:evid_2 ;
     :explainsResultEntity psx:company_2 ;
     :hasValidationStatus psx:validation_passed ;
-    :includesObservation psx:derived_event_ar_2_event_1_1 .
+    :includesObservation psx:derived_event_ar_2_event_1_1,
+        psx:derived_event_vol_2_event_1_1 .
 
 psx:window_2_event_3_3_event_3_3_finding_R4_bundle a :EvidenceBundle ;
     :containsEvidenceItem psx:evid_2 ;
     :explainsResultEntity psx:company_2 ;
     :hasValidationStatus psx:validation_passed ;
-    :includesObservation psx:derived_event_ar_2_event_3_3 .
+    :includesObservation psx:derived_event_ar_2_event_3_3,
+        psx:derived_event_vol_2_event_3_3 .
 
 psx:window_4_event_1_1_event_1_1_finding_R4_bundle a :EvidenceBundle ;
     :containsEvidenceItem psx:evid_4 ;
     :explainsResultEntity psx:company_4 ;
     :hasValidationStatus psx:validation_passed ;
-    :includesObservation psx:derived_event_ar_4_event_1_1 .
+    :includesObservation psx:derived_event_ar_4_event_1_1,
+        psx:derived_event_vol_4_event_1_1 .
 
 psx:window_4_event_3_3_event_3_3_finding_R4_bundle a :EvidenceBundle ;
     :containsEvidenceItem psx:evid_4 ;
     :explainsResultEntity psx:company_4 ;
     :hasValidationStatus psx:validation_passed ;
-    :includesObservation psx:derived_event_ar_4_event_3_3 .
+    :includesObservation psx:derived_event_ar_4_event_3_3,
+        psx:derived_event_vol_4_event_3_3 .
 
 psx:window_fx_series a :AnalysisWindow ;
     :hasEndDate "2026-04-10"^^xsd:date ;
@@ -4602,6 +4566,38 @@ psx:derived_event_ar_2_event_3_3 a :MarketObservation,
         :Observation ;
     :hasMetricName "cumulative abnormal return %" ;
     :hasMetricValue -1.977095 ;
+    :hasObservationDate "2026-02-06"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInEventWindow psx:window_2_event_3_3_event_3_3 .
+
+psx:derived_event_vol_1_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 0.843392 ;
+    :hasObservationDate "2026-02-27"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInEventWindow psx:window_1_event_1_1_event_1_1 .
+
+psx:derived_event_vol_1_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 1.457679 ;
+    :hasObservationDate "2026-03-03"^^xsd:date ;
+    :isObservationOf psx:company_1 ;
+    :observedInEventWindow psx:window_1_event_3_3_event_3_3 .
+
+psx:derived_event_vol_2_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 3.299579 ;
+    :hasObservationDate "2026-01-30"^^xsd:date ;
+    :isObservationOf psx:company_2 ;
+    :observedInEventWindow psx:window_2_event_1_1_event_1_1 .
+
+psx:derived_event_vol_2_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 1.631163 ;
     :hasObservationDate "2026-02-06"^^xsd:date ;
     :isObservationOf psx:company_2 ;
     :observedInEventWindow psx:window_2_event_3_3_event_3_3 .
@@ -4689,6 +4685,22 @@ psx:derived_event_ar_4_event_3_3 a :MarketObservation,
         :Observation ;
     :hasMetricName "cumulative abnormal return %" ;
     :hasMetricValue -6.303524 ;
+    :hasObservationDate "2026-02-18"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInEventWindow psx:window_4_event_3_3_event_3_3 .
+
+psx:derived_event_vol_4_event_1_1 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 1.582319 ;
+    :hasObservationDate "2026-02-16"^^xsd:date ;
+    :isObservationOf psx:company_4 ;
+    :observedInEventWindow psx:window_4_event_1_1_event_1_1 .
+
+psx:derived_event_vol_4_event_3_3 a :MarketObservation,
+        :Observation ;
+    :hasMetricName "abnormal volume ratio" ;
+    :hasMetricValue 1.389868 ;
     :hasObservationDate "2026-02-18"^^xsd:date ;
     :isObservationOf psx:company_4 ;
     :observedInEventWindow psx:window_4_event_3_3_event_3_3 .

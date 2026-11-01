@@ -1,0 +1,1146 @@
+[
+  {
+    "finding": "https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS_finding_R1",
+    "rule": "R1",
+    "entity": "https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS",
+    "status": "sufficient",
+    "support_complete": true,
+    "sufficient_witness": true,
+    "finding_support_sufficient": true,
+    "bundle": "https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS_finding_R1_bundle",
+    "bundle_valid": true,
+    "bundle_sufficient": true,
+    "bundle_all_roles_available": true,
+    "bundle_status": "sufficient",
+    "bundle_witnesses": [
+      {
+        "growth": "https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAXIS",
+        "company": "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAXIS",
+        "benchmark": "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAXIS"
+      }
+    ],
+    "full_graph_truth": true,
+    "witnesses": [
+      {
+        "growth": "https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAXIS",
+        "company": "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAXIS",
+        "benchmark": "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAXIS"
+      }
+    ],
+    "role_candidates": {
+      "growth": [
+        "https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAXIS"
+      ],
+      "company": [
+        "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAXIS"
+      ],
+      "benchmark": [
+        "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAXIS"
+      ]
+    },
+    "source_linkage": {
+      "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAXIS": [
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row100_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row101_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row102_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row103_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row104_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row105_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row106_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row107_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row108_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row109_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row110_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row111_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row82_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row83_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row84_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row85_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row86_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row87_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row88_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row89_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row90_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row91_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row92_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row93_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row94_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row95_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row96_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row97_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row98_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row99_daily_return"
+      ],
+      "https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAXIS": [
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_03_fundamentals_final_Sheet1_row9_yoy_profit_growth_pct"
+      ],
+      "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAXIS": [
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row100_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row101_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row102_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row103_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row104_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row105_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row106_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row107_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row108_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row109_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row110_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row111_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row112_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row113_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row114_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row115_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row116_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row117_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row118_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row119_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row120_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row121_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row93_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row94_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row95_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row96_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row97_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row98_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row99_daily_return"
+      ]
+    },
+    "source_paths": {
+      "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAXIS": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row100_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row101_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row102_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row103_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row104_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row105_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row106_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row107_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row108_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row109_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row110_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row111_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row82_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row83_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row84_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row85_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row86_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row87_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row88_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row89_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row90_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row91_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row92_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row93_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row94_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row95_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row96_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row97_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row98_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row99_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      },
+      "https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAXIS": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_03_fundamentals_final_Sheet1_row9_yoy_profit_growth_pct",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MAXIS_AR2025"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      },
+      "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAXIS": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row100_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row101_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row102_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row103_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row104_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row105_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row106_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row107_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row108_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row109_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row110_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row111_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row112_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row113_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row114_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row115_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row116_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row117_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row118_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row119_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row120_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row121_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row93_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row94_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row95_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row96_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row97_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row98_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row99_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      }
+    },
+    "source_linkage_complete": true,
+    "source_sufficient_witness": true,
+    "source_truth_verified": false,
+    "units": {
+      "https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAXIS": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      },
+      "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAXIS": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      },
+      "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAXIS": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      }
+    },
+    "temporal_policy": {
+      "shared_deciding_window": "checked_where_required",
+      "event_finding_to_window_anchor": "not_applicable",
+      "growth_reporting_period_to_return_window_anchor": "unverified"
+    },
+    "unit_verification": "unverified",
+    "market": "msx"
+  },
+  {
+    "finding": "https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK_finding_R1",
+    "rule": "R1",
+    "entity": "https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK",
+    "status": "sufficient",
+    "support_complete": true,
+    "sufficient_witness": true,
+    "finding_support_sufficient": true,
+    "bundle": "https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK_finding_R1_bundle",
+    "bundle_valid": true,
+    "bundle_sufficient": true,
+    "bundle_all_roles_available": true,
+    "bundle_status": "sufficient",
+    "bundle_witnesses": [
+      {
+        "growth": "https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAYBANK",
+        "company": "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAYBANK",
+        "benchmark": "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAYBANK"
+      }
+    ],
+    "full_graph_truth": true,
+    "witnesses": [
+      {
+        "growth": "https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAYBANK",
+        "company": "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAYBANK",
+        "benchmark": "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAYBANK"
+      }
+    ],
+    "role_candidates": {
+      "growth": [
+        "https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAYBANK"
+      ],
+      "company": [
+        "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAYBANK"
+      ],
+      "benchmark": [
+        "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAYBANK"
+      ]
+    },
+    "source_linkage": {
+      "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAYBANK": [
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row100_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row71_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row72_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row73_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row74_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row75_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row76_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row77_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row78_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row79_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row80_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row81_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row82_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row83_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row84_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row85_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row86_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row87_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row88_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row89_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row90_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row91_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row92_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row93_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row94_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row95_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row96_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row97_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row98_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row99_daily_return"
+      ],
+      "https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAYBANK": [
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_03_fundamentals_final_Sheet1_row3_yoy_profit_growth_pct"
+      ],
+      "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAYBANK": [
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row10_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row11_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row12_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row13_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row14_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row15_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row16_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row17_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row18_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row19_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row20_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row21_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row22_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row23_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row24_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row25_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row26_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row27_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row28_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row29_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row30_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row31_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row3_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row4_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row5_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row6_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row7_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row8_daily_return",
+        "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row9_daily_return"
+      ]
+    },
+    "source_paths": {
+      "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAYBANK": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row100_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row71_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row72_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row73_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row74_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row75_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row76_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row77_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row78_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row79_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row80_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row81_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row82_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row83_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row84_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row85_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row86_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row87_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row88_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row89_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row90_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row91_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row92_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row93_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row94_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row95_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row96_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row97_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row98_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_05_comparators_corrected_Sheet1_row99_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      },
+      "https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAYBANK": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_03_fundamentals_final_Sheet1_row3_yoy_profit_growth_pct",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MAYBANK_AR2025"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      },
+      "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAYBANK": {
+        "cells": [
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row10_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row11_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row12_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row13_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row14_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row15_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row16_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row17_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row18_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row19_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row20_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row21_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row22_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row23_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row24_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row25_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row26_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row27_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row28_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row29_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row30_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row31_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row3_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row4_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row5_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row6_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row7_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row8_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          },
+          {
+            "cell": "https://w3id.org/ontokg-eq/lineage-audit#msx_MY_04_market_windows_corrected_Sheet1_row9_daily_return",
+            "sources": [
+              "https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK"
+            ],
+            "valid_identity_path": true
+          }
+        ],
+        "complete": true
+      }
+    },
+    "source_linkage_complete": true,
+    "source_sufficient_witness": true,
+    "source_truth_verified": false,
+    "units": {
+      "https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAYBANK": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      },
+      "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAYBANK": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      },
+      "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAYBANK": {
+        "expected": "percent",
+        "declared": [],
+        "status": "unverified_absent"
+      }
+    },
+    "temporal_policy": {
+      "shared_deciding_window": "checked_where_required",
+      "event_finding_to_window_anchor": "not_applicable",
+      "growth_reporting_period_to_return_window_anchor": "unverified"
+    },
+    "unit_verification": "unverified",
+    "market": "msx"
+  }
+]

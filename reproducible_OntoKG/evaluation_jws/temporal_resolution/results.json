@@ -1,0 +1,1466 @@
+{
+  "version": "1.0",
+  "scope": "Positive corrected cases only; strict report-event quarantine, no relaxed replacement contract",
+  "input_hashes": {
+    "expanded": "7f3582e1d044c7cc44cac9a7804e5e8a5b50e7cc4cf9634952d01702ff8fa8c3",
+    "metadata": "9d60ff225d6cdf3ae39a225e0b6e4878e2565ad51480ce5ea77bc3f907c8accd"
+  },
+  "preserved_workbook_sha256": {
+    "scale_up\\IDX_scaled_data\\03_fundamentals.xlsx": "ff56c2c6ae68b1214f85d0fc90c8d7ca0ee993df3bfa98f16498e7fbd2ab7c78",
+    "scale_up\\IDX_scaled_data\\04_market_windows.xlsx": "a627848fb35d78dd3ef952ff229ebfcabe420bc7ca5652b9daa6ef644c5c7756",
+    "IDX data v1\\03_fundamentals.xlsx": "9ef3b33317b4935cea0c5683ea388ed91c461449a9e11d024c0927fc9c70ad4d",
+    "IDX data v1\\04_market_windows.xlsx": "72e85b6ed6f0f18f4518106b022724c975b16dbca9fd1b90a623a5c2754c959e"
+  },
+  "summaries": [
+    {
+      "dataset": "demo_idx_financial_v2",
+      "numerical_positive": 9,
+      "decisions": {
+        "not_a_report_event_claim": 8,
+        "quarantined_temporal_mismatch": 1
+      },
+      "authenticated_annual_report_announcement_dates": 0,
+      "official_document_dates_matched": 0,
+      "authenticated_first_earnings_event_positives": 0
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "numerical_positive": 42,
+      "decisions": {
+        "not_a_report_event_claim": 22,
+        "quarantined_non_report_analysis_window": 20
+      },
+      "authenticated_annual_report_announcement_dates": 0,
+      "official_document_dates_matched": 0,
+      "authenticated_first_earnings_event_positives": 0
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "numerical_positive": 2,
+      "decisions": {
+        "declared_alignment_only_not_authenticated": 1,
+        "official_annual_report_announcement_date_matched": 1
+      },
+      "authenticated_annual_report_announcement_dates": 1,
+      "official_document_dates_matched": 1,
+      "authenticated_first_earnings_event_positives": 0
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "numerical_positive": 5,
+      "decisions": {
+        "not_a_report_event_claim": 4,
+        "official_financial_results_document_date_matched": 1
+      },
+      "authenticated_annual_report_announcement_dates": 0,
+      "official_document_dates_matched": 1,
+      "authenticated_first_earnings_event_positives": 0
+    }
+  ],
+  "records": [
+    {
+      "dataset": "demo_idx_financial_v2",
+      "case_index": 3,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_BBCA",
+      "rule": "R4",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "annual_report_2025"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "case_index": 4,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_BBCA",
+      "rule": "R4",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "annual_report_2025"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "case_index": 6,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_BMRI",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "annual_report_2025"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "case_index": 7,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_BMRI",
+      "rule": "R2",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "annual_report_2025"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "case_index": 11,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_ISAT",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "annual_report_2025"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "case_index": 13,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_ISAT",
+      "rule": "R4",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "annual_report_2025"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "case_index": 15,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_TOWR",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "annual_report_2025"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2026-03-18",
+          "anchor_date": "2026-03-25",
+          "period": "https://w3id.org/ontokg-eq/idx#period_IDX_FUND_TOWR_FY2025",
+          "window": "https://w3id.org/ontokg-eq/idx#window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-25",
+          "start_date": "2026-03-25",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2026-03-18"
+        }
+      ],
+      "decision": "quarantined_temporal_mismatch",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "case_index": 18,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_TOWR",
+      "rule": "R4",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "annual_report_2025"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "case_index": 19,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_TOWR",
+      "rule": "R4",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "annual_report_2025"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 13,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_ADRO",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 17,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_AKRA",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 24,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_ANTM",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_ANTM_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_ANTM_ANTM_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 28,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_ARTO",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_ARTO_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_ARTO_ARTO_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 37,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_BBCA",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 38,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_BBCA",
+      "rule": "R2",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 49,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_BBTN",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 56,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_BRIS",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_BRIS_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_BRIS_BRIS_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 60,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_BRMS",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_BRMS_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_BRMS_BRMS_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 65,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_BRPT",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 73,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_BTPS",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 76,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_BUKA",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_BUKA_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_BUKA_BUKA_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 80,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_CPIN",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_CPIN_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_CPIN_CPIN_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 84,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_CTRA",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_CTRA_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_CTRA_CTRA_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 88,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_ELSA",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_ELSA_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_ELSA_ELSA_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 92,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_EMTK",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_EMTK_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_EMTK_EMTK_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 105,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_EXCL",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 109,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_GGRM",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 117,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_HEXA",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 128,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_INCO",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_INCO_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_INCO_INCO_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 133,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_INDF",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 136,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_INTP",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_INTP_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_INTP_INTP_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 138,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_INTP",
+      "rule": "R2",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 141,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_ISAT",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 148,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_JPFA",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_JPFA_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_JPFA_JPFA_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 153,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_JSMR",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 156,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_KLBF",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_KLBF_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_KLBF_KLBF_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 161,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_MAPI",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 172,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_MIKA",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_MIKA_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_MIKA_MIKA_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 177,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_MNCN",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 181,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_MTEL",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 185,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_MYOR",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 188,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_NCKL",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_NCKL_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_NCKL_NCKL_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 204,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_PWON",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_PWON_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_PWON_PWON_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 208,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_SCMA",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_SCMA_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_SCMA_SCMA_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 212,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_SIDO",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_SIDO_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_SIDO_SIDO_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 221,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_SMRA",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 225,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_TBIG",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 229,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_TINS",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 236,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_TOWR",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_TOWR_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_TOWR_TOWR_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 240,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_TPIA",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "mismatch",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "mismatch",
+          "report_date": "2025-12-31",
+          "anchor_date": "2026-03-26",
+          "period": "https://w3id.org/ontokg-eq/idxscaled#period_IDX_FUND_TPIA_2025",
+          "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_TPIA_TPIA_recent_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-03-26",
+          "start_date": "2026-03-26",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2025-12-31"
+        }
+      ],
+      "decision": "quarantined_non_report_analysis_window",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "case_index": 253,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_WIKA",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [
+        "recent_analysis_window"
+      ],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "case_index": 4,
+      "company": "https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "verified_as_declared",
+          "report_date": "2026-04-16",
+          "anchor_date": "2026-04-16",
+          "period": "https://w3id.org/ontokg-eq/msx#period_MY_FUND_MAXIS_FY2025",
+          "window": "https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-04-16",
+          "start_date": "2026-04-17",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2026-04-16"
+        }
+      ],
+      "decision": "declared_alignment_only_not_authenticated",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "case_index": 9,
+      "company": "https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "verified_as_declared",
+          "report_date": "2026-04-01",
+          "anchor_date": "2026-04-01",
+          "period": "https://w3id.org/ontokg-eq/msx#period_MY_FUND_MAYBANK_FY2025",
+          "window": "https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-04-01",
+          "start_date": "2026-04-02",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2026-04-01"
+        }
+      ],
+      "decision": "official_annual_report_announcement_date_matched",
+      "publication_date_authenticated": true,
+      "eligible_authenticated_report_event": false,
+      "official_date_evidence": {
+        "date": "2026-04-01",
+        "status": "official_annual_report_announcement_date_matched",
+        "url": "https://maybank.listedcompany.com/news.html/id/2605866",
+        "locator": "Announcement Info: Date Announced 01 Apr 2026; reference DCS-01042026-00004",
+        "event": "Annual Report & CG Report - 2025",
+        "first_earnings_release_authenticated": false
+      }
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "case_index": 1,
+      "company": "https://w3id.org/ontokg-eq/psx#company_1",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "case_index": 2,
+      "company": "https://w3id.org/ontokg-eq/psx#company_1",
+      "rule": "R2",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "case_index": 4,
+      "company": "https://w3id.org/ontokg-eq/psx#company_2",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [],
+      "temporal_checks": [
+        {
+          "check": "report_date_equals_window_anchor",
+          "status": "verified_as_declared",
+          "report_date": "2026-01-29",
+          "anchor_date": "2026-01-29",
+          "period": "https://w3id.org/ontokg-eq/psx#period_3",
+          "window": "https://w3id.org/ontokg-eq/psx#window_2_post_report_30d_post_report"
+        },
+        {
+          "check": "post_report_window_starts_on_or_after_anchor",
+          "status": "verified_as_declared",
+          "anchor_date": "2026-01-29",
+          "start_date": "2026-01-30",
+          "policy": "Inclusive anchor date allowed; this is not proof of publication timing"
+        },
+        {
+          "check": "fiscal_period_ends_before_or_on_report",
+          "status": "verified_as_declared",
+          "period_end": "2025-12-31",
+          "report_date": "2026-01-29"
+        }
+      ],
+      "decision": "official_financial_results_document_date_matched",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false,
+      "official_date_evidence": {
+        "date": "2026-01-29",
+        "status": "official_financial_results_document_date_matched",
+        "url": "https://dps.psx.com.pk/download/document/269389.pdf",
+        "locator": "Page 1, issuer letter Ref 6.12-PSX/S/FFC dated January 29 2026; board meeting 29/01/2026 at 1030",
+        "event": "FFC financial results year ended December 31 2025",
+        "first_earnings_release_authenticated": false
+      }
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "case_index": 9,
+      "company": "https://w3id.org/ontokg-eq/psx#company_3",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "case_index": 15,
+      "company": "https://w3id.org/ontokg-eq/psx#company_4",
+      "rule": "R4",
+      "numerical_label": "positive",
+      "original_metadata_status": "verified_as_declared",
+      "workbook_anchor_types": [],
+      "temporal_checks": [],
+      "decision": "not_a_report_event_claim",
+      "publication_date_authenticated": false,
+      "eligible_authenticated_report_event": false
+    }
+  ],
+  "synthetic_controls_passed": 5,
+  "authenticated_annual_report_publication_dates": 1,
+  "authenticated_first_earnings_publication_timestamps": 0,
+  "source_review_date": "2026-10-16"
+}

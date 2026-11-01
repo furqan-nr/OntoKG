@@ -1,0 +1,1441 @@
+{
+  "scope": "constructed diagnostics, not independent empirical samples or superiority evidence",
+  "cases": 26,
+  "paired_pool_checks": 78,
+  "status_and_readiness_disagreements": 0,
+  "fixture_parameters": {
+    "R3_margin": "1.0",
+    "decimal_scope": "tested ordinary decimal fixtures, at most five significant digits/four decimal places",
+    "ambient_decimal_precision": 28
+  },
+  "out_of_scope_precision_probe": {
+    "scope": "Out-of-primary-fixture precision stress; not part of 26-case/78-pool agreement.",
+    "sector": "2.00000000000000000000000000001",
+    "company": "3.00000000000000000000000000001",
+    "margin": "1.0",
+    "checker": [
+      "false",
+      true
+    ],
+    "independent_baseline": [
+      "positive",
+      true
+    ],
+    "agreement": false,
+    "explanation": "The tested RDFLib SPARQL arithmetic uses ambient Decimal precision. Rounding can change strict comparisons; increased comparator precision can address this example. This is not a SHACL expressiveness limitation."
+  },
+  "preserved_inputs_before": {
+    "docs\\jws_boundary_contracts.py": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+    "contracts\\finance_boundary_v1.json": "c6afcea424746d2da3cb280d1e74cd4a1d46921c4495cf3127dcc01504f5908c"
+  },
+  "preserved_inputs_after": {
+    "docs\\jws_boundary_contracts.py": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+    "contracts\\finance_boundary_v1.json": "c6afcea424746d2da3cb280d1e74cd4a1d46921c4495cf3127dcc01504f5908c"
+  },
+  "benchmark_sha256": "9363d416bbde30db6f304588952cf013254fccd2777c2266e57c41214c08f52f",
+  "test_sha256": "395736f106ae6b32f386cf95833b3cddca549a10f0fc518ee353e6b66d562f61",
+  "source_separation": {
+    "checker": "docs\\jws_boundary_contracts.py",
+    "independent_baseline_and_fixtures": "docs\\jws_boundary_analytical_benchmark.py",
+    "policy": "manual expressions/patterns, not generated from configuration; pools selected directly from RDF"
+  },
+  "effective_contract_sha256": {
+    "R1": "4230a444b3a740e2adb23e0357c7e4d52275bb667871fe997f92fe94f8a8f05d",
+    "R2": "43d365af18e33f76e427256f6c831f9d4f00e94bcebf3606f0d2c81bd9200ade",
+    "R3": "9683f89b3bcc5b527e639b4ca4a9b43e4ab066ee5c0bc0d469f67ea702ee9814",
+    "R4": "1b3343380e555be536fb51fe02f6c6a53c7ae838ba99acc0b075826cf734e355"
+  },
+  "runtime": {
+    "python": "3.13.5",
+    "rdflib": "7.6.0",
+    "pyshacl": "0.40.1"
+  },
+  "baseline_queries": {
+    "R1": {
+      "numeric": [
+        "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> SELECT $this WHERE { FILTER NOT EXISTS {{ t:company a e:Company.\n    ?og a e:Observation; e:hasMetricName \"YoY profit growth %\"; e:isObservationOf t:company; e:hasMetricValue ?rawg.\n    FILTER NOT EXISTS {?og e:hasMetricName ?othermg FILTER(STR(?othermg) != \"YoY profit growth %\")}\n    FILTER NOT EXISTS {?og e:isObservationOf ?othersg FILTER(?othersg != t:company)}\n    FILTER NOT EXISTS {?og e:hasMetricValue ?othervg FILTER(!sameTerm(?othervg,?rawg))}\n    BIND(xsd:decimal(?rawg) AS ?ng) FILTER(BOUND(?ng))\n    \n t:company a e:Company.\n    ?oc a e:Observation; e:hasMetricName \"post-report window return %\"; e:isObservationOf t:company; e:hasMetricValue ?rawc.\n    FILTER NOT EXISTS {?oc e:hasMetricName ?othermc FILTER(STR(?othermc) != \"post-report window return %\")}\n    FILTER NOT EXISTS {?oc e:isObservationOf ?othersc FILTER(?othersc != t:company)}\n    FILTER NOT EXISTS {?oc e:hasMetricValue ?othervc FILTER(!sameTerm(?othervc,?rawc))}\n    BIND(xsd:decimal(?rawc) AS ?nc) FILTER(BOUND(?nc))\n    ?oc e:observedOverWindow ?wc. ?wc a e:AnalysisWindow.\n        FILTER NOT EXISTS {?oc e:observedOverWindow ?otherwc FILTER(?otherwc != ?wc)}\nt:company e:comparedWithIndex ?targetb. ?targetb a e:MarketIndex.\n    ?ob a e:Observation; e:hasMetricName \"benchmark window return %\"; e:isObservationOf ?targetb; e:hasMetricValue ?rawb.\n    FILTER NOT EXISTS {?ob e:hasMetricName ?othermb FILTER(STR(?othermb) != \"benchmark window return %\")}\n    FILTER NOT EXISTS {?ob e:isObservationOf ?othersb FILTER(?othersb != ?targetb)}\n    FILTER NOT EXISTS {?ob e:hasMetricValue ?othervb FILTER(!sameTerm(?othervb,?rawb))}\n    BIND(xsd:decimal(?rawb) AS ?nb) FILTER(BOUND(?nb))\n    ?ob e:observedOverWindow ?wb. ?wb a e:AnalysisWindow.\n        FILTER NOT EXISTS {?ob e:observedOverWindow ?otherwb FILTER(?otherwb != ?wb)} FILTER(?wb = ?wc) FILTER(?ng > 0 && ?nc < ?nb)}} }",
+        [
+          "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> ASK { t:company a e:Company.\n    ?og a e:Observation; e:hasMetricName \"YoY profit growth %\"; e:isObservationOf t:company; e:hasMetricValue ?rawg.\n    FILTER NOT EXISTS {?og e:hasMetricName ?othermg FILTER(STR(?othermg) != \"YoY profit growth %\")}\n    FILTER NOT EXISTS {?og e:isObservationOf ?othersg FILTER(?othersg != t:company)}\n    FILTER NOT EXISTS {?og e:hasMetricValue ?othervg FILTER(!sameTerm(?othervg,?rawg))}\n    BIND(xsd:decimal(?rawg) AS ?ng) FILTER(BOUND(?ng))\n    \n t:company a e:Company.\n    ?oc a e:Observation; e:hasMetricName \"post-report window return %\"; e:isObservationOf t:company; e:hasMetricValue ?rawc.\n    FILTER NOT EXISTS {?oc e:hasMetricName ?othermc FILTER(STR(?othermc) != \"post-report window return %\")}\n    FILTER NOT EXISTS {?oc e:isObservationOf ?othersc FILTER(?othersc != t:company)}\n    FILTER NOT EXISTS {?oc e:hasMetricValue ?othervc FILTER(!sameTerm(?othervc,?rawc))}\n    BIND(xsd:decimal(?rawc) AS ?nc) FILTER(BOUND(?nc))\n    ?oc e:observedOverWindow ?wc. ?wc a e:AnalysisWindow.\n        FILTER NOT EXISTS {?oc e:observedOverWindow ?otherwc FILTER(?otherwc != ?wc)}\nt:company e:comparedWithIndex ?targetb. ?targetb a e:MarketIndex.\n    ?ob a e:Observation; e:hasMetricName \"benchmark window return %\"; e:isObservationOf ?targetb; e:hasMetricValue ?rawb.\n    FILTER NOT EXISTS {?ob e:hasMetricName ?othermb FILTER(STR(?othermb) != \"benchmark window return %\")}\n    FILTER NOT EXISTS {?ob e:isObservationOf ?othersb FILTER(?othersb != ?targetb)}\n    FILTER NOT EXISTS {?ob e:hasMetricValue ?othervb FILTER(!sameTerm(?othervb,?rawb))}\n    BIND(xsd:decimal(?rawb) AS ?nb) FILTER(BOUND(?nb))\n    ?ob e:observedOverWindow ?wb. ?wb a e:AnalysisWindow.\n        FILTER NOT EXISTS {?ob e:observedOverWindow ?otherwb FILTER(?otherwb != ?wb)} FILTER(?wb = ?wc)}"
+        ]
+      ],
+      "unit_ready": [
+        "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> SELECT $this WHERE { FILTER NOT EXISTS {{ t:company a e:Company.\n    ?og a e:Observation; e:hasMetricName \"YoY profit growth %\"; e:isObservationOf t:company; e:hasMetricValue ?rawg.\n    FILTER NOT EXISTS {?og e:hasMetricName ?othermg FILTER(STR(?othermg) != \"YoY profit growth %\")}\n    FILTER NOT EXISTS {?og e:isObservationOf ?othersg FILTER(?othersg != t:company)}\n    FILTER NOT EXISTS {?og e:hasMetricValue ?othervg FILTER(!sameTerm(?othervg,?rawg))}\n    BIND(xsd:decimal(?rawg) AS ?ng) FILTER(BOUND(?ng))\n    ?og e:hasUnit \"percent\".\n        FILTER NOT EXISTS {?og e:hasUnit ?otherug FILTER(STR(?otherug) != \"percent\")}\n t:company a e:Company.\n    ?oc a e:Observation; e:hasMetricName \"post-report window return %\"; e:isObservationOf t:company; e:hasMetricValue ?rawc.\n    FILTER NOT EXISTS {?oc e:hasMetricName ?othermc FILTER(STR(?othermc) != \"post-report window return %\")}\n    FILTER NOT EXISTS {?oc e:isObservationOf ?othersc FILTER(?othersc != t:company)}\n    FILTER NOT EXISTS {?oc e:hasMetricValue ?othervc FILTER(!sameTerm(?othervc,?rawc))}\n    BIND(xsd:decimal(?rawc) AS ?nc) FILTER(BOUND(?nc))\n    ?oc e:observedOverWindow ?wc. ?wc a e:AnalysisWindow.\n        FILTER NOT EXISTS {?oc e:observedOverWindow ?otherwc FILTER(?otherwc != ?wc)}?oc e:hasUnit \"percent\".\n        FILTER NOT EXISTS {?oc e:hasUnit ?otheruc FILTER(STR(?otheruc) != \"percent\")}\nt:company e:comparedWithIndex ?targetb. ?targetb a e:MarketIndex.\n    ?ob a e:Observation; e:hasMetricName \"benchmark window return %\"; e:isObservationOf ?targetb; e:hasMetricValue ?rawb.\n    FILTER NOT EXISTS {?ob e:hasMetricName ?othermb FILTER(STR(?othermb) != \"benchmark window return %\")}\n    FILTER NOT EXISTS {?ob e:isObservationOf ?othersb FILTER(?othersb != ?targetb)}\n    FILTER NOT EXISTS {?ob e:hasMetricValue ?othervb FILTER(!sameTerm(?othervb,?rawb))}\n    BIND(xsd:decimal(?rawb) AS ?nb) FILTER(BOUND(?nb))\n    ?ob e:observedOverWindow ?wb. ?wb a e:AnalysisWindow.\n        FILTER NOT EXISTS {?ob e:observedOverWindow ?otherwb FILTER(?otherwb != ?wb)}?ob e:hasUnit \"percent\".\n        FILTER NOT EXISTS {?ob e:hasUnit ?otherub FILTER(STR(?otherub) != \"percent\")} FILTER(?wb = ?wc) FILTER(?ng > 0 && ?nc < ?nb)}} }",
+        [
+          "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> ASK { t:company a e:Company.\n    ?og a e:Observation; e:hasMetricName \"YoY profit growth %\"; e:isObservationOf t:company; e:hasMetricValue ?rawg.\n    FILTER NOT EXISTS {?og e:hasMetricName ?othermg FILTER(STR(?othermg) != \"YoY profit growth %\")}\n    FILTER NOT EXISTS {?og e:isObservationOf ?othersg FILTER(?othersg != t:company)}\n    FILTER NOT EXISTS {?og e:hasMetricValue ?othervg FILTER(!sameTerm(?othervg,?rawg))}\n    BIND(xsd:decimal(?rawg) AS ?ng) FILTER(BOUND(?ng))\n    ?og e:hasUnit \"percent\".\n        FILTER NOT EXISTS {?og e:hasUnit ?otherug FILTER(STR(?otherug) != \"percent\")}\n t:company a e:Company.\n    ?oc a e:Observation; e:hasMetricName \"post-report window return %\"; e:isObservationOf t:company; e:hasMetricValue ?rawc.\n    FILTER NOT EXISTS {?oc e:hasMetricName ?othermc FILTER(STR(?othermc) != \"post-report window return %\")}\n    FILTER NOT EXISTS {?oc e:isObservationOf ?othersc FILTER(?othersc != t:company)}\n    FILTER NOT EXISTS {?oc e:hasMetricValue ?othervc FILTER(!sameTerm(?othervc,?rawc))}\n    BIND(xsd:decimal(?rawc) AS ?nc) FILTER(BOUND(?nc))\n    ?oc e:observedOverWindow ?wc. ?wc a e:AnalysisWindow.\n        FILTER NOT EXISTS {?oc e:observedOverWindow ?otherwc FILTER(?otherwc != ?wc)}?oc e:hasUnit \"percent\".\n        FILTER NOT EXISTS {?oc e:hasUnit ?otheruc FILTER(STR(?otheruc) != \"percent\")}\nt:company e:comparedWithIndex ?targetb. ?targetb a e:MarketIndex.\n    ?ob a e:Observation; e:hasMetricName \"benchmark window return %\"; e:isObservationOf ?targetb; e:hasMetricValue ?rawb.\n    FILTER NOT EXISTS {?ob e:hasMetricName ?othermb FILTER(STR(?othermb) != \"benchmark window return %\")}\n    FILTER NOT EXISTS {?ob e:isObservationOf ?othersb FILTER(?othersb != ?targetb)}\n    FILTER NOT EXISTS {?ob e:hasMetricValue ?othervb FILTER(!sameTerm(?othervb,?rawb))}\n    BIND(xsd:decimal(?rawb) AS ?nb) FILTER(BOUND(?nb))\n    ?ob e:observedOverWindow ?wb. ?wb a e:AnalysisWindow.\n        FILTER NOT EXISTS {?ob e:observedOverWindow ?otherwb FILTER(?otherwb != ?wb)}?ob e:hasUnit \"percent\".\n        FILTER NOT EXISTS {?ob e:hasUnit ?otherub FILTER(STR(?otherub) != \"percent\")} FILTER(?wb = ?wc)}"
+        ]
+      ]
+    },
+    "R2": {
+      "numeric": [
+        "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> SELECT $this WHERE { FILTER NOT EXISTS {{ t:company a e:Company.\n    ?or a e:Observation; e:hasMetricName \"FX vs company return correlation\"; e:isObservationOf t:company; e:hasMetricValue ?rawr.\n    FILTER NOT EXISTS {?or e:hasMetricName ?othermr FILTER(STR(?othermr) != \"FX vs company return correlation\")}\n    FILTER NOT EXISTS {?or e:isObservationOf ?othersr FILTER(?othersr != t:company)}\n    FILTER NOT EXISTS {?or e:hasMetricValue ?othervr FILTER(!sameTerm(?othervr,?rawr))}\n    BIND(xsd:decimal(?rawr) AS ?nr) FILTER(BOUND(?nr))\n     FILTER(ABS(?nr) >= 0.3)}} }",
+        [
+          "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> ASK { t:company a e:Company.\n    ?or a e:Observation; e:hasMetricName \"FX vs company return correlation\"; e:isObservationOf t:company; e:hasMetricValue ?rawr.\n    FILTER NOT EXISTS {?or e:hasMetricName ?othermr FILTER(STR(?othermr) != \"FX vs company return correlation\")}\n    FILTER NOT EXISTS {?or e:isObservationOf ?othersr FILTER(?othersr != t:company)}\n    FILTER NOT EXISTS {?or e:hasMetricValue ?othervr FILTER(!sameTerm(?othervr,?rawr))}\n    BIND(xsd:decimal(?rawr) AS ?nr) FILTER(BOUND(?nr))\n    }"
+        ]
+      ],
+      "unit_ready": [
+        "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> SELECT $this WHERE { FILTER NOT EXISTS {{ t:company a e:Company.\n    ?or a e:Observation; e:hasMetricName \"FX vs company return correlation\"; e:isObservationOf t:company; e:hasMetricValue ?rawr.\n    FILTER NOT EXISTS {?or e:hasMetricName ?othermr FILTER(STR(?othermr) != \"FX vs company return correlation\")}\n    FILTER NOT EXISTS {?or e:isObservationOf ?othersr FILTER(?othersr != t:company)}\n    FILTER NOT EXISTS {?or e:hasMetricValue ?othervr FILTER(!sameTerm(?othervr,?rawr))}\n    BIND(xsd:decimal(?rawr) AS ?nr) FILTER(BOUND(?nr))\n    ?or e:hasUnit \"coefficient\".\n        FILTER NOT EXISTS {?or e:hasUnit ?otherur FILTER(STR(?otherur) != \"coefficient\")} FILTER(ABS(?nr) >= 0.3)}} }",
+        [
+          "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> ASK { t:company a e:Company.\n    ?or a e:Observation; e:hasMetricName \"FX vs company return correlation\"; e:isObservationOf t:company; e:hasMetricValue ?rawr.\n    FILTER NOT EXISTS {?or e:hasMetricName ?othermr FILTER(STR(?othermr) != \"FX vs company return correlation\")}\n    FILTER NOT EXISTS {?or e:isObservationOf ?othersr FILTER(?othersr != t:company)}\n    FILTER NOT EXISTS {?or e:hasMetricValue ?othervr FILTER(!sameTerm(?othervr,?rawr))}\n    BIND(xsd:decimal(?rawr) AS ?nr) FILTER(BOUND(?nr))\n    ?or e:hasUnit \"coefficient\".\n        FILTER NOT EXISTS {?or e:hasUnit ?otherur FILTER(STR(?otherur) != \"coefficient\")}}"
+        ]
+      ]
+    },
+    "R3": {
+      "numeric": [
+        "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> SELECT $this WHERE { FILTER NOT EXISTS {{ t:company a e:Company.\n    ?oc a e:Observation; e:hasMetricName \"post-report window return %\"; e:isObservationOf t:company; e:hasMetricValue ?rawc.\n    FILTER NOT EXISTS {?oc e:hasMetricName ?othermc FILTER(STR(?othermc) != \"post-report window return %\")}\n    FILTER NOT EXISTS {?oc e:isObservationOf ?othersc FILTER(?othersc != t:company)}\n    FILTER NOT EXISTS {?oc e:hasMetricValue ?othervc FILTER(!sameTerm(?othervc,?rawc))}\n    BIND(xsd:decimal(?rawc) AS ?nc) FILTER(BOUND(?nc))\n    ?oc e:observedOverWindow ?wc. ?wc a e:AnalysisWindow.\n        FILTER NOT EXISTS {?oc e:observedOverWindow ?otherwc FILTER(?otherwc != ?wc)}\nt:company e:isClassifiedByIndustrySector ?targets. ?targets a e:IndustrySectorClassifier.\n    ?os a e:Observation; e:hasMetricName \"sector window return %\"; e:isObservationOf ?targets; e:hasMetricValue ?raws.\n    FILTER NOT EXISTS {?os e:hasMetricName ?otherms FILTER(STR(?otherms) != \"sector window return %\")}\n    FILTER NOT EXISTS {?os e:isObservationOf ?otherss FILTER(?otherss != ?targets)}\n    FILTER NOT EXISTS {?os e:hasMetricValue ?othervs FILTER(!sameTerm(?othervs,?raws))}\n    BIND(xsd:decimal(?raws) AS ?ns) FILTER(BOUND(?ns))\n    ?os e:observedOverWindow ?ws. ?ws a e:AnalysisWindow.\n        FILTER NOT EXISTS {?os e:observedOverWindow ?otherws FILTER(?otherws != ?ws)}\nt:company e:comparedWithIndex ?targetb. ?targetb a e:MarketIndex.\n    ?ob a e:Observation; e:hasMetricName \"benchmark window return %\"; e:isObservationOf ?targetb; e:hasMetricValue ?rawb.\n    FILTER NOT EXISTS {?ob e:hasMetricName ?othermb FILTER(STR(?othermb) != \"benchmark window return %\")}\n    FILTER NOT EXISTS {?ob e:isObservationOf ?othersb FILTER(?othersb != ?targetb)}\n    FILTER NOT EXISTS {?ob e:hasMetricValue ?othervb FILTER(!sameTerm(?othervb,?rawb))}\n    BIND(xsd:decimal(?rawb) AS ?nb) FILTER(BOUND(?nb))\n    ?ob e:observedOverWindow ?wb. ?wb a e:AnalysisWindow.\n        FILTER NOT EXISTS {?ob e:observedOverWindow ?otherwb FILTER(?otherwb != ?wb)} FILTER(?ws = ?wc && ?wb = ?wc) FILTER(?nc > (?ns + 1.0) && ?nc > (?nb + 1.0))}} }",
+        [
+          "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> ASK { t:company a e:Company.\n    ?oc a e:Observation; e:hasMetricName \"post-report window return %\"; e:isObservationOf t:company; e:hasMetricValue ?rawc.\n    FILTER NOT EXISTS {?oc e:hasMetricName ?othermc FILTER(STR(?othermc) != \"post-report window return %\")}\n    FILTER NOT EXISTS {?oc e:isObservationOf ?othersc FILTER(?othersc != t:company)}\n    FILTER NOT EXISTS {?oc e:hasMetricValue ?othervc FILTER(!sameTerm(?othervc,?rawc))}\n    BIND(xsd:decimal(?rawc) AS ?nc) FILTER(BOUND(?nc))\n    ?oc e:observedOverWindow ?wc. ?wc a e:AnalysisWindow.\n        FILTER NOT EXISTS {?oc e:observedOverWindow ?otherwc FILTER(?otherwc != ?wc)}\nt:company e:isClassifiedByIndustrySector ?targets. ?targets a e:IndustrySectorClassifier.\n    ?os a e:Observation; e:hasMetricName \"sector window return %\"; e:isObservationOf ?targets; e:hasMetricValue ?raws.\n    FILTER NOT EXISTS {?os e:hasMetricName ?otherms FILTER(STR(?otherms) != \"sector window return %\")}\n    FILTER NOT EXISTS {?os e:isObservationOf ?otherss FILTER(?otherss != ?targets)}\n    FILTER NOT EXISTS {?os e:hasMetricValue ?othervs FILTER(!sameTerm(?othervs,?raws))}\n    BIND(xsd:decimal(?raws) AS ?ns) FILTER(BOUND(?ns))\n    ?os e:observedOverWindow ?ws. ?ws a e:AnalysisWindow.\n        FILTER NOT EXISTS {?os e:observedOverWindow ?otherws FILTER(?otherws != ?ws)}\nt:company e:comparedWithIndex ?targetb. ?targetb a e:MarketIndex.\n    ?ob a e:Observation; e:hasMetricName \"benchmark window return %\"; e:isObservationOf ?targetb; e:hasMetricValue ?rawb.\n    FILTER NOT EXISTS {?ob e:hasMetricName ?othermb FILTER(STR(?othermb) != \"benchmark window return %\")}\n    FILTER NOT EXISTS {?ob e:isObservationOf ?othersb FILTER(?othersb != ?targetb)}\n    FILTER NOT EXISTS {?ob e:hasMetricValue ?othervb FILTER(!sameTerm(?othervb,?rawb))}\n    BIND(xsd:decimal(?rawb) AS ?nb) FILTER(BOUND(?nb))\n    ?ob e:observedOverWindow ?wb. ?wb a e:AnalysisWindow.\n        FILTER NOT EXISTS {?ob e:observedOverWindow ?otherwb FILTER(?otherwb != ?wb)} FILTER(?ws = ?wc && ?wb = ?wc)}"
+        ]
+      ],
+      "unit_ready": [
+        "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> SELECT $this WHERE { FILTER NOT EXISTS {{ t:company a e:Company.\n    ?oc a e:Observation; e:hasMetricName \"post-report window return %\"; e:isObservationOf t:company; e:hasMetricValue ?rawc.\n    FILTER NOT EXISTS {?oc e:hasMetricName ?othermc FILTER(STR(?othermc) != \"post-report window return %\")}\n    FILTER NOT EXISTS {?oc e:isObservationOf ?othersc FILTER(?othersc != t:company)}\n    FILTER NOT EXISTS {?oc e:hasMetricValue ?othervc FILTER(!sameTerm(?othervc,?rawc))}\n    BIND(xsd:decimal(?rawc) AS ?nc) FILTER(BOUND(?nc))\n    ?oc e:observedOverWindow ?wc. ?wc a e:AnalysisWindow.\n        FILTER NOT EXISTS {?oc e:observedOverWindow ?otherwc FILTER(?otherwc != ?wc)}?oc e:hasUnit \"percent\".\n        FILTER NOT EXISTS {?oc e:hasUnit ?otheruc FILTER(STR(?otheruc) != \"percent\")}\nt:company e:isClassifiedByIndustrySector ?targets. ?targets a e:IndustrySectorClassifier.\n    ?os a e:Observation; e:hasMetricName \"sector window return %\"; e:isObservationOf ?targets; e:hasMetricValue ?raws.\n    FILTER NOT EXISTS {?os e:hasMetricName ?otherms FILTER(STR(?otherms) != \"sector window return %\")}\n    FILTER NOT EXISTS {?os e:isObservationOf ?otherss FILTER(?otherss != ?targets)}\n    FILTER NOT EXISTS {?os e:hasMetricValue ?othervs FILTER(!sameTerm(?othervs,?raws))}\n    BIND(xsd:decimal(?raws) AS ?ns) FILTER(BOUND(?ns))\n    ?os e:observedOverWindow ?ws. ?ws a e:AnalysisWindow.\n        FILTER NOT EXISTS {?os e:observedOverWindow ?otherws FILTER(?otherws != ?ws)}?os e:hasUnit \"percent\".\n        FILTER NOT EXISTS {?os e:hasUnit ?otherus FILTER(STR(?otherus) != \"percent\")}\nt:company e:comparedWithIndex ?targetb. ?targetb a e:MarketIndex.\n    ?ob a e:Observation; e:hasMetricName \"benchmark window return %\"; e:isObservationOf ?targetb; e:hasMetricValue ?rawb.\n    FILTER NOT EXISTS {?ob e:hasMetricName ?othermb FILTER(STR(?othermb) != \"benchmark window return %\")}\n    FILTER NOT EXISTS {?ob e:isObservationOf ?othersb FILTER(?othersb != ?targetb)}\n    FILTER NOT EXISTS {?ob e:hasMetricValue ?othervb FILTER(!sameTerm(?othervb,?rawb))}\n    BIND(xsd:decimal(?rawb) AS ?nb) FILTER(BOUND(?nb))\n    ?ob e:observedOverWindow ?wb. ?wb a e:AnalysisWindow.\n        FILTER NOT EXISTS {?ob e:observedOverWindow ?otherwb FILTER(?otherwb != ?wb)}?ob e:hasUnit \"percent\".\n        FILTER NOT EXISTS {?ob e:hasUnit ?otherub FILTER(STR(?otherub) != \"percent\")} FILTER(?ws = ?wc && ?wb = ?wc) FILTER(?nc > (?ns + 1.0) && ?nc > (?nb + 1.0))}} }",
+        [
+          "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> ASK { t:company a e:Company.\n    ?oc a e:Observation; e:hasMetricName \"post-report window return %\"; e:isObservationOf t:company; e:hasMetricValue ?rawc.\n    FILTER NOT EXISTS {?oc e:hasMetricName ?othermc FILTER(STR(?othermc) != \"post-report window return %\")}\n    FILTER NOT EXISTS {?oc e:isObservationOf ?othersc FILTER(?othersc != t:company)}\n    FILTER NOT EXISTS {?oc e:hasMetricValue ?othervc FILTER(!sameTerm(?othervc,?rawc))}\n    BIND(xsd:decimal(?rawc) AS ?nc) FILTER(BOUND(?nc))\n    ?oc e:observedOverWindow ?wc. ?wc a e:AnalysisWindow.\n        FILTER NOT EXISTS {?oc e:observedOverWindow ?otherwc FILTER(?otherwc != ?wc)}?oc e:hasUnit \"percent\".\n        FILTER NOT EXISTS {?oc e:hasUnit ?otheruc FILTER(STR(?otheruc) != \"percent\")}\nt:company e:isClassifiedByIndustrySector ?targets. ?targets a e:IndustrySectorClassifier.\n    ?os a e:Observation; e:hasMetricName \"sector window return %\"; e:isObservationOf ?targets; e:hasMetricValue ?raws.\n    FILTER NOT EXISTS {?os e:hasMetricName ?otherms FILTER(STR(?otherms) != \"sector window return %\")}\n    FILTER NOT EXISTS {?os e:isObservationOf ?otherss FILTER(?otherss != ?targets)}\n    FILTER NOT EXISTS {?os e:hasMetricValue ?othervs FILTER(!sameTerm(?othervs,?raws))}\n    BIND(xsd:decimal(?raws) AS ?ns) FILTER(BOUND(?ns))\n    ?os e:observedOverWindow ?ws. ?ws a e:AnalysisWindow.\n        FILTER NOT EXISTS {?os e:observedOverWindow ?otherws FILTER(?otherws != ?ws)}?os e:hasUnit \"percent\".\n        FILTER NOT EXISTS {?os e:hasUnit ?otherus FILTER(STR(?otherus) != \"percent\")}\nt:company e:comparedWithIndex ?targetb. ?targetb a e:MarketIndex.\n    ?ob a e:Observation; e:hasMetricName \"benchmark window return %\"; e:isObservationOf ?targetb; e:hasMetricValue ?rawb.\n    FILTER NOT EXISTS {?ob e:hasMetricName ?othermb FILTER(STR(?othermb) != \"benchmark window return %\")}\n    FILTER NOT EXISTS {?ob e:isObservationOf ?othersb FILTER(?othersb != ?targetb)}\n    FILTER NOT EXISTS {?ob e:hasMetricValue ?othervb FILTER(!sameTerm(?othervb,?rawb))}\n    BIND(xsd:decimal(?rawb) AS ?nb) FILTER(BOUND(?nb))\n    ?ob e:observedOverWindow ?wb. ?wb a e:AnalysisWindow.\n        FILTER NOT EXISTS {?ob e:observedOverWindow ?otherwb FILTER(?otherwb != ?wb)}?ob e:hasUnit \"percent\".\n        FILTER NOT EXISTS {?ob e:hasUnit ?otherub FILTER(STR(?otherub) != \"percent\")} FILTER(?ws = ?wc && ?wb = ?wc)}"
+        ]
+      ]
+    },
+    "R4": {
+      "numeric": [
+        "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> SELECT $this WHERE { FILTER NOT EXISTS {{ t:company a e:Company.\n    ?oa a e:Observation; e:hasMetricName \"cumulative abnormal return %\"; e:isObservationOf t:company; e:hasMetricValue ?rawa.\n    FILTER NOT EXISTS {?oa e:hasMetricName ?otherma FILTER(STR(?otherma) != \"cumulative abnormal return %\")}\n    FILTER NOT EXISTS {?oa e:isObservationOf ?othersa FILTER(?othersa != t:company)}\n    FILTER NOT EXISTS {?oa e:hasMetricValue ?otherva FILTER(!sameTerm(?otherva,?rawa))}\n    BIND(xsd:decimal(?rawa) AS ?na) FILTER(BOUND(?na))\n    ?oa e:observedInEventWindow ?wa. ?wa a e:EventWindow.\n        FILTER NOT EXISTS {?oa e:observedInEventWindow ?otherwa FILTER(?otherwa != ?wa)} FILTER(ABS(?na) >= 2.0)} UNION { t:company a e:Company.\n    ?ov a e:Observation; e:hasMetricName \"abnormal volume ratio\"; e:isObservationOf t:company; e:hasMetricValue ?rawv.\n    FILTER NOT EXISTS {?ov e:hasMetricName ?othermv FILTER(STR(?othermv) != \"abnormal volume ratio\")}\n    FILTER NOT EXISTS {?ov e:isObservationOf ?othersv FILTER(?othersv != t:company)}\n    FILTER NOT EXISTS {?ov e:hasMetricValue ?othervv FILTER(!sameTerm(?othervv,?rawv))}\n    BIND(xsd:decimal(?rawv) AS ?nv) FILTER(BOUND(?nv))\n    ?ov e:observedInEventWindow ?wv. ?wv a e:EventWindow.\n        FILTER NOT EXISTS {?ov e:observedInEventWindow ?otherwv FILTER(?otherwv != ?wv)} FILTER(?nv >= 1.5)}} }",
+        [
+          "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> ASK { t:company a e:Company.\n    ?oa a e:Observation; e:hasMetricName \"cumulative abnormal return %\"; e:isObservationOf t:company; e:hasMetricValue ?rawa.\n    FILTER NOT EXISTS {?oa e:hasMetricName ?otherma FILTER(STR(?otherma) != \"cumulative abnormal return %\")}\n    FILTER NOT EXISTS {?oa e:isObservationOf ?othersa FILTER(?othersa != t:company)}\n    FILTER NOT EXISTS {?oa e:hasMetricValue ?otherva FILTER(!sameTerm(?otherva,?rawa))}\n    BIND(xsd:decimal(?rawa) AS ?na) FILTER(BOUND(?na))\n    ?oa e:observedInEventWindow ?wa. ?wa a e:EventWindow.\n        FILTER NOT EXISTS {?oa e:observedInEventWindow ?otherwa FILTER(?otherwa != ?wa)}}",
+          "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> ASK { t:company a e:Company.\n    ?ov a e:Observation; e:hasMetricName \"abnormal volume ratio\"; e:isObservationOf t:company; e:hasMetricValue ?rawv.\n    FILTER NOT EXISTS {?ov e:hasMetricName ?othermv FILTER(STR(?othermv) != \"abnormal volume ratio\")}\n    FILTER NOT EXISTS {?ov e:isObservationOf ?othersv FILTER(?othersv != t:company)}\n    FILTER NOT EXISTS {?ov e:hasMetricValue ?othervv FILTER(!sameTerm(?othervv,?rawv))}\n    BIND(xsd:decimal(?rawv) AS ?nv) FILTER(BOUND(?nv))\n    ?ov e:observedInEventWindow ?wv. ?wv a e:EventWindow.\n        FILTER NOT EXISTS {?ov e:observedInEventWindow ?otherwv FILTER(?otherwv != ?wv)}}"
+        ]
+      ],
+      "unit_ready": [
+        "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> SELECT $this WHERE { FILTER NOT EXISTS {{ t:company a e:Company.\n    ?oa a e:Observation; e:hasMetricName \"cumulative abnormal return %\"; e:isObservationOf t:company; e:hasMetricValue ?rawa.\n    FILTER NOT EXISTS {?oa e:hasMetricName ?otherma FILTER(STR(?otherma) != \"cumulative abnormal return %\")}\n    FILTER NOT EXISTS {?oa e:isObservationOf ?othersa FILTER(?othersa != t:company)}\n    FILTER NOT EXISTS {?oa e:hasMetricValue ?otherva FILTER(!sameTerm(?otherva,?rawa))}\n    BIND(xsd:decimal(?rawa) AS ?na) FILTER(BOUND(?na))\n    ?oa e:observedInEventWindow ?wa. ?wa a e:EventWindow.\n        FILTER NOT EXISTS {?oa e:observedInEventWindow ?otherwa FILTER(?otherwa != ?wa)}?oa e:hasUnit \"percent\".\n        FILTER NOT EXISTS {?oa e:hasUnit ?otherua FILTER(STR(?otherua) != \"percent\")} FILTER(ABS(?na) >= 2.0)} UNION { t:company a e:Company.\n    ?ov a e:Observation; e:hasMetricName \"abnormal volume ratio\"; e:isObservationOf t:company; e:hasMetricValue ?rawv.\n    FILTER NOT EXISTS {?ov e:hasMetricName ?othermv FILTER(STR(?othermv) != \"abnormal volume ratio\")}\n    FILTER NOT EXISTS {?ov e:isObservationOf ?othersv FILTER(?othersv != t:company)}\n    FILTER NOT EXISTS {?ov e:hasMetricValue ?othervv FILTER(!sameTerm(?othervv,?rawv))}\n    BIND(xsd:decimal(?rawv) AS ?nv) FILTER(BOUND(?nv))\n    ?ov e:observedInEventWindow ?wv. ?wv a e:EventWindow.\n        FILTER NOT EXISTS {?ov e:observedInEventWindow ?otherwv FILTER(?otherwv != ?wv)}?ov e:hasUnit \"ratio\".\n        FILTER NOT EXISTS {?ov e:hasUnit ?otheruv FILTER(STR(?otheruv) != \"ratio\")} FILTER(?nv >= 1.5)}} }",
+        [
+          "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> ASK { t:company a e:Company.\n    ?oa a e:Observation; e:hasMetricName \"cumulative abnormal return %\"; e:isObservationOf t:company; e:hasMetricValue ?rawa.\n    FILTER NOT EXISTS {?oa e:hasMetricName ?otherma FILTER(STR(?otherma) != \"cumulative abnormal return %\")}\n    FILTER NOT EXISTS {?oa e:isObservationOf ?othersa FILTER(?othersa != t:company)}\n    FILTER NOT EXISTS {?oa e:hasMetricValue ?otherva FILTER(!sameTerm(?otherva,?rawa))}\n    BIND(xsd:decimal(?rawa) AS ?na) FILTER(BOUND(?na))\n    ?oa e:observedInEventWindow ?wa. ?wa a e:EventWindow.\n        FILTER NOT EXISTS {?oa e:observedInEventWindow ?otherwa FILTER(?otherwa != ?wa)}?oa e:hasUnit \"percent\".\n        FILTER NOT EXISTS {?oa e:hasUnit ?otherua FILTER(STR(?otherua) != \"percent\")}}",
+          "PREFIX e: <https://w3id.org/ontokg-eq#> PREFIX t: <urn:analytical-test:> PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> ASK { t:company a e:Company.\n    ?ov a e:Observation; e:hasMetricName \"abnormal volume ratio\"; e:isObservationOf t:company; e:hasMetricValue ?rawv.\n    FILTER NOT EXISTS {?ov e:hasMetricName ?othermv FILTER(STR(?othermv) != \"abnormal volume ratio\")}\n    FILTER NOT EXISTS {?ov e:isObservationOf ?othersv FILTER(?othersv != t:company)}\n    FILTER NOT EXISTS {?ov e:hasMetricValue ?othervv FILTER(!sameTerm(?othervv,?rawv))}\n    BIND(xsd:decimal(?rawv) AS ?nv) FILTER(BOUND(?nv))\n    ?ov e:observedInEventWindow ?wv. ?wv a e:EventWindow.\n        FILTER NOT EXISTS {?ov e:observedInEventWindow ?otherwv FILTER(?otherwv != ?wv)}?ov e:hasUnit \"ratio\".\n        FILTER NOT EXISTS {?ov e:hasUnit ?otheruv FILTER(STR(?otheruv) != \"ratio\")}}"
+        ]
+      ]
+    }
+  },
+  "records": [
+    {
+      "case": "r1_positive",
+      "rule": "R1",
+      "pool": "ambient",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r1_positive",
+      "rule": "R1",
+      "pool": "support",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r1_positive",
+      "rule": "R1",
+      "pool": "delivered",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r1_false",
+      "rule": "R1",
+      "pool": "ambient",
+      "expected": [
+        "false",
+        true
+      ],
+      "checker": [
+        "false",
+        true
+      ],
+      "independent_baseline": [
+        "false",
+        true
+      ]
+    },
+    {
+      "case": "r1_false",
+      "rule": "R1",
+      "pool": "support",
+      "expected": [
+        "false",
+        true
+      ],
+      "checker": [
+        "false",
+        true
+      ],
+      "independent_baseline": [
+        "false",
+        true
+      ]
+    },
+    {
+      "case": "r1_false",
+      "rule": "R1",
+      "pool": "delivered",
+      "expected": [
+        "false",
+        true
+      ],
+      "checker": [
+        "false",
+        true
+      ],
+      "independent_baseline": [
+        "false",
+        true
+      ]
+    },
+    {
+      "case": "r1_mixed_window",
+      "rule": "R1",
+      "pool": "ambient",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r1_mixed_window",
+      "rule": "R1",
+      "pool": "support",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r1_mixed_window",
+      "rule": "R1",
+      "pool": "delivered",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r1_path_decoy",
+      "rule": "R1",
+      "pool": "ambient",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r1_path_decoy",
+      "rule": "R1",
+      "pool": "support",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r1_path_decoy",
+      "rule": "R1",
+      "pool": "delivered",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r1_unit_laundering",
+      "rule": "R1",
+      "pool": "ambient",
+      "expected": [
+        "positive",
+        false
+      ],
+      "checker": [
+        "positive",
+        false
+      ],
+      "independent_baseline": [
+        "positive",
+        false
+      ]
+    },
+    {
+      "case": "r1_unit_laundering",
+      "rule": "R1",
+      "pool": "support",
+      "expected": [
+        "positive",
+        false
+      ],
+      "checker": [
+        "positive",
+        false
+      ],
+      "independent_baseline": [
+        "positive",
+        false
+      ]
+    },
+    {
+      "case": "r1_unit_laundering",
+      "rule": "R1",
+      "pool": "delivered",
+      "expected": [
+        "positive",
+        false
+      ],
+      "checker": [
+        "positive",
+        false
+      ],
+      "independent_baseline": [
+        "positive",
+        false
+      ]
+    },
+    {
+      "case": "r1_qualified_alternative",
+      "rule": "R1",
+      "pool": "ambient",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r1_qualified_alternative",
+      "rule": "R1",
+      "pool": "support",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r1_qualified_alternative",
+      "rule": "R1",
+      "pool": "delivered",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r1_wrong_subject_type",
+      "rule": "R1",
+      "pool": "ambient",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r1_wrong_subject_type",
+      "rule": "R1",
+      "pool": "support",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r1_wrong_subject_type",
+      "rule": "R1",
+      "pool": "delivered",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r2_negative_boundary",
+      "rule": "R2",
+      "pool": "ambient",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r2_negative_boundary",
+      "rule": "R2",
+      "pool": "support",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r2_negative_boundary",
+      "rule": "R2",
+      "pool": "delivered",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r2_below",
+      "rule": "R2",
+      "pool": "ambient",
+      "expected": [
+        "false",
+        true
+      ],
+      "checker": [
+        "false",
+        true
+      ],
+      "independent_baseline": [
+        "false",
+        true
+      ]
+    },
+    {
+      "case": "r2_below",
+      "rule": "R2",
+      "pool": "support",
+      "expected": [
+        "false",
+        true
+      ],
+      "checker": [
+        "false",
+        true
+      ],
+      "independent_baseline": [
+        "false",
+        true
+      ]
+    },
+    {
+      "case": "r2_below",
+      "rule": "R2",
+      "pool": "delivered",
+      "expected": [
+        "false",
+        true
+      ],
+      "checker": [
+        "false",
+        true
+      ],
+      "independent_baseline": [
+        "false",
+        true
+      ]
+    },
+    {
+      "case": "r2_ambient_decoy",
+      "rule": "R2",
+      "pool": "ambient",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r2_ambient_decoy",
+      "rule": "R2",
+      "pool": "support",
+      "expected": [
+        "false",
+        true
+      ],
+      "checker": [
+        "false",
+        true
+      ],
+      "independent_baseline": [
+        "false",
+        true
+      ]
+    },
+    {
+      "case": "r2_ambient_decoy",
+      "rule": "R2",
+      "pool": "delivered",
+      "expected": [
+        "false",
+        true
+      ],
+      "checker": [
+        "false",
+        true
+      ],
+      "independent_baseline": [
+        "false",
+        true
+      ]
+    },
+    {
+      "case": "r2_wrong_bundle",
+      "rule": "R2",
+      "pool": "ambient",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r2_wrong_bundle",
+      "rule": "R2",
+      "pool": "support",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r2_wrong_bundle",
+      "rule": "R2",
+      "pool": "delivered",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r2_unit_wrong",
+      "rule": "R2",
+      "pool": "ambient",
+      "expected": [
+        "positive",
+        false
+      ],
+      "checker": [
+        "positive",
+        false
+      ],
+      "independent_baseline": [
+        "positive",
+        false
+      ]
+    },
+    {
+      "case": "r2_unit_wrong",
+      "rule": "R2",
+      "pool": "support",
+      "expected": [
+        "positive",
+        false
+      ],
+      "checker": [
+        "positive",
+        false
+      ],
+      "independent_baseline": [
+        "positive",
+        false
+      ]
+    },
+    {
+      "case": "r2_unit_wrong",
+      "rule": "R2",
+      "pool": "delivered",
+      "expected": [
+        "positive",
+        false
+      ],
+      "checker": [
+        "positive",
+        false
+      ],
+      "independent_baseline": [
+        "positive",
+        false
+      ]
+    },
+    {
+      "case": "r2_wrong_bundle_type",
+      "rule": "R2",
+      "pool": "ambient",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r2_wrong_bundle_type",
+      "rule": "R2",
+      "pool": "support",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r2_wrong_bundle_type",
+      "rule": "R2",
+      "pool": "delivered",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r3_above_margin",
+      "rule": "R3",
+      "pool": "ambient",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r3_above_margin",
+      "rule": "R3",
+      "pool": "support",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r3_above_margin",
+      "rule": "R3",
+      "pool": "delivered",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r3_exact_margin",
+      "rule": "R3",
+      "pool": "ambient",
+      "expected": [
+        "false",
+        true
+      ],
+      "checker": [
+        "false",
+        true
+      ],
+      "independent_baseline": [
+        "false",
+        true
+      ]
+    },
+    {
+      "case": "r3_exact_margin",
+      "rule": "R3",
+      "pool": "support",
+      "expected": [
+        "false",
+        true
+      ],
+      "checker": [
+        "false",
+        true
+      ],
+      "independent_baseline": [
+        "false",
+        true
+      ]
+    },
+    {
+      "case": "r3_exact_margin",
+      "rule": "R3",
+      "pool": "delivered",
+      "expected": [
+        "false",
+        true
+      ],
+      "checker": [
+        "false",
+        true
+      ],
+      "independent_baseline": [
+        "false",
+        true
+      ]
+    },
+    {
+      "case": "r3_bad_window_type",
+      "rule": "R3",
+      "pool": "ambient",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r3_bad_window_type",
+      "rule": "R3",
+      "pool": "support",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r3_bad_window_type",
+      "rule": "R3",
+      "pool": "delivered",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r3_mixed_windows",
+      "rule": "R3",
+      "pool": "ambient",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r3_mixed_windows",
+      "rule": "R3",
+      "pool": "support",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r3_mixed_windows",
+      "rule": "R3",
+      "pool": "delivered",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r3_wrong_window_decoy",
+      "rule": "R3",
+      "pool": "ambient",
+      "expected": [
+        "false",
+        true
+      ],
+      "checker": [
+        "false",
+        true
+      ],
+      "independent_baseline": [
+        "false",
+        true
+      ]
+    },
+    {
+      "case": "r3_wrong_window_decoy",
+      "rule": "R3",
+      "pool": "support",
+      "expected": [
+        "false",
+        true
+      ],
+      "checker": [
+        "false",
+        true
+      ],
+      "independent_baseline": [
+        "false",
+        true
+      ]
+    },
+    {
+      "case": "r3_wrong_window_decoy",
+      "rule": "R3",
+      "pool": "delivered",
+      "expected": [
+        "false",
+        true
+      ],
+      "checker": [
+        "false",
+        true
+      ],
+      "independent_baseline": [
+        "false",
+        true
+      ]
+    },
+    {
+      "case": "r3_delivery_missing",
+      "rule": "R3",
+      "pool": "ambient",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r3_delivery_missing",
+      "rule": "R3",
+      "pool": "support",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r3_delivery_missing",
+      "rule": "R3",
+      "pool": "delivered",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r4_volume_only",
+      "rule": "R4",
+      "pool": "ambient",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r4_volume_only",
+      "rule": "R4",
+      "pool": "support",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r4_volume_only",
+      "rule": "R4",
+      "pool": "delivered",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r4_false_missing",
+      "rule": "R4",
+      "pool": "ambient",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r4_false_missing",
+      "rule": "R4",
+      "pool": "support",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r4_false_missing",
+      "rule": "R4",
+      "pool": "delivered",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r4_both_false",
+      "rule": "R4",
+      "pool": "ambient",
+      "expected": [
+        "false",
+        true
+      ],
+      "checker": [
+        "false",
+        true
+      ],
+      "independent_baseline": [
+        "false",
+        true
+      ]
+    },
+    {
+      "case": "r4_both_false",
+      "rule": "R4",
+      "pool": "support",
+      "expected": [
+        "false",
+        true
+      ],
+      "checker": [
+        "false",
+        true
+      ],
+      "independent_baseline": [
+        "false",
+        true
+      ]
+    },
+    {
+      "case": "r4_both_false",
+      "rule": "R4",
+      "pool": "delivered",
+      "expected": [
+        "false",
+        true
+      ],
+      "checker": [
+        "false",
+        true
+      ],
+      "independent_baseline": [
+        "false",
+        true
+      ]
+    },
+    {
+      "case": "r4_false_unit_missing",
+      "rule": "R4",
+      "pool": "ambient",
+      "expected": [
+        "false",
+        false
+      ],
+      "checker": [
+        "false",
+        false
+      ],
+      "independent_baseline": [
+        "false",
+        false
+      ]
+    },
+    {
+      "case": "r4_false_unit_missing",
+      "rule": "R4",
+      "pool": "support",
+      "expected": [
+        "false",
+        false
+      ],
+      "checker": [
+        "false",
+        false
+      ],
+      "independent_baseline": [
+        "false",
+        false
+      ]
+    },
+    {
+      "case": "r4_false_unit_missing",
+      "rule": "R4",
+      "pool": "delivered",
+      "expected": [
+        "false",
+        false
+      ],
+      "checker": [
+        "false",
+        false
+      ],
+      "independent_baseline": [
+        "false",
+        false
+      ]
+    },
+    {
+      "case": "r4_negative_boundary",
+      "rule": "R4",
+      "pool": "ambient",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r4_negative_boundary",
+      "rule": "R4",
+      "pool": "support",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r4_negative_boundary",
+      "rule": "R4",
+      "pool": "delivered",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r4_invalid_event_type",
+      "rule": "R4",
+      "pool": "ambient",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r4_invalid_event_type",
+      "rule": "R4",
+      "pool": "support",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r4_invalid_event_type",
+      "rule": "R4",
+      "pool": "delivered",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r4_bundle_outside_support",
+      "rule": "R4",
+      "pool": "ambient",
+      "expected": [
+        "positive",
+        true
+      ],
+      "checker": [
+        "positive",
+        true
+      ],
+      "independent_baseline": [
+        "positive",
+        true
+      ]
+    },
+    {
+      "case": "r4_bundle_outside_support",
+      "rule": "R4",
+      "pool": "support",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    },
+    {
+      "case": "r4_bundle_outside_support",
+      "rule": "R4",
+      "pool": "delivered",
+      "expected": [
+        "unknown",
+        false
+      ],
+      "checker": [
+        "unknown",
+        false
+      ],
+      "independent_baseline": [
+        "unknown",
+        false
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "status": "partial_original_source_recovery_not_a_completed_event_study",
+  "reviewed_documents": [
+    {
+      "report_trade_date": "2026-01-28",
+      "source_url": "https://www.secp.gov.pk/document/daily-stock-market-report-dated-january-28-2026/",
+      "sha256": "79ffbf92d35448dc8607137d61c307dce73ceab8c4ffa012cf2e3729b0ca6b7b",
+      "bytes": 143584,
+      "local_file": "evaluation_jws\\authentic_prices_psx\\evidence\\SECP_2026-01-28.pdf",
+      "page": 1,
+      "retrieval": "public archive search, article attached-file link, browser download",
+      "visual_review_date": "2026-10-17",
+      "rights": "Local research review only; not a redistribution licence"
+    },
+    {
+      "report_trade_date": "2026-01-29",
+      "source_url": "https://www.secp.gov.pk/document/daily-stock-market-report-dated-january-29-2026/",
+      "sha256": "16501b092f8d4a30b82790f73dd52b568bdeb83be14fa17e58737385b9cd75b5",
+      "bytes": 133964,
+      "local_file": "evaluation_jws\\authentic_prices_psx\\evidence\\SECP_2026-01-29.pdf",
+      "page": 1,
+      "retrieval": "public archive search, article attached-file link, browser download",
+      "visual_review_date": "2026-10-17",
+      "rights": "Local research review only; not a redistribution licence"
+    },
+    {
+      "report_trade_date": "2026-01-30",
+      "source_url": "https://www.secp.gov.pk/document/daily-stock-market-report-dated-january-30-2026/",
+      "sha256": "adc9326ac13882e7c1dd192435dccc8d1c6f5abe5008709f8f50f13950408e58",
+      "bytes": 133184,
+      "local_file": "evaluation_jws\\authentic_prices_psx\\evidence\\SECP_2026-01-30.pdf",
+      "page": 1,
+      "retrieval": "public archive search, article attached-file link, browser download",
+      "visual_review_date": "2026-10-17",
+      "rights": "Local research review only; not a redistribution licence"
+    },
+    {
+      "report_trade_date": "2026-03-13",
+      "source_url": "https://www.secp.gov.pk/document/daily-stock-market-report-dated-march-13-2026/",
+      "sha256": "4771b19b60ae2dba5237a2cd6477df8a28f09dedfb5bab0b01fb00863ffee5d6",
+      "bytes": 138415,
+      "local_file": "evaluation_jws\\authentic_prices_psx\\evidence\\SECP_2026-03-13.pdf",
+      "page": 1,
+      "retrieval": "public archive search, article attached-file link, browser download",
+      "visual_review_date": "2026-10-17",
+      "rights": "Local research review only; not a redistribution licence"
+    }
+  ],
+  "observations": [
+    {
+      "series": "KSE100",
+      "trade_date": "2026-01-27",
+      "value": "188202.86",
+      "return_basis": "total_return",
+      "publisher": "SECP",
+      "upstream_market": "PSX",
+      "source_status": "original_pdf_visually_verified",
+      "admitted_to_authenticated_arithmetic": true,
+      "visual_page_verified": true,
+      "evidence": [
+        {
+          "report_trade_date": "2026-01-28",
+          "source_url": "https://www.secp.gov.pk/document/daily-stock-market-report-dated-january-28-2026/",
+          "sha256": "79ffbf92d35448dc8607137d61c307dce73ceab8c4ffa012cf2e3729b0ca6b7b",
+          "page": 1,
+          "locator": "Stock Market Summary / KSE-100 / Index / explicitly labelled 2026-01-27 column"
+        }
+      ],
+      "ex_dividend_marker": false
+    },
+    {
+      "series": "KSE100",
+      "trade_date": "2026-01-28",
+      "value": "188380.39",
+      "return_basis": "total_return",
+      "publisher": "SECP",
+      "upstream_market": "PSX",
+      "source_status": "original_pdf_visually_verified",
+      "admitted_to_authenticated_arithmetic": true,
+      "visual_page_verified": true,
+      "evidence": [
+        {
+          "report_trade_date": "2026-01-28",
+          "source_url": "https://www.secp.gov.pk/document/daily-stock-market-report-dated-january-28-2026/",
+          "sha256": "79ffbf92d35448dc8607137d61c307dce73ceab8c4ffa012cf2e3729b0ca6b7b",
+          "page": 1,
+          "locator": "Stock Market Summary / KSE-100 / Index / explicitly labelled 2026-01-28 column"
+        },
+        {
+          "report_trade_date": "2026-01-29",
+          "source_url": "https://www.secp.gov.pk/document/daily-stock-market-report-dated-january-29-2026/",
+          "sha256": "16501b092f8d4a30b82790f73dd52b568bdeb83be14fa17e58737385b9cd75b5",
+          "page": 1,
+          "locator": "Stock Market Summary / KSE-100 / Index / explicitly labelled 2026-01-28 column"
+        }
+      ],
+      "ex_dividend_marker": false
+    },
+    {
+      "series": "KSE100",
+      "trade_date": "2026-01-29",
+      "value": "182338.12",
+      "return_basis": "total_return",
+      "publisher": "SECP",
+      "upstream_market": "PSX",
+      "source_status": "original_pdf_visually_verified",
+      "admitted_to_authenticated_arithmetic": true,
+      "visual_page_verified": true,
+      "evidence": [
+        {
+          "report_trade_date": "2026-01-29",
+          "source_url": "https://www.secp.gov.pk/document/daily-stock-market-report-dated-january-29-2026/",
+          "sha256": "16501b092f8d4a30b82790f73dd52b568bdeb83be14fa17e58737385b9cd75b5",
+          "page": 1,
+          "locator": "Stock Market Summary / KSE-100 / Index / explicitly labelled 2026-01-29 column"
+        },
+        {
+          "report_trade_date": "2026-01-30",
+          "source_url": "https://www.secp.gov.pk/document/daily-stock-market-report-dated-january-30-2026/",
+          "sha256": "adc9326ac13882e7c1dd192435dccc8d1c6f5abe5008709f8f50f13950408e58",
+          "page": 1,
+          "locator": "Stock Market Summary / KSE-100 / Index / explicitly labelled 2026-01-29 column"
+        }
+      ],
+      "ex_dividend_marker": false
+    },
+    {
+      "series": "FFC",
+      "trade_date": "2026-01-29",
+      "value": "597.10",
+      "return_basis": "unadjusted_price",
+      "publisher": "SECP",
+      "upstream_market": "PSX",
+      "source_status": "original_pdf_visually_verified",
+      "admitted_to_authenticated_arithmetic": true,
+      "visual_page_verified": true,
+      "evidence": [
+        {
+          "report_trade_date": "2026-01-29",
+          "source_url": "https://www.secp.gov.pk/document/daily-stock-market-report-dated-january-29-2026/",
+          "sha256": "16501b092f8d4a30b82790f73dd52b568bdeb83be14fa17e58737385b9cd75b5",
+          "page": 1,
+          "locator": "Volume Leaders / Fauji Fert / Close Price; repeated Top 10 Index Drivers"
+        }
+      ],
+      "ex_dividend_marker": false
+    },
+    {
+      "series": "KSE100",
+      "trade_date": "2026-01-30",
+      "value": "184174.49",
+      "return_basis": "total_return",
+      "publisher": "SECP",
+      "upstream_market": "PSX",
+      "source_status": "original_pdf_visually_verified",
+      "admitted_to_authenticated_arithmetic": true,
+      "visual_page_verified": true,
+      "evidence": [
+        {
+          "report_trade_date": "2026-01-30",
+          "source_url": "https://www.secp.gov.pk/document/daily-stock-market-report-dated-january-30-2026/",
+          "sha256": "adc9326ac13882e7c1dd192435dccc8d1c6f5abe5008709f8f50f13950408e58",
+          "page": 1,
+          "locator": "Stock Market Summary / KSE-100 / Index / explicitly labelled 2026-01-30 column"
+        }
+      ],
+      "ex_dividend_marker": false
+    },
+    {
+      "series": "KSE100",
+      "trade_date": "2026-03-12",
+      "value": "154421.43",
+      "return_basis": "total_return",
+      "publisher": "SECP",
+      "upstream_market": "PSX",
+      "source_status": "original_pdf_visually_verified",
+      "admitted_to_authenticated_arithmetic": true,
+      "visual_page_verified": true,
+      "evidence": [
+        {
+          "report_trade_date": "2026-03-13",
+          "source_url": "https://www.secp.gov.pk/document/daily-stock-market-report-dated-march-13-2026/",
+          "sha256": "4771b19b60ae2dba5237a2cd6477df8a28f09dedfb5bab0b01fb00863ffee5d6",
+          "page": 1,
+          "locator": "Stock Market Summary / KSE-100 / Index / explicitly labelled 2026-03-12 column"
+        }
+      ],
+      "ex_dividend_marker": false
+    },
+    {
+      "series": "KSE100",
+      "trade_date": "2026-03-13",
+      "value": "153866.17",
+      "return_basis": "total_return",
+      "publisher": "SECP",
+      "upstream_market": "PSX",
+      "source_status": "original_pdf_visually_verified",
+      "admitted_to_authenticated_arithmetic": true,
+      "visual_page_verified": true,
+      "evidence": [
+        {
+          "report_trade_date": "2026-03-13",
+          "source_url": "https://www.secp.gov.pk/document/daily-stock-market-report-dated-march-13-2026/",
+          "sha256": "4771b19b60ae2dba5237a2cd6477df8a28f09dedfb5bab0b01fb00863ffee5d6",
+          "page": 1,
+          "locator": "Stock Market Summary / KSE-100 / Index / explicitly labelled 2026-03-13 column"
+        }
+      ],
+      "ex_dividend_marker": false
+    },
+    {
+      "series": "FFC",
+      "trade_date": "2026-03-13",
+      "value": "501.02",
+      "return_basis": "unadjusted_price",
+      "publisher": "SECP",
+      "upstream_market": "PSX",
+      "source_status": "original_pdf_visually_verified",
+      "admitted_to_authenticated_arithmetic": true,
+      "visual_page_verified": true,
+      "evidence": [
+        {
+          "report_trade_date": "2026-03-13",
+          "source_url": "https://www.secp.gov.pk/document/daily-stock-market-report-dated-march-13-2026/",
+          "sha256": "4771b19b60ae2dba5237a2cd6477df8a28f09dedfb5bab0b01fb00863ffee5d6",
+          "page": 1,
+          "locator": "Top 10 Index Drivers / Fauji FertXD / Close Price"
+        }
+      ],
+      "ex_dividend_marker": true
+    }
+  ],
+  "unique_authenticated_observations": 8,
+  "company_endpoint_only": {
+    "start": "2026-01-29",
+    "end": "2026-03-13",
+    "price_return_percent": "-16.09110701725004186903366270",
+    "status": "descriptive_unadjusted_price_change_not_total_return",
+    "caveat": "End row explicitly XD. Cash distributions and other corporate actions not adjusted; not an announcement-effect estimate."
+  },
+  "proposed_report_anchored_comparison": {
+    "status": "incompatible_return_basis",
+    "company_return": null,
+    "benchmark_return": null,
+    "label": null
+  },
+  "gaps": [
+    "FFC January 28 baseline close is absent from the reviewed January 28 summary.",
+    "FFC January 30 close is absent from the reviewed January 30 summary.",
+    "Jan29 opening price is not evidence of Jan28 closing price.",
+    "Authenticated KSE100PR price-return endpoints and daily series remain unavailable.",
+    "Remaining daily FFC prices/volumes and corporate-action adjustments remain unauthenticated."
+  ],
+  "unchanged_history": "results.json and README.md preserve the earlier indexed-only acquisition stage; this separate report supersedes its zero-source coverage statement only."
+}

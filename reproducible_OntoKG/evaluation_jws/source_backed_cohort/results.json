@@ -1,0 +1,56 @@
+{
+  "version": "source-backed-cohort-v1",
+  "scope": "Two recovered-company subsets of the eight-candidate PSX/MSX ledger, not independent additional findings.",
+  "input_sha256": {
+    "psx": "1ac9d83a88e15f92cb22036efc13e9948191d7feed296b861c583f728c0a5be0",
+    "malaysia": "e0f6b82421f31ff59ea607a6c24a0c26d9b50444a35ca9a93289fc6fb54197ff",
+    "definitions": "c32ff01a9b36dec995fb7d4eab334676396f551be7ccc8e517dd553ab79c0255",
+    "roster": "ecadee5384ced649468816d4ad69d4569dd4b76947bb413e5fbe20f34961e546"
+  },
+  "candidates": 2,
+  "eligible_market_relative_comparisons": 0,
+  "classifications_not_recomputed_due_to_missing_prerequisites": 2,
+  "records": [
+    {
+      "company": "FFC",
+      "existing_fixture_R1_label": "positive",
+      "source_qualified_R1_label": null,
+      "eligible": false,
+      "reasons": [
+        "incompatible_or_unresolved_return_basis",
+        "company_pre_anchor_baseline_absent",
+        "corporate_action_review_incomplete"
+      ],
+      "descriptive_company_only": {
+        "start": "2026-01-29",
+        "end": "2026-03-13",
+        "return_percent": "-16.09110701725004186903366270306481326411",
+        "initial_reaction": false,
+        "total_return": false,
+        "caveat": "Different endpoint horizons must not be compared as if identical; source adjustment and corporate-action caveats remain."
+      },
+      "source_status": "regulator_original_dated_close"
+    },
+    {
+      "company": "MAYBANK",
+      "existing_fixture_R1_label": "positive",
+      "source_qualified_R1_label": null,
+      "eligible": false,
+      "reasons": [
+        "company_adjustment_definition_unresolved",
+        "compatible_benchmark_endpoints_absent",
+        "corporate_action_review_incomplete"
+      ],
+      "descriptive_company_only": {
+        "start": "2026-03-31",
+        "end": "2026-05-14",
+        "return_percent": "-1.584507042253521126760563380281690140850",
+        "initial_reaction": false,
+        "total_return": false,
+        "caveat": "Different endpoint horizons must not be compared as if identical; source adjustment and corporate-action caveats remain."
+      },
+      "source_status": "issuer_republished_adjustment_basis_unresolved"
+    }
+  ],
+  "limits": "Arithmetic company-only changes are recomputed; no proxy, total-return substitution, inferred baseline or unsupported market-relative label is admitted. Historical fixture labels are not source-qualified results."
+}

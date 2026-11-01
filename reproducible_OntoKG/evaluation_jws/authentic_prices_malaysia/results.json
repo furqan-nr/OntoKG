@@ -1,0 +1,646 @@
+{
+  "review_date": "2026-10-17",
+  "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0",
+  "landing_url": "https://maybank.listedcompany.com/historical_price.html?date_start=20260301&date_end=20260529",
+  "capture_method": "Public browser month controls and published Download CSV Sheet link; no account or bypass",
+  "sha256": "74f65433ad1faf6003054000fd08ae80cda90ab8016c99618d1385c2c93d56a5",
+  "complete_download_rows": 61,
+  "required_company_dates": 32,
+  "required_company_dates_present": 32,
+  "original_post_dates": 30,
+  "original_post_dates_matching": 30,
+  "adjustment_status": "unresolved: exported Close field, download parameter unadjusted=0; no explanatory convention in viewed page/CSV",
+  "observations": [
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-03-31",
+      "value": "11.360",
+      "field": "Close",
+      "field_locator": "CSV line 21, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-01",
+      "value": "11.660",
+      "field": "Close",
+      "field_locator": "CSV line 22, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-02",
+      "value": "11.460",
+      "field": "Close",
+      "field_locator": "CSV line 23, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-03",
+      "value": "11.260",
+      "field": "Close",
+      "field_locator": "CSV line 24, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-06",
+      "value": "11.220",
+      "field": "Close",
+      "field_locator": "CSV line 25, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-07",
+      "value": "11.160",
+      "field": "Close",
+      "field_locator": "CSV line 26, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-08",
+      "value": "11.320",
+      "field": "Close",
+      "field_locator": "CSV line 27, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-09",
+      "value": "11.160",
+      "field": "Close",
+      "field_locator": "CSV line 28, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-10",
+      "value": "11.160",
+      "field": "Close",
+      "field_locator": "CSV line 29, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-13",
+      "value": "10.980",
+      "field": "Close",
+      "field_locator": "CSV line 30, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-14",
+      "value": "11.040",
+      "field": "Close",
+      "field_locator": "CSV line 31, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-15",
+      "value": "11.060",
+      "field": "Close",
+      "field_locator": "CSV line 32, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-16",
+      "value": "11.060",
+      "field": "Close",
+      "field_locator": "CSV line 33, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-17",
+      "value": "11.100",
+      "field": "Close",
+      "field_locator": "CSV line 34, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-20",
+      "value": "11.340",
+      "field": "Close",
+      "field_locator": "CSV line 35, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-21",
+      "value": "11.360",
+      "field": "Close",
+      "field_locator": "CSV line 36, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-22",
+      "value": "11.220",
+      "field": "Close",
+      "field_locator": "CSV line 37, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-23",
+      "value": "11.220",
+      "field": "Close",
+      "field_locator": "CSV line 38, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-24",
+      "value": "11.160",
+      "field": "Close",
+      "field_locator": "CSV line 39, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-27",
+      "value": "11.100",
+      "field": "Close",
+      "field_locator": "CSV line 40, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-28",
+      "value": "11.220",
+      "field": "Close",
+      "field_locator": "CSV line 41, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-29",
+      "value": "11.040",
+      "field": "Close",
+      "field_locator": "CSV line 42, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-04-30",
+      "value": "11.080",
+      "field": "Close",
+      "field_locator": "CSV line 43, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-05-04",
+      "value": "11.280",
+      "field": "Close",
+      "field_locator": "CSV line 44, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-05-05",
+      "value": "11.200",
+      "field": "Close",
+      "field_locator": "CSV line 45, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-05-06",
+      "value": "11.220",
+      "field": "Close",
+      "field_locator": "CSV line 46, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-05-07",
+      "value": "11.260",
+      "field": "Close",
+      "field_locator": "CSV line 47, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-05-08",
+      "value": "11.180",
+      "field": "Close",
+      "field_locator": "CSV line 48, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-05-11",
+      "value": "11.180",
+      "field": "Close",
+      "field_locator": "CSV line 49, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-05-12",
+      "value": "11.240",
+      "field": "Close",
+      "field_locator": "CSV line 50, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-05-13",
+      "value": "11.180",
+      "field": "Close",
+      "field_locator": "CSV line 51, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    },
+    {
+      "instrument": "MAYBANK / Malayan Banking Berhad / Bursa stock code 1155",
+      "trade_date": "2026-05-14",
+      "value": "11.180",
+      "field": "Close",
+      "field_locator": "CSV line 52, Close column",
+      "currency": "MYR",
+      "session": "daily historical OHLC; exact session/timezone not specified in CSV",
+      "publisher_class": "issuer_IR_republished_data_not_exchange_original",
+      "status": "issuer_published_close_basis_unresolved",
+      "retrieval_date": "2026-10-17",
+      "source_url": "https://maybank.listedcompany.com/historical_price_download.html?date_start=20260302&date_end=20260529&unadjusted=0"
+    }
+  ],
+  "comparisons": [
+    {
+      "date": "2026-04-02",
+      "original": "11.46",
+      "issuer_published": "11.460",
+      "matches": true
+    },
+    {
+      "date": "2026-04-03",
+      "original": "11.26",
+      "issuer_published": "11.260",
+      "matches": true
+    },
+    {
+      "date": "2026-04-06",
+      "original": "11.22",
+      "issuer_published": "11.220",
+      "matches": true
+    },
+    {
+      "date": "2026-04-07",
+      "original": "11.16",
+      "issuer_published": "11.160",
+      "matches": true
+    },
+    {
+      "date": "2026-04-08",
+      "original": "11.32",
+      "issuer_published": "11.320",
+      "matches": true
+    },
+    {
+      "date": "2026-04-09",
+      "original": "11.16",
+      "issuer_published": "11.160",
+      "matches": true
+    },
+    {
+      "date": "2026-04-10",
+      "original": "11.16",
+      "issuer_published": "11.160",
+      "matches": true
+    },
+    {
+      "date": "2026-04-13",
+      "original": "10.98",
+      "issuer_published": "10.980",
+      "matches": true
+    },
+    {
+      "date": "2026-04-14",
+      "original": "11.04",
+      "issuer_published": "11.040",
+      "matches": true
+    },
+    {
+      "date": "2026-04-15",
+      "original": "11.06",
+      "issuer_published": "11.060",
+      "matches": true
+    },
+    {
+      "date": "2026-04-16",
+      "original": "11.06",
+      "issuer_published": "11.060",
+      "matches": true
+    },
+    {
+      "date": "2026-04-17",
+      "original": "11.1",
+      "issuer_published": "11.100",
+      "matches": true
+    },
+    {
+      "date": "2026-04-20",
+      "original": "11.34",
+      "issuer_published": "11.340",
+      "matches": true
+    },
+    {
+      "date": "2026-04-21",
+      "original": "11.36",
+      "issuer_published": "11.360",
+      "matches": true
+    },
+    {
+      "date": "2026-04-22",
+      "original": "11.22",
+      "issuer_published": "11.220",
+      "matches": true
+    },
+    {
+      "date": "2026-04-23",
+      "original": "11.22",
+      "issuer_published": "11.220",
+      "matches": true
+    },
+    {
+      "date": "2026-04-24",
+      "original": "11.16",
+      "issuer_published": "11.160",
+      "matches": true
+    },
+    {
+      "date": "2026-04-27",
+      "original": "11.1",
+      "issuer_published": "11.100",
+      "matches": true
+    },
+    {
+      "date": "2026-04-28",
+      "original": "11.22",
+      "issuer_published": "11.220",
+      "matches": true
+    },
+    {
+      "date": "2026-04-29",
+      "original": "11.04",
+      "issuer_published": "11.040",
+      "matches": true
+    },
+    {
+      "date": "2026-04-30",
+      "original": "11.08",
+      "issuer_published": "11.080",
+      "matches": true
+    },
+    {
+      "date": "2026-05-04",
+      "original": "11.28",
+      "issuer_published": "11.280",
+      "matches": true
+    },
+    {
+      "date": "2026-05-05",
+      "original": "11.2",
+      "issuer_published": "11.200",
+      "matches": true
+    },
+    {
+      "date": "2026-05-06",
+      "original": "11.22",
+      "issuer_published": "11.220",
+      "matches": true
+    },
+    {
+      "date": "2026-05-07",
+      "original": "11.26",
+      "issuer_published": "11.260",
+      "matches": true
+    },
+    {
+      "date": "2026-05-08",
+      "original": "11.18",
+      "issuer_published": "11.180",
+      "matches": true
+    },
+    {
+      "date": "2026-05-11",
+      "original": "11.18",
+      "issuer_published": "11.180",
+      "matches": true
+    },
+    {
+      "date": "2026-05-12",
+      "original": "11.24",
+      "issuer_published": "11.240",
+      "matches": true
+    },
+    {
+      "date": "2026-05-13",
+      "original": "11.18",
+      "issuer_published": "11.180",
+      "matches": true
+    },
+    {
+      "date": "2026-05-14",
+      "original": "11.18",
+      "issuer_published": "11.180",
+      "matches": true
+    }
+  ],
+  "descriptive_as_published_company_returns_percent": {
+    "first_post_close_to_final_close": "-2.443280977312390924956369982547993019200",
+    "disclosure_date_close_to_final_close": "-4.116638078902229845626072041166380789020",
+    "last_observed_pre_disclosure_date_close_to_final_close": "-1.584507042253521126760563380281690140850"
+  },
+  "compatible_authenticated_benchmark_observations": 0,
+  "authenticated_benchmark_classification": null,
+  "classification_status": "incomplete_no_primary_KLCI_dates_and_company_adjustment_basis_unresolved",
+  "initial_reaction_status": "not_established: official document date lacks first-publication timestamp; annual report is not necessarily first earnings news",
+  "volume_status": "March published volumes available, but pre-event horizon must be prespecified and units independently confirmed; no new volume finding",
+  "redistribution_status": "Public download available; redistribution licence not established. Keep captured file local pending licence review.",
+  "routes": [
+    {
+      "url": "https://www.bursamalaysia.com/market_information/market_statistic/market_statistics",
+      "result": "not_accessible_via_research_tool; no security bypass attempted"
+    },
+    {
+      "url": "https://www.lseg.com/en/ftse-russell/indices/bursa-malaysia",
+      "result": "official index resources inspected; no exact-date public historical levels recovered; client/sales routes not pursued"
+    },
+    {
+      "url": "https://research.ftserussell.com/Analytics/FactSheets/Home/DownloadSingleIssue?isManual=False&issueName=FBMKLCI&openfile=open",
+      "result": "monthly factsheet search result; not an exact daily close and not substituted"
+    },
+    {
+      "url": "https://bernama.com/bm/news.php?id=2557055",
+      "result": "secondary news reports May14 spot KLCI1745.58 separately from futures; lead only, not primary replacement"
+    },
+    {
+      "url": "https://maybank.listedcompany.com/historical_price.html",
+      "result": "direct HTTP202 empty; ordinary browser controls returned full table and downloadable CSV"
+    }
+  ]
+}

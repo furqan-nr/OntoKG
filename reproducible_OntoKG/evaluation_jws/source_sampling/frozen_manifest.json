@@ -1,0 +1,1394 @@
+{
+  "version": "prospective-source-review-v1",
+  "seed": 20261016,
+  "input_sha256": "7f3582e1d044c7cc44cac9a7804e5e8a5b50e7cc4cf9634952d01702ff8fa8c3",
+  "design": "Up to two cases sampled uniformly without replacement within each corrected dataset/rule/numerical-status stratum.",
+  "limits": "Frozen after earlier purposive PSX checks; not a preregistered or completed independent audit. Case dependencies and overlapping datasets preclude treating selected cases as independent facts. No representative accuracy estimate until a predeclared weighted analysis and source review are completed.",
+  "strata": [
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R1",
+      "label": "negative",
+      "population_cases": 3,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R1",
+      "label": "positive",
+      "population_cases": 1,
+      "selected_cases": 1
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R2",
+      "label": "negative",
+      "population_cases": 3,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R2",
+      "label": "positive",
+      "population_cases": 1,
+      "selected_cases": 1
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R3",
+      "label": "negative",
+      "population_cases": 2,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R3",
+      "label": "positive",
+      "population_cases": 2,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R4",
+      "label": "negative",
+      "population_cases": 3,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R4",
+      "label": "positive",
+      "population_cases": 5,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R1",
+      "label": "negative",
+      "population_cases": 44,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R1",
+      "label": "positive",
+      "population_cases": 20,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R2",
+      "label": "incomplete",
+      "population_cases": 1,
+      "selected_cases": 1
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R2",
+      "label": "negative",
+      "population_cases": 61,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R2",
+      "label": "positive",
+      "population_cases": 2,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R3",
+      "label": "incomplete",
+      "population_cases": 2,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R3",
+      "label": "negative",
+      "population_cases": 42,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R3",
+      "label": "positive",
+      "population_cases": 20,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "rule": "R1",
+      "label": "negative",
+      "population_cases": 2,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "rule": "R1",
+      "label": "positive",
+      "population_cases": 2,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "rule": "R2",
+      "label": "negative",
+      "population_cases": 4,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "rule": "R3",
+      "label": "negative",
+      "population_cases": 4,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "rule": "R4",
+      "label": "incomplete",
+      "population_cases": 2,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R1",
+      "label": "negative",
+      "population_cases": 3,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R1",
+      "label": "positive",
+      "population_cases": 1,
+      "selected_cases": 1
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R2",
+      "label": "negative",
+      "population_cases": 3,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R2",
+      "label": "positive",
+      "population_cases": 1,
+      "selected_cases": 1
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R3",
+      "label": "incomplete",
+      "population_cases": 2,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R3",
+      "label": "positive",
+      "population_cases": 2,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R4",
+      "label": "incomplete",
+      "population_cases": 2,
+      "selected_cases": 2
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R4",
+      "label": "positive",
+      "population_cases": 1,
+      "selected_cases": 1
+    }
+  ],
+  "selected_cases": [
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R1",
+      "numerical_label": "negative",
+      "case_index": 0,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_BBCA",
+      "observations": {
+        "growth": "https://w3id.org/ontokg-eq/idx#derived_fund_growth_IDX_CO_BBCA",
+        "company": "https://w3id.org/ontokg-eq/idx#derived_post_return_IDX_CO_BBCA",
+        "benchmark": "https://w3id.org/ontokg-eq/idx#derived_bench_return_IDX_CO_BBCA"
+      },
+      "window": "https://w3id.org/ontokg-eq/idx#window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R1",
+      "numerical_label": "negative",
+      "case_index": 5,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_BMRI",
+      "observations": {
+        "growth": "https://w3id.org/ontokg-eq/idx#derived_fund_growth_IDX_CO_BMRI",
+        "company": "https://w3id.org/ontokg-eq/idx#derived_post_return_IDX_CO_BMRI",
+        "benchmark": "https://w3id.org/ontokg-eq/idx#derived_bench_return_IDX_CO_BMRI"
+      },
+      "window": "https://w3id.org/ontokg-eq/idx#window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "case_index": 15,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_TOWR",
+      "observations": {
+        "growth": "https://w3id.org/ontokg-eq/idx#derived_fund_growth_IDX_CO_TOWR",
+        "company": "https://w3id.org/ontokg-eq/idx#derived_post_return_IDX_CO_TOWR",
+        "benchmark": "https://w3id.org/ontokg-eq/idx#derived_bench_return_IDX_CO_TOWR"
+      },
+      "window": "https://w3id.org/ontokg-eq/idx#window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R2",
+      "numerical_label": "negative",
+      "case_index": 2,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_BBCA",
+      "observations": {
+        "correlation": "https://w3id.org/ontokg-eq/idx#derived_fx_corr_company_IDX_CO_BBCA"
+      },
+      "window": null,
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R2",
+      "numerical_label": "negative",
+      "case_index": 12,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_ISAT",
+      "observations": {
+        "correlation": "https://w3id.org/ontokg-eq/idx#derived_fx_corr_company_IDX_CO_ISAT"
+      },
+      "window": null,
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R2",
+      "numerical_label": "positive",
+      "case_index": 7,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_BMRI",
+      "observations": {
+        "correlation": "https://w3id.org/ontokg-eq/idx#derived_fx_corr_company_IDX_CO_BMRI"
+      },
+      "window": null,
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R3",
+      "numerical_label": "negative",
+      "case_index": 1,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_BBCA",
+      "observations": {
+        "company": "https://w3id.org/ontokg-eq/idx#derived_post_return_IDX_CO_BBCA",
+        "sector": "https://w3id.org/ontokg-eq/idx#derived_sector_return_IDX_CO_BBCA",
+        "benchmark": "https://w3id.org/ontokg-eq/idx#derived_bench_return_IDX_CO_BBCA"
+      },
+      "window": "https://w3id.org/ontokg-eq/idx#window_IDX_CO_BBCA_BBCA_FY2025_post30_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R3",
+      "numerical_label": "negative",
+      "case_index": 16,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_TOWR",
+      "observations": {
+        "company": "https://w3id.org/ontokg-eq/idx#derived_post_return_IDX_CO_TOWR",
+        "sector": "https://w3id.org/ontokg-eq/idx#derived_sector_return_IDX_CO_TOWR",
+        "benchmark": "https://w3id.org/ontokg-eq/idx#derived_bench_return_IDX_CO_TOWR"
+      },
+      "window": "https://w3id.org/ontokg-eq/idx#window_IDX_CO_TOWR_TOWR_FY2025_post30_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "case_index": 6,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_BMRI",
+      "observations": {
+        "company": "https://w3id.org/ontokg-eq/idx#derived_post_return_IDX_CO_BMRI",
+        "sector": "https://w3id.org/ontokg-eq/idx#derived_sector_return_IDX_CO_BMRI",
+        "benchmark": "https://w3id.org/ontokg-eq/idx#derived_bench_return_IDX_CO_BMRI"
+      },
+      "window": "https://w3id.org/ontokg-eq/idx#window_IDX_CO_BMRI_BMRI_FY2025_post30_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "case_index": 11,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_ISAT",
+      "observations": {
+        "company": "https://w3id.org/ontokg-eq/idx#derived_post_return_IDX_CO_ISAT",
+        "sector": "https://w3id.org/ontokg-eq/idx#derived_sector_return_IDX_CO_ISAT",
+        "benchmark": "https://w3id.org/ontokg-eq/idx#derived_bench_return_IDX_CO_ISAT"
+      },
+      "window": "https://w3id.org/ontokg-eq/idx#window_IDX_CO_ISAT_ISAT_FY2025_post30_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R4",
+      "numerical_label": "negative",
+      "case_index": 8,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_BMRI",
+      "observations": {
+        "event_return0": "https://w3id.org/ontokg-eq/idx#derived_event_ar_IDX_CO_BMRI_event_1_1",
+        "volume0": "https://w3id.org/ontokg-eq/idx#derived_event_vol_IDX_CO_BMRI_event_1_1"
+      },
+      "window": "https://w3id.org/ontokg-eq/idx#window_IDX_CO_BMRI_BMRI_FY2025_event_m1p1_event_1_1",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R4",
+      "numerical_label": "negative",
+      "case_index": 14,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_ISAT",
+      "observations": {
+        "event_return0": "https://w3id.org/ontokg-eq/idx#derived_event_ar_IDX_CO_ISAT_event_3_3",
+        "volume0": "https://w3id.org/ontokg-eq/idx#derived_event_vol_IDX_CO_ISAT_event_3_3"
+      },
+      "window": "https://w3id.org/ontokg-eq/idx#window_IDX_CO_ISAT_ISAT_FY2025_event_m3p3_event_3_3",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R4",
+      "numerical_label": "positive",
+      "case_index": 3,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_BBCA",
+      "observations": {
+        "event_return0": "https://w3id.org/ontokg-eq/idx#derived_event_ar_IDX_CO_BBCA_event_1_1",
+        "volume0": "https://w3id.org/ontokg-eq/idx#derived_event_vol_IDX_CO_BBCA_event_1_1"
+      },
+      "window": "https://w3id.org/ontokg-eq/idx#window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_financial_v2",
+      "rule": "R4",
+      "numerical_label": "positive",
+      "case_index": 18,
+      "company": "https://w3id.org/ontokg-eq/idx#company_IDX_CO_TOWR",
+      "observations": {
+        "event_return0": "https://w3id.org/ontokg-eq/idx#derived_event_ar_IDX_CO_TOWR_event_1_1",
+        "volume0": "https://w3id.org/ontokg-eq/idx#derived_event_vol_IDX_CO_TOWR_event_1_1"
+      },
+      "window": "https://w3id.org/ontokg-eq/idx#window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R1",
+      "numerical_label": "negative",
+      "case_index": 124,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_ICBP",
+      "observations": {
+        "growth": "https://w3id.org/ontokg-eq/idxscaled#derived_fund_growth_IDX_CO_ICBP",
+        "company": "https://w3id.org/ontokg-eq/idxscaled#derived_post_return_IDX_CO_ICBP",
+        "benchmark": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ICBP"
+      },
+      "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_ICBP_ICBP_recent_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R1",
+      "numerical_label": "negative",
+      "case_index": 216,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_SMGR",
+      "observations": {
+        "growth": "https://w3id.org/ontokg-eq/idxscaled#derived_fund_growth_IDX_CO_SMGR",
+        "company": "https://w3id.org/ontokg-eq/idxscaled#derived_post_return_IDX_CO_SMGR",
+        "benchmark": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_SMGR"
+      },
+      "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_SMGR_SMGR_recent_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "case_index": 148,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_JPFA",
+      "observations": {
+        "growth": "https://w3id.org/ontokg-eq/idxscaled#derived_fund_growth_IDX_CO_JPFA",
+        "company": "https://w3id.org/ontokg-eq/idxscaled#derived_post_return_IDX_CO_JPFA",
+        "benchmark": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_JPFA"
+      },
+      "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_JPFA_JPFA_recent_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "case_index": 172,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_MIKA",
+      "observations": {
+        "growth": "https://w3id.org/ontokg-eq/idxscaled#derived_fund_growth_IDX_CO_MIKA",
+        "company": "https://w3id.org/ontokg-eq/idxscaled#derived_post_return_IDX_CO_MIKA",
+        "benchmark": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_MIKA"
+      },
+      "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_MIKA_MIKA_recent_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R2",
+      "numerical_label": "incomplete",
+      "case_index": 254,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_WIKA",
+      "observations": {},
+      "window": null,
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R2",
+      "numerical_label": "negative",
+      "case_index": 30,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_ARTO",
+      "observations": {
+        "correlation": "https://w3id.org/ontokg-eq/idxscaled#derived_fx_corr_company_IDX_CO_ARTO"
+      },
+      "window": null,
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R2",
+      "numerical_label": "negative",
+      "case_index": 122,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_HMSP",
+      "observations": {
+        "correlation": "https://w3id.org/ontokg-eq/idxscaled#derived_fx_corr_company_IDX_CO_HMSP"
+      },
+      "window": null,
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R2",
+      "numerical_label": "positive",
+      "case_index": 38,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_BBCA",
+      "observations": {
+        "correlation": "https://w3id.org/ontokg-eq/idxscaled#derived_fx_corr_company_IDX_CO_BBCA"
+      },
+      "window": null,
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R2",
+      "numerical_label": "positive",
+      "case_index": 138,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_INTP",
+      "observations": {
+        "correlation": "https://w3id.org/ontokg-eq/idxscaled#derived_fx_corr_company_IDX_CO_INTP"
+      },
+      "window": null,
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R3",
+      "numerical_label": "incomplete",
+      "case_index": 113,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_GOTO",
+      "observations": {
+        "company0": "https://w3id.org/ontokg-eq/idxscaled#derived_post_return_IDX_CO_GOTO",
+        "benchmark0": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_AALI",
+        "benchmark1": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ACES",
+        "benchmark2": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ADHI",
+        "benchmark3": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ADRO",
+        "benchmark4": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_AKRA",
+        "benchmark5": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_AMRT",
+        "benchmark6": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ANTM",
+        "benchmark7": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ARTO",
+        "benchmark8": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ASII",
+        "benchmark9": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BBCA",
+        "benchmark10": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BBNI",
+        "benchmark11": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BBRI",
+        "benchmark12": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BBTN",
+        "benchmark13": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BMRI",
+        "benchmark14": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BRIS",
+        "benchmark15": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BRMS",
+        "benchmark16": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BRPT",
+        "benchmark17": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BSDE",
+        "benchmark18": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BTPS",
+        "benchmark19": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BUKA",
+        "benchmark20": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_CPIN",
+        "benchmark21": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_CTRA",
+        "benchmark22": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ELSA",
+        "benchmark23": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_EMTK",
+        "benchmark24": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ERAA",
+        "benchmark25": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ESSA",
+        "benchmark26": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_EXCL",
+        "benchmark27": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_GGRM",
+        "benchmark28": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_GOTO",
+        "benchmark29": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_HEXA",
+        "benchmark30": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_HMSP",
+        "benchmark31": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ICBP",
+        "benchmark32": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_INCO",
+        "benchmark33": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_INDF",
+        "benchmark34": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_INTP",
+        "benchmark35": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ISAT",
+        "benchmark36": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ITMG",
+        "benchmark37": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_JPFA",
+        "benchmark38": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_JSMR",
+        "benchmark39": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_KLBF",
+        "benchmark40": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_MAPI",
+        "benchmark41": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_MDKA",
+        "benchmark42": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_MEDC",
+        "benchmark43": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_MIKA",
+        "benchmark44": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_MNCN",
+        "benchmark45": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_MTEL",
+        "benchmark46": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_MYOR",
+        "benchmark47": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_NCKL",
+        "benchmark48": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_PGAS",
+        "benchmark49": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_PTBA",
+        "benchmark50": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_PTPP",
+        "benchmark51": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_PWON",
+        "benchmark52": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_SCMA",
+        "benchmark53": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_SIDO",
+        "benchmark54": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_SMGR",
+        "benchmark55": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_SMRA",
+        "benchmark56": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_TBIG",
+        "benchmark57": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_TINS",
+        "benchmark58": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_TLKM",
+        "benchmark59": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_TOWR",
+        "benchmark60": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_TPIA",
+        "benchmark61": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_UNTR",
+        "benchmark62": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_UNVR",
+        "benchmark63": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_WIKA"
+      },
+      "window": null,
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R3",
+      "numerical_label": "incomplete",
+      "case_index": 193,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_PGAS",
+      "observations": {
+        "company0": "https://w3id.org/ontokg-eq/idxscaled#derived_post_return_IDX_CO_PGAS",
+        "benchmark0": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_AALI",
+        "benchmark1": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ACES",
+        "benchmark2": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ADHI",
+        "benchmark3": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ADRO",
+        "benchmark4": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_AKRA",
+        "benchmark5": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_AMRT",
+        "benchmark6": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ANTM",
+        "benchmark7": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ARTO",
+        "benchmark8": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ASII",
+        "benchmark9": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BBCA",
+        "benchmark10": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BBNI",
+        "benchmark11": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BBRI",
+        "benchmark12": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BBTN",
+        "benchmark13": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BMRI",
+        "benchmark14": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BRIS",
+        "benchmark15": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BRMS",
+        "benchmark16": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BRPT",
+        "benchmark17": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BSDE",
+        "benchmark18": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BTPS",
+        "benchmark19": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_BUKA",
+        "benchmark20": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_CPIN",
+        "benchmark21": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_CTRA",
+        "benchmark22": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ELSA",
+        "benchmark23": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_EMTK",
+        "benchmark24": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ERAA",
+        "benchmark25": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ESSA",
+        "benchmark26": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_EXCL",
+        "benchmark27": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_GGRM",
+        "benchmark28": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_GOTO",
+        "benchmark29": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_HEXA",
+        "benchmark30": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_HMSP",
+        "benchmark31": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ICBP",
+        "benchmark32": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_INCO",
+        "benchmark33": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_INDF",
+        "benchmark34": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_INTP",
+        "benchmark35": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ISAT",
+        "benchmark36": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ITMG",
+        "benchmark37": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_JPFA",
+        "benchmark38": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_JSMR",
+        "benchmark39": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_KLBF",
+        "benchmark40": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_MAPI",
+        "benchmark41": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_MDKA",
+        "benchmark42": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_MEDC",
+        "benchmark43": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_MIKA",
+        "benchmark44": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_MNCN",
+        "benchmark45": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_MTEL",
+        "benchmark46": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_MYOR",
+        "benchmark47": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_NCKL",
+        "benchmark48": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_PGAS",
+        "benchmark49": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_PTBA",
+        "benchmark50": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_PTPP",
+        "benchmark51": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_PWON",
+        "benchmark52": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_SCMA",
+        "benchmark53": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_SIDO",
+        "benchmark54": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_SMGR",
+        "benchmark55": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_SMRA",
+        "benchmark56": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_TBIG",
+        "benchmark57": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_TINS",
+        "benchmark58": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_TLKM",
+        "benchmark59": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_TOWR",
+        "benchmark60": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_TPIA",
+        "benchmark61": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_UNTR",
+        "benchmark62": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_UNVR",
+        "benchmark63": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_WIKA"
+      },
+      "window": null,
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R3",
+      "numerical_label": "negative",
+      "case_index": 201,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_PTPP",
+      "observations": {
+        "company": "https://w3id.org/ontokg-eq/idxscaled#derived_post_return_IDX_CO_PTPP",
+        "sector": "https://w3id.org/ontokg-eq/idxscaled#derived_sector_return_IDX_CO_PTPP",
+        "benchmark": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_PTPP"
+      },
+      "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_PTPP_PTPP_recent_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R3",
+      "numerical_label": "negative",
+      "case_index": 237,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_TOWR",
+      "observations": {
+        "company": "https://w3id.org/ontokg-eq/idxscaled#derived_post_return_IDX_CO_TOWR",
+        "sector": "https://w3id.org/ontokg-eq/idxscaled#derived_sector_return_IDX_CO_TOWR",
+        "benchmark": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_TOWR"
+      },
+      "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_TOWR_TOWR_recent_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "case_index": 13,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_ADRO",
+      "observations": {
+        "company": "https://w3id.org/ontokg-eq/idxscaled#derived_post_return_IDX_CO_ADRO",
+        "sector": "https://w3id.org/ontokg-eq/idxscaled#derived_sector_return_IDX_CO_ADRO",
+        "benchmark": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_ADRO"
+      },
+      "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_ADRO_ADRO_recent_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_idx_scaled_financial_v2",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "case_index": 109,
+      "company": "https://w3id.org/ontokg-eq/idxscaled#company_IDX_CO_GGRM",
+      "observations": {
+        "company": "https://w3id.org/ontokg-eq/idxscaled#derived_post_return_IDX_CO_GGRM",
+        "sector": "https://w3id.org/ontokg-eq/idxscaled#derived_sector_return_IDX_CO_GGRM",
+        "benchmark": "https://w3id.org/ontokg-eq/idxscaled#derived_bench_return_IDX_CO_GGRM"
+      },
+      "window": "https://w3id.org/ontokg-eq/idxscaled#window_IDX_CO_GGRM_GGRM_recent_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "rule": "R1",
+      "numerical_label": "negative",
+      "case_index": 0,
+      "company": "https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB",
+      "observations": {
+        "growth": "https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_CIMB",
+        "company": "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_CIMB",
+        "benchmark": "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_CIMB"
+      },
+      "window": "https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "rule": "R1",
+      "numerical_label": "negative",
+      "case_index": 13,
+      "company": "https://w3id.org/ontokg-eq/msx#company_MY_CO_TM",
+      "observations": {
+        "growth": "https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_TM",
+        "company": "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_TM",
+        "benchmark": "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_TM"
+      },
+      "window": "https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "case_index": 4,
+      "company": "https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS",
+      "observations": {
+        "growth": "https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAXIS",
+        "company": "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAXIS",
+        "benchmark": "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAXIS"
+      },
+      "window": "https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "case_index": 9,
+      "company": "https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK",
+      "observations": {
+        "growth": "https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAYBANK",
+        "company": "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAYBANK",
+        "benchmark": "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAYBANK"
+      },
+      "window": "https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "rule": "R2",
+      "numerical_label": "negative",
+      "case_index": 6,
+      "company": "https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS",
+      "observations": {
+        "correlation": "https://w3id.org/ontokg-eq/msx#derived_fx_corr_company_MY_CO_MAXIS"
+      },
+      "window": null,
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "rule": "R2",
+      "numerical_label": "negative",
+      "case_index": 15,
+      "company": "https://w3id.org/ontokg-eq/msx#company_MY_CO_TM",
+      "observations": {
+        "correlation": "https://w3id.org/ontokg-eq/msx#derived_fx_corr_company_MY_CO_TM"
+      },
+      "window": null,
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "rule": "R3",
+      "numerical_label": "negative",
+      "case_index": 1,
+      "company": "https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB",
+      "observations": {
+        "company": "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_CIMB",
+        "sector": "https://w3id.org/ontokg-eq/msx#derived_sector_return_MY_CO_CIMB",
+        "benchmark": "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_CIMB"
+      },
+      "window": "https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "rule": "R3",
+      "numerical_label": "negative",
+      "case_index": 5,
+      "company": "https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS",
+      "observations": {
+        "company": "https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAXIS",
+        "sector": "https://w3id.org/ontokg-eq/msx#derived_sector_return_MY_CO_MAXIS",
+        "benchmark": "https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAXIS"
+      },
+      "window": "https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "rule": "R4",
+      "numerical_label": "incomplete",
+      "case_index": 7,
+      "company": "https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS",
+      "observations": {
+        "volume0": "https://w3id.org/ontokg-eq/msx#derived_event_vol_MY_CO_MAXIS_event_window_1_1"
+      },
+      "window": "https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m1_p1_event_window_1_1",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_msx_financial_v2",
+      "rule": "R4",
+      "numerical_label": "incomplete",
+      "case_index": 8,
+      "company": "https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS",
+      "observations": {
+        "volume0": "https://w3id.org/ontokg-eq/msx#derived_event_vol_MY_CO_MAXIS_event_window_3_3"
+      },
+      "window": "https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R1",
+      "numerical_label": "negative",
+      "case_index": 0,
+      "company": "https://w3id.org/ontokg-eq/psx#company_1",
+      "observations": {
+        "growth": "https://w3id.org/ontokg-eq/psx#derived_fund_growth_1",
+        "company": "https://w3id.org/ontokg-eq/psx#derived_post_return_1",
+        "benchmark": "https://w3id.org/ontokg-eq/psx#derived_bench_return_1"
+      },
+      "window": "https://w3id.org/ontokg-eq/psx#window_1_post_report_30d_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R1",
+      "numerical_label": "negative",
+      "case_index": 8,
+      "company": "https://w3id.org/ontokg-eq/psx#company_3",
+      "observations": {
+        "growth": "https://w3id.org/ontokg-eq/psx#derived_fund_growth_3",
+        "company": "https://w3id.org/ontokg-eq/psx#derived_post_return_3",
+        "benchmark": "https://w3id.org/ontokg-eq/psx#derived_bench_return_3"
+      },
+      "window": "https://w3id.org/ontokg-eq/psx#window_3_post_report_30d_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R1",
+      "numerical_label": "positive",
+      "case_index": 4,
+      "company": "https://w3id.org/ontokg-eq/psx#company_2",
+      "observations": {
+        "growth": "https://w3id.org/ontokg-eq/psx#derived_fund_growth_2",
+        "company": "https://w3id.org/ontokg-eq/psx#derived_post_return_2",
+        "benchmark": "https://w3id.org/ontokg-eq/psx#derived_bench_return_2"
+      },
+      "window": "https://w3id.org/ontokg-eq/psx#window_2_post_report_30d_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R2",
+      "numerical_label": "negative",
+      "case_index": 6,
+      "company": "https://w3id.org/ontokg-eq/psx#company_2",
+      "observations": {
+        "correlation": "https://w3id.org/ontokg-eq/psx#derived_fx_corr_company_2"
+      },
+      "window": null,
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R2",
+      "numerical_label": "negative",
+      "case_index": 14,
+      "company": "https://w3id.org/ontokg-eq/psx#company_4",
+      "observations": {
+        "correlation": "https://w3id.org/ontokg-eq/psx#derived_fx_corr_company_4"
+      },
+      "window": null,
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R2",
+      "numerical_label": "positive",
+      "case_index": 2,
+      "company": "https://w3id.org/ontokg-eq/psx#company_1",
+      "observations": {
+        "correlation": "https://w3id.org/ontokg-eq/psx#derived_fx_corr_company_1"
+      },
+      "window": null,
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R3",
+      "numerical_label": "incomplete",
+      "case_index": 5,
+      "company": "https://w3id.org/ontokg-eq/psx#company_2",
+      "observations": {
+        "company0": "https://w3id.org/ontokg-eq/psx#derived_post_return_2",
+        "sector0": "https://w3id.org/ontokg-eq/psx#derived_sector_return_1",
+        "benchmark0": "https://w3id.org/ontokg-eq/psx#derived_bench_return_1",
+        "benchmark1": "https://w3id.org/ontokg-eq/psx#derived_bench_return_2",
+        "benchmark2": "https://w3id.org/ontokg-eq/psx#derived_bench_return_3",
+        "benchmark3": "https://w3id.org/ontokg-eq/psx#derived_bench_return_4"
+      },
+      "window": null,
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R3",
+      "numerical_label": "incomplete",
+      "case_index": 13,
+      "company": "https://w3id.org/ontokg-eq/psx#company_4",
+      "observations": {
+        "company0": "https://w3id.org/ontokg-eq/psx#derived_post_return_4",
+        "sector0": "https://w3id.org/ontokg-eq/psx#derived_sector_return_3",
+        "benchmark0": "https://w3id.org/ontokg-eq/psx#derived_bench_return_1",
+        "benchmark1": "https://w3id.org/ontokg-eq/psx#derived_bench_return_2",
+        "benchmark2": "https://w3id.org/ontokg-eq/psx#derived_bench_return_3",
+        "benchmark3": "https://w3id.org/ontokg-eq/psx#derived_bench_return_4"
+      },
+      "window": null,
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "case_index": 1,
+      "company": "https://w3id.org/ontokg-eq/psx#company_1",
+      "observations": {
+        "company": "https://w3id.org/ontokg-eq/psx#derived_post_return_1",
+        "sector": "https://w3id.org/ontokg-eq/psx#derived_sector_return_1",
+        "benchmark": "https://w3id.org/ontokg-eq/psx#derived_bench_return_1"
+      },
+      "window": "https://w3id.org/ontokg-eq/psx#window_1_post_report_30d_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R3",
+      "numerical_label": "positive",
+      "case_index": 9,
+      "company": "https://w3id.org/ontokg-eq/psx#company_3",
+      "observations": {
+        "company": "https://w3id.org/ontokg-eq/psx#derived_post_return_3",
+        "sector": "https://w3id.org/ontokg-eq/psx#derived_sector_return_3",
+        "benchmark": "https://w3id.org/ontokg-eq/psx#derived_bench_return_3"
+      },
+      "window": "https://w3id.org/ontokg-eq/psx#window_3_post_report_30d_post_report",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R4",
+      "numerical_label": "incomplete",
+      "case_index": 3,
+      "company": "https://w3id.org/ontokg-eq/psx#company_1",
+      "observations": {
+        "volume0": "https://w3id.org/ontokg-eq/psx#derived_event_vol_1_event_1_1"
+      },
+      "window": "https://w3id.org/ontokg-eq/psx#window_1_event_1_1_event_1_1",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R4",
+      "numerical_label": "incomplete",
+      "case_index": 16,
+      "company": "https://w3id.org/ontokg-eq/psx#company_4",
+      "observations": {
+        "volume0": "https://w3id.org/ontokg-eq/psx#derived_event_vol_4_event_3_3"
+      },
+      "window": "https://w3id.org/ontokg-eq/psx#window_4_event_3_3_event_3_3",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    },
+    {
+      "dataset": "demo_psx_financial_v2",
+      "rule": "R4",
+      "numerical_label": "positive",
+      "case_index": 15,
+      "company": "https://w3id.org/ontokg-eq/psx#company_4",
+      "observations": {
+        "volume0": "https://w3id.org/ontokg-eq/psx#derived_event_vol_4_event_1_1"
+      },
+      "window": "https://w3id.org/ontokg-eq/psx#window_4_event_1_1_event_1_1",
+      "review_status": "NOT_YET_REVIEWED",
+      "required_checks": [
+        "original source identity and accounting period",
+        "value, unit and accounting scope",
+        "all deciding transformation inputs",
+        "publication date semantics where required",
+        "matching observed price intervals where required"
+      ]
+    }
+  ]
+}

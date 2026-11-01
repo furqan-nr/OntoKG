@@ -1,0 +1,172 @@
+@prefix pplrepair: <https://w3id.org/ontokg-eq/ppl-source-completion-v1#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pplrepair:PPL_2024_H9 a pplrepair:AuthenticatedCellRepair ;
+    prov:hadPrimarySource <https://www.psx.com.pk/psx/files-attachment/?file=259574.pdf> ;
+    pplrepair:accounting_scope "unconsolidated company statement; not consolidated" ;
+    pplrepair:arithmetic_agreement_with_indexed_table "exact_match_after_scale_correction" ;
+    pplrepair:cell "H9" ;
+    pplrepair:company "PPL" ;
+    pplrepair:field "sales_thousand_pkr" ;
+    pplrepair:first_publication_timestamp_authenticated false ;
+    pplrepair:inspected_pdf_page_1_based 3 ;
+    pplrepair:normalization_multiplier 1000000 ;
+    pplrepair:normalized_value "288797413" ;
+    pplrepair:original_preserved true ;
+    pplrepair:original_source_url "https://dps.psx.com.pk/company/PPL" ;
+    pplrepair:period_end "2024-06-30" ;
+    pplrepair:raw_value "288.797413" ;
+    pplrepair:replacement_source_url "https://www.psx.com.pk/psx/files-attachment/?file=259574.pdf" ;
+    pplrepair:review_date "2026-10-17" ;
+    pplrepair:source_document_date "2025-09-19" ;
+    pplrepair:source_eligible_for_annual_fact true ;
+    pplrepair:source_repair_is_not_publication_date_repair true ;
+    pplrepair:source_sha256 "12b2e2ecdb660e7b068d56d763d5c3a8adb0c7a6a983e15a67fdf983e0f301c5" ;
+    pplrepair:status "exact_match_after_scale_correction" ;
+    pplrepair:supersedes_status "pending_financial_page_visual_review" ;
+    pplrepair:unit "thousand PKR" ;
+    pplrepair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    pplrepair:worksheet "Sheet1" ;
+    pplrepair:year 2024 .
+
+pplrepair:PPL_2024_I9 a pplrepair:AuthenticatedCellRepair ;
+    prov:hadPrimarySource <https://www.psx.com.pk/psx/files-attachment/?file=259574.pdf> ;
+    pplrepair:accounting_scope "unconsolidated company statement; not consolidated" ;
+    pplrepair:arithmetic_agreement_with_indexed_table "exact_match_after_scale_correction" ;
+    pplrepair:cell "I9" ;
+    pplrepair:company "PPL" ;
+    pplrepair:field "profit_after_tax_thousand_pkr" ;
+    pplrepair:first_publication_timestamp_authenticated false ;
+    pplrepair:inspected_pdf_page_1_based 3 ;
+    pplrepair:normalization_multiplier 1000000 ;
+    pplrepair:normalized_value "114309077" ;
+    pplrepair:original_preserved true ;
+    pplrepair:original_source_url "https://dps.psx.com.pk/company/PPL" ;
+    pplrepair:period_end "2024-06-30" ;
+    pplrepair:raw_value "114.309077" ;
+    pplrepair:replacement_source_url "https://www.psx.com.pk/psx/files-attachment/?file=259574.pdf" ;
+    pplrepair:review_date "2026-10-17" ;
+    pplrepair:source_document_date "2025-09-19" ;
+    pplrepair:source_eligible_for_annual_fact true ;
+    pplrepair:source_repair_is_not_publication_date_repair true ;
+    pplrepair:source_sha256 "12b2e2ecdb660e7b068d56d763d5c3a8adb0c7a6a983e15a67fdf983e0f301c5" ;
+    pplrepair:status "exact_match_after_scale_correction" ;
+    pplrepair:supersedes_status "pending_financial_page_visual_review" ;
+    pplrepair:unit "thousand PKR" ;
+    pplrepair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    pplrepair:worksheet "Sheet1" ;
+    pplrepair:year 2024 .
+
+pplrepair:PPL_2024_K9 a pplrepair:AuthenticatedCellRepair ;
+    prov:hadPrimarySource <https://www.psx.com.pk/psx/files-attachment/?file=259574.pdf> ;
+    pplrepair:accounting_scope "unconsolidated company statement; not consolidated" ;
+    pplrepair:arithmetic_agreement_with_indexed_table "exact_value_and_unit_match" ;
+    pplrepair:cell "K9" ;
+    pplrepair:company "PPL" ;
+    pplrepair:field "eps" ;
+    pplrepair:first_publication_timestamp_authenticated false ;
+    pplrepair:inspected_pdf_page_1_based 3 ;
+    pplrepair:normalization_multiplier 1 ;
+    pplrepair:normalized_value "42.01" ;
+    pplrepair:original_preserved true ;
+    pplrepair:original_source_url "https://dps.psx.com.pk/company/PPL" ;
+    pplrepair:period_end "2024-06-30" ;
+    pplrepair:raw_value "42.01" ;
+    pplrepair:replacement_source_url "https://www.psx.com.pk/psx/files-attachment/?file=259574.pdf" ;
+    pplrepair:review_date "2026-10-17" ;
+    pplrepair:source_document_date "2025-09-19" ;
+    pplrepair:source_eligible_for_annual_fact true ;
+    pplrepair:source_repair_is_not_publication_date_repair true ;
+    pplrepair:source_sha256 "12b2e2ecdb660e7b068d56d763d5c3a8adb0c7a6a983e15a67fdf983e0f301c5" ;
+    pplrepair:status "exact_value_and_unit_match" ;
+    pplrepair:supersedes_status "pending_financial_page_visual_review" ;
+    pplrepair:unit "PKR per share" ;
+    pplrepair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    pplrepair:worksheet "Sheet1" ;
+    pplrepair:year 2024 .
+
+pplrepair:PPL_2025_H8 a pplrepair:AuthenticatedCellRepair ;
+    prov:hadPrimarySource <https://www.psx.com.pk/psx/files-attachment/?file=259574.pdf> ;
+    pplrepair:accounting_scope "unconsolidated company statement; not consolidated" ;
+    pplrepair:arithmetic_agreement_with_indexed_table "exact_match_after_scale_correction" ;
+    pplrepair:cell "H8" ;
+    pplrepair:company "PPL" ;
+    pplrepair:field "sales_thousand_pkr" ;
+    pplrepair:first_publication_timestamp_authenticated false ;
+    pplrepair:inspected_pdf_page_1_based 3 ;
+    pplrepair:normalization_multiplier 1000000 ;
+    pplrepair:normalized_value "242516363" ;
+    pplrepair:original_preserved true ;
+    pplrepair:original_source_url "https://dps.psx.com.pk/download/document/270122.pdf" ;
+    pplrepair:period_end "2025-06-30" ;
+    pplrepair:raw_value "242.516363" ;
+    pplrepair:replacement_source_url "https://www.psx.com.pk/psx/files-attachment/?file=259574.pdf" ;
+    pplrepair:review_date "2026-10-17" ;
+    pplrepair:source_document_date "2025-09-19" ;
+    pplrepair:source_eligible_for_annual_fact true ;
+    pplrepair:source_repair_is_not_publication_date_repair true ;
+    pplrepair:source_sha256 "12b2e2ecdb660e7b068d56d763d5c3a8adb0c7a6a983e15a67fdf983e0f301c5" ;
+    pplrepair:status "exact_match_after_scale_correction" ;
+    pplrepair:supersedes_status "pending_financial_page_visual_review" ;
+    pplrepair:unit "thousand PKR" ;
+    pplrepair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    pplrepair:worksheet "Sheet1" ;
+    pplrepair:year 2025 .
+
+pplrepair:PPL_2025_I8 a pplrepair:AuthenticatedCellRepair ;
+    prov:hadPrimarySource <https://www.psx.com.pk/psx/files-attachment/?file=259574.pdf> ;
+    pplrepair:accounting_scope "unconsolidated company statement; not consolidated" ;
+    pplrepair:arithmetic_agreement_with_indexed_table "exact_match_after_scale_correction" ;
+    pplrepair:cell "I8" ;
+    pplrepair:company "PPL" ;
+    pplrepair:field "profit_after_tax_thousand_pkr" ;
+    pplrepair:first_publication_timestamp_authenticated false ;
+    pplrepair:inspected_pdf_page_1_based 3 ;
+    pplrepair:normalization_multiplier 1000000 ;
+    pplrepair:normalized_value "92027450" ;
+    pplrepair:original_preserved true ;
+    pplrepair:original_source_url "https://dps.psx.com.pk/download/document/270122.pdf" ;
+    pplrepair:period_end "2025-06-30" ;
+    pplrepair:raw_value "92.02745" ;
+    pplrepair:replacement_source_url "https://www.psx.com.pk/psx/files-attachment/?file=259574.pdf" ;
+    pplrepair:review_date "2026-10-17" ;
+    pplrepair:source_document_date "2025-09-19" ;
+    pplrepair:source_eligible_for_annual_fact true ;
+    pplrepair:source_repair_is_not_publication_date_repair true ;
+    pplrepair:source_sha256 "12b2e2ecdb660e7b068d56d763d5c3a8adb0c7a6a983e15a67fdf983e0f301c5" ;
+    pplrepair:status "exact_match_after_scale_correction" ;
+    pplrepair:supersedes_status "pending_financial_page_visual_review" ;
+    pplrepair:unit "thousand PKR" ;
+    pplrepair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    pplrepair:worksheet "Sheet1" ;
+    pplrepair:year 2025 .
+
+pplrepair:PPL_2025_K8 a pplrepair:AuthenticatedCellRepair ;
+    prov:hadPrimarySource <https://www.psx.com.pk/psx/files-attachment/?file=259574.pdf> ;
+    pplrepair:accounting_scope "unconsolidated company statement; not consolidated" ;
+    pplrepair:arithmetic_agreement_with_indexed_table "exact_value_and_unit_match" ;
+    pplrepair:cell "K8" ;
+    pplrepair:company "PPL" ;
+    pplrepair:field "eps" ;
+    pplrepair:first_publication_timestamp_authenticated false ;
+    pplrepair:inspected_pdf_page_1_based 3 ;
+    pplrepair:normalization_multiplier 1 ;
+    pplrepair:normalized_value "33.82" ;
+    pplrepair:original_preserved true ;
+    pplrepair:original_source_url "https://dps.psx.com.pk/download/document/270122.pdf" ;
+    pplrepair:period_end "2025-06-30" ;
+    pplrepair:raw_value "33.82" ;
+    pplrepair:replacement_source_url "https://www.psx.com.pk/psx/files-attachment/?file=259574.pdf" ;
+    pplrepair:review_date "2026-10-17" ;
+    pplrepair:source_document_date "2025-09-19" ;
+    pplrepair:source_eligible_for_annual_fact true ;
+    pplrepair:source_repair_is_not_publication_date_repair true ;
+    pplrepair:source_sha256 "12b2e2ecdb660e7b068d56d763d5c3a8adb0c7a6a983e15a67fdf983e0f301c5" ;
+    pplrepair:status "exact_value_and_unit_match" ;
+    pplrepair:supersedes_status "pending_financial_page_visual_review" ;
+    pplrepair:unit "PKR per share" ;
+    pplrepair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    pplrepair:worksheet "Sheet1" ;
+    pplrepair:year 2025 .
+

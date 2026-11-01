@@ -1,0 +1,21 @@
+{
+  "recorded_date": "2026-10-19",
+  "status": "Recorded before new variant execution; not an external preregistration or blinded experiment",
+  "question": "Can both a configured audit interpreter and an independently parameterized direct-validation implementation apply bounded requirement changes and restore the original classifications exactly?",
+  "population": "All 533 previously recorded NHS August 2026 application frames; 532 CSV-derived count pairs and one unavailable-source roster entry. No new independently collected sample.",
+  "variants": [
+    {"id": "official_92_ge", "threshold": 92, "operator": "ge", "official": true},
+    {"id": "counterfactual_90_ge", "threshold": 90, "operator": "ge", "official": false},
+    {"id": "counterfactual_90_gt", "threshold": 90, "operator": "gt", "official": false},
+    {"id": "counterfactual_92_gt", "threshold": 92, "operator": "gt", "official": false},
+    {"id": "counterfactual_95_ge", "threshold": 95, "operator": "ge", "official": false},
+    {"id": "counterfactual_95_gt", "threshold": 95, "operator": "gt", "official": false}
+  ],
+  "controls": "Separately constructed exact equal/below/above threshold count pairs for 90,92,95; missing denominator, wrong shared month, unavailable publisher-only context and same-witness unit failure. These are software controls, never naturally observed reporting defects.",
+  "comparison": "Both systems may centralize threshold/operator parameters; no forced duplicated baseline edits. Existing interpreter and baseline remain unchanged. A new independent parameterized SPARQL implementation may execute batch cohort queries; actual SHACL control validation must be distinguished from batch query execution.",
+  "oracle": "Independent exact integer or Fraction calculation from source adapter count records, not interpreter expressions or query output. Match provider identities, status and change sets, not aggregate counts alone.",
+  "rollback": "Replay official_92_ge after the counterfactual policies; verify exact classifications and frozen source/code/configuration identities, not just total positives.",
+  "failure_rule": "Any mismatch must be retained and investigated; do not tune thresholds or discard failing records to obtain agreement. Unsupported requirements are not silently approximated.",
+  "stopping_rule": "Complete the six bounded policies, predeclared controls, rollback and independent code review. Do not keep adding successful cases or claim independent deployment, objective human benefit, reduced authoring time or superiority from parity.",
+  "interpretation": "This can establish bounded change-conformance and affected-result traceability. It cannot by itself establish a general maintenance advantage or solve the conceptual novelty question. Counterfactual policies are not changes to the NHS standard."
+}

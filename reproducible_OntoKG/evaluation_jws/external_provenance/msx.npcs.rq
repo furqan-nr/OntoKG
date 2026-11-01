@@ -1,0 +1,17 @@
+SELECT ?cr ?company ?metric ?value ?w (CONCAT("⊕(",GROUP_CONCAT(?fjoin0) ,")")  AS ?finalprovennacevariable) 
+WHERE { 
+	?fprov2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?cr . 
+	?fprov2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/ontokg-eq#isObservationOf> . 
+	?fprov2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> ?company . 
+	?fprov3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?cr . 
+	?fprov3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/ontokg-eq#hasMetricName> . 
+	?fprov3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> ?metric . 
+	?fprov1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?cr . 
+	?fprov1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/ontokg-eq#hasMetricValue> . 
+	?fprov1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> ?value . 
+	?fprov0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?cr . 
+	?fprov0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/ontokg-eq#observedOverWindow> . 
+	?fprov0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> ?w . 
+	BIND (CONCAT("(⊗",STR(?fprov0) ,",",STR(?fprov1) ,",",STR(?fprov2) ,",",STR(?fprov3) ,",",")")  AS ?fjoin0) . 
+ }
+ GROUP BY ?cr ?company ?metric ?value ?w

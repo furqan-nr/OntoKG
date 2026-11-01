@@ -1,0 +1,109 @@
+@prefix contract: <https://w3id.org/ontokg-eq/contracts#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/ontokg-eq/psx#company_1_finding_R2> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/psx#company_1_finding_R2_contract_witness_1> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/psx#company_1_finding_R3> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/psx#company_1_finding_R3_contract_witness_1> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/psx#company_3_finding_R3> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/psx#company_3_finding_R3_contract_witness_1> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/psx#window_1_event_1_1_event_1_1_finding_R4> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/psx#window_1_event_1_1_event_1_1_finding_R4_contract_witness_1> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/psx#window_1_event_3_3_event_3_3_finding_R4> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/psx#window_1_event_3_3_event_3_3_finding_R4_contract_witness_1> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/psx#window_2_event_1_1_event_1_1_finding_R4> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/psx#window_2_event_1_1_event_1_1_finding_R4_contract_witness_1> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/psx#window_2_event_3_3_event_3_3_finding_R4> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/psx#window_2_event_3_3_event_3_3_finding_R4_contract_witness_1> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/psx#window_4_event_1_1_event_1_1_finding_R4> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/psx#window_4_event_1_1_event_1_1_finding_R4_contract_witness_1>,
+        <https://w3id.org/ontokg-eq/psx#window_4_event_1_1_event_1_1_finding_R4_contract_witness_2> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/psx#window_4_event_3_3_event_3_3_finding_R4> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/psx#window_4_event_3_3_event_3_3_finding_R4_contract_witness_1> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/psx#company_1_finding_R2_contract_witness_1> contract:correlation <https://w3id.org/ontokg-eq/psx#derived_fx_corr_company_1> .
+
+<https://w3id.org/ontokg-eq/psx#company_1_finding_R3_contract_witness_1> contract:benchmark <https://w3id.org/ontokg-eq/psx#derived_bench_return_1> ;
+    contract:company <https://w3id.org/ontokg-eq/psx#derived_post_return_1> ;
+    contract:sector <https://w3id.org/ontokg-eq/psx#derived_sector_return_1> .
+
+<https://w3id.org/ontokg-eq/psx#company_3_finding_R3_contract_witness_1> contract:benchmark <https://w3id.org/ontokg-eq/psx#derived_bench_return_3> ;
+    contract:company <https://w3id.org/ontokg-eq/psx#derived_post_return_3> ;
+    contract:sector <https://w3id.org/ontokg-eq/psx#derived_sector_return_3> .
+
+<https://w3id.org/ontokg-eq/psx#window_1_event_1_1_event_1_1_finding_R4_contract_witness_1> contract:event_return <https://w3id.org/ontokg-eq/psx#derived_event_ar_1_event_1_1> .
+
+<https://w3id.org/ontokg-eq/psx#window_1_event_3_3_event_3_3_finding_R4_contract_witness_1> contract:event_return <https://w3id.org/ontokg-eq/psx#derived_event_ar_1_event_3_3> .
+
+<https://w3id.org/ontokg-eq/psx#window_2_event_1_1_event_1_1_finding_R4_contract_witness_1> contract:volume <https://w3id.org/ontokg-eq/psx#derived_event_vol_2_event_1_1> .
+
+<https://w3id.org/ontokg-eq/psx#window_2_event_3_3_event_3_3_finding_R4_contract_witness_1> contract:volume <https://w3id.org/ontokg-eq/psx#derived_event_vol_2_event_3_3> .
+
+<https://w3id.org/ontokg-eq/psx#window_4_event_1_1_event_1_1_finding_R4_contract_witness_1> contract:event_return <https://w3id.org/ontokg-eq/psx#derived_event_ar_4_event_1_1> .
+
+<https://w3id.org/ontokg-eq/psx#window_4_event_1_1_event_1_1_finding_R4_contract_witness_2> contract:volume <https://w3id.org/ontokg-eq/psx#derived_event_vol_4_event_1_1> .
+
+<https://w3id.org/ontokg-eq/psx#window_4_event_3_3_event_3_3_finding_R4_contract_witness_1> contract:event_return <https://w3id.org/ontokg-eq/psx#derived_event_ar_4_event_3_3> .
+

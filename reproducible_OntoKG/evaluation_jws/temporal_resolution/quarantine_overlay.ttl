@@ -1,0 +1,202 @@
+@prefix temporalresolution: <https://w3id.org/ontokg-eq/temporal-resolution-v1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_financial_v2/11> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_financial_v2/13> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_financial_v2/15> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_temporal_mismatch" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_financial_v2/18> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_financial_v2/19> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_financial_v2/3> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_financial_v2/4> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_financial_v2/6> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_financial_v2/7> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/105> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/109> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/117> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/128> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/13> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/133> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/136> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/138> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/141> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/148> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/153> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/156> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/161> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/17> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/172> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/177> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/181> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/185> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/188> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/204> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/208> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/212> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/221> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/225> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/229> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/236> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/24> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/240> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/253> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/28> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/37> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/38> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/49> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/56> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/60> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/65> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/73> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/76> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/80> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/84> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/88> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_idx_scaled_financial_v2/92> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "quarantined_non_report_analysis_window" ;
+    temporalresolution:quarantinedForReportEventUse true .
+
+<https://w3id.org/ontokg-eq/expanded/demo_msx_financial_v2/4> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "declared_alignment_only_not_authenticated" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_msx_financial_v2/9> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "official_annual_report_announcement_date_matched" ;
+    temporalresolution:officialDateEvidenceStatus "official_annual_report_announcement_date_matched" ;
+    temporalresolution:officialDateSource <https://maybank.listedcompany.com/news.html/id/2605866> .
+
+<https://w3id.org/ontokg-eq/expanded/demo_psx_financial_v2/1> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_psx_financial_v2/15> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_psx_financial_v2/2> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+
+<https://w3id.org/ontokg-eq/expanded/demo_psx_financial_v2/4> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "official_financial_results_document_date_matched" ;
+    temporalresolution:officialDateEvidenceStatus "official_financial_results_document_date_matched" ;
+    temporalresolution:officialDateSource <https://dps.psx.com.pk/download/document/269389.pdf> .
+
+<https://w3id.org/ontokg-eq/expanded/demo_psx_financial_v2/9> temporalresolution:authenticatedReportEvent false ;
+    temporalresolution:decision "not_a_report_event_claim" .
+

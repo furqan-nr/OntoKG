@@ -1,0 +1,72 @@
+SELECT ?cr ?company ?companyReturn ?w ?sector ?sr ?sectorReturn ?br ?bm ?benchmarkReturn 
+WHERE { 
+	?fprov13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?cr . 
+	?fprov13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/ontokg-eq#isObservationOf> . 
+	?fprov13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> ?company . 
+	?fprov14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?cr . 
+	?fprov14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/ontokg-eq#hasMetricName> . 
+	?fprov14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> "post-report window return %" . 
+	?fprov12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?cr . 
+	?fprov12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/ontokg-eq#hasMetricValue> . 
+	?fprov12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> ?companyReturn . 
+	?fprov11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?cr . 
+	?fprov11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/ontokg-eq#observedOverWindow> . 
+	?fprov15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?fprov11 . 
+	?fprov15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> . 
+	?fprov15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> ?w . 
+	?fprov10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?company . 
+	?fprov10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> . 
+	?fprov16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?fprov10 . 
+	?fprov16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> . 
+	?fprov16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://w3id.org/ontokg-eq#Company> . 
+	?fprov9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?company . 
+	?fprov9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/ontokg-eq#isClassifiedByIndustrySector> . 
+	?fprov17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?fprov9 . 
+	?fprov17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> . 
+	?fprov17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> ?sector . 
+	?fprov8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?sr . 
+	?fprov8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/ontokg-eq#isObservationOf> . 
+	?fprov18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?fprov8 . 
+	?fprov18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> . 
+	?fprov18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> ?sector . 
+	?fprov7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?sr . 
+	?fprov7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/ontokg-eq#hasMetricName> . 
+	?fprov19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?fprov7 . 
+	?fprov19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> . 
+	?fprov19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> "sector window return %" . 
+	?fprov6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?sr . 
+	?fprov6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/ontokg-eq#hasMetricValue> . 
+	?fprov20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?fprov6 . 
+	?fprov20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> . 
+	?fprov20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> ?sectorReturn . 
+	?fprov5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?sr . 
+	?fprov5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/ontokg-eq#observedOverWindow> . 
+	?fprov21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?fprov5 . 
+	?fprov21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> . 
+	?fprov21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> ?w . 
+	?fprov4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?br . 
+	?fprov4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/ontokg-eq#isObservationOf> . 
+	?fprov22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?fprov4 . 
+	?fprov22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> . 
+	?fprov22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> ?bm . 
+	?fprov3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?br . 
+	?fprov3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/ontokg-eq#hasMetricName> . 
+	?fprov23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?fprov3 . 
+	?fprov23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> . 
+	?fprov23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> "benchmark window return %" . 
+	?fprov2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?br . 
+	?fprov2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/ontokg-eq#hasMetricValue> . 
+	?fprov24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?fprov2 . 
+	?fprov24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> . 
+	?fprov24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> ?benchmarkReturn . 
+	?fprov1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?br . 
+	?fprov1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <https://w3id.org/ontokg-eq#observedOverWindow> . 
+	?fprov25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?fprov1 . 
+	?fprov25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> . 
+	?fprov25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> ?w . 
+	?fprov0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?bm . 
+	?fprov0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> . 
+	?fprov26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> ?fprov0 . 
+	?fprov26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> . 
+	?fprov26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <https://w3id.org/ontokg-eq#MarketIndex> . 
+ FILTER (?companyReturn > ?sectorReturn && ?companyReturn > ?benchmarkReturn)  }

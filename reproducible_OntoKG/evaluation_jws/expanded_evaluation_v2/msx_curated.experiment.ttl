@@ -1,0 +1,3264 @@
+@prefix ns1: <https://w3id.org/ontokg-eq#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:concernsEntity a owl:ObjectProperty ;
+    rdfs:label "concerns entity"@en ;
+    rdfs:comment "The result entity (company) the finding is about."@en ;
+    rdfs:domain ns1:AnalyticalFinding ;
+    rdfs:range owl:Thing .
+
+ns1:derivedByRule a owl:DatatypeProperty ;
+    rdfs:label "derived by rule"@en ;
+    rdfs:comment "Identifier of the inference rule that produced the finding (provenance of the derivation)."@en ;
+    rdfs:domain ns1:AnalyticalFinding ;
+    rdfs:range xsd:string .
+
+ns1:forCompetencyQuestion a owl:DatatypeProperty ;
+    rdfs:label "for competency question"@en ;
+    rdfs:comment "The CQ family the finding answers (CQ1-CQ4)."@en ;
+    rdfs:domain ns1:AnalyticalFinding ;
+    rdfs:range xsd:string .
+
+ns1:hasFindingType a owl:DatatypeProperty ;
+    rdfs:label "has finding type"@en ;
+    rdfs:comment "The derived classification label, e.g. relative-outperformer, fundamentals-market-divergence, abnormal-event-reaction, fx-sensitive."@en ;
+    rdfs:domain ns1:AnalyticalFinding ;
+    rdfs:range xsd:string .
+
+ns1:supportedByObservation a owl:ObjectProperty ;
+    rdfs:label "supported by observation"@en ;
+    rdfs:comment "The observation(s) whose metric values triggered the rule, giving the finding its evidence trail."@en ;
+    rdfs:domain ns1:AnalyticalFinding ;
+    rdfs:range ns1:Observation .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/0> a ns1:AnalyticalFinding ;
+    ns1:concernsEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:derivedByRule "R1" ;
+    ns1:supportedByObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_CIMB>,
+        <https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_CIMB>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_CIMB> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/0_bundle> a ns1:EvidenceBundle ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_CIMB>,
+        <https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_CIMB>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_CIMB> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/1> a ns1:AnalyticalFinding ;
+    ns1:concernsEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:derivedByRule "R3" ;
+    ns1:supportedByObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_CIMB>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_CIMB>,
+        <https://w3id.org/ontokg-eq/msx#derived_sector_return_MY_CO_CIMB> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/10> a ns1:AnalyticalFinding ;
+    ns1:concernsEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:derivedByRule "R3" ;
+    ns1:supportedByObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAYBANK>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAYBANK>,
+        <https://w3id.org/ontokg-eq/msx#derived_sector_return_MY_CO_MAYBANK> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/10_bundle> a ns1:EvidenceBundle ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAYBANK>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAYBANK>,
+        <https://w3id.org/ontokg-eq/msx#derived_sector_return_MY_CO_MAYBANK> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/11> a ns1:AnalyticalFinding ;
+    ns1:concernsEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:derivedByRule "R2" ;
+    ns1:supportedByObservation <https://w3id.org/ontokg-eq/msx#derived_fx_corr_company_MY_CO_MAYBANK> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/11_bundle> a ns1:EvidenceBundle ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_fx_corr_company_MY_CO_MAYBANK> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/13> a ns1:AnalyticalFinding ;
+    ns1:concernsEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:derivedByRule "R1" ;
+    ns1:supportedByObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_TM>,
+        <https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_TM>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_TM> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/13_bundle> a ns1:EvidenceBundle ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_TM>,
+        <https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_TM>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_TM> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/14> a ns1:AnalyticalFinding ;
+    ns1:concernsEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:derivedByRule "R3" ;
+    ns1:supportedByObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_TM>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_TM>,
+        <https://w3id.org/ontokg-eq/msx#derived_sector_return_MY_CO_TM> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/14_bundle> a ns1:EvidenceBundle ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_TM>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_TM>,
+        <https://w3id.org/ontokg-eq/msx#derived_sector_return_MY_CO_TM> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/15> a ns1:AnalyticalFinding ;
+    ns1:concernsEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:derivedByRule "R2" ;
+    ns1:supportedByObservation <https://w3id.org/ontokg-eq/msx#derived_fx_corr_company_MY_CO_TM> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/15_bundle> a ns1:EvidenceBundle ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_fx_corr_company_MY_CO_TM> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/1_bundle> a ns1:EvidenceBundle ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_CIMB>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_CIMB>,
+        <https://w3id.org/ontokg-eq/msx#derived_sector_return_MY_CO_CIMB> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/2> a ns1:AnalyticalFinding ;
+    ns1:concernsEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:derivedByRule "R2" ;
+    ns1:supportedByObservation <https://w3id.org/ontokg-eq/msx#derived_fx_corr_company_MY_CO_CIMB> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/2_bundle> a ns1:EvidenceBundle ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_fx_corr_company_MY_CO_CIMB> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/4> a ns1:AnalyticalFinding ;
+    ns1:concernsEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:derivedByRule "R1" ;
+    ns1:supportedByObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAXIS>,
+        <https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAXIS>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAXIS> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/4_bundle> a ns1:EvidenceBundle ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAXIS>,
+        <https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAXIS>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAXIS> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/5> a ns1:AnalyticalFinding ;
+    ns1:concernsEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:derivedByRule "R3" ;
+    ns1:supportedByObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAXIS>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAXIS>,
+        <https://w3id.org/ontokg-eq/msx#derived_sector_return_MY_CO_MAXIS> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/5_bundle> a ns1:EvidenceBundle ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAXIS>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAXIS>,
+        <https://w3id.org/ontokg-eq/msx#derived_sector_return_MY_CO_MAXIS> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/6> a ns1:AnalyticalFinding ;
+    ns1:concernsEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:derivedByRule "R2" ;
+    ns1:supportedByObservation <https://w3id.org/ontokg-eq/msx#derived_fx_corr_company_MY_CO_MAXIS> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/6_bundle> a ns1:EvidenceBundle ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_fx_corr_company_MY_CO_MAXIS> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/7> a ns1:AnalyticalFinding ;
+    ns1:concernsEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:derivedByRule "R4" ;
+    ns1:observedInEventWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m1_p1_event_window_1_1> ;
+    ns1:supportedByObservation <https://w3id.org/ontokg-eq/msx#derived_event_ar_MY_CO_MAXIS_event_window_1_1>,
+        <https://w3id.org/ontokg-eq/msx#derived_event_vol_MY_CO_MAXIS_event_window_1_1> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/7_bundle> a ns1:EvidenceBundle ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_event_ar_MY_CO_MAXIS_event_window_1_1>,
+        <https://w3id.org/ontokg-eq/msx#derived_event_vol_MY_CO_MAXIS_event_window_1_1> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/8> a ns1:AnalyticalFinding ;
+    ns1:concernsEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:derivedByRule "R4" ;
+    ns1:observedInEventWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3> ;
+    ns1:supportedByObservation <https://w3id.org/ontokg-eq/msx#derived_event_ar_MY_CO_MAXIS_event_window_3_3>,
+        <https://w3id.org/ontokg-eq/msx#derived_event_vol_MY_CO_MAXIS_event_window_3_3> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/8_bundle> a ns1:EvidenceBundle ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_event_ar_MY_CO_MAXIS_event_window_3_3>,
+        <https://w3id.org/ontokg-eq/msx#derived_event_vol_MY_CO_MAXIS_event_window_3_3> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/9> a ns1:AnalyticalFinding ;
+    ns1:concernsEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:derivedByRule "R1" ;
+    ns1:supportedByObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAYBANK>,
+        <https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAYBANK>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAYBANK> .
+
+<https://w3id.org/ontokg-eq/expanded/msx_curated/9_bundle> a ns1:EvidenceBundle ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAYBANK>,
+        <https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAYBANK>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAYBANK> .
+
+<https://w3id.org/ontokg-eq/msx> a owl:Ontology ;
+    rdfs:label "OntoKG-EQ MSX (Bursa Malaysia) Instances"@en ;
+    owl:imports <https://w3id.org/ontokg-eq/alignment>,
+        <https://w3id.org/ontokg-eq/core> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_001> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1695.21 ;
+    ns1:hasObservationDate "2026-03-27"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_002> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1683.1014 ;
+    ns1:hasObservationDate "2026-03-30"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_003> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1687.0391 ;
+    ns1:hasObservationDate "2026-03-31"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_004> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1695.977 ;
+    ns1:hasObservationDate "2026-04-01"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_005> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1689.3779 ;
+    ns1:hasObservationDate "2026-04-02"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_006> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1682.9103 ;
+    ns1:hasObservationDate "2026-04-03"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_007> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1679.6353 ;
+    ns1:hasObservationDate "2026-04-06"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_008> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1677.0939 ;
+    ns1:hasObservationDate "2026-04-07"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_009> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1686.0891 ;
+    ns1:hasObservationDate "2026-04-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_010> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1680.0435 ;
+    ns1:hasObservationDate "2026-04-09"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_011> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1682.0167 ;
+    ns1:hasObservationDate "2026-04-10"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_012> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1674.9908 ;
+    ns1:hasObservationDate "2026-04-13"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_013> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1680.6681 ;
+    ns1:hasObservationDate "2026-04-14"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_014> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1679.6574 ;
+    ns1:hasObservationDate "2026-04-15"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_015> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1678.2577 ;
+    ns1:hasObservationDate "2026-04-16"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_016> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1679.5796 ;
+    ns1:hasObservationDate "2026-04-17"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_017> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1682.9369 ;
+    ns1:hasObservationDate "2026-04-20"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_018> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1687.0928 ;
+    ns1:hasObservationDate "2026-04-21"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_019> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1682.1752 ;
+    ns1:hasObservationDate "2026-04-22"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_020> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1682.8823 ;
+    ns1:hasObservationDate "2026-04-23"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_021> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1682.7386 ;
+    ns1:hasObservationDate "2026-04-24"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_022> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1687.8618 ;
+    ns1:hasObservationDate "2026-04-27"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_023> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1692.5076 ;
+    ns1:hasObservationDate "2026-04-28"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_024> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1687.425 ;
+    ns1:hasObservationDate "2026-04-29"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_025> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1685.5658 ;
+    ns1:hasObservationDate "2026-04-30"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_026> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1692.4276 ;
+    ns1:hasObservationDate "2026-05-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_027> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1697.6604 ;
+    ns1:hasObservationDate "2026-05-05"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_028> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1698.6598 ;
+    ns1:hasObservationDate "2026-05-06"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_029> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1700.2209 ;
+    ns1:hasObservationDate "2026-05-07"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_030> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1695.4361 ;
+    ns1:hasObservationDate "2026-05-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_031> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1695.8529 ;
+    ns1:hasObservationDate "2026-05-11"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_032> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1698.097 ;
+    ns1:hasObservationDate "2026-05-12"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_033> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1693.5894 ;
+    ns1:hasObservationDate "2026-05-13"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_034> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1695.6864 ;
+    ns1:hasObservationDate "2026-05-14"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_035> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1695.4731 ;
+    ns1:hasObservationDate "2026-05-15"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_036> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1694.3532 ;
+    ns1:hasObservationDate "2026-05-18"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_037> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1691.1692 ;
+    ns1:hasObservationDate "2026-05-19"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_038> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1685.6532 ;
+    ns1:hasObservationDate "2026-05-20"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_039> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1683.6995 ;
+    ns1:hasObservationDate "2026-05-21"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_040> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1685.6611 ;
+    ns1:hasObservationDate "2026-05-22"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_041> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1684.4605 ;
+    ns1:hasObservationDate "2026-05-25"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_042> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1680.0308 ;
+    ns1:hasObservationDate "2026-05-26"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_043> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1682.344 ;
+    ns1:hasObservationDate "2026-05-28"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_044> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1696.5008 ;
+    ns1:hasObservationDate "2026-05-29"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_045> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1680.7873 ;
+    ns1:hasObservationDate "2026-06-03"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FBMKLCI_PROXY_046> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 1676.2872 ;
+    ns1:hasObservationDate "2026-06-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_001> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 7.7 ;
+    ns1:hasObservationDate "2026-03-27"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_002> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 7.48 ;
+    ns1:hasObservationDate "2026-03-30"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_003> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 7.55 ;
+    ns1:hasObservationDate "2026-03-31"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_004> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 7.71 ;
+    ns1:hasObservationDate "2026-04-01"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_005> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.525 ;
+    ns1:hasObservationDate "2026-04-02"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_006> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.375 ;
+    ns1:hasObservationDate "2026-04-03"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_007> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.31 ;
+    ns1:hasObservationDate "2026-04-06"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_008> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.255 ;
+    ns1:hasObservationDate "2026-04-07"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_009> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.44 ;
+    ns1:hasObservationDate "2026-04-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_010> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.305 ;
+    ns1:hasObservationDate "2026-04-09"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_011> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.34 ;
+    ns1:hasObservationDate "2026-04-10"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_012> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.185 ;
+    ns1:hasObservationDate "2026-04-13"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_013> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.295 ;
+    ns1:hasObservationDate "2026-04-14"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_014> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.28 ;
+    ns1:hasObservationDate "2026-04-15"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_015> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.255 ;
+    ns1:hasObservationDate "2026-04-16"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_016> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.285 ;
+    ns1:hasObservationDate "2026-04-17"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_017> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.465 ;
+    ns1:hasObservationDate "2026-04-20"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_018> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.58 ;
+    ns1:hasObservationDate "2026-04-21"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_019> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.48 ;
+    ns1:hasObservationDate "2026-04-22"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_020> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.5 ;
+    ns1:hasObservationDate "2026-04-23"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_021> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.48 ;
+    ns1:hasObservationDate "2026-04-24"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_022> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.375 ;
+    ns1:hasObservationDate "2026-04-27"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_023> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.5 ;
+    ns1:hasObservationDate "2026-04-28"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_024> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.365 ;
+    ns1:hasObservationDate "2026-04-29"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_025> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.37 ;
+    ns1:hasObservationDate "2026-04-30"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_026> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.485 ;
+    ns1:hasObservationDate "2026-05-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_027> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.545 ;
+    ns1:hasObservationDate "2026-05-05"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_028> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.575 ;
+    ns1:hasObservationDate "2026-05-06"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_029> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.65 ;
+    ns1:hasObservationDate "2026-05-07"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_030> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 9.555 ;
+    ns1:hasObservationDate "2026-05-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_031> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 11.18 ;
+    ns1:hasObservationDate "2026-05-11"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_032> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 11.24 ;
+    ns1:hasObservationDate "2026-05-12"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_033> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 11.18 ;
+    ns1:hasObservationDate "2026-05-13"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_FINANCIAL_SERVICES_034> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 11.18 ;
+    ns1:hasObservationDate "2026-05-14"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_001> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 3.65 ;
+    ns1:hasObservationDate "2026-04-17"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_002> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.3 ;
+    ns1:hasObservationDate "2026-04-20"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_003> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.34 ;
+    ns1:hasObservationDate "2026-04-21"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_004> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.27 ;
+    ns1:hasObservationDate "2026-04-22"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_005> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.295 ;
+    ns1:hasObservationDate "2026-04-23"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_006> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.3 ;
+    ns1:hasObservationDate "2026-04-24"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_007> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.55 ;
+    ns1:hasObservationDate "2026-04-27"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_008> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.6 ;
+    ns1:hasObservationDate "2026-04-28"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_009> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.545 ;
+    ns1:hasObservationDate "2026-04-29"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_010> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.485 ;
+    ns1:hasObservationDate "2026-04-30"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_011> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.595 ;
+    ns1:hasObservationDate "2026-05-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_012> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.7 ;
+    ns1:hasObservationDate "2026-05-05"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_013> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.675 ;
+    ns1:hasObservationDate "2026-05-06"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_014> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.67 ;
+    ns1:hasObservationDate "2026-05-07"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_015> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.61 ;
+    ns1:hasObservationDate "2026-05-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_016> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.61 ;
+    ns1:hasObservationDate "2026-05-11"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_017> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.65 ;
+    ns1:hasObservationDate "2026-05-12"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_018> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.565 ;
+    ns1:hasObservationDate "2026-05-13"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_019> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.61 ;
+    ns1:hasObservationDate "2026-05-14"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_020> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.595 ;
+    ns1:hasObservationDate "2026-05-15"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_021> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.575 ;
+    ns1:hasObservationDate "2026-05-18"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_022> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.54 ;
+    ns1:hasObservationDate "2026-05-19"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_023> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.475 ;
+    ns1:hasObservationDate "2026-05-20"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_024> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.435 ;
+    ns1:hasObservationDate "2026-05-21"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_025> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.48 ;
+    ns1:hasObservationDate "2026-05-22"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_026> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.47 ;
+    ns1:hasObservationDate "2026-05-25"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_027> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.42 ;
+    ns1:hasObservationDate "2026-05-26"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_028> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.455 ;
+    ns1:hasObservationDate "2026-05-28"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_029> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.555 ;
+    ns1:hasObservationDate "2026-05-29"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_030> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 5.435 ;
+    ns1:hasObservationDate "2026-06-03"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#comp_MY_COMP_TELECOMMUNICATIONS_AND_MEDIA_031> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "comparator value" ;
+    ns1:hasMetricValue 7.39 ;
+    ns1:hasObservationDate "2026-06-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> .
+
+<https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS_finding_R1> a ns1:AnalyticalFinding ;
+    ns1:concernsEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:derivedByRule "R1" ;
+    ns1:forCompetencyQuestion "CQ1" ;
+    ns1:hasFindingType "fundamentals-market-divergence" ;
+    ns1:supportedByObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAXIS>,
+        <https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAXIS>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAXIS> .
+
+<https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS_finding_R1_qe> a ns1:QueryExecution ;
+    ns1:hasEvidenceBundle <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS_finding_R1_bundle> ;
+    ns1:hasParameterValues "auto-generated explanation for finding company_MY_CO_MAXIS_finding_R1" ;
+    ns1:hasQueryFamilyIdentifier "CQ1" ;
+    ns1:hasQueryInstanceIdentifier "CQ1-GEN-1" .
+
+<https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK_finding_R1> a ns1:AnalyticalFinding ;
+    ns1:concernsEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:derivedByRule "R1" ;
+    ns1:forCompetencyQuestion "CQ1" ;
+    ns1:hasFindingType "fundamentals-market-divergence" ;
+    ns1:supportedByObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAYBANK>,
+        <https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAYBANK>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAYBANK> .
+
+<https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK_finding_R1_qe> a ns1:QueryExecution ;
+    ns1:hasEvidenceBundle <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK_finding_R1_bundle> ;
+    ns1:hasParameterValues "auto-generated explanation for finding company_MY_CO_MAYBANK_finding_R1" ;
+    ns1:hasQueryFamilyIdentifier "CQ1" ;
+    ns1:hasQueryInstanceIdentifier "CQ1-GEN-2" .
+
+<https://w3id.org/ontokg-eq/msx#fund_MY_FUND_CIMB_FY2024> a ns1:FundamentalObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "EPS" ;
+    ns1:hasMetricValue 0.72 ;
+    ns1:hasObservationDate "2025-03-27"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedInPeriod <https://w3id.org/ontokg-eq/msx#period_MY_FUND_CIMB_FY2024> .
+
+<https://w3id.org/ontokg-eq/msx#fund_MY_FUND_CIMB_FY2025> a ns1:FundamentalObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "EPS" ;
+    ns1:hasMetricValue 0.731 ;
+    ns1:hasObservationDate "2026-03-26"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedInPeriod <https://w3id.org/ontokg-eq/msx#period_MY_FUND_CIMB_FY2025> .
+
+<https://w3id.org/ontokg-eq/msx#fund_MY_FUND_MAXIS_FY2024> a ns1:FundamentalObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "EPS" ;
+    ns1:hasMetricValue 0.178 ;
+    ns1:hasObservationDate "2025-04-16"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedInPeriod <https://w3id.org/ontokg-eq/msx#period_MY_FUND_MAXIS_FY2024> .
+
+<https://w3id.org/ontokg-eq/msx#fund_MY_FUND_MAXIS_FY2025> a ns1:FundamentalObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "EPS" ;
+    ns1:hasMetricValue 0.199 ;
+    ns1:hasObservationDate "2026-04-16"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedInPeriod <https://w3id.org/ontokg-eq/msx#period_MY_FUND_MAXIS_FY2025> .
+
+<https://w3id.org/ontokg-eq/msx#fund_MY_FUND_MAYBANK_FY2024> a ns1:FundamentalObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "EPS" ;
+    ns1:hasMetricValue 0.84 ;
+    ns1:hasObservationDate "2025-04-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedInPeriod <https://w3id.org/ontokg-eq/msx#period_MY_FUND_MAYBANK_FY2024> .
+
+<https://w3id.org/ontokg-eq/msx#fund_MY_FUND_MAYBANK_FY2025> a ns1:FundamentalObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "EPS" ;
+    ns1:hasMetricValue 0.87 ;
+    ns1:hasObservationDate "2026-04-01"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedInPeriod <https://w3id.org/ontokg-eq/msx#period_MY_FUND_MAYBANK_FY2025> .
+
+<https://w3id.org/ontokg-eq/msx#fund_MY_FUND_TM_FY2024> a ns1:FundamentalObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "EPS" ;
+    ns1:hasMetricValue 0.38 ;
+    ns1:hasObservationDate "2025-04-25"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedInPeriod <https://w3id.org/ontokg-eq/msx#period_MY_FUND_TM_FY2024> .
+
+<https://w3id.org/ontokg-eq/msx#fund_MY_FUND_TM_FY2025> a ns1:FundamentalObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "EPS" ;
+    ns1:hasMetricValue 0.44 ;
+    ns1:hasObservationDate "2026-04-17"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedInPeriod <https://w3id.org/ontokg-eq/msx#period_MY_FUND_TM_FY2025> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_001> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.023 ;
+    ns1:hasObservationDate "2026-03-27"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_002> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0269 ;
+    ns1:hasObservationDate "2026-03-30"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_003> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0304 ;
+    ns1:hasObservationDate "2026-03-31"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_004> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0335 ;
+    ns1:hasObservationDate "2026-04-01"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_005> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0359 ;
+    ns1:hasObservationDate "2026-04-02"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_006> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0376 ;
+    ns1:hasObservationDate "2026-04-03"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_007> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0385 ;
+    ns1:hasObservationDate "2026-04-06"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_008> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0388 ;
+    ns1:hasObservationDate "2026-04-07"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_009> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0383 ;
+    ns1:hasObservationDate "2026-04-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_010> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0373 ;
+    ns1:hasObservationDate "2026-04-09"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_011> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0358 ;
+    ns1:hasObservationDate "2026-04-10"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_012> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.034 ;
+    ns1:hasObservationDate "2026-04-13"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_013> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0321 ;
+    ns1:hasObservationDate "2026-04-14"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_014> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0304 ;
+    ns1:hasObservationDate "2026-04-15"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_015> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0288 ;
+    ns1:hasObservationDate "2026-04-16"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_016> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0277 ;
+    ns1:hasObservationDate "2026-04-17"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_017> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0272 ;
+    ns1:hasObservationDate "2026-04-20"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_018> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0273 ;
+    ns1:hasObservationDate "2026-04-21"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_019> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0282 ;
+    ns1:hasObservationDate "2026-04-22"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_020> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0298 ;
+    ns1:hasObservationDate "2026-04-23"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_021> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0321 ;
+    ns1:hasObservationDate "2026-04-24"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_022> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0351 ;
+    ns1:hasObservationDate "2026-04-27"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_023> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0385 ;
+    ns1:hasObservationDate "2026-04-28"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_024> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0424 ;
+    ns1:hasObservationDate "2026-04-29"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_025> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0465 ;
+    ns1:hasObservationDate "2026-04-30"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_026> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0506 ;
+    ns1:hasObservationDate "2026-05-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_027> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0545 ;
+    ns1:hasObservationDate "2026-05-05"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_028> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0581 ;
+    ns1:hasObservationDate "2026-05-06"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_029> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0612 ;
+    ns1:hasObservationDate "2026-05-07"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_030> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0637 ;
+    ns1:hasObservationDate "2026-05-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_031> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0655 ;
+    ns1:hasObservationDate "2026-05-11"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_032> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0666 ;
+    ns1:hasObservationDate "2026-05-12"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_033> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0669 ;
+    ns1:hasObservationDate "2026-05-13"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_034> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0665 ;
+    ns1:hasObservationDate "2026-05-14"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_035> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0656 ;
+    ns1:hasObservationDate "2026-05-15"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_036> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0641 ;
+    ns1:hasObservationDate "2026-05-18"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_037> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0624 ;
+    ns1:hasObservationDate "2026-05-19"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_038> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0605 ;
+    ns1:hasObservationDate "2026-05-20"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_039> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0587 ;
+    ns1:hasObservationDate "2026-05-21"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_040> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0572 ;
+    ns1:hasObservationDate "2026-05-22"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_041> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.056 ;
+    ns1:hasObservationDate "2026-05-25"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_042> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0554 ;
+    ns1:hasObservationDate "2026-05-26"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_043> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0554 ;
+    ns1:hasObservationDate "2026-05-28"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_044> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0562 ;
+    ns1:hasObservationDate "2026-05-29"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_045> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0577 ;
+    ns1:hasObservationDate "2026-06-03"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#fx_MY_FX_USDMYR_046> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "exchange rate" ;
+    ns1:hasMetricValue 4.0599 ;
+    ns1:hasObservationDate "2026-06-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_01> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.7 ;
+    ns1:hasObservationDate "2026-03-27"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_02> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.48 ;
+    ns1:hasObservationDate "2026-03-30"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_03> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.55 ;
+    ns1:hasObservationDate "2026-03-31"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_04> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.71 ;
+    ns1:hasObservationDate "2026-04-01"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_05> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.59 ;
+    ns1:hasObservationDate "2026-04-02"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_06> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.49 ;
+    ns1:hasObservationDate "2026-04-03"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_07> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.4 ;
+    ns1:hasObservationDate "2026-04-06"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_08> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.35 ;
+    ns1:hasObservationDate "2026-04-07"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_09> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.56 ;
+    ns1:hasObservationDate "2026-04-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_10> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.45 ;
+    ns1:hasObservationDate "2026-04-09"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_11> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.52 ;
+    ns1:hasObservationDate "2026-04-10"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_12> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.39 ;
+    ns1:hasObservationDate "2026-04-13"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_13> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.55 ;
+    ns1:hasObservationDate "2026-04-14"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_14> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.5 ;
+    ns1:hasObservationDate "2026-04-15"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_15> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.45 ;
+    ns1:hasObservationDate "2026-04-16"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_16> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.47 ;
+    ns1:hasObservationDate "2026-04-17"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_17> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.59 ;
+    ns1:hasObservationDate "2026-04-20"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_18> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.8 ;
+    ns1:hasObservationDate "2026-04-21"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_19> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.74 ;
+    ns1:hasObservationDate "2026-04-22"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_20> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.78 ;
+    ns1:hasObservationDate "2026-04-23"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_21> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.8 ;
+    ns1:hasObservationDate "2026-04-24"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_22> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.65 ;
+    ns1:hasObservationDate "2026-04-27"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_23> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.78 ;
+    ns1:hasObservationDate "2026-04-28"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_24> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.69 ;
+    ns1:hasObservationDate "2026-04-29"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_25> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.66 ;
+    ns1:hasObservationDate "2026-04-30"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_26> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.69 ;
+    ns1:hasObservationDate "2026-05-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_27> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.89 ;
+    ns1:hasObservationDate "2026-05-05"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_28> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.93 ;
+    ns1:hasObservationDate "2026-05-06"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_29> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 8.04 ;
+    ns1:hasObservationDate "2026-05-07"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_CIMB_POST30_30> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.93 ;
+    ns1:hasObservationDate "2026-05-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_EVENT_M1P1_01> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "abnormal return" ;
+    ns1:hasMetricValue 0.0 ;
+    ns1:hasObservationDate "2026-04-15"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedInEventWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m1_p1_event_window_1_1> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_EVENT_M1P1_02> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "abnormal return" ;
+    ns1:hasMetricValue 0.835655 ;
+    ns1:hasObservationDate "2026-04-16"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedInEventWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m1_p1_event_window_1_1> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_EVENT_M1P1_03> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "abnormal return" ;
+    ns1:hasMetricValue 0.828729 ;
+    ns1:hasObservationDate "2026-04-17"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedInEventWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m1_p1_event_window_1_1> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_EVENT_M3P3_01> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "abnormal return" ;
+    ns1:hasMetricValue 0.0 ;
+    ns1:hasObservationDate "2026-04-13"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedInEventWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_EVENT_M3P3_02> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "abnormal return" ;
+    ns1:hasMetricValue 0.568182 ;
+    ns1:hasObservationDate "2026-04-14"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedInEventWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_EVENT_M3P3_03> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "abnormal return" ;
+    ns1:hasMetricValue 1.412429 ;
+    ns1:hasObservationDate "2026-04-15"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedInEventWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_EVENT_M3P3_04> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "abnormal return" ;
+    ns1:hasMetricValue 0.835655 ;
+    ns1:hasObservationDate "2026-04-16"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedInEventWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_EVENT_M3P3_05> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "abnormal return" ;
+    ns1:hasMetricValue 0.828729 ;
+    ns1:hasObservationDate "2026-04-17"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedInEventWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_EVENT_M3P3_06> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "abnormal return" ;
+    ns1:hasMetricValue -1.369863 ;
+    ns1:hasObservationDate "2026-04-20"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedInEventWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_EVENT_M3P3_07> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "abnormal return" ;
+    ns1:hasMetricValue -0.277778 ;
+    ns1:hasObservationDate "2026-04-21"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedInEventWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_01> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.65 ;
+    ns1:hasObservationDate "2026-04-17"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_02> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.6 ;
+    ns1:hasObservationDate "2026-04-20"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_03> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.59 ;
+    ns1:hasObservationDate "2026-04-21"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_04> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.54 ;
+    ns1:hasObservationDate "2026-04-22"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_05> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.5 ;
+    ns1:hasObservationDate "2026-04-23"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_06> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.5 ;
+    ns1:hasObservationDate "2026-04-24"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_07> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.52 ;
+    ns1:hasObservationDate "2026-04-27"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_08> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.54 ;
+    ns1:hasObservationDate "2026-04-28"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_09> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.5 ;
+    ns1:hasObservationDate "2026-04-29"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_10> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.49 ;
+    ns1:hasObservationDate "2026-04-30"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_11> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.58 ;
+    ns1:hasObservationDate "2026-05-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_12> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.6 ;
+    ns1:hasObservationDate "2026-05-05"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_13> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.66 ;
+    ns1:hasObservationDate "2026-05-06"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_14> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.65 ;
+    ns1:hasObservationDate "2026-05-07"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_15> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.59 ;
+    ns1:hasObservationDate "2026-05-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_16> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.61 ;
+    ns1:hasObservationDate "2026-05-11"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_17> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.61 ;
+    ns1:hasObservationDate "2026-05-12"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_18> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.58 ;
+    ns1:hasObservationDate "2026-05-13"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_19> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.6 ;
+    ns1:hasObservationDate "2026-05-14"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_20> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.62 ;
+    ns1:hasObservationDate "2026-05-15"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_21> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.62 ;
+    ns1:hasObservationDate "2026-05-18"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_22> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.58 ;
+    ns1:hasObservationDate "2026-05-19"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_23> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.52 ;
+    ns1:hasObservationDate "2026-05-20"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_24> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.53 ;
+    ns1:hasObservationDate "2026-05-21"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_25> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.51 ;
+    ns1:hasObservationDate "2026-05-22"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_26> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.49 ;
+    ns1:hasObservationDate "2026-05-25"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_27> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.44 ;
+    ns1:hasObservationDate "2026-05-26"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_28> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.45 ;
+    ns1:hasObservationDate "2026-05-28"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_29> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.71 ;
+    ns1:hasObservationDate "2026-05-29"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAXIS_POST30_30> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 3.4 ;
+    ns1:hasObservationDate "2026-06-03"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_01> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.46 ;
+    ns1:hasObservationDate "2026-04-02"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_02> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.26 ;
+    ns1:hasObservationDate "2026-04-03"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_03> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.22 ;
+    ns1:hasObservationDate "2026-04-06"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_04> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.16 ;
+    ns1:hasObservationDate "2026-04-07"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_05> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.32 ;
+    ns1:hasObservationDate "2026-04-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_06> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.16 ;
+    ns1:hasObservationDate "2026-04-09"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_07> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.16 ;
+    ns1:hasObservationDate "2026-04-10"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_08> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 10.98 ;
+    ns1:hasObservationDate "2026-04-13"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_09> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.04 ;
+    ns1:hasObservationDate "2026-04-14"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_10> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.06 ;
+    ns1:hasObservationDate "2026-04-15"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_11> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.06 ;
+    ns1:hasObservationDate "2026-04-16"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_12> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.1 ;
+    ns1:hasObservationDate "2026-04-17"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_13> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.34 ;
+    ns1:hasObservationDate "2026-04-20"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_14> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.36 ;
+    ns1:hasObservationDate "2026-04-21"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_15> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.22 ;
+    ns1:hasObservationDate "2026-04-22"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_16> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.22 ;
+    ns1:hasObservationDate "2026-04-23"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_17> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.16 ;
+    ns1:hasObservationDate "2026-04-24"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_18> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.1 ;
+    ns1:hasObservationDate "2026-04-27"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_19> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.22 ;
+    ns1:hasObservationDate "2026-04-28"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_20> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.04 ;
+    ns1:hasObservationDate "2026-04-29"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_21> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.08 ;
+    ns1:hasObservationDate "2026-04-30"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_22> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.28 ;
+    ns1:hasObservationDate "2026-05-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_23> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.2 ;
+    ns1:hasObservationDate "2026-05-05"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_24> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.22 ;
+    ns1:hasObservationDate "2026-05-06"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_25> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.26 ;
+    ns1:hasObservationDate "2026-05-07"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_26> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.18 ;
+    ns1:hasObservationDate "2026-05-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_27> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.18 ;
+    ns1:hasObservationDate "2026-05-11"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_28> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.24 ;
+    ns1:hasObservationDate "2026-05-12"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_29> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.18 ;
+    ns1:hasObservationDate "2026-05-13"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_MAYBANK_POST30_30> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 11.18 ;
+    ns1:hasObservationDate "2026-05-14"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_01> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.0 ;
+    ns1:hasObservationDate "2026-04-20"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_02> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.09 ;
+    ns1:hasObservationDate "2026-04-21"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_03> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.0 ;
+    ns1:hasObservationDate "2026-04-22"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_04> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.09 ;
+    ns1:hasObservationDate "2026-04-23"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_05> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.1 ;
+    ns1:hasObservationDate "2026-04-24"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_06> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.58 ;
+    ns1:hasObservationDate "2026-04-27"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_07> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.66 ;
+    ns1:hasObservationDate "2026-04-28"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_08> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.59 ;
+    ns1:hasObservationDate "2026-04-29"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_09> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.48 ;
+    ns1:hasObservationDate "2026-04-30"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_10> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.61 ;
+    ns1:hasObservationDate "2026-05-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_11> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.8 ;
+    ns1:hasObservationDate "2026-05-05"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_12> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.69 ;
+    ns1:hasObservationDate "2026-05-06"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_13> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.69 ;
+    ns1:hasObservationDate "2026-05-07"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_14> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.63 ;
+    ns1:hasObservationDate "2026-05-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_15> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.61 ;
+    ns1:hasObservationDate "2026-05-11"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_16> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.69 ;
+    ns1:hasObservationDate "2026-05-12"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_17> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.55 ;
+    ns1:hasObservationDate "2026-05-13"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_18> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.62 ;
+    ns1:hasObservationDate "2026-05-14"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_19> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.57 ;
+    ns1:hasObservationDate "2026-05-15"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_20> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.53 ;
+    ns1:hasObservationDate "2026-05-18"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_21> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.5 ;
+    ns1:hasObservationDate "2026-05-19"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_22> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.43 ;
+    ns1:hasObservationDate "2026-05-20"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_23> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.34 ;
+    ns1:hasObservationDate "2026-05-21"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_24> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.45 ;
+    ns1:hasObservationDate "2026-05-22"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_25> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.45 ;
+    ns1:hasObservationDate "2026-05-25"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_26> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.4 ;
+    ns1:hasObservationDate "2026-05-26"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_27> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.46 ;
+    ns1:hasObservationDate "2026-05-28"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_28> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.4 ;
+    ns1:hasObservationDate "2026-05-29"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_29> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.47 ;
+    ns1:hasObservationDate "2026-06-03"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#mkt_MY_MKT_TM_POST30_30> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "close price" ;
+    ns1:hasMetricValue 7.39 ;
+    ns1:hasObservationDate "2026-06-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#prov_evid_MY_EVID_CIMB_AR2025> a ns1:ProvenanceRecord ;
+    ns1:derivedFrom <https://w3id.org/ontokg-eq/msx#evid_MY_EVID_CIMB_AR2025> ;
+    ns1:hasRetrievalDate "2026-06-11T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/ontokg-eq/msx#prov_evid_MY_EVID_MAXIS_AR2025> a ns1:ProvenanceRecord ;
+    ns1:derivedFrom <https://w3id.org/ontokg-eq/msx#evid_MY_EVID_MAXIS_AR2025> ;
+    ns1:hasRetrievalDate "2026-06-11T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/ontokg-eq/msx#prov_evid_MY_EVID_MAYBANK_AR2025> a ns1:ProvenanceRecord ;
+    ns1:derivedFrom <https://w3id.org/ontokg-eq/msx#evid_MY_EVID_MAYBANK_AR2025> ;
+    ns1:hasRetrievalDate "2026-06-11T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/ontokg-eq/msx#prov_evid_MY_EVID_TM_AR2025> a ns1:ProvenanceRecord ;
+    ns1:derivedFrom <https://w3id.org/ontokg-eq/msx#evid_MY_EVID_TM_AR2025> ;
+    ns1:hasRetrievalDate "2026-06-11T00:00:00"^^xsd:dateTime .
+
+<https://w3id.org/ontokg-eq/msx#query_exec_CQ1_1> a ns1:QueryExecution ;
+    ns1:hasEvidenceBundle <https://w3id.org/ontokg-eq/msx#evidence_bundle_CQ1_1> ;
+    ns1:hasParameterValues "market=msx; resultEntity=MY_CO_MAYBANK; timeContext=FY2024-FY2025; MAYBANK_annual_report_2025_post30" ;
+    ns1:hasQueryFamilyIdentifier "CQ1" ;
+    ns1:hasQueryInstanceIdentifier "CQ1-001" ;
+    ns1:usesMarketIndexBenchmark <https://w3id.org/ontokg-eq/msx#market_index_benchmark> .
+
+<https://w3id.org/ontokg-eq/msx#query_exec_CQ2_1> a ns1:QueryExecution ;
+    ns1:hasEvidenceBundle <https://w3id.org/ontokg-eq/msx#evidence_bundle_CQ2_1> ;
+    ns1:hasParameterValues "market=msx; resultEntity=MY_CO_CIMB; timeContext=CIMB_annual_report_2025_post30; USD/MYR daily context" ;
+    ns1:hasQueryFamilyIdentifier "CQ2" ;
+    ns1:hasQueryInstanceIdentifier "CQ2-001" ;
+    ns1:usesMarketIndexBenchmark <https://w3id.org/ontokg-eq/msx#market_index_benchmark> .
+
+<https://w3id.org/ontokg-eq/msx#query_exec_CQ3_1> a ns1:QueryExecution ;
+    ns1:hasEvidenceBundle <https://w3id.org/ontokg-eq/msx#evidence_bundle_CQ3_1> ;
+    ns1:hasParameterValues "market=msx; resultEntity=MY_CO_TM; timeContext=TM_annual_report_2025_post30; selected telecom peer basket; FBM KLCI proxy context" ;
+    ns1:hasQueryFamilyIdentifier "CQ3" ;
+    ns1:hasQueryInstanceIdentifier "CQ3-001" ;
+    ns1:usesMarketIndexBenchmark <https://w3id.org/ontokg-eq/msx#market_index_benchmark> .
+
+<https://w3id.org/ontokg-eq/msx#query_exec_CQ4_1> a ns1:QueryExecution ;
+    ns1:hasEvidenceBundle <https://w3id.org/ontokg-eq/msx#evidence_bundle_CQ4_1> ;
+    ns1:hasParameterValues "market=msx; resultEntity=MY_CO_MAXIS; timeContext=MAXIS_AR2025_event_m1_p1; MAXIS_AR2025_event_m3_p3" ;
+    ns1:hasQueryFamilyIdentifier "CQ4" ;
+    ns1:hasQueryInstanceIdentifier "CQ4-001" .
+
+<https://w3id.org/ontokg-eq/msx#query_exec_CQ5_1> a ns1:QueryExecution ;
+    ns1:hasEvidenceBundle <https://w3id.org/ontokg-eq/msx#evidence_bundle_CQ5_1> ;
+    ns1:hasParameterValues "market=msx; resultEntity=MY_CO_MAYBANK; timeContext=QueryExecution_Malaysia_CQ1_CASE_01; EvidenceBundle_Malaysia_MAYBANK_CQ1" ;
+    ns1:hasQueryFamilyIdentifier "CQ5" ;
+    ns1:hasQueryInstanceIdentifier "CQ5-001" .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_BNM_USDMYR_REFERENCE> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_BNM_USDMYR_REFERENCE" ;
+    ns1:hasSourceType "central_bank_fx_reference" ;
+    ns1:hasSourceURL "https://www.bnm.gov.my/kuala-lumpur-usd/myr-reference-rate"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_BURSA_KLCI> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_BURSA_KLCI" ;
+    ns1:hasSourceType "benchmark_methodology" ;
+    ns1:hasSourceURL "https://www.bursamalaysia.com/trade/our_products_services/indices/ftse_bursa_malaysia_indices/ftse_bursa_malaysia_klci"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_BURSA_PROFILE_CIMB> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_BURSA_PROFILE_CIMB" ;
+    ns1:hasSourceType "exchange_company_profile" ;
+    ns1:hasSourceURL "https://www.bursamalaysia.com/trade/trading_resources/listing_directory/company-profile?stock_code=1023"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_BURSA_PROFILE_MAXIS> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_BURSA_PROFILE_MAXIS" ;
+    ns1:hasSourceType "exchange_company_profile" ;
+    ns1:hasSourceURL "https://www.bursamalaysia.com/trade/trading_resources/listing_directory/company-profile?stock_code=6012"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_BURSA_PROFILE_MAYBANK> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_BURSA_PROFILE_MAYBANK" ;
+    ns1:hasSourceType "exchange_company_profile" ;
+    ns1:hasSourceURL "https://www.bursamalaysia.com/trade/trading_resources/listing_directory/company-profile?stock_code=1155"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_BURSA_PROFILE_TM> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_BURSA_PROFILE_TM" ;
+    ns1:hasSourceType "exchange_company_profile" ;
+    ns1:hasSourceURL "https://www.bursamalaysia.com/trade/trading_resources/listing_directory/company-profile?stock_code=4863"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_CIMB_RESULTS_FY2025> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_CIMB_RESULTS_FY2025" ;
+    ns1:hasSourceType "financial_results_summary" ;
+    ns1:hasSourceURL "https://www.cimb.com/en/newsroom/2026/cimb-delivers-net-profit-of-rm-7-9-billion-with-roe-at-11-3-percent-strengthens-long-term-value-creation-for-shareholders.html"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_COMP_FINANCIAL_SERVICES> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_COMP_FINANCIAL_SERVICES" ;
+    ns1:hasSourceType "constructed_peer_basket" ;
+    ns1:hasSourceURL "https://stockanalysis.com/quote/klse/MAYBANK/history/ ; https://stockanalysis.com/quote/klse/CIMB/history/"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_COMP_TELECOMMUNICATIONS_AND_MEDIA> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_COMP_TELECOMMUNICATIONS_AND_MEDIA" ;
+    ns1:hasSourceType "constructed_peer_basket" ;
+    ns1:hasSourceURL "https://stockanalysis.com/quote/klse/TM/history/ ; https://stockanalysis.com/quote/klse/MAXIS/history/"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_DATAGOV_MY_EXCHANGE_1200> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_DATAGOV_MY_EXCHANGE_1200" ;
+    ns1:hasSourceType "official_open_data_fx" ;
+    ns1:hasSourceURL "https://data.gov.my/data-catalogue/exchangerates_daily_1200"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_FBMKLCI_BURSA> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_FBMKLCI_BURSA" ;
+    ns1:hasSourceType "benchmark_index_definition" ;
+    ns1:hasSourceURL "https://www.bursamalaysia.com/trade/our_products_services/indices/ftse_bursa_malaysia_indices/ftse_bursa_malaysia_klci"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_LSEG_COUNTRY_CLASSIFICATION> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_LSEG_COUNTRY_CLASSIFICATION" ;
+    ns1:hasSourceType "market_classification" ;
+    ns1:hasSourceURL "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/matrix-of-markets.pdf"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_CIMB> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_MARKET_CIMB" ;
+    ns1:hasSourceType "market_price_history" ;
+    ns1:hasSourceURL "https://stockanalysis.com/quote/klse/CIMB/history/"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAXIS> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_MARKET_MAXIS" ;
+    ns1:hasSourceType "market_price_history" ;
+    ns1:hasSourceURL "https://stockanalysis.com/quote/klse/MAXIS/history/"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_MAYBANK> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_MARKET_MAYBANK" ;
+    ns1:hasSourceType "market_price_history" ;
+    ns1:hasSourceURL "https://stockanalysis.com/quote/klse/MAYBANK/history/"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_MARKET_TM> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_MARKET_TM" ;
+    ns1:hasSourceType "market_price_history" ;
+    ns1:hasSourceURL "https://stockanalysis.com/quote/klse/TM/history/"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_MAXIS_AR2024> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_MAXIS_AR2024" ;
+    ns1:hasSourceType "annual_report_financials" ;
+    ns1:hasSourceURL "https://maxis.listedcompany.com/ar24/"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/rules> a owl:Ontology ;
+    rdfs:label "OntoKG-EQ Inference / Findings Vocabulary"@en ;
+    rdfs:comment "CQ-justified layer for derived analytical findings and their explanation links."@en ;
+    owl:imports <https://w3id.org/ontokg-eq/core> .
+
+<https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS_finding_R1_bundle> a ns1:EvidenceBundle ;
+    ns1:containsEvidenceItem <https://w3id.org/ontokg-eq/msx#evid_MY_EVID_MAXIS_AR2025> ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:hasValidationStatus <https://w3id.org/ontokg-eq/msx#validation_passed> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAXIS>,
+        <https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAXIS>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAXIS> .
+
+<https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK_finding_R1_bundle> a ns1:EvidenceBundle ;
+    ns1:containsEvidenceItem <https://w3id.org/ontokg-eq/msx#evid_MY_EVID_MAYBANK_AR2025> ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:hasValidationStatus <https://w3id.org/ontokg-eq/msx#validation_passed> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAYBANK>,
+        <https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAYBANK>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAYBANK> .
+
+<https://w3id.org/ontokg-eq/msx#derived_fx_change> a ns1:ExchangeRateObservation,
+        ns1:Observation ;
+    ns1:hasBaseCurrency <https://w3id.org/ontokg-eq/msx#currency_USD> ;
+    ns1:hasDealtCurrency <https://w3id.org/ontokg-eq/msx#currency_MYR> ;
+    ns1:hasMetricName "FX window change %" ;
+    ns1:hasMetricValue 0.917226 ;
+    ns1:hasObservationDate "2026-06-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#observed_fx_pair> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_fx_series> .
+
+<https://w3id.org/ontokg-eq/msx#derived_fx_corr_bench> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "FX vs benchmark return correlation" ;
+    ns1:hasMetricValue 0.054705 ;
+    ns1:hasObservationDate "2026-06-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> .
+
+<https://w3id.org/ontokg-eq/msx#evidence_bundle_CQ1_1> a ns1:EvidenceBundle ;
+    ns1:containsEvidenceItem <https://w3id.org/ontokg-eq/msx#evid_MY_EVID_MAYBANK_AR2025> ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:hasValidationStatus <https://w3id.org/ontokg-eq/msx#validation_passed> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAYBANK>,
+        <https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAYBANK>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAYBANK> .
+
+<https://w3id.org/ontokg-eq/msx#evidence_bundle_CQ2_1> a ns1:EvidenceBundle ;
+    ns1:containsEvidenceItem <https://w3id.org/ontokg-eq/msx#evid_MY_EVID_CIMB_AR2025> ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:hasValidationStatus <https://w3id.org/ontokg-eq/msx#validation_passed> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_fx_change>,
+        <https://w3id.org/ontokg-eq/msx#derived_fx_corr_bench>,
+        <https://w3id.org/ontokg-eq/msx#derived_fx_corr_company_MY_CO_CIMB> .
+
+<https://w3id.org/ontokg-eq/msx#evidence_bundle_CQ3_1> a ns1:EvidenceBundle ;
+    ns1:containsEvidenceItem <https://w3id.org/ontokg-eq/msx#evid_MY_EVID_TM_AR2025> ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:hasValidationStatus <https://w3id.org/ontokg-eq/msx#validation_passed> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_TM>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_TM>,
+        <https://w3id.org/ontokg-eq/msx#derived_sector_return_MY_CO_TM> .
+
+<https://w3id.org/ontokg-eq/msx#evidence_bundle_CQ4_1> a ns1:EvidenceBundle ;
+    ns1:containsEvidenceItem <https://w3id.org/ontokg-eq/msx#evid_MY_EVID_MAXIS_AR2025> ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:hasValidationStatus <https://w3id.org/ontokg-eq/msx#validation_passed> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_event_ar_MY_CO_MAXIS_event_window_1_1>,
+        <https://w3id.org/ontokg-eq/msx#derived_event_ar_MY_CO_MAXIS_event_window_3_3>,
+        <https://w3id.org/ontokg-eq/msx#derived_event_vol_MY_CO_MAXIS_event_window_1_1>,
+        <https://w3id.org/ontokg-eq/msx#derived_event_vol_MY_CO_MAXIS_event_window_3_3> .
+
+<https://w3id.org/ontokg-eq/msx#evidence_bundle_CQ5_1> a ns1:EvidenceBundle ;
+    ns1:containsEvidenceItem <https://w3id.org/ontokg-eq/msx#evid_MY_EVID_MAYBANK_AR2025> ;
+    ns1:explainsResultEntity <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:hasValidationStatus <https://w3id.org/ontokg-eq/msx#validation_passed> ;
+    ns1:includesObservation <https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAYBANK>,
+        <https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAYBANK>,
+        <https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAYBANK> .
+
+<https://w3id.org/ontokg-eq/msx#period_MY_FUND_CIMB_FY2024> a ns1:ReportingPeriod ;
+    ns1:hasEndDate "2024-12-31"^^xsd:date ;
+    ns1:hasReportDate "2025-03-27"^^xsd:date ;
+    ns1:hasStartDate "2024-01-01"^^xsd:date .
+
+<https://w3id.org/ontokg-eq/msx#period_MY_FUND_MAXIS_FY2024> a ns1:ReportingPeriod ;
+    ns1:hasEndDate "2024-12-31"^^xsd:date ;
+    ns1:hasReportDate "2025-04-16"^^xsd:date ;
+    ns1:hasStartDate "2024-01-01"^^xsd:date .
+
+<https://w3id.org/ontokg-eq/msx#period_MY_FUND_MAYBANK_FY2024> a ns1:ReportingPeriod ;
+    ns1:hasEndDate "2024-12-31"^^xsd:date ;
+    ns1:hasReportDate "2025-04-08"^^xsd:date ;
+    ns1:hasStartDate "2024-01-01"^^xsd:date .
+
+<https://w3id.org/ontokg-eq/msx#period_MY_FUND_TM_FY2024> a ns1:ReportingPeriod ;
+    ns1:hasEndDate "2024-12-31"^^xsd:date ;
+    ns1:hasReportDate "2025-04-25"^^xsd:date ;
+    ns1:hasStartDate "2024-01-01"^^xsd:date .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_CIMB_AR2025> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_CIMB_AR2025" ;
+    ns1:hasSourceType "exchange_annual_report_announcement" ;
+    ns1:hasSourceURL "https://www.bursamalaysia.com/bm/market_information/announcements/company_announcement?cat=AR%2CARCO&company=1023"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_MAXIS_AR2025> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_MAXIS_AR2025" ;
+    ns1:hasSourceType "annual_report_financials" ;
+    ns1:hasSourceURL "https://maxis.listedcompany.com/ar.html"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_MAYBANK_AR2025> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_MAYBANK_AR2025" ;
+    ns1:hasSourceType "annual_report_financials" ;
+    ns1:hasSourceURL "https://www.maybank.com/iwov-resources/documents/pdf/annual-report/2025/maybank-ar2025-integrated-annual-report.pdf"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#source_MY_SRC_TM_AR2025> a ns1:EvidenceSource ;
+    ns1:hasSourceIdentifier "MY_SRC_TM_AR2025" ;
+    ns1:hasSourceType "annual_report_financials" ;
+    ns1:hasSourceURL "https://tm.com.my/iar2025/template/pdf/TM_FR2025.pdf"^^xsd:anyURI .
+
+<https://w3id.org/ontokg-eq/msx#window_fx_series> a ns1:AnalysisWindow ;
+    ns1:hasEndDate "2026-06-04"^^xsd:date ;
+    ns1:hasStartDate "2026-03-27"^^xsd:date ;
+    ns1:hasWindowType "fx-series-window" .
+
+<https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_CIMB> a ns1:FundamentalObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "YoY profit growth %" ;
+    ns1:hasMetricValue 1.708075 ;
+    ns1:hasObservationDate "2026-03-26"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedInPeriod <https://w3id.org/ontokg-eq/msx#period_MY_FUND_CIMB_FY2025> .
+
+<https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_TM> a ns1:FundamentalObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "YoY profit growth %" ;
+    ns1:hasMetricValue 17.931034 ;
+    ns1:hasObservationDate "2026-04-17"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedInPeriod <https://w3id.org/ontokg-eq/msx#period_MY_FUND_TM_FY2025> .
+
+<https://w3id.org/ontokg-eq/msx#derived_fx_corr_company_MY_CO_MAXIS> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "FX vs company return correlation" ;
+    ns1:hasMetricValue 0.123566 ;
+    ns1:hasObservationDate "2026-06-03"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#derived_fx_corr_company_MY_CO_MAYBANK> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "FX vs company return correlation" ;
+    ns1:hasMetricValue -0.003998 ;
+    ns1:hasObservationDate "2026-05-14"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#derived_fx_corr_company_MY_CO_TM> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "FX vs company return correlation" ;
+    ns1:hasMetricValue 0.224079 ;
+    ns1:hasObservationDate "2026-06-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#derived_sector_return_MY_CO_CIMB> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "sector window return %" ;
+    ns1:hasMetricValue 24.197602 ;
+    ns1:hasObservationDate "2026-05-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#derived_sector_return_MY_CO_MAXIS> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "sector window return %" ;
+    ns1:hasMetricValue 47.979891 ;
+    ns1:hasObservationDate "2026-06-03"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#derived_sector_return_MY_CO_MAYBANK> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "sector window return %" ;
+    ns1:hasMetricValue 41.009378 ;
+    ns1:hasObservationDate "2026-05-14"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#evid_MY_EVID_CIMB_AR2025> a ns1:Announcement,
+        ns1:EvidenceItem ;
+    rdfs:label "Annual Report & CG Report - 2025"@en ;
+    ns1:aboutCompany <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:hasAnnouncementDate "2026-03-26"^^xsd:date ;
+    ns1:hasAnnouncementType "Annual Report & CG Report" ;
+    ns1:hasEvidenceIdentifier "MY_EVID_CIMB_AR2025" ;
+    ns1:hasEvidenceSource <https://w3id.org/ontokg-eq/msx#source_MY_SRC_CIMB_AR2025> ;
+    ns1:hasEvidenceURL "https://www.bursamalaysia.com/bm/market_information/announcements/company_announcement?cat=AR%2CARCO&company=1023"^^xsd:anyURI ;
+    ns1:publishedBy <https://w3id.org/ontokg-eq/msx#publisher_Bursa_Malaysia> .
+
+<https://w3id.org/ontokg-eq/msx#evid_MY_EVID_TM_AR2025> a ns1:Announcement,
+        ns1:EvidenceItem ;
+    rdfs:label "Annual Report & CG Report - 2025"@en ;
+    ns1:aboutCompany <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:hasAnnouncementDate "2026-04-17"^^xsd:date ;
+    ns1:hasAnnouncementType "Annual Report & CG Report" ;
+    ns1:hasEvidenceIdentifier "MY_EVID_TM_AR2025" ;
+    ns1:hasEvidenceSource <https://w3id.org/ontokg-eq/msx#source_MY_SRC_TM_AR2025> ;
+    ns1:hasEvidenceURL "https://tm.com.my/iar2025/template/pdf/Telekom_Malaysia_Berhad_IAR25.pdf"^^xsd:anyURI ;
+    ns1:publishedBy <https://w3id.org/ontokg-eq/msx#publisher_Bursa_Malaysia> .
+
+<https://w3id.org/ontokg-eq/msx#period_MY_FUND_CIMB_FY2025> a ns1:ReportingPeriod ;
+    ns1:hasEndDate "2025-12-31"^^xsd:date ;
+    ns1:hasReportDate "2026-03-26"^^xsd:date ;
+    ns1:hasStartDate "2025-01-01"^^xsd:date .
+
+<https://w3id.org/ontokg-eq/msx#period_MY_FUND_MAXIS_FY2025> a ns1:ReportingPeriod ;
+    ns1:hasEndDate "2025-12-31"^^xsd:date ;
+    ns1:hasReportDate "2026-04-16"^^xsd:date ;
+    ns1:hasStartDate "2025-01-01"^^xsd:date .
+
+<https://w3id.org/ontokg-eq/msx#period_MY_FUND_MAYBANK_FY2025> a ns1:ReportingPeriod ;
+    ns1:hasEndDate "2025-12-31"^^xsd:date ;
+    ns1:hasReportDate "2026-04-01"^^xsd:date ;
+    ns1:hasStartDate "2025-01-01"^^xsd:date .
+
+<https://w3id.org/ontokg-eq/msx#period_MY_FUND_TM_FY2025> a ns1:ReportingPeriod ;
+    ns1:hasEndDate "2025-12-31"^^xsd:date ;
+    ns1:hasReportDate "2026-04-17"^^xsd:date ;
+    ns1:hasStartDate "2025-01-01"^^xsd:date .
+
+<https://w3id.org/ontokg-eq/msx#sector_scheme> a ns1:IndustrySectorClassificationScheme ;
+    rdfs:label "Bursa Malaysia sector classification"@en .
+
+<https://w3id.org/ontokg-eq/msx#derived_event_ar_MY_CO_MAXIS_event_window_1_1> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "cumulative abnormal return %" ;
+    ns1:hasMetricValue 1.664384 ;
+    ns1:hasObservationDate "2026-04-17"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedInEventWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m1_p1_event_window_1_1> .
+
+<https://w3id.org/ontokg-eq/msx#derived_event_ar_MY_CO_MAXIS_event_window_3_3> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "cumulative abnormal return %" ;
+    ns1:hasMetricValue 1.997354 ;
+    ns1:hasObservationDate "2026-04-21"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedInEventWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3> .
+
+<https://w3id.org/ontokg-eq/msx#derived_event_vol_MY_CO_MAXIS_event_window_1_1> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "abnormal volume ratio" ;
+    ns1:hasMetricValue 0.623457 ;
+    ns1:hasObservationDate "2026-04-17"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedInEventWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m1_p1_event_window_1_1> .
+
+<https://w3id.org/ontokg-eq/msx#derived_event_vol_MY_CO_MAXIS_event_window_3_3> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "abnormal volume ratio" ;
+    ns1:hasMetricValue 0.448218 ;
+    ns1:hasObservationDate "2026-04-21"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedInEventWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3> .
+
+<https://w3id.org/ontokg-eq/msx#derived_fx_corr_company_MY_CO_CIMB> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "FX vs company return correlation" ;
+    ns1:hasMetricValue -0.054852 ;
+    ns1:hasObservationDate "2026-05-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#derived_sector_return_MY_CO_TM> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "sector window return %" ;
+    ns1:hasMetricValue 83.950452 ;
+    ns1:hasObservationDate "2026-06-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#evid_MY_EVID_MAXIS_AR2025> a ns1:Announcement,
+        ns1:EvidenceItem ;
+    rdfs:label "Annual Report & CG Report - 2025"@en ;
+    ns1:aboutCompany <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:hasAnnouncementDate "2026-04-16"^^xsd:date ;
+    ns1:hasAnnouncementType "Annual Report & CG Report" ;
+    ns1:hasEvidenceIdentifier "MY_EVID_MAXIS_AR2025" ;
+    ns1:hasEvidenceSource <https://w3id.org/ontokg-eq/msx#source_MY_SRC_MAXIS_AR2025> ;
+    ns1:hasEvidenceURL "https://maxis.listedcompany.com/ar.html"^^xsd:anyURI ;
+    ns1:publishedBy <https://w3id.org/ontokg-eq/msx#publisher_Bursa_Malaysia> .
+
+<https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_CIMB> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "benchmark window return %" ;
+    ns1:hasMetricValue 0.027099 ;
+    ns1:hasObservationDate "2026-05-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAXIS> a ns1:FundamentalObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "YoY profit growth %" ;
+    ns1:hasMetricValue 11.819484 ;
+    ns1:hasObservationDate "2026-04-16"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedInPeriod <https://w3id.org/ontokg-eq/msx#period_MY_FUND_MAXIS_FY2025> .
+
+<https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_CIMB> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "post-report window return %" ;
+    ns1:hasMetricValue 3.28986 ;
+    ns1:hasObservationDate "2026-05-08"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#evid_MY_EVID_MAYBANK_AR2025> a ns1:Announcement,
+        ns1:EvidenceItem ;
+    rdfs:label "Annual Report & CG Report - 2025"@en ;
+    ns1:aboutCompany <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:hasAnnouncementDate "2026-04-01"^^xsd:date ;
+    ns1:hasAnnouncementType "Annual Report & CG Report" ;
+    ns1:hasEvidenceIdentifier "MY_EVID_MAYBANK_AR2025" ;
+    ns1:hasEvidenceSource <https://w3id.org/ontokg-eq/msx#source_MY_SRC_MAYBANK_AR2025> ;
+    ns1:hasEvidenceURL "https://www.maybank.com/iwov-resources/documents/pdf/annual-report/2025/maybank-ar2025-integrated-annual-report.pdf"^^xsd:anyURI ;
+    ns1:publishedBy <https://w3id.org/ontokg-eq/msx#publisher_Bursa_Malaysia> .
+
+<https://w3id.org/ontokg-eq/msx#publisher_Bursa_Malaysia> a ns1:Publisher ;
+    rdfs:label "Bursa Malaysia"@en .
+
+<https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_TM> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "benchmark window return %" ;
+    ns1:hasMetricValue -0.182116 ;
+    ns1:hasObservationDate "2026-06-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_TM> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "post-report window return %" ;
+    ns1:hasMetricValue 5.81726 ;
+    ns1:hasObservationDate "2026-06-04"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAXIS> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "benchmark window return %" ;
+    ns1:hasMetricValue 0.164388 ;
+    ns1:hasObservationDate "2026-06-03"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#derived_fund_growth_MY_CO_MAYBANK> a ns1:FundamentalObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "YoY profit growth %" ;
+    ns1:hasMetricValue 4.214616 ;
+    ns1:hasObservationDate "2026-04-01"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedInPeriod <https://w3id.org/ontokg-eq/msx#period_MY_FUND_MAYBANK_FY2025> .
+
+<https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAXIS> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "post-report window return %" ;
+    ns1:hasMetricValue -6.313796 ;
+    ns1:hasObservationDate "2026-06-03"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m1_p1_event_window_1_1> a ns1:EventWindow ;
+    ns1:hasEndDate "2026-04-17"^^xsd:date ;
+    ns1:hasStartDate "2026-04-15"^^xsd:date ;
+    ns1:hasWindowType "(-1,+1)" .
+
+<https://w3id.org/ontokg-eq/msx#validation_passed> a ns1:ValidationStatus ;
+    ns1:hasValidationFlag "passed" .
+
+<https://w3id.org/ontokg-eq/msx#derived_bench_return_MY_CO_MAYBANK> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "benchmark window return %" ;
+    ns1:hasMetricValue -0.007088 ;
+    ns1:hasObservationDate "2026-05-14"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#market_index_benchmark> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#derived_post_return_MY_CO_MAYBANK> a ns1:MarketObservation,
+        ns1:Observation ;
+    ns1:hasMetricName "post-report window return %" ;
+    ns1:hasMetricValue -2.342408 ;
+    ns1:hasObservationDate "2026-05-14"^^xsd:date ;
+    ns1:isObservationOf <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    ns1:observedOverWindow <https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> .
+
+<https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_AR2025_event_m3_p3_event_window_3_3> a ns1:EventWindow ;
+    ns1:hasEndDate "2026-04-21"^^xsd:date ;
+    ns1:hasStartDate "2026-04-13"^^xsd:date ;
+    ns1:hasWindowType "(-3,+3)" .
+
+ns1:AnalyticalFinding a owl:Class ;
+    rdfs:label "Analytical Finding"@en ;
+    rdfs:comment "A derived, evidence-linked classification produced by an inference rule from observation-level metrics (CQ1-CQ4). A finding is itself explainable: it points back to the observations that triggered it."@en .
+
+<https://w3id.org/ontokg-eq/msx#window_comp_Telecommunications_Media_selected_peer_basket> a ns1:AnalysisWindow ;
+    ns1:hasEndDate "2026-06-04"^^xsd:date ;
+    ns1:hasStartDate "2026-04-17"^^xsd:date ;
+    ns1:hasWindowType "post_report_30_trading_days" .
+
+<https://w3id.org/ontokg-eq/msx#window_MY_CO_CIMB_CIMB_annual_report_2025_post30_post_report_30_trading_days> a ns1:AnalysisWindow ;
+    ns1:hasEndDate "2026-05-08"^^xsd:date ;
+    ns1:hasStartDate "2026-03-27"^^xsd:date ;
+    ns1:hasWindowType "post_report_30_trading_days" .
+
+<https://w3id.org/ontokg-eq/msx#window_MY_CO_MAXIS_MAXIS_annual_report_2025_post30_post_report_30_trading_days> a ns1:AnalysisWindow ;
+    ns1:hasEndDate "2026-06-03"^^xsd:date ;
+    ns1:hasStartDate "2026-04-17"^^xsd:date ;
+    ns1:hasWindowType "post_report_30_trading_days" .
+
+<https://w3id.org/ontokg-eq/msx#window_MY_CO_MAYBANK_MAYBANK_annual_report_2025_post30_post_report_30_trading_days> a ns1:AnalysisWindow ;
+    ns1:hasEndDate "2026-05-14"^^xsd:date ;
+    ns1:hasStartDate "2026-04-02"^^xsd:date ;
+    ns1:hasWindowType "post_report_30_trading_days" .
+
+<https://w3id.org/ontokg-eq/msx#window_MY_CO_TM_TM_annual_report_2025_post30_post_report_30_trading_days> a ns1:AnalysisWindow ;
+    ns1:hasEndDate "2026-06-04"^^xsd:date ;
+    ns1:hasStartDate "2026-04-20"^^xsd:date ;
+    ns1:hasWindowType "post_report_30_trading_days" .
+
+<https://w3id.org/ontokg-eq/msx#window_comp_Financial_Services_selected_peer_basket> a ns1:AnalysisWindow ;
+    ns1:hasEndDate "2026-05-14"^^xsd:date ;
+    ns1:hasStartDate "2026-03-27"^^xsd:date ;
+    ns1:hasWindowType "post_report_30_trading_days" .
+
+<https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> a ns1:IndustrySectorClassifier,
+        ns1:ObservedEntity ;
+    rdfs:label "Telecommunications & Media Sector Classifier"@en ;
+    ns1:isDefinedInIndustrySectorScheme <https://w3id.org/ontokg-eq/msx#sector_scheme> .
+
+<https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> a ns1:IndustrySectorClassifier,
+        ns1:ObservedEntity ;
+    rdfs:label "Financial Services Sector Classifier"@en ;
+    ns1:isDefinedInIndustrySectorScheme <https://w3id.org/ontokg-eq/msx#sector_scheme> .
+
+<https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> a ns1:Company,
+        ns1:ObservedEntity ;
+    rdfs:label "CIMB Group Holdings Berhad"@en ;
+    ns1:hasCompanyIdentifier "1023" ;
+    ns1:hasCompanyName "CIMB Group Holdings Berhad" ;
+    ns1:isClassifiedByIndustrySector <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> .
+
+<https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> a ns1:Company,
+        ns1:ObservedEntity ;
+    rdfs:label "Telekom Malaysia Berhad"@en ;
+    ns1:hasCompanyIdentifier "4863" ;
+    ns1:hasCompanyName "Telekom Malaysia Berhad" ;
+    ns1:isClassifiedByIndustrySector <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> .
+
+<https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> a ns1:Company,
+        ns1:ObservedEntity ;
+    rdfs:label "Malayan Banking Berhad"@en ;
+    ns1:hasCompanyIdentifier "1155" ;
+    ns1:hasCompanyName "Malayan Banking Berhad" ;
+    ns1:isClassifiedByIndustrySector <https://w3id.org/ontokg-eq/msx#sector_classifier_Financial_Services> .
+
+<https://w3id.org/ontokg-eq/msx#currency_MYR> a ns1:Currency ;
+    ns1:hasCurrencyCode "MYR" .
+
+<https://w3id.org/ontokg-eq/msx#currency_USD> a ns1:Currency ;
+    ns1:hasCurrencyCode "USD" .
+
+<https://w3id.org/ontokg-eq/msx#observed_fx_pair> a ns1:ObservedEntity ;
+    rdfs:label "USD/MYR currency pair"@en .
+
+<https://w3id.org/ontokg-eq/msx#window_comp_FBM_KLCI_demonstrator_proxy> a ns1:AnalysisWindow ;
+    ns1:hasEndDate "2026-06-04"^^xsd:date ;
+    ns1:hasStartDate "2026-03-27"^^xsd:date ;
+    ns1:hasWindowType "post_report_30_trading_days" .
+
+<https://w3id.org/ontokg-eq/msx#market_index_benchmark> a ns1:MarketIndex,
+        ns1:ObservedEntity ;
+    rdfs:label "FBM KLCI (demonstrator proxy)"@en .
+
+<https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> a ns1:Company,
+        ns1:ObservedEntity ;
+    rdfs:label "Maxis Berhad"@en ;
+    ns1:hasCompanyIdentifier "6012" ;
+    ns1:hasCompanyName "Maxis Berhad" ;
+    ns1:isClassifiedByIndustrySector <https://w3id.org/ontokg-eq/msx#sector_classifier_Telecommunications_Media> .
+

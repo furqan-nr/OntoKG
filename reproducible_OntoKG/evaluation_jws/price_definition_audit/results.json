@@ -1,0 +1,89 @@
+{
+  "review_date": "2026-10-17",
+  "status": "bounded_primary_source_definition_audit_no_new_price_admissions",
+  "source_specific_definitions": [
+    {
+      "source_url": "https://dps.psx.com.pk/company/FFC",
+      "feed": "PSX company-page historical series and displayed returns",
+      "locator": "legend below market quote immediately before Company Profile",
+      "verification": "primary_page_rendered_text",
+      "split_adjusted": true,
+      "payout_adjusted_returns": false,
+      "scope": "Only this page/feed; does not authenticate SECP dated close fields or original workbook basis."
+    },
+    {
+      "source_url": "https://maybank.listedcompany.com/historical_price.html?date_start=20260301&date_end=20260529",
+      "feed": "Maybank issuer-IR published historical table",
+      "verification": "ordinary_browser_accessibility_review",
+      "visible_fields": [
+        "Date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Vol ('00)"
+      ],
+      "adjustment_basis": "unknown",
+      "reason": "No adjustment legend, help link or toggle was visible. CSV unadjusted=0 is not a documented definition.",
+      "scope": "Other listedcompany issuers have adjustment notes, but their definitions cannot be transferred to Maybank."
+    }
+  ],
+  "acquisition_routes": [
+    {
+      "source_url": "https://www.lseg.com/en/ftse-russell/indices/bursa-malaysia",
+      "outcome": "Official page separates total and price return; current performance and monthly resources do not provide required daily endpoints.",
+      "required": [
+        "KLCI price-return 2026-03-31",
+        "KLCI price-return 2026-04-01",
+        "KLCI price-return 2026-05-14"
+      ]
+    },
+    {
+      "source_url": "https://financials.psx.com.pk/lib/DownloadPDF.php?id=270829",
+      "outcome": "Official FFC annual-report route timed out; indexed text is not promoted to reviewed fact."
+    },
+    {
+      "source_url": "https://www.psx.com.pk/psx/files?file=269423-1.pdf",
+      "outcome": "Official revised-trading notice route timed out; not reviewed."
+    },
+    {
+      "source_url": "https://www.secp.gov.pk/document/daily-stock-market-report-dated-january-28-2026/",
+      "outcome": "Existing reviewed original summary lacks FFC baseline; no alternate primary close recovered."
+    }
+  ],
+  "corporate_actions": {
+    "FFC": {
+      "status": "incomplete",
+      "reviewed_evidence": "Existing 2026-03-13 SECP row explicitly marks Fauji FertXD.",
+      "new_primary_amount_or_ex_date_verified": false,
+      "reason": "Secondary dividend leads disagree on ex-date; no exact ex-date inferred from book closure or XD row. Issuance lead also needs issuer verification."
+    },
+    "Maybank": {
+      "status": "incomplete",
+      "new_primary_amount_or_ex_date_verified": false,
+      "reason": "Dividend-history search leads are not issuer-verified; Maybank Indonesia is a different entity and excluded."
+    }
+  },
+  "cohort_eligibility": {
+    "Maybank": {
+      "eligible": false,
+      "reasons": [
+        "company_adjustment_definition_unresolved",
+        "compatible_benchmark_endpoints_absent",
+        "corporate_action_review_incomplete"
+      ],
+      "event_effect_established": false
+    },
+    "FFC": {
+      "eligible": false,
+      "reasons": [
+        "incompatible_or_unresolved_return_basis",
+        "company_pre_anchor_baseline_absent",
+        "corporate_action_review_incomplete"
+      ],
+      "event_effect_established": false
+    }
+  },
+  "new_authenticated_benchmark_observations": 0,
+  "rights": "No account, payment, subscription, contact, access bypass or redistribution licence assumed. Existing captures and base graphs unchanged."
+}

@@ -1,0 +1,78 @@
+{
+  "status": "BLOCKED_NO_ARCHIVED_ANSWER_TEXT",
+  "new_model_statistics_computed": false,
+  "model_inference_run": false,
+  "answer_candidates": [],
+  "historical_panel_results_csv_present": false,
+  "historical_panel_percase_csv_present": false,
+  "inventory": [
+    {
+      "path": "kaggle_faithfulness\\ontokg_faithfulness.ipynb",
+      "notebook_output_blocks": 0,
+      "source_mentions_panel_percase": false,
+      "source_serializes_answer_field": false,
+      "sha256": "533a42328f787b020d179248f5341ee8db6b04386eb71db4ef6a53149ff87585"
+    },
+    {
+      "path": "kaggle_faithfulness\\ontokg_faithfulness_panel.ipynb",
+      "notebook_output_blocks": 0,
+      "source_mentions_panel_percase": true,
+      "source_serializes_answer_field": false,
+      "sha256": "403e2fde45be1bd2528f3c560ece645ab91d742287b4ab8333316329077117b6"
+    },
+    {
+      "path": "reproducible_OntoKG\\evaluation\\graphrag_faithfulness.csv",
+      "headers": [
+        "method",
+        "cases/answers",
+        "numeric faithfulness (mean)",
+        "hallucinated numbers (mean)",
+        "unsupported assertions (mean)",
+        "provenance coverage (mean)"
+      ],
+      "sha256": "73052a7826de94964dc904dad67a47c062f0c8d0d5df12be2d67143908140152"
+    },
+    {
+      "path": "reproducible_OntoKG\\evaluation_faithfulness\\graphrag_faithfulness.csv",
+      "headers": [
+        "method",
+        "cases/answers",
+        "numeric precision (mean)",
+        "numeric recall (mean)",
+        "hallucinated numbers (mean)",
+        "unsupported assertions (mean)",
+        "provenance coverage (mean)"
+      ],
+      "sha256": "45f43cb4e9122744deeab1ea92c6c10b7ad31fc63c6a98c4f22eaafe7cb541c3"
+    },
+    {
+      "path": "reproducible_OntoKG\\evaluation_faithfulness\\graphrag_faithfulness_live.csv",
+      "headers": [
+        "method",
+        "cases",
+        "numeric_faithfulness",
+        "hallucinated_numbers",
+        "unsupported_assertions",
+        "provenance_coverage"
+      ],
+      "sha256": "10ad0323d24e371878682defe9bc2c722644d7dc89183571d96e24cbdf102fcc"
+    },
+    {
+      "path": "reproducible_OntoKG\\evaluation_faithfulness\\panel_mcnemar.csv",
+      "headers": [
+        "model_A",
+        "model_B",
+        "p_exact_two_sided"
+      ],
+      "sha256": "34b7a5f936332fa9e09b08248139abc003beeae9c256c5c73096dce1af894c4d"
+    }
+  ],
+  "definitions": {
+    "historical_numeric_faithfulness": "Numeric precision: matched stated decimals / stated decimals; empty stated set receives 1.0. Not recall.",
+    "current_numeric_recall": "Distinct expected rounded numeric values mentioned within tolerance / distinct expected numeric values; omitting all numbers receives 0 when facts exist.",
+    "current_source_date_provenance": "Any exact date OR source token substring occurs; date alone counts. This is stricter than generic source keywords but does not require actual source identity.",
+    "stronger_source_identity": "Exact case-specific source identifier or source URL must occur; date alone does not count. Requires archived answers and case-specific source mappings.",
+    "numeric_parser_limit": "Current decimal-only regex -?\\d+\\.\\d+ ignores integer and scientific-notation expressions and does not align numbers to metric roles; set-based recall collapses equal-valued metrics.",
+    "unsupported_assertions_limit": "Keyword matches are heuristic flags, not validated semantic entailment judgments."
+  }
+}

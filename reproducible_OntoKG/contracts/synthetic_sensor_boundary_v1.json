@@ -1,0 +1,53 @@
+{
+  "version": "boundary-1",
+  "observation_type": "urn:lab:Reading",
+  "metric_predicate": "urn:lab:quantity",
+  "value_predicate": "urn:lab:number",
+  "subject_predicate": "urn:lab:sensor",
+  "finding_entity_predicate": "urn:lab:aboutSensor",
+  "support_predicate": "urn:lab:usesReading",
+  "bundle_predicate": "urn:lab:delivery",
+  "bundle_entity_predicate": "urn:lab:forSensor",
+  "membership_predicate": "urn:lab:contains",
+  "shared_window": true,
+  "roles": {
+    "temperature": {
+      "metric": "temperature",
+      "expected_unit": "Celsius",
+      "unit_predicate": "urn:lab:unit",
+      "focus_path": [],
+      "window_predicate": "urn:lab:period"
+    },
+    "vibration": {
+      "metric": "vibration",
+      "expected_unit": "mm/s",
+      "unit_predicate": "urn:lab:unit",
+      "focus_path": [],
+      "window_predicate": "urn:lab:period"
+    }
+  },
+  "branches": [
+    [
+      {
+        "op": "ge",
+        "left": {
+          "role": "temperature"
+        },
+        "right": {
+          "constant": "80"
+        }
+      }
+    ],
+    [
+      {
+        "op": "ge",
+        "left": {
+          "role": "vibration"
+        },
+        "right": {
+          "constant": "4.5"
+        }
+      }
+    ]
+  ]
+}

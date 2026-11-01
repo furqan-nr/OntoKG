@@ -1,0 +1,4 @@
+market,sha256,triples,findings,bundles,shacl_conforms,shacl_results,shacl_seconds,dependency_issues,dependency_seconds,unique_supporting_observations,supporting_observations_with_direct_source_or_derivedFrom_link,supporting_observations_with_temporal_context
+psx,29b530a0165c528e14482b57320de7bde3b682c81363b11dbe21dde56af99013,4261,9,14,True,0,0.4528820002451539,0,0.000759500078856945,19,0,19
+msx,e1cdae5ee061c593371a568a7e02cd8cd2284cd10e7b6e45ae37c56a6f064b77,2690,2,7,True,0,0.296539600007236,0,0.00025719963014125824,6,0,6
+idx,cc7fef931b9b6b7c41070b463c0745a228fc248516687e52c9887277cd5c72e0,4397,10,15,True,0,0.4704681998118758,0,0.0007417001761496067,20,0,20

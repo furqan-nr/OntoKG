@@ -1,0 +1,29 @@
+{
+  "purpose": "Parent-reviewed links from model values to manually transcribed primary-source fields; not automated publisher authentication.",
+  "cases": {
+    "bea_2024q1_gdp_over_gdi": {
+      "group": "BEA-whole-release",
+      "bindings": [
+        {"mode": "2024-05-30-second", "source": "q1_second", "path": [], "roles": {"C": "real_gdp_growth", "S0": "real_gdi_growth"}},
+        {"mode": "2024-06-27-third", "source": "q1_third", "path": [], "roles": {"C": "real_gdp_growth", "S0": "real_gdi_growth"}}
+      ]
+    },
+    "bea_2024q2_gdp_over_real_pce": {
+      "group": "BEA-whole-release",
+      "bindings": [
+        {"mode": "2024-07-25-advance", "source": "q2_scb_second", "path": ["advance"], "roles": {"C": "real_gdp_growth", "S0": "real_pce_growth"}},
+        {"mode": "2024-08-29-second", "source": "q2_scb_second", "path": ["second"], "roles": {"C": "real_gdp_growth", "S0": "real_pce_growth"}},
+        {"mode": "2024-09-26-third-annual-update", "source": "q2_scb_third", "path": ["third"], "roles": {"C": "real_gdp_growth", "S0": "real_pce_growth"}}
+      ]
+    }
+  },
+  "cross_checks": [
+    {"left": ["q2_scb_second", "second"], "right": ["q2_scb_third", "second"]}
+  ],
+  "parent_review": {
+    "date": "2026-10-19",
+    "route": "Independent opening of both BEA news releases and both SCB HTML tables through the web reader; checked GDP, GDI and real PCE growth fields and the annual-update/reference-year note. No underlying microdata authentication claimed.",
+    "fixed_query": "Published real GDP growth strictly exceeds the named real-growth comparator, zero margin, one fixed quarter per case.",
+    "scope": "Five historical release modes across two separately evaluated cases, not five independent samples. Published one-decimal values only."
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "rdflib_version": "7.6.0",
+  "pyshacl_version": "0.31.0",
+  "graphs": [
+    {
+      "market": "psx",
+      "sha256": "185c7bb82d832b17d9a6116c7611454d3b3b57baeb6114a99cb394b71353176b",
+      "triples": 4249,
+      "findings": 9,
+      "bundles": 14,
+      "shacl_conforms": true,
+      "shacl_results": 0,
+      "shacl_seconds": 0.45350860012695193,
+      "dependency_issues": 2,
+      "dependency_seconds": 0.0007031001150608063,
+      "unique_supporting_observations": 13,
+      "supporting_observations_with_direct_source_or_derivedFrom_link": 0,
+      "supporting_observations_with_temporal_context": 13
+    },
+    {
+      "market": "msx",
+      "sha256": "e1cdae5ee061c593371a568a7e02cd8cd2284cd10e7b6e45ae37c56a6f064b77",
+      "triples": 2690,
+      "findings": 2,
+      "bundles": 7,
+      "shacl_conforms": true,
+      "shacl_results": 0,
+      "shacl_seconds": 0.30484689958393574,
+      "dependency_issues": 0,
+      "dependency_seconds": 0.00026009976863861084,
+      "unique_supporting_observations": 6,
+      "supporting_observations_with_direct_source_or_derivedFrom_link": 0,
+      "supporting_observations_with_temporal_context": 6
+    },
+    {
+      "market": "idx",
+      "sha256": "8f704b219932b1f49c81537a8ba473e6fcb37fdf1464322f355a25c7aa455131",
+      "triples": 4385,
+      "findings": 10,
+      "bundles": 15,
+      "shacl_conforms": true,
+      "shacl_results": 0,
+      "shacl_seconds": 0.5019108997657895,
+      "dependency_issues": 0,
+      "dependency_seconds": 0.0008009001612663269,
+      "unique_supporting_observations": 14,
+      "supporting_observations_with_direct_source_or_derivedFrom_link": 0,
+      "supporting_observations_with_temporal_context": 14
+    }
+  ],
+  "dependency_issues": {
+    "psx": [
+      {
+        "finding": "https://w3id.org/ontokg-eq/psx#window_2_event_1_1_event_1_1_finding_R4",
+        "code": "volume_trigger_not_in_explicit_support"
+      },
+      {
+        "finding": "https://w3id.org/ontokg-eq/psx#window_2_event_3_3_event_3_3_finding_R4",
+        "code": "volume_trigger_not_in_explicit_support"
+      }
+    ],
+    "msx": [],
+    "idx": []
+  },
+  "controlled_faults": [
+    {
+      "fault": "well_typed_numeric_predicate_flip",
+      "target": "https://w3id.org/ontokg-eq/psx#derived_post_return_1",
+      "predicate": "https://w3id.org/ontokg-eq#hasMetricValue",
+      "shacl_detected": false,
+      "dependency_detected": true,
+      "new_dependency_issues": [
+        {
+          "finding": "https://w3id.org/ontokg-eq/psx#company_1_finding_R3",
+          "code": "rule_predicate_false"
+        }
+      ],
+      "snapshot_change_detected": true
+    },
+    {
+      "fault": "wrong_existing_valid_window",
+      "target": "https://w3id.org/ontokg-eq/psx#derived_post_return_1",
+      "predicate": "https://w3id.org/ontokg-eq#observedOverWindow",
+      "shacl_detected": false,
+      "dependency_detected": true,
+      "new_dependency_issues": [
+        {
+          "finding": "https://w3id.org/ontokg-eq/psx#company_1_finding_R3",
+          "code": "deciding_window_mismatch"
+        }
+      ],
+      "snapshot_change_detected": true
+    },
+    {
+      "fault": "wrong_existing_valid_source",
+      "target": "https://w3id.org/ontokg-eq/psx#evid_1",
+      "predicate": "https://w3id.org/ontokg-eq#hasEvidenceSource",
+      "shacl_detected": false,
+      "dependency_detected": false,
+      "new_dependency_issues": [],
+      "snapshot_change_detected": true
+    },
+    {
+      "fault": "missing_one_bundle_dependency",
+      "target": "https://w3id.org/ontokg-eq/psx#company_1_finding_R3_bundle",
+      "predicate": "https://w3id.org/ontokg-eq#includesObservation",
+      "shacl_detected": false,
+      "dependency_detected": true,
+      "new_dependency_issues": [
+        {
+          "finding": "https://w3id.org/ontokg-eq/psx#company_1_finding_R3",
+          "code": "bundle_support_mismatch"
+        }
+      ],
+      "snapshot_change_detected": true
+    }
+  ]
+}

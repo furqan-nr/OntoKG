@@ -1,14 +1,17 @@
 cff-version: 1.2.0
-title: "OntoKG-EQ: A provenance-grounded, competency-question-governed knowledge graph for auditable analyst querying — reproducibility package"
+title: "OntoKG-EQ: Evidence-boundary auditing for analytical knowledge graphs — reproducibility package"
 message: "If you use this software or data, please cite the archived release and the associated manuscript."
 type: software
-version: "1.1.0"
-date-released: 2026-07-27
+version: "2.0.0"
+date-released: 2026-11-01
 authors:
   - family-names: "Nasir"
     given-names: "Furqan"
     affiliation: "City University of Science and Information Technology (CUSIT), Peshawar, Pakistan"
     orcid: "https://orcid.org/0000-0002-5259-3448"
+  - family-names: "Saeed"
+    given-names: "Muhammad Atif"
+    affiliation: "National University of Computer and Emerging Sciences (FAST-NUCES), Islamabad, Pakistan"
   - family-names: "Ehsan"
     given-names: "Muhammad"
     affiliation: "City University of Science and Information Technology (CUSIT), Peshawar, Pakistan"

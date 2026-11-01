@@ -1,0 +1,85 @@
+@prefix cohort: <https://w3id.org/ontokg-eq/disclosure-cohort-v1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cohort:msx_CIMB a cohort:Candidate ;
+    cohort:benchmark_kind "selected_universe_damped_proxy" ;
+    cohort:benchmark_return_percent 0.013337580594734575657293196713091593300 ;
+    cohort:company <https://w3id.org/ontokg-eq/msx#company_MY_CO_CIMB> ;
+    cohort:company_return_percent 2.987012987012987012987012987012987013300 ;
+    cohort:eligibility "excluded_no_verified_matching_disclosure_date" ;
+    cohort:eligible_disclosure_dated_replay false ;
+    cohort:full_first_publication_reaction_eligible false ;
+    cohort:numerical_R1_label "negative" .
+
+cohort:msx_MAXIS a cohort:Candidate ;
+    cohort:benchmark_kind "selected_universe_damped_proxy" ;
+    cohort:benchmark_return_percent 0.071904898106645258134833264228739144000 ;
+    cohort:company <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAXIS> ;
+    cohort:company_return_percent -6.849315068493150684931506849315068493110 ;
+    cohort:eligibility "excluded_no_verified_matching_disclosure_date" ;
+    cohort:eligible_disclosure_dated_replay false ;
+    cohort:full_first_publication_reaction_eligible false ;
+    cohort:numerical_R1_label "positive" .
+
+cohort:msx_MAYBANK a cohort:Candidate ;
+    cohort:benchmark_kind "selected_universe_damped_proxy" ;
+    cohort:benchmark_return_percent 0.373421482546918602403878966334293824800 ;
+    cohort:company <https://w3id.org/ontokg-eq/msx#company_MY_CO_MAYBANK> ;
+    cohort:company_return_percent -2.443280977312390924956369982547993019110 ;
+    cohort:eligibility "official_date_match" ;
+    cohort:eligible_disclosure_dated_replay true ;
+    cohort:full_first_publication_reaction_eligible false ;
+    cohort:numerical_R1_label "positive" ;
+    cohort:officialDateSource <https://maybank.listedcompany.com/news.html/id/2605866> .
+
+cohort:msx_TM a cohort:Candidate ;
+    cohort:benchmark_kind "selected_universe_damped_proxy" ;
+    cohort:benchmark_return_percent -0.3951247369999433728026285477488787607800 ;
+    cohort:company <https://w3id.org/ontokg-eq/msx#company_MY_CO_TM> ;
+    cohort:company_return_percent 5.571428571428571428571428571428571428600 ;
+    cohort:eligibility "excluded_no_verified_matching_disclosure_date" ;
+    cohort:eligible_disclosure_dated_replay false ;
+    cohort:full_first_publication_reaction_eligible false ;
+    cohort:numerical_R1_label "negative" .
+
+cohort:psx_ENGROH a cohort:Candidate ;
+    cohort:benchmark_kind "interpolated_forward_filled" ;
+    cohort:benchmark_return_percent -6.287000816424064975479014700333810993870 ;
+    cohort:company <https://w3id.org/ontokg-eq/psx#company_1> ;
+    cohort:company_return_percent 4.735755878233950025797891943686887300100 ;
+    cohort:eligibility "excluded_no_verified_matching_disclosure_date" ;
+    cohort:eligible_disclosure_dated_replay false ;
+    cohort:full_first_publication_reaction_eligible false ;
+    cohort:numerical_R1_label "negative" .
+
+cohort:psx_FFC a cohort:Candidate ;
+    cohort:benchmark_kind "interpolated_forward_filled" ;
+    cohort:benchmark_return_percent -14.48538828585869845492717259594420486791 ;
+    cohort:company <https://w3id.org/ontokg-eq/psx#company_2> ;
+    cohort:company_return_percent -14.87503610445656421496168680021068012305 ;
+    cohort:eligibility "official_date_match" ;
+    cohort:eligible_disclosure_dated_replay true ;
+    cohort:full_first_publication_reaction_eligible false ;
+    cohort:numerical_R1_label "positive" ;
+    cohort:officialDateSource <https://dps.psx.com.pk/download/document/269389.pdf> .
+
+cohort:psx_OGDC a cohort:Candidate ;
+    cohort:benchmark_kind "interpolated_forward_filled" ;
+    cohort:benchmark_return_percent -8.102895272472691552114453763868218214130 ;
+    cohort:company <https://w3id.org/ontokg-eq/psx#company_3> ;
+    cohort:company_return_percent 6.058059319956578071926322793010470287600 ;
+    cohort:eligibility "excluded_wrong_period_february_anchor_no_september_2025_price_coverage" ;
+    cohort:eligible_disclosure_dated_replay false ;
+    cohort:full_first_publication_reaction_eligible false ;
+    cohort:numerical_R1_label "negative" .
+
+cohort:psx_PPL a cohort:Candidate ;
+    cohort:benchmark_kind "interpolated_forward_filled" ;
+    cohort:benchmark_return_percent -12.37194813611351275303446972579154441886 ;
+    cohort:company <https://w3id.org/ontokg-eq/psx#company_4> ;
+    cohort:company_return_percent -14.24120472543165000649097754121770738668 ;
+    cohort:eligibility "excluded_wrong_period_february_anchor_no_september_2025_price_coverage" ;
+    cohort:eligible_disclosure_dated_replay false ;
+    cohort:full_first_publication_reaction_eligible false ;
+    cohort:numerical_R1_label "negative" .
+

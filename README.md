@@ -1,8 +1,9 @@
 # OntoKG-EQ — Reproducibility Repository
 
 Code, data, and evaluation artifacts to independently reproduce and verify every result reported in the
-paper *OntoKG-EQ: A provenance-grounded, competency-question-governed knowledge graph for auditable
-analyst querying*. **This repository contains no manuscript text** — only the machinery, inputs, and
+paper *OntoKG-EQ: Evidence-boundary auditing for analytical knowledge graphs* (arXiv:2609.08869 v2;
+v1 was titled *A provenance-grounded, competency-question-governed knowledge graph for auditable analyst
+querying*). **This repository contains no manuscript text** — only the machinery, inputs, and
 outputs needed to check the paper's claims.
 
 ## Environment
@@ -31,7 +32,8 @@ reproducible_OntoKG/
   data/              demo_{psx,msx,idx,idx_scaled}.ttl (+ *_inferred.ttl)   # materialized graphs
   evaluation_{psx,msx,idx,idx_scaled}/                        # per-market CQ result CSVs + summaries
   evaluation_faithfulness/                                    # LLM panel, fault-injection, scaling, fidelity, cost, triplestore results
-  expert_study/                                               # user-study instrument, protocol, raw anonymous responses, analysis, results
+  expert_study/                                               # user-study instrument, protocol, analysis, aggregate results (raw rows withheld)
+  evaluation_jws/  external_applications/  contracts/  objective_study_v2/   # revision (v2) evaluation, see below
 PSX data v4/ · updated MSX/ · IDX data v1/                    # the nine source spreadsheets per market
 scale_up/  + idx_data_acquisition/                            # 64-stock IDX acquisition script + data
 kaggle_faithfulness/                                          # 8-model LLM faithfulness notebook + dataset (.ttl)
@@ -67,15 +69,43 @@ on a GPU, with the four `.ttl` files in `kaggle_faithfulness/dataset_files/` add
 | Analytical correctness: 64/64 metrics match independent recompute | `reproducible_OntoKG/docs/analytical_correctness.py` | `evaluation_faithfulness/analytical_correctness.md` |
 | Serious relational (SQL) baseline: features/effort | `docs/sql_baseline.py` | console output |
 | Component ablations | `docs/ablation_study.py` | `evaluation_*/` outputs |
-| 8-model LLM faithfulness + pairwise McNemar | `kaggle_faithfulness/ontokg_faithfulness_panel.ipynb` | `evaluation_faithfulness/panel_results.md`, `panel_mcnemar.csv` |
+| 8-model LLM faithfulness (historical; excluded from the v2 evaluation) | `kaggle_faithfulness/ontokg_faithfulness_panel.ipynb` | `evaluation_faithfulness/panel_results.md`, `panel_mcnemar.csv` |
 | Deterministic vs generative cost | — | `evaluation_faithfulness/compute_cost.md` |
-| User study (n = 17): trust/completeness/preference | `expert_study/analyze_expert_study.py` | `expert_study/Form responses (17).xlsx`, `expert_study/results.md` |
+| User study (n = 17): trust/completeness/preference | `expert_study/analyze_expert_study.py` (needs the privately retained export) | `expert_study/results.md` |
 | Figures | `docs/make_figures.py` | (regenerated) |
+
+## Revision (v2) evaluation
+
+Install `requirements-jws.txt` (Python 3.10–3.13; rdflib 7.6.0, pySHACL 0.40.1, openpyxl 3.1.5, pyoxigraph 0.5.11).
+From `reproducible_OntoKG/`:
+
+```bash
+# all regression suites (63 test methods)
+PYTHONPATH=docs python -m unittest discover -s docs -p "test_jws*.py"
+# audit-only rerun of the revision evidence (does not rebuild archived graphs; needs pdfinfo)
+python run_jws_strengthening.py --audit-only --sources --prices      # run from the repository root
+```
+
+| Paper result | Script (`docs/`) | Output (`evaluation_jws/` unless stated) |
+|---|---|---|
+| NHS RTT application: 532 reconciled providers, 533 frames agree with SHACL-SPARQL baseline | `jws_nhs_source_oracle.py`, `jws_nhs_application.py`, `jws_nhs_matched_baseline.py` | `../external_applications/nhs_rtt_v1/` |
+| NHS policy replay (six thresholds) | `jws_nhs_change_replay.py` | `nhs_change_replay_v1/` |
+| Constructed diagnostics: 20 cases/60 pools; 26 cases/78 pools | `jws_boundary_benchmark.py`, `jws_boundary_analytical_benchmark.py` | `boundary_audit_v1/`, `boundary_analytical_v1/` |
+| Release replay 19/21 → 21/21; 487 paired financial records | `jws_boundary_release_replay.py`, `jws_boundary_legacy_parity.py` | `boundary_release_replay_v1/`, `boundary_legacy_parity_v1/` |
+| Corrected financial cohort (42/147/3; 16 query comparisons; 330 withholding variants) | `jws_financial_v2.py`, `jws_expanded_evaluation.py`, `jws_metadata_v2.py` | `financial_v2/`, `expanded_evaluation_v2/`, `metadata_v2/` |
+| Source audit (2,357 recorded inputs, 52 frozen cases) | `jws_source_sampling.py`, `jws_systematic_source_audit.py` | `source_sampling/`, `systematic_source_audit/` |
+| NPCS comparison | `jws_external_provenance.py` (needs the published NPCS JAR and Java 17) | `external_provenance/` |
+| Release-robustness (BEA examples) | `jws_source_certainty_application.py` | `source_certainty_application_v1/` |
+
+Not included (identified by URL and SHA256 in the manifests): captured issuer/regulator PDFs and price
+files, the original NHS ZIP/XLSX (download from the URLs in `external_applications/nhs_rtt_v1/SOURCE_MANIFEST.json`),
+the NPCS software, and the objective-study answer key. `test_jws_source_authentication` and
+`test_jws_psx_regulator_recovery` need those local captures and are expected to fail without them.
 
 ## Notes
 
 - Sector baskets, broad-market benchmarks, and FX are documented **demonstrator** constructions, not
   licensed feeds; replace before any empirical market claim.
-- The user-study responses are fully anonymous (no personal identifiers).
+- Row-level user-study responses are not public (consent covers aggregate reporting only); see `expert_study/RAW_RESPONSES_WITHHELD.md`.
 - Source repository: https://github.com/furqan-nr/OntoKG
 - Archived immutable release: https://doi.org/10.5281/zenodo.21569316

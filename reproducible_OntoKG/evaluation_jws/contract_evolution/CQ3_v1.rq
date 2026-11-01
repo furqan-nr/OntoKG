@@ -1,0 +1,16 @@
+PREFIX : <https://w3id.org/ontokg-eq#>
+# CQ3 — Relative outperformance.
+# Companies that outperform BOTH their sector comparator AND the broad-market
+# benchmark over the same post-report window.
+SELECT ?company ?companyReturn ?sectorReturn ?benchmarkReturn WHERE {
+  ?cr :isObservationOf ?company ; :hasMetricName "post-report window return %" ;
+      :hasMetricValue ?companyReturn ; :observedOverWindow ?w .
+  ?company a :Company ; :isClassifiedByIndustrySector ?sector .
+  ?sr :isObservationOf ?sector ; :hasMetricName "sector window return %" ;
+      :hasMetricValue ?sectorReturn ; :observedOverWindow ?w .
+  ?br :isObservationOf ?bm ; :hasMetricName "benchmark window return %" ;
+      :hasMetricValue ?benchmarkReturn ; :observedOverWindow ?w .
+  ?bm a :MarketIndex .
+  FILTER(?companyReturn > ?sectorReturn && ?companyReturn > ?benchmarkReturn)
+}
+ORDER BY DESC(?companyReturn)

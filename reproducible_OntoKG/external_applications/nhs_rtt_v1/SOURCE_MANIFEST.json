@@ -1,0 +1,26 @@
+{
+  "acquired_local_date": "2026-10-18",
+  "reporting_month": "2026-08",
+  "publisher": "NHS England",
+  "acquisition": "Original files downloaded through the ordinary public NHS England page; copied byte-for-byte into a local immutable source directory. No account, private data or access-control bypass.",
+  "landing_page": "https://www.england.nhs.uk/statistics/statistical-work-areas/rtt-waiting-times/rtt-data-2026-27/",
+  "guidance": "https://www.england.nhs.uk/statistics/statistical-work-areas/rtt-waiting-times/rtt-statistics-user-guidance/",
+  "copyright_terms": "https://www.england.nhs.uk/terms-and-conditions-2/",
+  "licence": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Source: NHS England, August 2026 RTT waiting-time statistics.",
+  "redistribution_boundary": "Reuse of information is subject to the publisher's OGL terms and exceptions. Logos, photographs and identified third-party material are not licensed by that statement. Original binaries are retained locally and Git-ignored, not offered here as a public release or NHS-endorsed product.",
+  "sources": [
+    {
+      "file": "source/Full-CSV-data-file-Aug26-ZIP-3M-vjgRdG.zip",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/10/Full-CSV-data-file-Aug26-ZIP-3M-vjgRdG.zip",
+      "bytes": 3440872,
+      "sha256": "1a679df24dc91a7fa40d020d4951b0947ded62a9cd3cb4d8b134d90723d2ad5a"
+    },
+    {
+      "file": "source/Incomplete-Provider-Aug26-XLSX-9M-vjgRdG.xlsx",
+      "url": "https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2026/10/Incomplete-Provider-Aug26-XLSX-9M-vjgRdG.xlsx",
+      "bytes": 10183411,
+      "sha256": "3c3bc9deb8e652a49c8eed6be1d7f5012c27adf1eb413b527ee00c75c20fd92a"
+    }
+  ]
+}

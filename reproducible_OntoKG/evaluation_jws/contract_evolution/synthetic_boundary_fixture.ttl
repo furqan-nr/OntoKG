@@ -1,0 +1,57 @@
+@prefix ns1: <https://w3id.org/ontokg-eq#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:fixture_obs_12 ns1:hasMetricName "post-report window return %" ;
+    ns1:hasMetricValue -0.1 ;
+    ns1:isObservationOf ns1:fixture_below_old ;
+    ns1:observedOverWindow ns1:fixture_window .
+
+ns1:fixture_obs_18 ns1:hasMetricName "post-report window return %" ;
+    ns1:hasMetricValue 0.0 ;
+    ns1:isObservationOf ns1:fixture_equal_old ;
+    ns1:observedOverWindow ns1:fixture_window .
+
+ns1:fixture_obs_2 ns1:hasMetricName "sector window return %" ;
+    ns1:hasMetricValue 0.0 ;
+    ns1:isObservationOf ns1:fixture_sector ;
+    ns1:observedOverWindow ns1:fixture_window .
+
+ns1:fixture_obs_24 ns1:hasMetricName "post-report window return %" ;
+    ns1:hasMetricValue 0.5 ;
+    ns1:isObservationOf ns1:fixture_inside_margin ;
+    ns1:observedOverWindow ns1:fixture_window .
+
+ns1:fixture_obs_30 ns1:hasMetricName "post-report window return %" ;
+    ns1:hasMetricValue 1.0 ;
+    ns1:isObservationOf ns1:fixture_equal_new ;
+    ns1:observedOverWindow ns1:fixture_window .
+
+ns1:fixture_obs_36 ns1:hasMetricName "post-report window return %" ;
+    ns1:hasMetricValue 1.01 ;
+    ns1:isObservationOf ns1:fixture_above_new ;
+    ns1:observedOverWindow ns1:fixture_window .
+
+ns1:fixture_obs_6 ns1:hasMetricName "benchmark window return %" ;
+    ns1:hasMetricValue 0.0 ;
+    ns1:isObservationOf ns1:fixture_benchmark ;
+    ns1:observedOverWindow ns1:fixture_window .
+
+ns1:fixture_above_new a ns1:Company ;
+    ns1:isClassifiedByIndustrySector ns1:fixture_sector .
+
+ns1:fixture_below_old a ns1:Company ;
+    ns1:isClassifiedByIndustrySector ns1:fixture_sector .
+
+ns1:fixture_benchmark a ns1:MarketIndex .
+
+ns1:fixture_equal_new a ns1:Company ;
+    ns1:isClassifiedByIndustrySector ns1:fixture_sector .
+
+ns1:fixture_equal_old a ns1:Company ;
+    ns1:isClassifiedByIndustrySector ns1:fixture_sector .
+
+ns1:fixture_inside_margin a ns1:Company ;
+    ns1:isClassifiedByIndustrySector ns1:fixture_sector .
+
+ns1:fixture_sector a ns1:IndustrySectorClassifier .
+

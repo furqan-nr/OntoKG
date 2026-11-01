@@ -1,0 +1,262 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix repair: <https://w3id.org/ontokg-eq/annual-source-repair-v1#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+repair:OGDC_2024_H7 a repair:AuthenticatedCellRepair ;
+    prov:hadPrimarySource <https://dps.psx.com.pk/download/document/259805.pdf> ;
+    repair:accounting_scope "company separate statement; not consolidated" ;
+    repair:arithmetic_agreement_with_indexed_table "exact_match_after_scale_correction" ;
+    repair:cell "H7" ;
+    repair:company "OGDC" ;
+    repair:field "sales_thousand_pkr" ;
+    repair:inspected_pdf_page_1_based 3 ;
+    repair:normalization_multiplier 1000000 ;
+    repair:normalized_value "463697861" ;
+    repair:original_preserved true ;
+    repair:original_source_url "https://dps.psx.com.pk/company/OGDC" ;
+    repair:period_end "2024-06-30" ;
+    repair:raw_value "463.697861" ;
+    repair:replacement_source_url "https://dps.psx.com.pk/download/document/259805.pdf" ;
+    repair:source_repair_is_not_publication_date_repair true ;
+    repair:status "exact_match_after_scale_correction" ;
+    repair:unit "thousand PKR" ;
+    repair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    repair:worksheet "Sheet1" ;
+    repair:year 2024 .
+
+repair:OGDC_2024_I7 a repair:AuthenticatedCellRepair ;
+    prov:hadPrimarySource <https://dps.psx.com.pk/download/document/259805.pdf> ;
+    repair:accounting_scope "company separate statement; not consolidated" ;
+    repair:arithmetic_agreement_with_indexed_table "exact_match_after_scale_correction" ;
+    repair:cell "I7" ;
+    repair:company "OGDC" ;
+    repair:field "profit_after_tax_thousand_pkr" ;
+    repair:inspected_pdf_page_1_based 3 ;
+    repair:normalization_multiplier 1000000 ;
+    repair:normalized_value "208975771" ;
+    repair:original_preserved true ;
+    repair:original_source_url "https://dps.psx.com.pk/company/OGDC" ;
+    repair:period_end "2024-06-30" ;
+    repair:raw_value "208.975771" ;
+    repair:replacement_source_url "https://dps.psx.com.pk/download/document/259805.pdf" ;
+    repair:source_repair_is_not_publication_date_repair true ;
+    repair:status "exact_match_after_scale_correction" ;
+    repair:unit "thousand PKR" ;
+    repair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    repair:worksheet "Sheet1" ;
+    repair:year 2024 .
+
+repair:OGDC_2024_K7 a repair:AuthenticatedCellRepair ;
+    prov:hadPrimarySource <https://dps.psx.com.pk/download/document/259805.pdf> ;
+    repair:accounting_scope "company separate statement; not consolidated" ;
+    repair:arithmetic_agreement_with_indexed_table "exact_value_and_unit_match" ;
+    repair:cell "K7" ;
+    repair:company "OGDC" ;
+    repair:field "eps" ;
+    repair:inspected_pdf_page_1_based 3 ;
+    repair:normalization_multiplier 1 ;
+    repair:normalized_value "48.59" ;
+    repair:original_preserved true ;
+    repair:original_source_url "https://dps.psx.com.pk/company/OGDC" ;
+    repair:period_end "2024-06-30" ;
+    repair:raw_value "48.59" ;
+    repair:replacement_source_url "https://dps.psx.com.pk/download/document/259805.pdf" ;
+    repair:source_repair_is_not_publication_date_repair true ;
+    repair:status "exact_value_and_unit_match" ;
+    repair:unit "PKR per share" ;
+    repair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    repair:worksheet "Sheet1" ;
+    repair:year 2024 .
+
+repair:OGDC_2025_H6 a repair:AuthenticatedCellRepair ;
+    prov:hadPrimarySource <https://dps.psx.com.pk/download/document/259805.pdf> ;
+    repair:accounting_scope "company separate statement; not consolidated" ;
+    repair:arithmetic_agreement_with_indexed_table "exact_match_after_scale_correction" ;
+    repair:cell "H6" ;
+    repair:company "OGDC" ;
+    repair:field "sales_thousand_pkr" ;
+    repair:inspected_pdf_page_1_based 3 ;
+    repair:normalization_multiplier 1000000 ;
+    repair:normalized_value "401177969" ;
+    repair:original_preserved true ;
+    repair:original_source_url "https://dps.psx.com.pk/download/attachment/270842-1.pdf" ;
+    repair:period_end "2025-06-30" ;
+    repair:raw_value "401.177969" ;
+    repair:replacement_source_url "https://dps.psx.com.pk/download/document/259805.pdf" ;
+    repair:source_repair_is_not_publication_date_repair true ;
+    repair:status "exact_match_after_scale_correction" ;
+    repair:unit "thousand PKR" ;
+    repair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    repair:worksheet "Sheet1" ;
+    repair:year 2025 .
+
+repair:OGDC_2025_I6 a repair:AuthenticatedCellRepair ;
+    prov:hadPrimarySource <https://dps.psx.com.pk/download/document/259805.pdf> ;
+    repair:accounting_scope "company separate statement; not consolidated" ;
+    repair:arithmetic_agreement_with_indexed_table "exact_match_after_scale_correction" ;
+    repair:cell "I6" ;
+    repair:company "OGDC" ;
+    repair:field "profit_after_tax_thousand_pkr" ;
+    repair:inspected_pdf_page_1_based 3 ;
+    repair:normalization_multiplier 1000000 ;
+    repair:normalized_value "169903614" ;
+    repair:original_preserved true ;
+    repair:original_source_url "https://dps.psx.com.pk/download/attachment/270842-1.pdf" ;
+    repair:period_end "2025-06-30" ;
+    repair:raw_value "169.903614" ;
+    repair:replacement_source_url "https://dps.psx.com.pk/download/document/259805.pdf" ;
+    repair:source_repair_is_not_publication_date_repair true ;
+    repair:status "exact_match_after_scale_correction" ;
+    repair:unit "thousand PKR" ;
+    repair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    repair:worksheet "Sheet1" ;
+    repair:year 2025 .
+
+repair:OGDC_2025_K6 a repair:AuthenticatedCellRepair ;
+    prov:hadPrimarySource <https://dps.psx.com.pk/download/document/259805.pdf> ;
+    repair:accounting_scope "company separate statement; not consolidated" ;
+    repair:arithmetic_agreement_with_indexed_table "exact_value_and_unit_match" ;
+    repair:cell "K6" ;
+    repair:company "OGDC" ;
+    repair:field "eps" ;
+    repair:inspected_pdf_page_1_based 3 ;
+    repair:normalization_multiplier 1 ;
+    repair:normalized_value "39.50" ;
+    repair:original_preserved true ;
+    repair:original_source_url "https://dps.psx.com.pk/download/attachment/270842-1.pdf" ;
+    repair:period_end "2025-06-30" ;
+    repair:raw_value "39.5" ;
+    repair:replacement_source_url "https://dps.psx.com.pk/download/document/259805.pdf" ;
+    repair:source_repair_is_not_publication_date_repair true ;
+    repair:status "exact_value_and_unit_match" ;
+    repair:unit "PKR per share" ;
+    repair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    repair:worksheet "Sheet1" ;
+    repair:year 2025 .
+
+repair:PPL_2024_H9 a repair:PendingCellRepair ;
+    prov:hadPrimarySource <https://dps.psx.com.pk/download/document/259574.pdf> ;
+    repair:accounting_scope "unconsolidated company statement; not consolidated" ;
+    repair:arithmetic_agreement_with_indexed_table "exact_match_after_scale_correction" ;
+    repair:cell "H9" ;
+    repair:company "PPL" ;
+    repair:field "sales_thousand_pkr" ;
+    repair:normalization_multiplier 1000000 ;
+    repair:normalized_value "288797413" ;
+    repair:original_preserved true ;
+    repair:original_source_url "https://dps.psx.com.pk/company/PPL" ;
+    repair:period_end "2024-06-30" ;
+    repair:raw_value "288.797413" ;
+    repair:replacement_source_url "https://dps.psx.com.pk/download/document/259574.pdf" ;
+    repair:source_repair_is_not_publication_date_repair true ;
+    repair:status "pending_financial_page_visual_review" ;
+    repair:unit "thousand PKR" ;
+    repair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    repair:worksheet "Sheet1" ;
+    repair:year 2024 .
+
+repair:PPL_2024_I9 a repair:PendingCellRepair ;
+    prov:hadPrimarySource <https://dps.psx.com.pk/download/document/259574.pdf> ;
+    repair:accounting_scope "unconsolidated company statement; not consolidated" ;
+    repair:arithmetic_agreement_with_indexed_table "exact_match_after_scale_correction" ;
+    repair:cell "I9" ;
+    repair:company "PPL" ;
+    repair:field "profit_after_tax_thousand_pkr" ;
+    repair:normalization_multiplier 1000000 ;
+    repair:normalized_value "114309077" ;
+    repair:original_preserved true ;
+    repair:original_source_url "https://dps.psx.com.pk/company/PPL" ;
+    repair:period_end "2024-06-30" ;
+    repair:raw_value "114.309077" ;
+    repair:replacement_source_url "https://dps.psx.com.pk/download/document/259574.pdf" ;
+    repair:source_repair_is_not_publication_date_repair true ;
+    repair:status "pending_financial_page_visual_review" ;
+    repair:unit "thousand PKR" ;
+    repair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    repair:worksheet "Sheet1" ;
+    repair:year 2024 .
+
+repair:PPL_2024_K9 a repair:PendingCellRepair ;
+    prov:hadPrimarySource <https://dps.psx.com.pk/download/document/259574.pdf> ;
+    repair:accounting_scope "unconsolidated company statement; not consolidated" ;
+    repair:arithmetic_agreement_with_indexed_table "exact_value_and_unit_match" ;
+    repair:cell "K9" ;
+    repair:company "PPL" ;
+    repair:field "eps" ;
+    repair:normalization_multiplier 1 ;
+    repair:normalized_value "42.01" ;
+    repair:original_preserved true ;
+    repair:original_source_url "https://dps.psx.com.pk/company/PPL" ;
+    repair:period_end "2024-06-30" ;
+    repair:raw_value "42.01" ;
+    repair:replacement_source_url "https://dps.psx.com.pk/download/document/259574.pdf" ;
+    repair:source_repair_is_not_publication_date_repair true ;
+    repair:status "pending_financial_page_visual_review" ;
+    repair:unit "PKR per share" ;
+    repair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    repair:worksheet "Sheet1" ;
+    repair:year 2024 .
+
+repair:PPL_2025_H8 a repair:PendingCellRepair ;
+    prov:hadPrimarySource <https://dps.psx.com.pk/download/document/259574.pdf> ;
+    repair:accounting_scope "unconsolidated company statement; not consolidated" ;
+    repair:arithmetic_agreement_with_indexed_table "exact_match_after_scale_correction" ;
+    repair:cell "H8" ;
+    repair:company "PPL" ;
+    repair:field "sales_thousand_pkr" ;
+    repair:normalization_multiplier 1000000 ;
+    repair:normalized_value "242516363" ;
+    repair:original_preserved true ;
+    repair:original_source_url "https://dps.psx.com.pk/download/document/270122.pdf" ;
+    repair:period_end "2025-06-30" ;
+    repair:raw_value "242.516363" ;
+    repair:replacement_source_url "https://dps.psx.com.pk/download/document/259574.pdf" ;
+    repair:source_repair_is_not_publication_date_repair true ;
+    repair:status "pending_financial_page_visual_review" ;
+    repair:unit "thousand PKR" ;
+    repair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    repair:worksheet "Sheet1" ;
+    repair:year 2025 .
+
+repair:PPL_2025_I8 a repair:PendingCellRepair ;
+    prov:hadPrimarySource <https://dps.psx.com.pk/download/document/259574.pdf> ;
+    repair:accounting_scope "unconsolidated company statement; not consolidated" ;
+    repair:arithmetic_agreement_with_indexed_table "exact_match_after_scale_correction" ;
+    repair:cell "I8" ;
+    repair:company "PPL" ;
+    repair:field "profit_after_tax_thousand_pkr" ;
+    repair:normalization_multiplier 1000000 ;
+    repair:normalized_value "92027450" ;
+    repair:original_preserved true ;
+    repair:original_source_url "https://dps.psx.com.pk/download/document/270122.pdf" ;
+    repair:period_end "2025-06-30" ;
+    repair:raw_value "92.02745" ;
+    repair:replacement_source_url "https://dps.psx.com.pk/download/document/259574.pdf" ;
+    repair:source_repair_is_not_publication_date_repair true ;
+    repair:status "pending_financial_page_visual_review" ;
+    repair:unit "thousand PKR" ;
+    repair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    repair:worksheet "Sheet1" ;
+    repair:year 2025 .
+
+repair:PPL_2025_K8 a repair:PendingCellRepair ;
+    prov:hadPrimarySource <https://dps.psx.com.pk/download/document/259574.pdf> ;
+    repair:accounting_scope "unconsolidated company statement; not consolidated" ;
+    repair:arithmetic_agreement_with_indexed_table "exact_value_and_unit_match" ;
+    repair:cell "K8" ;
+    repair:company "PPL" ;
+    repair:field "eps" ;
+    repair:normalization_multiplier 1 ;
+    repair:normalized_value "33.82" ;
+    repair:original_preserved true ;
+    repair:original_source_url "https://dps.psx.com.pk/download/document/270122.pdf" ;
+    repair:period_end "2025-06-30" ;
+    repair:raw_value "33.82" ;
+    repair:replacement_source_url "https://dps.psx.com.pk/download/document/259574.pdf" ;
+    repair:source_repair_is_not_publication_date_repair true ;
+    repair:status "pending_financial_page_visual_review" ;
+    repair:unit "PKR per share" ;
+    repair:workbook "PSX data v4\\03_fundamentals_final.xlsx" ;
+    repair:worksheet "Sheet1" ;
+    repair:year 2025 .
+

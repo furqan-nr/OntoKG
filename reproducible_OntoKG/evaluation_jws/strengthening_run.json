@@ -1,0 +1,122 @@
+{
+  "started_utc": "2026-10-17T19:59:57.749310+00:00",
+  "stages": [
+    {
+      "command": [
+        "docs/test_jws_contracts.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.434,
+      "script_sha256": "3c87983583047e5288904a8eda1d25d6ed041a5fe3478b0f86865e811edf2e95",
+      "stdout": "",
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.010s\n\nOK\n"
+    },
+    {
+      "command": [
+        "docs/test_jws_objective_study.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.857,
+      "script_sha256": "d8620c54580140fde4c3b0ded98e1984d5136da869b990f3e2f5cab423db1ee3",
+      "stdout": "",
+      "stderr": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.004s\n\nOK\n"
+    },
+    {
+      "command": [
+        "docs/jws_source_sampling.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.111,
+      "script_sha256": "aa88be2a5e4ac96811e98ad9e80ff167d6d88d4ebba026081ae22ee072042a9e",
+      "stdout": "Frozen 52 source-review cases across 29 strata. None is marked verified.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "docs/test_jws_expanded_categories.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.472,
+      "script_sha256": "fa7e4c4165b70452fe3727e60dd46567bab5c35c23cf6d26833a736dc7bae385",
+      "stdout": "",
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.017s\n\nOK\n"
+    },
+    {
+      "command": [
+        "docs/test_jws_boundary_contracts.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 11.873,
+      "script_sha256": "925ad1093cfc58814baba04b19613a1f3e1b0914168c294e5bee75bedbcae86d",
+      "stdout": "",
+      "stderr": ".......\n----------------------------------------------------------------------\nRan 7 tests in 11.117s\n\nOK\n"
+    },
+    {
+      "command": [
+        "docs/test_jws_boundary_analytical.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 18.793,
+      "script_sha256": "395736f106ae6b32f386cf95833b3cddca549a10f0fc518ee353e6b66d562f61",
+      "stdout": "",
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 18.020s\n\nOK\n"
+    },
+    {
+      "command": [
+        "docs/test_jws_nhs_source_oracle.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.663,
+      "script_sha256": "1a570249a44daf963e0dd4cc7598d9a832b9af900aabe0df1108ab07447ebb12",
+      "stdout": "",
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nOK\n"
+    },
+    {
+      "command": [
+        "docs/test_jws_nhs_contract.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.475,
+      "script_sha256": "13420778171c3a72ad627302d8740f8e8200bfdd1bd269bde843a872051b82c1",
+      "stdout": "",
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.027s\n\nOK\n"
+    },
+    {
+      "command": [
+        "docs/test_jws_nhs_matched_baseline.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 2.754,
+      "script_sha256": "749731635d996065e6800321bc54b28acd80ad040b9783bf9c66ac2e29e2b44e",
+      "stdout": "",
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 2.294s\n\nOK\n"
+    },
+    {
+      "command": [
+        "docs/test_jws_nhs_application.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.44,
+      "script_sha256": "b97ae754882e60d41e0dabe5d7fa7fbb63cdfb40ec6982a8d528391395736c3d",
+      "stdout": "",
+      "stderr": "..\n----------------------------------------------------------------------\nRan 2 tests in 0.006s\n\nOK\n"
+    },
+    {
+      "command": [
+        "docs/jws_revision_check.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 1.225,
+      "script_sha256": "5021c88734639f410bf3c6004679ab6d8702f8f63c27ffa0d76306d3c9ddc512",
+      "stdout": "PASS: final validation rejects before serialization; manuscript references, citations, images and targeted consistency checks\n",
+      "stderr": ""
+    }
+  ],
+  "audit_only": true,
+  "human_study_executed": false,
+  "external_requested": false,
+  "source_captures_requested": false,
+  "price_captures_requested": false,
+  "completed_utc": "2026-10-17T20:00:35.854766+00:00",
+  "all_completed_stages_pass": true
+}

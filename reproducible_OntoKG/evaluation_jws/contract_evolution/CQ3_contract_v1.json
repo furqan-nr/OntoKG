@@ -1,0 +1,43 @@
+{
+  "cq": "CQ3",
+  "entity_constraint": "company_sector_and_market_index",
+  "margin_percentage_points": 0,
+  "operator": "strictly_greater_than_both",
+  "period_constraint": "identical_window",
+  "query_sha256": "745822bacf0f5d8a92f4cc2b3df7b5c1219bbd35dc602fdd92be133954c4075f",
+  "replay_spec": {
+    "cq": "CQ3",
+    "margin": 0.0,
+    "margin_unit": "percentage points",
+    "predicate": "company > sector + margin AND company > benchmark + margin",
+    "query": "queries/CQ3_CASE_01.rq",
+    "roles": {
+      "benchmark": {
+        "entity": "MarketIndex",
+        "metric": "benchmark window return %",
+        "unit": "percent",
+        "window": "observedOverWindow"
+      },
+      "company": {
+        "entity": "company",
+        "metric": "post-report window return %",
+        "unit": "percent",
+        "window": "observedOverWindow"
+      },
+      "sector": {
+        "entity": "sector",
+        "metric": "sector window return %",
+        "unit": "percent",
+        "window": "observedOverWindow"
+      }
+    }
+  },
+  "required_metrics": [
+    "post-report window return %",
+    "sector window return %",
+    "benchmark window return %"
+  ],
+  "rules_sha256": "7aa813a888808006c2eb94c2d4d877fa04d5516d2ca3631aa312a3e913685bbf",
+  "shape_sha256": "9fd3d5c91cded425767db6d027fb54fbe678b688d2d6c68eb49dbfa064c368f7",
+  "version": "v1"
+}

@@ -1,0 +1,126 @@
+@prefix contract: <https://w3id.org/ontokg-eq/contracts#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/ontokg-eq/idx#company_IDX_CO_BMRI_finding_R2> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/idx#company_IDX_CO_BMRI_finding_R2_contract_witness_1> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/idx#company_IDX_CO_BMRI_finding_R3> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/idx#company_IDX_CO_BMRI_finding_R3_contract_witness_1> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/idx#company_IDX_CO_ISAT_finding_R3> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/idx#company_IDX_CO_ISAT_finding_R3_contract_witness_1> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/idx#company_IDX_CO_TOWR_finding_R2> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/idx#company_IDX_CO_TOWR_finding_R2_contract_witness_1> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/idx#window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1_finding_R4> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/idx#window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1_finding_R4_contract_witness_1>,
+        <https://w3id.org/ontokg-eq/idx#window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1_finding_R4_contract_witness_2> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/idx#window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3_finding_R4> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/idx#window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3_finding_R4_contract_witness_1>,
+        <https://w3id.org/ontokg-eq/idx#window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3_finding_R4_contract_witness_2> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/idx#window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3_finding_R4> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/idx#window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3_finding_R4_contract_witness_1> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/idx#window_IDX_CO_ISAT_ISAT_FY2025_event_m1p1_event_1_1_finding_R4> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/idx#window_IDX_CO_ISAT_ISAT_FY2025_event_m1p1_event_1_1_finding_R4_contract_witness_1> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/idx#window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1_finding_R4> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/idx#window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1_finding_R4_contract_witness_1>,
+        <https://w3id.org/ontokg-eq/idx#window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1_finding_R4_contract_witness_2> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/idx#window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3_finding_R4> contract:bundleStatus "sufficient" ;
+    contract:bundleSufficient true ;
+    contract:contractStatus "sufficient" ;
+    contract:contractVersion "1.0.0" ;
+    contract:hasSufficientWitness <https://w3id.org/ontokg-eq/idx#window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3_finding_R4_contract_witness_1> ;
+    contract:sourceSufficientWitness true ;
+    contract:supportComplete true ;
+    contract:unitVerification "unverified" .
+
+<https://w3id.org/ontokg-eq/idx#company_IDX_CO_BMRI_finding_R2_contract_witness_1> contract:correlation <https://w3id.org/ontokg-eq/idx#derived_fx_corr_company_IDX_CO_BMRI> .
+
+<https://w3id.org/ontokg-eq/idx#company_IDX_CO_BMRI_finding_R3_contract_witness_1> contract:benchmark <https://w3id.org/ontokg-eq/idx#derived_bench_return_IDX_CO_BMRI> ;
+    contract:company <https://w3id.org/ontokg-eq/idx#derived_post_return_IDX_CO_BMRI> ;
+    contract:sector <https://w3id.org/ontokg-eq/idx#derived_sector_return_IDX_CO_BMRI> .
+
+<https://w3id.org/ontokg-eq/idx#company_IDX_CO_ISAT_finding_R3_contract_witness_1> contract:benchmark <https://w3id.org/ontokg-eq/idx#derived_bench_return_IDX_CO_ISAT> ;
+    contract:company <https://w3id.org/ontokg-eq/idx#derived_post_return_IDX_CO_ISAT> ;
+    contract:sector <https://w3id.org/ontokg-eq/idx#derived_sector_return_IDX_CO_ISAT> .
+
+<https://w3id.org/ontokg-eq/idx#company_IDX_CO_TOWR_finding_R2_contract_witness_1> contract:correlation <https://w3id.org/ontokg-eq/idx#derived_fx_corr_company_IDX_CO_TOWR> .
+
+<https://w3id.org/ontokg-eq/idx#window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1_finding_R4_contract_witness_1> contract:event_return <https://w3id.org/ontokg-eq/idx#derived_event_ar_IDX_CO_BBCA_event_1_1> .
+
+<https://w3id.org/ontokg-eq/idx#window_IDX_CO_BBCA_BBCA_FY2025_event_m1p1_event_1_1_finding_R4_contract_witness_2> contract:volume <https://w3id.org/ontokg-eq/idx#derived_event_vol_IDX_CO_BBCA_event_1_1> .
+
+<https://w3id.org/ontokg-eq/idx#window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3_finding_R4_contract_witness_1> contract:event_return <https://w3id.org/ontokg-eq/idx#derived_event_ar_IDX_CO_BBCA_event_3_3> .
+
+<https://w3id.org/ontokg-eq/idx#window_IDX_CO_BBCA_BBCA_FY2025_event_m3p3_event_3_3_finding_R4_contract_witness_2> contract:volume <https://w3id.org/ontokg-eq/idx#derived_event_vol_IDX_CO_BBCA_event_3_3> .
+
+<https://w3id.org/ontokg-eq/idx#window_IDX_CO_BMRI_BMRI_FY2025_event_m3p3_event_3_3_finding_R4_contract_witness_1> contract:event_return <https://w3id.org/ontokg-eq/idx#derived_event_ar_IDX_CO_BMRI_event_3_3> .
+
+<https://w3id.org/ontokg-eq/idx#window_IDX_CO_ISAT_ISAT_FY2025_event_m1p1_event_1_1_finding_R4_contract_witness_1> contract:event_return <https://w3id.org/ontokg-eq/idx#derived_event_ar_IDX_CO_ISAT_event_1_1> .
+
+<https://w3id.org/ontokg-eq/idx#window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1_finding_R4_contract_witness_1> contract:event_return <https://w3id.org/ontokg-eq/idx#derived_event_ar_IDX_CO_TOWR_event_1_1> .
+
+<https://w3id.org/ontokg-eq/idx#window_IDX_CO_TOWR_TOWR_FY2025_event_m1p1_event_1_1_finding_R4_contract_witness_2> contract:volume <https://w3id.org/ontokg-eq/idx#derived_event_vol_IDX_CO_TOWR_event_1_1> .
+
+<https://w3id.org/ontokg-eq/idx#window_IDX_CO_TOWR_TOWR_FY2025_event_m3p3_event_3_3_finding_R4_contract_witness_1> contract:event_return <https://w3id.org/ontokg-eq/idx#derived_event_ar_IDX_CO_TOWR_event_3_3> .
+

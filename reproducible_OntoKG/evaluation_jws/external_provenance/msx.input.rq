@@ -1,0 +1,1 @@
+SELECT * WHERE { ?cr <https://w3id.org/ontokg-eq#isObservationOf> ?company . ?cr <https://w3id.org/ontokg-eq#hasMetricName> ?metric . ?cr <https://w3id.org/ontokg-eq#hasMetricValue> ?value . ?cr <https://w3id.org/ontokg-eq#observedOverWindow> ?w . }

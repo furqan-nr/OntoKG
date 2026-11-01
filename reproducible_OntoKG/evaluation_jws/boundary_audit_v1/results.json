@@ -1,0 +1,2594 @@
+{
+  "scope": "20 constructed synthetic sensor diagnostics; 60 pool checks, not independent empirical samples",
+  "baseline_scope": "All 20 cases/all three pools; SHACL-SPARQL positive check plus availability ASK, numeric truth only; no metadata-baseline claim",
+  "runtime": {
+    "python": "3.13.5",
+    "rdflib": "7.6.0",
+    "pyshacl": "0.40.1"
+  },
+  "baseline_source_sha256": "d53dd1c285855a147a33bb7faa9349313c8941f0bd13a0dd881966818fb785bc",
+  "configuration_bytes": {
+    "finance_boundary_v1.json": 8821,
+    "synthetic_sensor_boundary_v1.json": 1216
+  },
+  "mismatches": [],
+  "cases": [
+    {
+      "case": "all_positive",
+      "expected": [
+        "positive",
+        "positive",
+        "positive"
+      ],
+      "actual": [
+        "positive",
+        "positive",
+        "positive"
+      ],
+      "matched_shacl_sparql": [
+        "positive",
+        "positive",
+        "positive"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [],
+        "pools": {
+          "ambient": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "support": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "delivered": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "support": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "delivered": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ]
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "e90dc35c770bf17d2999d9c28a28a7ba60669b2065145255d01bbc7c4c8a6203",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "delivered_missing",
+      "expected": [
+        "positive",
+        "positive",
+        "unknown"
+      ],
+      "actual": [
+        "positive",
+        "positive",
+        "unknown"
+      ],
+      "matched_shacl_sparql": [
+        "positive",
+        "positive",
+        "unknown"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [],
+        "pools": {
+          "ambient": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "support": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "delivered": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "support": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "delivered": []
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "67ba125a3dd620ce7377892b03855207aacce1fa4cbf351c905229c678302522",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "delivered_false_alternative",
+      "expected": [
+        "positive",
+        "positive",
+        "false"
+      ],
+      "actual": [
+        "positive",
+        "positive",
+        "false"
+      ],
+      "matched_shacl_sparql": [
+        "positive",
+        "positive",
+        "false"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [],
+        "pools": {
+          "ambient": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 2,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:decoy"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 2,
+              "vibration": 1
+            },
+            "assignment_budget_used": 3
+          },
+          "support": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 2,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:decoy"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 2,
+              "vibration": 1
+            },
+            "assignment_budget_used": 3
+          },
+          "delivered": {
+            "status": "false",
+            "truth": false,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:decoy",
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "support": [
+            "urn:lab:decoy",
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "delivered": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ]
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "3b406419e0f3e5db14a1f2a3c089ca4b81b9e89bbacb1b08fe43c729174264e9",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "support_missing",
+      "expected": [
+        "positive",
+        "unknown",
+        "unknown"
+      ],
+      "actual": [
+        "positive",
+        "unknown",
+        "unknown"
+      ],
+      "matched_shacl_sparql": [
+        "positive",
+        "unknown",
+        "unknown"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [
+          "urn:lab:t",
+          "urn:lab:v"
+        ],
+        "pools": {
+          "ambient": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "support": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          },
+          "delivered": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "support": [],
+          "delivered": []
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "5d76a0598a18484d6534510d6d5fbcbba153d39a6f612c5113af57938aa687e6",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "all_missing",
+      "expected": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "actual": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "matched_shacl_sparql": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [],
+        "pools": {
+          "ambient": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          },
+          "support": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          },
+          "delivered": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          }
+        },
+        "pool_members": {
+          "ambient": [],
+          "support": [],
+          "delivered": []
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "a00a1f91fde78c61aad823acb2dc4a29f1c87b887ec0f325c38f93e9cf2efccb",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "one_or_branch",
+      "expected": [
+        "positive",
+        "positive",
+        "positive"
+      ],
+      "actual": [
+        "positive",
+        "positive",
+        "positive"
+      ],
+      "matched_shacl_sparql": [
+        "positive",
+        "positive",
+        "positive"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [],
+        "pools": {
+          "ambient": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 0
+            },
+            "assignment_budget_used": 1
+          },
+          "support": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 0
+            },
+            "assignment_budget_used": 1
+          },
+          "delivered": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 0
+            },
+            "assignment_budget_used": 1
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:t"
+          ],
+          "support": [
+            "urn:lab:t"
+          ],
+          "delivered": [
+            "urn:lab:t"
+          ]
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "6a8f2688503a06ae987552bbfbf629014347a16946bf0e41f66418248d52e2b4",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "one_false_other_missing",
+      "expected": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "actual": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "matched_shacl_sparql": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [],
+        "pools": {
+          "ambient": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 0
+            },
+            "assignment_budget_used": 1
+          },
+          "support": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 0
+            },
+            "assignment_budget_used": 1
+          },
+          "delivered": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 0
+            },
+            "assignment_budget_used": 1
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:t"
+          ],
+          "support": [
+            "urn:lab:t"
+          ],
+          "delivered": [
+            "urn:lab:t"
+          ]
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "2669fad8fdbeac420a8bb070540e061404c0b509da3249e11fd256ebff02b55f",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "both_false",
+      "expected": [
+        "false",
+        "false",
+        "false"
+      ],
+      "actual": [
+        "false",
+        "false",
+        "false"
+      ],
+      "matched_shacl_sparql": [
+        "false",
+        "false",
+        "false"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [],
+        "pools": {
+          "ambient": {
+            "status": "false",
+            "truth": false,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "support": {
+            "status": "false",
+            "truth": false,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "delivered": {
+            "status": "false",
+            "truth": false,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "support": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "delivered": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ]
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "4970eeb02c191d9f654dcda3a563c287df6a212dd6a3c5bba8505aa38324889c",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "unit_wrong",
+      "expected": [
+        "positive",
+        "positive",
+        "positive"
+      ],
+      "actual": [
+        "positive",
+        "positive",
+        "positive"
+      ],
+      "matched_shacl_sparql": [
+        "positive",
+        "positive",
+        "positive"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [],
+        "pools": {
+          "ambient": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": false
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "support": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": false
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "delivered": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": false
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "support": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "delivered": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ]
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "7b9d267024d4df7115e7d8e3b9a41ebd453d9a6597c87b49ef8e30c137b487e8",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "unit_absent",
+      "expected": [
+        "positive",
+        "positive",
+        "positive"
+      ],
+      "actual": [
+        "positive",
+        "positive",
+        "positive"
+      ],
+      "matched_shacl_sparql": [
+        "positive",
+        "positive",
+        "positive"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [],
+        "pools": {
+          "ambient": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": false
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "support": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": false
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "delivered": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": false
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "support": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "delivered": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ]
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "ee58f751b774cddd4a903197e0369aa44e690b1651ac4a37ad6458c3bcc20326",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "nonfinite",
+      "expected": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "actual": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "matched_shacl_sparql": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [],
+        "pools": {
+          "ambient": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [
+              {
+                "role": "temperature",
+                "observation": "urn:lab:t",
+                "reason": "invalid_numeric_value"
+              }
+            ],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          },
+          "support": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [
+              {
+                "role": "temperature",
+                "observation": "urn:lab:t",
+                "reason": "invalid_numeric_value"
+              }
+            ],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          },
+          "delivered": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [
+              {
+                "role": "temperature",
+                "observation": "urn:lab:t",
+                "reason": "invalid_numeric_value"
+              }
+            ],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:t"
+          ],
+          "support": [
+            "urn:lab:t"
+          ],
+          "delivered": [
+            "urn:lab:t"
+          ]
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "f82ce04ec5b24830a9e981241ef7d28f4f4ccfa5d057df01acdb7f0e28b7dd25",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "ambiguous_value",
+      "expected": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "actual": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "matched_shacl_sparql": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [],
+        "pools": {
+          "ambient": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [
+              {
+                "role": "temperature",
+                "observation": "urn:lab:t",
+                "reason": "missing_or_ambiguous_value"
+              }
+            ],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          },
+          "support": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [
+              {
+                "role": "temperature",
+                "observation": "urn:lab:t",
+                "reason": "missing_or_ambiguous_value"
+              }
+            ],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          },
+          "delivered": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [
+              {
+                "role": "temperature",
+                "observation": "urn:lab:t",
+                "reason": "missing_or_ambiguous_value"
+              }
+            ],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:t"
+          ],
+          "support": [
+            "urn:lab:t"
+          ],
+          "delivered": [
+            "urn:lab:t"
+          ]
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "a1d4668c7313b0ef7203f0155c2a8e7930e3f947b99eb9f7def241b518af13a1",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "wrong_bundle_entity",
+      "expected": [
+        "positive",
+        "positive",
+        "unknown"
+      ],
+      "actual": [
+        "positive",
+        "positive",
+        "unknown"
+      ],
+      "matched_shacl_sparql": [
+        "positive",
+        "positive",
+        "unknown"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": false,
+        "excluded_bundle_members": [
+          "urn:lab:t",
+          "urn:lab:v"
+        ],
+        "pools": {
+          "ambient": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "support": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "delivered": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "support": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "delivered": []
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "2f70a843b26508b15ba82f8074c3dda86598d4da0002717798c119e34c046776",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "decimal_boundary",
+      "expected": [
+        "positive",
+        "positive",
+        "positive"
+      ],
+      "actual": [
+        "positive",
+        "positive",
+        "positive"
+      ],
+      "matched_shacl_sparql": [
+        "positive",
+        "positive",
+        "positive"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [],
+        "pools": {
+          "ambient": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "support": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "delivered": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "support": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "delivered": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ]
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "b6ae602ac58f31fd3cd79ac8c7a09d2ed2b994178c86fda3d54de5025cd92fbd",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "decimal_below",
+      "expected": [
+        "false",
+        "false",
+        "false"
+      ],
+      "actual": [
+        "false",
+        "false",
+        "false"
+      ],
+      "matched_shacl_sparql": [
+        "false",
+        "false",
+        "false"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [],
+        "pools": {
+          "ambient": {
+            "status": "false",
+            "truth": false,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "support": {
+            "status": "false",
+            "truth": false,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "delivered": {
+            "status": "false",
+            "truth": false,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "support": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "delivered": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ]
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "4970eeb02c191d9f654dcda3a563c287df6a212dd6a3c5bba8505aa38324889c",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "ambient_decoy_not_support",
+      "expected": [
+        "positive",
+        "false",
+        "false"
+      ],
+      "actual": [
+        "positive",
+        "false",
+        "false"
+      ],
+      "matched_shacl_sparql": [
+        "positive",
+        "false",
+        "false"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [],
+        "pools": {
+          "ambient": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 2,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:decoy"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 2,
+              "vibration": 1
+            },
+            "assignment_budget_used": 3
+          },
+          "support": {
+            "status": "false",
+            "truth": false,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "delivered": {
+            "status": "false",
+            "truth": false,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:decoy",
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "support": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "delivered": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ]
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "3963ec13653051cf0e85b027e0d70700f60c17389d6fc6d17c3dff3033e9e784",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "wrong_subject",
+      "expected": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "actual": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "matched_shacl_sparql": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [],
+        "pools": {
+          "ambient": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [
+              {
+                "role": "temperature",
+                "observation": "urn:lab:t",
+                "reason": "wrong_or_ambiguous_subject"
+              }
+            ],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          },
+          "support": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [
+              {
+                "role": "temperature",
+                "observation": "urn:lab:t",
+                "reason": "wrong_or_ambiguous_subject"
+              }
+            ],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          },
+          "delivered": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [
+              {
+                "role": "temperature",
+                "observation": "urn:lab:t",
+                "reason": "wrong_or_ambiguous_subject"
+              }
+            ],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:t"
+          ],
+          "support": [
+            "urn:lab:t"
+          ],
+          "delivered": [
+            "urn:lab:t"
+          ]
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "ea4023e2bb4cc4afbee61c556ac0908f3a677d4a758c10a4d055e63b54711f07",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "ambiguous_window",
+      "expected": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "actual": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "matched_shacl_sparql": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [],
+        "pools": {
+          "ambient": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [
+              {
+                "role": "temperature",
+                "observation": "urn:lab:t",
+                "reason": "missing_or_ambiguous_window"
+              }
+            ],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          },
+          "support": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [
+              {
+                "role": "temperature",
+                "observation": "urn:lab:t",
+                "reason": "missing_or_ambiguous_window"
+              }
+            ],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          },
+          "delivered": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [
+              {
+                "role": "temperature",
+                "observation": "urn:lab:t",
+                "reason": "missing_or_ambiguous_window"
+              }
+            ],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:t"
+          ],
+          "support": [
+            "urn:lab:t"
+          ],
+          "delivered": [
+            "urn:lab:t"
+          ]
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "3058428ed844efa5f85e3b488860263e9cdc8cf8add2ecd611dfcb5f47a019cc",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "bundle_outside_support",
+      "expected": [
+        "positive",
+        "unknown",
+        "unknown"
+      ],
+      "actual": [
+        "positive",
+        "unknown",
+        "unknown"
+      ],
+      "matched_shacl_sparql": [
+        "positive",
+        "unknown",
+        "unknown"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [
+          "urn:lab:t",
+          "urn:lab:v"
+        ],
+        "pools": {
+          "ambient": {
+            "status": "positive",
+            "truth": true,
+            "metadata_ready": true,
+            "branches": [
+              {
+                "status": "positive",
+                "complete_assignments": 1,
+                "witnesses": [
+                  {
+                    "temperature": "urn:lab:t"
+                  }
+                ],
+                "metadata_ready": true
+              },
+              {
+                "status": "false",
+                "complete_assignments": 1,
+                "witnesses": [],
+                "metadata_ready": true
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 1,
+              "vibration": 1
+            },
+            "assignment_budget_used": 2
+          },
+          "support": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          },
+          "delivered": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:t",
+            "urn:lab:v"
+          ],
+          "support": [],
+          "delivered": []
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "5d76a0598a18484d6534510d6d5fbcbba153d39a6f612c5113af57938aa687e6",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    },
+    {
+      "case": "missing_window",
+      "expected": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "actual": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "matched_shacl_sparql": [
+        "unknown",
+        "unknown",
+        "unknown"
+      ],
+      "independent_pool_membership_agrees": true,
+      "audit": {
+        "finding": "urn:lab:finding",
+        "entity": "urn:lab:sensor1",
+        "bundle_association_valid": true,
+        "excluded_bundle_members": [],
+        "pools": {
+          "ambient": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [
+              {
+                "role": "temperature",
+                "observation": "urn:lab:t",
+                "reason": "missing_or_ambiguous_window"
+              }
+            ],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          },
+          "support": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [
+              {
+                "role": "temperature",
+                "observation": "urn:lab:t",
+                "reason": "missing_or_ambiguous_window"
+              }
+            ],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          },
+          "delivered": {
+            "status": "unknown",
+            "truth": null,
+            "metadata_ready": false,
+            "branches": [
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              },
+              {
+                "status": "unknown",
+                "complete_assignments": 0,
+                "witnesses": [],
+                "metadata_ready": false
+              }
+            ],
+            "exclusions": [
+              {
+                "role": "temperature",
+                "observation": "urn:lab:t",
+                "reason": "missing_or_ambiguous_window"
+              }
+            ],
+            "candidate_counts": {
+              "temperature": 0,
+              "vibration": 0
+            },
+            "assignment_budget_used": 0
+          }
+        },
+        "pool_members": {
+          "ambient": [
+            "urn:lab:t"
+          ],
+          "support": [
+            "urn:lab:t"
+          ],
+          "delivered": [
+            "urn:lab:t"
+          ]
+        },
+        "contract_sha256": "bf723c48ffed402899467efe59781ab11ff263ed6915a2b83ab8e96c20b94f4a",
+        "checker_sha256": "8ac8e60bebc9073bfb0331f1408532380ade72a75d7b15a3e668f5ab393ade93",
+        "graph_sha256": "b1a1c13c146b0dd253c1fd1e4888230583f2df495baf8c48922562675f4e0332",
+        "hash_scope": "local artifact identity, not signatures or RDF blank-node canonicalization",
+        "policy": "finite closed candidate pools; false is not open-world negation; no ambient rescue"
+      }
+    }
+  ],
+  "timing_single_run_seconds": {
+    "interpreter": 0.018367299999226816,
+    "matched_baseline": 7.396832199985511
+  },
+  "timing_limit": "Diagnostic whole-run wall time; no speedup or statistically controlled performance claim",
+  "reuse": "Same interpreter, different RDF vocabulary and JSON; synthetic configuration reuse only. Finance bindings require explicit comparedWithIndex link; no frozen v1 replay equivalence claim.",
+  "baseline_limit": "Matched baseline covers only synthetic sensor OR configuration, not all four financial contracts; ordinary finite decimal lexical fixture values, not arbitrary RDF numeric terms."
+}

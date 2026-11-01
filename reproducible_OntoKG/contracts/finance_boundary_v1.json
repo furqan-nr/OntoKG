@@ -1,0 +1,252 @@
+{
+  "R1": {
+    "version": "boundary-1",
+    "observation_type": "https://w3id.org/ontokg-eq#Observation",
+    "metric_predicate": "https://w3id.org/ontokg-eq#hasMetricName",
+    "value_predicate": "https://w3id.org/ontokg-eq#hasMetricValue",
+    "subject_predicate": "https://w3id.org/ontokg-eq#isObservationOf",
+    "finding_entity_predicate": "https://w3id.org/ontokg-eq#concernsEntity",
+    "support_predicate": "https://w3id.org/ontokg-eq#supportedByObservation",
+    "bundle_predicate": "https://w3id.org/ontokg-eq#hasEvidenceBundle",
+    "bundle_entity_predicate": "https://w3id.org/ontokg-eq#explainsResultEntity",
+    "membership_predicate": "https://w3id.org/ontokg-eq#includesObservation",
+    "shared_window": true,
+    "roles": {
+      "growth": {
+        "metric": "YoY profit growth %",
+        "expected_unit": "percent",
+        "unit_predicate": "https://w3id.org/ontokg-eq#hasUnit",
+        "focus_path": [],
+        "subject_type": "https://w3id.org/ontokg-eq#Company"
+      },
+      "company": {
+        "metric": "post-report window return %",
+        "expected_unit": "percent",
+        "unit_predicate": "https://w3id.org/ontokg-eq#hasUnit",
+        "focus_path": [],
+        "window_predicate": "https://w3id.org/ontokg-eq#observedOverWindow",
+        "window_type": "https://w3id.org/ontokg-eq#AnalysisWindow",
+        "subject_type": "https://w3id.org/ontokg-eq#Company"
+      },
+      "benchmark": {
+        "metric": "benchmark window return %",
+        "expected_unit": "percent",
+        "unit_predicate": "https://w3id.org/ontokg-eq#hasUnit",
+        "focus_path": [
+          "https://w3id.org/ontokg-eq#comparedWithIndex"
+        ],
+        "window_predicate": "https://w3id.org/ontokg-eq#observedOverWindow",
+        "window_type": "https://w3id.org/ontokg-eq#AnalysisWindow",
+        "subject_type": "https://w3id.org/ontokg-eq#MarketIndex"
+      }
+    },
+    "branches": [
+      [
+        {
+          "op": "gt",
+          "left": {
+            "role": "growth"
+          },
+          "right": {
+            "constant": "0"
+          }
+        },
+        {
+          "op": "lt",
+          "left": {
+            "role": "company"
+          },
+          "right": {
+            "role": "benchmark"
+          }
+        }
+      ]
+    ],
+    "entity_type": "https://w3id.org/ontokg-eq#Company",
+    "bundle_type": "https://w3id.org/ontokg-eq#EvidenceBundle"
+  },
+  "R2": {
+    "version": "boundary-1",
+    "observation_type": "https://w3id.org/ontokg-eq#Observation",
+    "metric_predicate": "https://w3id.org/ontokg-eq#hasMetricName",
+    "value_predicate": "https://w3id.org/ontokg-eq#hasMetricValue",
+    "subject_predicate": "https://w3id.org/ontokg-eq#isObservationOf",
+    "finding_entity_predicate": "https://w3id.org/ontokg-eq#concernsEntity",
+    "support_predicate": "https://w3id.org/ontokg-eq#supportedByObservation",
+    "bundle_predicate": "https://w3id.org/ontokg-eq#hasEvidenceBundle",
+    "bundle_entity_predicate": "https://w3id.org/ontokg-eq#explainsResultEntity",
+    "membership_predicate": "https://w3id.org/ontokg-eq#includesObservation",
+    "shared_window": true,
+    "roles": {
+      "correlation": {
+        "metric": "FX vs company return correlation",
+        "expected_unit": "coefficient",
+        "unit_predicate": "https://w3id.org/ontokg-eq#hasUnit",
+        "focus_path": [],
+        "subject_type": "https://w3id.org/ontokg-eq#Company"
+      }
+    },
+    "branches": [
+      [
+        {
+          "op": "ge",
+          "left": {
+            "abs": {
+              "role": "correlation"
+            }
+          },
+          "right": {
+            "constant": ".3"
+          }
+        }
+      ]
+    ],
+    "entity_type": "https://w3id.org/ontokg-eq#Company",
+    "bundle_type": "https://w3id.org/ontokg-eq#EvidenceBundle"
+  },
+  "R3": {
+    "version": "boundary-1",
+    "observation_type": "https://w3id.org/ontokg-eq#Observation",
+    "metric_predicate": "https://w3id.org/ontokg-eq#hasMetricName",
+    "value_predicate": "https://w3id.org/ontokg-eq#hasMetricValue",
+    "subject_predicate": "https://w3id.org/ontokg-eq#isObservationOf",
+    "finding_entity_predicate": "https://w3id.org/ontokg-eq#concernsEntity",
+    "support_predicate": "https://w3id.org/ontokg-eq#supportedByObservation",
+    "bundle_predicate": "https://w3id.org/ontokg-eq#hasEvidenceBundle",
+    "bundle_entity_predicate": "https://w3id.org/ontokg-eq#explainsResultEntity",
+    "membership_predicate": "https://w3id.org/ontokg-eq#includesObservation",
+    "shared_window": true,
+    "roles": {
+      "company": {
+        "metric": "post-report window return %",
+        "expected_unit": "percent",
+        "unit_predicate": "https://w3id.org/ontokg-eq#hasUnit",
+        "focus_path": [],
+        "window_predicate": "https://w3id.org/ontokg-eq#observedOverWindow",
+        "window_type": "https://w3id.org/ontokg-eq#AnalysisWindow",
+        "subject_type": "https://w3id.org/ontokg-eq#Company"
+      },
+      "sector": {
+        "metric": "sector window return %",
+        "expected_unit": "percent",
+        "unit_predicate": "https://w3id.org/ontokg-eq#hasUnit",
+        "focus_path": [
+          "https://w3id.org/ontokg-eq#isClassifiedByIndustrySector"
+        ],
+        "window_predicate": "https://w3id.org/ontokg-eq#observedOverWindow",
+        "window_type": "https://w3id.org/ontokg-eq#AnalysisWindow",
+        "subject_type": "https://w3id.org/ontokg-eq#IndustrySectorClassifier"
+      },
+      "benchmark": {
+        "metric": "benchmark window return %",
+        "expected_unit": "percent",
+        "unit_predicate": "https://w3id.org/ontokg-eq#hasUnit",
+        "focus_path": [
+          "https://w3id.org/ontokg-eq#comparedWithIndex"
+        ],
+        "window_predicate": "https://w3id.org/ontokg-eq#observedOverWindow",
+        "window_type": "https://w3id.org/ontokg-eq#AnalysisWindow",
+        "subject_type": "https://w3id.org/ontokg-eq#MarketIndex"
+      }
+    },
+    "branches": [
+      [
+        {
+          "op": "gt",
+          "left": {
+            "role": "company"
+          },
+          "right": {
+            "add": [
+              {
+                "role": "sector"
+              },
+              {
+                "constant": "0"
+              }
+            ]
+          }
+        },
+        {
+          "op": "gt",
+          "left": {
+            "role": "company"
+          },
+          "right": {
+            "add": [
+              {
+                "role": "benchmark"
+              },
+              {
+                "constant": "0"
+              }
+            ]
+          }
+        }
+      ]
+    ],
+    "entity_type": "https://w3id.org/ontokg-eq#Company",
+    "bundle_type": "https://w3id.org/ontokg-eq#EvidenceBundle"
+  },
+  "R4": {
+    "version": "boundary-1",
+    "observation_type": "https://w3id.org/ontokg-eq#Observation",
+    "metric_predicate": "https://w3id.org/ontokg-eq#hasMetricName",
+    "value_predicate": "https://w3id.org/ontokg-eq#hasMetricValue",
+    "subject_predicate": "https://w3id.org/ontokg-eq#isObservationOf",
+    "finding_entity_predicate": "https://w3id.org/ontokg-eq#concernsEntity",
+    "support_predicate": "https://w3id.org/ontokg-eq#supportedByObservation",
+    "bundle_predicate": "https://w3id.org/ontokg-eq#hasEvidenceBundle",
+    "bundle_entity_predicate": "https://w3id.org/ontokg-eq#explainsResultEntity",
+    "membership_predicate": "https://w3id.org/ontokg-eq#includesObservation",
+    "shared_window": true,
+    "roles": {
+      "event_return": {
+        "metric": "cumulative abnormal return %",
+        "expected_unit": "percent",
+        "unit_predicate": "https://w3id.org/ontokg-eq#hasUnit",
+        "focus_path": [],
+        "window_predicate": "https://w3id.org/ontokg-eq#observedInEventWindow",
+        "window_type": "https://w3id.org/ontokg-eq#EventWindow",
+        "subject_type": "https://w3id.org/ontokg-eq#Company"
+      },
+      "volume": {
+        "metric": "abnormal volume ratio",
+        "expected_unit": "ratio",
+        "unit_predicate": "https://w3id.org/ontokg-eq#hasUnit",
+        "focus_path": [],
+        "window_predicate": "https://w3id.org/ontokg-eq#observedInEventWindow",
+        "window_type": "https://w3id.org/ontokg-eq#EventWindow",
+        "subject_type": "https://w3id.org/ontokg-eq#Company"
+      }
+    },
+    "branches": [
+      [
+        {
+          "op": "ge",
+          "left": {
+            "abs": {
+              "role": "event_return"
+            }
+          },
+          "right": {
+            "constant": "2"
+          }
+        }
+      ],
+      [
+        {
+          "op": "ge",
+          "left": {
+            "role": "volume"
+          },
+          "right": {
+            "constant": "1.5"
+          }
+        }
+      ]
+    ],
+    "entity_type": "https://w3id.org/ontokg-eq#Company",
+    "bundle_type": "https://w3id.org/ontokg-eq#EvidenceBundle"
+  }
+}

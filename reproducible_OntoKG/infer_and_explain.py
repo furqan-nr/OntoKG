@@ -20,6 +20,7 @@ Outputs:
     rules/inference_rules.rq   (the rule set, written once for documentation)
 """
 import os, sys
+from pyshacl import validate
 from rdflib import Graph, Namespace, Literal, RDF, URIRef
 from rdflib.namespace import XSD
 
@@ -80,7 +81,7 @@ CONSTRUCT {
 CONSTRUCT {
   ?f a :AnalyticalFinding ; :hasFindingType "abnormal-event-reaction" ;
      :derivedByRule "R4" ; :forCompetencyQuestion "CQ4" ;
-     :concernsEntity ?company ; :supportedByObservation ?ar .
+     :concernsEntity ?company ; :supportedByObservation ?ar, ?vr .
 } WHERE {
   ?ar :isObservationOf ?company ; :hasMetricName "cumulative abnormal return %" ;
       :hasMetricValue ?car ; :observedInEventWindow ?ew .
@@ -115,19 +116,20 @@ def build(market):
         counts[rid] = added
     n_find = len(set(g.subjects(RDF.type, CORE.AnalyticalFinding)))
 
-    # announcement per company (for evidence link in generated explanations)
+    # Company announcements supply contextual evidence, not an observation-level
+    # source attribution. Keep every matching item rather than a last-write win.
     ann_for = {}
     for ann in g.subjects(RDF.type, CORE.Announcement):
         for co in g.objects(ann, CORE.aboutCompany):
-            ann_for[co] = ann
+            ann_for.setdefault(co, set()).add(ann)
     VALID = ns["validation_passed"]
 
     # --- A3: auto-generate an explanation bundle for every finding ---
     gen = 0
-    for f in set(g.subjects(RDF.type, CORE.AnalyticalFinding)):
+    for f in sorted(set(g.subjects(RDF.type, CORE.AnalyticalFinding)), key=str):
         entity = next(g.objects(f, CORE.concernsEntity), None)
         cq = next(g.objects(f, CORE.forCompetencyQuestion), None)
-        obss = list(g.objects(f, CORE.supportedByObservation))
+        obss = sorted(set(g.objects(f, CORE.supportedByObservation)), key=str)
         if entity is None or not obss:
             continue
         bundle = URIRef(str(f) + "_bundle")
@@ -136,8 +138,11 @@ def build(market):
         g.add((bundle, CORE.hasValidationStatus, VALID))
         for o in obss:
             g.add((bundle, CORE.includesObservation, o))
-        if entity in ann_for:
-            g.add((bundle, CORE.containsEvidenceItem, ann_for[entity]))
+        explicit_evidence = {
+            ev for o in obss for ev in g.objects(o, CORE.supportedByEvidenceItem)
+        }
+        for ev in sorted(explicit_evidence | ann_for.get(entity, set()), key=str):
+            g.add((bundle, CORE.containsEvidenceItem, ev))
         qe = URIRef(str(f) + "_qe")
         g.add((qe, RDF.type, CORE.QueryExecution))
         g.add((qe, CORE.hasEvidenceBundle, bundle))
@@ -147,6 +152,14 @@ def build(market):
                Literal(f"auto-generated explanation for finding {str(f).split('#')[-1]}")))
         gen += 1
 
+    # Validate the graph after adding findings, bundles and executions. Initial
+    # conformance does not establish conformance after these graph mutations.
+    conforms, _, report = validate(
+        g, shacl_graph=os.path.join(HERE, "shacl", "shapes.ttl"),
+        inference="none", do_owl_imports=False,
+    )
+    if not conforms:
+        raise ValueError(f"Final graph for {market} fails SHACL:\n{report}")
     out = os.path.join(HERE, "data", f"demo_{market}_inferred.ttl")
     g.serialize(destination=out, format="turtle")
     by_type = {}
@@ -154,7 +167,8 @@ def build(market):
         t = str(next(g.objects(f, CORE.hasFindingType), ""))
         by_type[t] = by_type.get(t, 0) + 1
     print(f"[{market}] findings={n_find} {dict(sorted(by_type.items()))} "
-          f"| generated_explanations={gen} | rule_hits={counts} -> {os.path.basename(out)}")
+          f"| generated_explanations={gen} | final_shacl={conforms} "
+          f"| rule_hits={counts} -> {os.path.basename(out)}")
 
 if __name__ == "__main__":
     write_rules_doc()

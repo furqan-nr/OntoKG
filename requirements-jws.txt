@@ -1,0 +1,9 @@
+# Direct dependencies observed in the final local JWS verification environment.
+# Python 3.13.5; historical requirements/locks remain unchanged.
+rdflib==7.6.0
+pyshacl==0.40.1
+openpyxl==3.1.5
+pyoxigraph==0.5.11
+sympy==1.14.0
+# Native pdfinfo/Poppler are additionally needed for reviewed PDF validation.
+# Java 17 and the separately obtained published NPCS JAR are optional.

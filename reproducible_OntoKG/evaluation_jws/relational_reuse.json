@@ -1,0 +1,132 @@
+{
+  "schema_sha256": "4d6ef6ac278260ee80b504b2d2d12b63818686152d02088cec0404fddeb0f5e0",
+  "sql_sha256": {
+    "CQ1": "78e39a4e55aef0923f7e3d3c17185c1e4489e1294d6b12e96f302987eb66664f",
+    "CQ3": "9c470acbec8b0ecbf0b774311cac6aafe2b4460dea684e59d984b2c1151408cb",
+    "dependencies": "d0de0a074bb3205b14ad0faaa7575bcde7aafde3471cbab4ab67a95af7b30f06"
+  },
+  "versions": {
+    "sqlite": "3.49.1",
+    "rdflib": "7.6.0"
+  },
+  "markets": [
+    {
+      "market": "psx",
+      "graph_sha256": "29b530a0165c528e14482b57320de7bde3b682c81363b11dbe21dde56af99013",
+      "counts": {
+        "entity": 8,
+        "context": 24,
+        "context_property": 96,
+        "observation": 522,
+        "source": 4,
+        "source_property": 16,
+        "evidence": 4,
+        "finding": 9,
+        "finding_observation": 19,
+        "bundle": 14,
+        "bundle_observation": 35,
+        "bundle_evidence": 14
+      },
+      "checks": {
+        "CQ1": {
+          "sql_rows": 0,
+          "sparql_rows": 0,
+          "equal": true
+        },
+        "CQ3": {
+          "sql_rows": 2,
+          "sparql_rows": 2,
+          "equal": true
+        },
+        "dependencies": {
+          "sql_rows": 19,
+          "sparql_rows": 19,
+          "equal": true
+        }
+      },
+      "constraint_rejections": {
+        "numeric_type_check": true,
+        "foreign_key_check": true
+      }
+    },
+    {
+      "market": "msx",
+      "graph_sha256": "e1cdae5ee061c593371a568a7e02cd8cd2284cd10e7b6e45ae37c56a6f064b77",
+      "counts": {
+        "entity": 8,
+        "context": 18,
+        "context_property": 72,
+        "observation": 321,
+        "source": 4,
+        "source_property": 16,
+        "evidence": 4,
+        "finding": 2,
+        "finding_observation": 6,
+        "bundle": 7,
+        "bundle_observation": 22,
+        "bundle_evidence": 7
+      },
+      "checks": {
+        "CQ1": {
+          "sql_rows": 2,
+          "sparql_rows": 2,
+          "equal": true
+        },
+        "CQ3": {
+          "sql_rows": 0,
+          "sparql_rows": 0,
+          "equal": true
+        },
+        "dependencies": {
+          "sql_rows": 6,
+          "sparql_rows": 6,
+          "equal": true
+        }
+      },
+      "constraint_rejections": {
+        "numeric_type_check": true,
+        "foreign_key_check": true
+      }
+    },
+    {
+      "market": "idx",
+      "graph_sha256": "cc7fef931b9b6b7c41070b463c0745a228fc248516687e52c9887277cd5c72e0",
+      "counts": {
+        "entity": 8,
+        "context": 24,
+        "context_property": 89,
+        "observation": 542,
+        "source": 4,
+        "source_property": 12,
+        "evidence": 4,
+        "finding": 10,
+        "finding_observation": 20,
+        "bundle": 15,
+        "bundle_observation": 36,
+        "bundle_evidence": 15
+      },
+      "checks": {
+        "CQ1": {
+          "sql_rows": 0,
+          "sparql_rows": 0,
+          "equal": true
+        },
+        "CQ3": {
+          "sql_rows": 2,
+          "sparql_rows": 2,
+          "equal": true
+        },
+        "dependencies": {
+          "sql_rows": 20,
+          "sparql_rows": 20,
+          "equal": true
+        }
+      },
+      "constraint_rejections": {
+        "numeric_type_check": true,
+        "foreign_key_check": true
+      }
+    }
+  ],
+  "all_pass": true
+}
